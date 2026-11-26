@@ -1,0 +1,3885 @@
+{
+  "version": 1,
+  "created": "2026-11-26T08:01:51+00:00",
+  "original_name": "2026 APMCM Essay format and submission specifications.pdf",
+  "original_sha256": "fd4171d3d379893351f267c2b1f78a4d347a4fe92767af765b7897ea63ef6fc5",
+  "source_sha256": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+  "source_language": "en",
+  "target_language": "zh-CN",
+  "originals": "every",
+  "glossary": [],
+  "input_type": "pdf",
+  "input_frames": [],
+  "compact": true,
+  "engine_version": "2.5.0",
+  "pages": [
+    {
+      "number": 1,
+      "width": 595.5,
+      "height": 842.0,
+      "blocks": [
+        {
+          "bbox": [
+            128.52000427246094,
+            73.42725372314453,
+            467.9442138671875,
+            92.84435272216797
+          ],
+          "source": "2026 Asia and Pacific Mathematical Contest in Modeling",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                128.52000427246094,
+                73.42725372314453,
+                467.9442138671875,
+                92.84435272216797
+              ],
+              "text": "2026 Asia and Pacific Mathematical Contest in Modeling",
+              "font": "TimesNewRomanPS-BoldMT",
+              "size": 14.050000190734863,
+              "color": 0,
+              "flags": 20,
+              "face_style": {
+                "bold": 1,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 24,
+              "origin": [
+                128.52000427246094,
+                88.25
+              ]
+            }
+          ],
+          "font_size": 14.050000190734863,
+          "bold": true,
+          "terms": [],
+          "prompt_text": "2026 Asia and Pacific Mathematical Contest in Modeling",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 54,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "heading",
+          "id": "p0001-b0001",
+          "source_styles": [
+            {
+              "text": "2026 Asia and Pacific Mathematical Contest in Modeling",
+              "style": {
+                "bold": true,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "6a088d69a618fa229c177441a679bdd58e64e9e5c5c56c240fb1e8931dd23ee6",
+          "style_role": "heading"
+        },
+        {
+          "bbox": [
+            169.1999969482422,
+            98.26725006103516,
+            427.5022277832031,
+            117.6843490600586
+          ],
+          "source": "Essay format and submission specifications",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                169.1999969482422,
+                98.26725006103516,
+                427.5022277832031,
+                117.6843490600586
+              ],
+              "text": "Essay format and submission specifications",
+              "font": "TimesNewRomanPS-BoldMT",
+              "size": 14.050000190734863,
+              "color": 0,
+              "flags": 20,
+              "face_style": {
+                "bold": 1,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 24,
+              "origin": [
+                169.1999969482422,
+                113.08999633789062
+              ]
+            }
+          ],
+          "font_size": 14.050000190734863,
+          "bold": true,
+          "terms": [],
+          "prompt_text": "Essay format and submission specifications",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 42,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "heading",
+          "id": "p0001-b0002",
+          "source_styles": [
+            {
+              "text": "Essay format and submission specifications",
+              "style": {
+                "bold": true,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "803335572b9deffbecb486953cd0307e4f041a06fbe6624990c0cf55ddf82e1c",
+          "style_role": "heading"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            144.66200256347656,
+            506.4350891113281,
+            210.36199951171875
+          ],
+          "source": " The team can choose one from Problem A, Problem B,Problem C or Problem D. When you submit the problem number (A, B, C or D) of your own team in the registration system, please be sure to select the correct number. If the number does not match your content, you will be disqualified.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                146.35400390625,
+                98.23200225830078,
+                159.65000915527344
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                157.1300048828125
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                144.66200256347656,
+                506.3999938964844,
+                160.802001953125
+              ],
+              "text": "The team can choose one from Problem A, Problem B,Problem C or Problem D.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                157.1300048828125
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                161.2220001220703,
+                506.3154296875,
+                177.36199951171875
+              ],
+              "text": "When you submit the problem number (A, B, C or D) of your own team in the",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                173.69000244140625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                177.78199768066406,
+                506.4350891113281,
+                193.9219970703125
+              ],
+              "text": "registration system, please be sure to select the correct number. If the number",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                190.25
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                194.2220001220703,
+                368.756103515625,
+                210.36199951171875
+              ],
+              "text": "does not match your content, you will be disqualified.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                206.69000244140625
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " The team can choose one from Problem A, Problem B,Problem C or Problem D. When you submit the problem number (A, B, C or D) of your own team in the registration system, please be sure to select the correct number. If the number does not match your content, you will be disqualified.",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 75,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 76,
+              "end": 149,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 150,
+              "end": 229,
+              "span": 3,
+              "line": 3
+            },
+            {
+              "start": 230,
+              "end": 284,
+              "span": 4,
+              "line": 4
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0003",
+          "source_styles": [
+            {
+              "text": " The team can choose one from Problem A, Problem B,Problem C or Problem D. When you submit the problem number (A, B, C or D) of your own team in the registration system, please be sure to select the correct number. If the number does not match your content, you will be disqualified.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "616f7926227b2e0251c8d38fdc481cb7fdf6a689a0e28c321f0e55f341846b96",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            216.78199768066406,
+            506.3994140625,
+            415.08099365234375
+          ],
+          "source": " The team submits an electronic copy of its solution paper through the registration system (https://www.saikr.com/vse/apmcm26) Team papers should be submitted as a PDF file, the name of paper is \"#***.pdf\", where \"#\" is the problem number, \"***\" is the team number. The control sheet needs to be printed and be signed, then you should scan it as a PDF file, or take a picture with a camera / phone to produce a JPG image. The name of the control sheet is \"#***cns.pdf\" or \"#***cns.jpg\". The \"Support Materials\" will be packaged and uploaded with all other documents which are related to the competition (including the program, data (excluding the original data in the competition) and the results, etc.), and you should submit it carefully. The name of the supporting materials is \"#***fj.rar\", or \"# *** fj.zip\". For example, if the apmcm26300001 team selects Problem A, then the name of paper is \"Aapmcm2630001.pdf\"",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                218.4739990234375,
+                98.23200225830078,
+                231.77000427246094
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                229.25
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                216.78199768066406,
+                506.3955078125,
+                232.9219970703125
+              ],
+              "text": "The team submits an electronic copy of its solution paper through the registration",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                229.25
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                233.34100341796875,
+                506.3970031738281,
+                249.4810028076172
+              ],
+              "text": "system (https://www.saikr.com/vse/apmcm26) Team papers should be submitted",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                245.8090057373047
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                250.02198791503906,
+                506.27850341796875,
+                266.1619873046875
+              ],
+              "text": "as a PDF file, the name of paper is \"#***.pdf\", where \"#\" is the problem number,",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                262.489990234375
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                266.5820007324219,
+                506.2784729003906,
+                282.72198486328125
+              ],
+              "text": "\"***\" is the team number. The control sheet needs to be printed and be signed,",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                279.04998779296875
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                283.0220031738281,
+                506.3994140625,
+                299.1619873046875
+              ],
+              "text": "then you should scan it as a PDF file, or take a picture with a camera / phone to",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                295.489990234375
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                299.5820007324219,
+                506.31500244140625,
+                315.72198486328125
+              ],
+              "text": "produce a JPG image. The name of the control sheet is \"#***cns.pdf\" or",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                312.04998779296875
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                316.1410217285156,
+                506.36309814453125,
+                332.281005859375
+              ],
+              "text": "\"#***cns.jpg\". The \"Support Materials\" will be packaged and uploaded with all",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                328.6090087890625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                332.7010192871094,
+                506.3141174316406,
+                348.84100341796875
+              ],
+              "text": "other documents which are related to the competition (including the program, data",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                345.16900634765625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                349.38201904296875,
+                506.2789306640625,
+                365.5220031738281
+              ],
+              "text": "(excluding the original data in the competition) and the results, etc.), and you",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                361.8500061035156
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                365.822021484375,
+                506.31500244140625,
+                381.9620056152344
+              ],
+              "text": "should submit it carefully. The name of the supporting materials is \"#***fj.rar\", or",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                378.2900085449219
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                382.38201904296875,
+                506.3981018066406,
+                398.5220031738281
+              ],
+              "text": "\"# *** fj.zip\". For example, if the apmcm26300001 team selects Problem A, then",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                394.8500061035156
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                398.9410095214844,
+                124.95539855957031,
+                415.08099365234375
+              ],
+              "text": "the",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                134.63999938964844,
+                398.9410095214844,
+                160.5950927734375,
+                415.08099365234375
+              ],
+              "text": "name",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                134.63999938964844,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                170.39999389648438,
+                398.9410095214844,
+                180.39599609375,
+                415.08099365234375
+              ],
+              "text": "of",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                170.39999389648438,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                190.0800018310547,
+                398.9410095214844,
+                216.63539123535156,
+                415.08099365234375
+              ],
+              "text": "paper",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                190.0800018310547,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                226.44000244140625,
+                398.9410095214844,
+                234.4674072265625,
+                415.08099365234375
+              ],
+              "text": "is",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                226.44000244140625,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                244.1999969482422,
+                398.9410095214844,
+                359.014404296875,
+                415.08099365234375
+              ],
+              "text": "\"Aapmcm2630001.pdf\"",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                244.1999969482422,
+                411.40899658203125
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " The team submits an electronic copy of its solution paper through the registration system (https://www.saikr.com/vse/apmcm26) Team papers should be submitted as a PDF file, the name of paper is \"#***.pdf\", where \"#\" is the problem number, \"***\" is the team number. The control sheet needs to be printed and be signed, then you should scan it as a PDF file, or take a picture with a camera / phone to produce a JPG image. The name of the control sheet is \"#***cns.pdf\" or \"#***cns.jpg\". The \"Support Materials\" will be packaged and uploaded with all other documents which are related to the competition (including the program, data (excluding the original data in the competition) and the results, etc.), and you should submit it carefully. The name of the supporting materials is \"#***fj.rar\", or \"# *** fj.zip\". For example, if the apmcm26300001 team selects Problem A, then the name of paper is \"Aapmcm2630001.pdf\"",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 84,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 85,
+              "end": 159,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 160,
+              "end": 240,
+              "span": 3,
+              "line": 3
+            },
+            {
+              "start": 241,
+              "end": 319,
+              "span": 4,
+              "line": 4
+            },
+            {
+              "start": 320,
+              "end": 401,
+              "span": 5,
+              "line": 5
+            },
+            {
+              "start": 402,
+              "end": 472,
+              "span": 6,
+              "line": 6
+            },
+            {
+              "start": 473,
+              "end": 550,
+              "span": 7,
+              "line": 7
+            },
+            {
+              "start": 551,
+              "end": 632,
+              "span": 8,
+              "line": 8
+            },
+            {
+              "start": 633,
+              "end": 713,
+              "span": 9,
+              "line": 9
+            },
+            {
+              "start": 714,
+              "end": 798,
+              "span": 10,
+              "line": 10
+            },
+            {
+              "start": 799,
+              "end": 877,
+              "span": 11,
+              "line": 11
+            },
+            {
+              "start": 878,
+              "end": 881,
+              "span": 12,
+              "line": 12
+            },
+            {
+              "start": 882,
+              "end": 886,
+              "span": 13,
+              "line": 13
+            },
+            {
+              "start": 887,
+              "end": 889,
+              "span": 14,
+              "line": 14
+            },
+            {
+              "start": 890,
+              "end": 895,
+              "span": 15,
+              "line": 15
+            },
+            {
+              "start": 896,
+              "end": 898,
+              "span": 16,
+              "line": 16
+            },
+            {
+              "start": 899,
+              "end": 918,
+              "span": 17,
+              "line": 17
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0004",
+          "source_styles": [
+            {
+              "text": " The team submits an electronic copy of its solution paper through the registration system (https://www.saikr.com/vse/apmcm26) Team papers should be submitted as a PDF file, the name of paper is \"#***.pdf\", where \"#\" is the problem number, \"***\" is the team number. The control sheet needs to be printed and be signed, then you should scan it as a PDF file, or take a picture with a camera / phone to produce a JPG image. The name of the control sheet is \"#***cns.pdf\" or \"#***cns.jpg\". The \"Support Materials\" will be packaged and uploaded with all other documents which are related to the competition (including the program, data (excluding the original data in the competition) and the results, etc.), and you should submit it carefully. The name of the supporting materials is \"#***fj.rar\", or \"# *** fj.zip\". For example, if the apmcm26300001 team selects Problem A, then the name of paper is \"Aapmcm2630001.pdf\"",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "ed53e612b87aa03c0943229ade0e5e13d4ae80bbeb6c93489b24ae3ca94ca992",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            368.7590026855469,
+            398.9410095214844,
+            506.38641357421875,
+            415.08099365234375
+          ],
+          "source": "and the control sheet is",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                368.7590026855469,
+                398.9410095214844,
+                386.0386962890625,
+                415.08099365234375
+              ],
+              "text": "and",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                368.7590026855469,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                395.8800048828125,
+                398.9410095214844,
+                410.555419921875,
+                415.08099365234375
+              ],
+              "text": "the",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                395.8800048828125,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                420.239990234375,
+                398.9410095214844,
+                454.1625061035156,
+                415.08099365234375
+              ],
+              "text": "control",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                420.239990234375,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                464.0400085449219,
+                398.9410095214844,
+                488.60308837890625,
+                415.08099365234375
+              ],
+              "text": "sheet",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                464.0400085449219,
+                411.40899658203125
+              ]
+            },
+            {
+              "bbox": [
+                498.3590087890625,
+                398.9410095214844,
+                506.38641357421875,
+                415.08099365234375
+              ],
+              "text": "is",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                498.3590087890625,
+                411.40899658203125
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "and the control sheet is",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 3,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 8,
+              "end": 15,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "span": 3,
+              "line": 3
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "span": 4,
+              "line": 4
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0005",
+          "source_styles": [
+            {
+              "text": "and the control sheet is",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "49bb8a3bf2d151e9d1a0e385d888ba05b10a11686bf6c6efe9809d4b8ef782bd",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            110.27999877929688,
+            415.5010070800781,
+            506.4360046386719,
+            497.8810119628906
+          ],
+          "source": "\"Aapmcm26300001cns.pdf\" or \"Aapmcm26300001cns.jpg\", and the name of supporting material is \"Aapmcm26300001fj.rar\" or \"Aapmcm26300001fj.zip\". You must submit your electronic copy of solution paper, commitment and supporting materials (if they are not expressly required in the problem, please do not submit) to the registration system at the same time.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.27999877929688,
+                415.5010070800781,
+                506.4360046386719,
+                431.6409912109375
+              ],
+              "text": "\"Aapmcm26300001cns.pdf\" or \"Aapmcm26300001cns.jpg\", and the name of",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                427.968994140625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                432.1820068359375,
+                506.398193359375,
+                448.3219909667969
+              ],
+              "text": "supporting material is \"Aapmcm26300001fj.rar\" or \"Aapmcm26300001fj.zip\".",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                444.6499938964844
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                448.62200927734375,
+                506.2796936035156,
+                464.7619934082031
+              ],
+              "text": "You must submit your electronic copy of solution paper, commitment and",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                461.0899963378906
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                465.1820068359375,
+                506.3999938964844,
+                481.3219909667969
+              ],
+              "text": "supporting materials (if they are not expressly required in the problem, please do",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                477.6499938964844
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                481.74102783203125,
+                373.1979064941406,
+                497.8810119628906
+              ],
+              "text": "not submit) to the registration system at the same time.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                494.2090148925781
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "\"Aapmcm26300001cns.pdf\" or \"Aapmcm26300001cns.jpg\", and the name of supporting material is \"Aapmcm26300001fj.rar\" or \"Aapmcm26300001fj.zip\". You must submit your electronic copy of solution paper, commitment and supporting materials (if they are not expressly required in the problem, please do not submit) to the registration system at the same time.",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 67,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 68,
+              "end": 140,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 141,
+              "end": 211,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 212,
+              "end": 294,
+              "span": 3,
+              "line": 3
+            },
+            {
+              "start": 295,
+              "end": 351,
+              "span": 4,
+              "line": 4
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0006",
+          "source_styles": [
+            {
+              "text": "\"Aapmcm26300001cns.pdf\" or \"Aapmcm26300001cns.jpg\", and the name of supporting material is \"Aapmcm26300001fj.rar\" or \"Aapmcm26300001fj.zip\". You must submit your electronic copy of solution paper, commitment and supporting materials (if they are not expressly required in the problem, please do not submit) to the registration system at the same time.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "12856acfb19615b505086283ef721e44e2c279f27ad2a2db3e8e0cab53dcb68c",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            504.1820373535156,
+            506.3154296875,
+            553.4409790039062
+          ],
+          "source": " The first page of the solution paper is the summary page (usually one page), and the second page is the directory page, and the content page starts after the directory page.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                505.8740234375,
+                98.23200225830078,
+                519.1700439453125
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                516.6500244140625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                504.1820373535156,
+                506.2796936035156,
+                520.322021484375
+              ],
+              "text": "The first page of the solution paper is the summary page (usually one page), and",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                516.6500244140625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                520.6220092773438,
+                506.3154296875,
+                536.7620239257812
+              ],
+              "text": "the second page is the directory page, and the content page starts after the",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                533.0900268554688
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                537.3009643554688,
+                182.0393829345703,
+                553.4409790039062
+              ],
+              "text": "directory page.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                549.7689819335938
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " The first page of the solution paper is the summary page (usually one page), and the second page is the directory page, and the content page starts after the directory page.",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 82,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 83,
+              "end": 159,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 160,
+              "end": 175,
+              "span": 3,
+              "line": 3
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0007",
+          "source_styles": [
+            {
+              "text": " The first page of the solution paper is the summary page (usually one page), and the second page is the directory page, and the content page starts after the directory page.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "b038bcc7ceb7bea00cb411a739f002e0bf2c2bc7b33834fd50df07588f27db72",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            559.8619995117188,
+            506.3157043457031,
+            592.56201171875
+          ],
+          "source": " The header of the solution paper should only contain team number and page number, it should not appear the person identity and school information.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                561.5540161132812,
+                98.23200225830078,
+                574.8500366210938
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                572.3300170898438
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                559.8619995117188,
+                506.3157043457031,
+                576.0020141601562
+              ],
+              "text": "The header of the solution paper should only contain team number and page",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                572.3300170898438
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                576.4219970703125,
+                457.0761413574219,
+                592.56201171875
+              ],
+              "text": "number, it should not appear the person identity and school information.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                588.8900146484375
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " The header of the solution paper should only contain team number and page number, it should not appear the person identity and school information.",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 75,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 76,
+              "end": 148,
+              "span": 2,
+              "line": 2
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0008",
+          "source_styles": [
+            {
+              "text": " The header of the solution paper should only contain team number and page number, it should not appear the person identity and school information.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "13092945ee5fe72b56cbe96ed3425e1a4c1bbe842dc1ff922ede2f9285c9b7c1",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            110.27999877929688,
+            598.9819946289062,
+            298.9200134277344,
+            615.1220092773438
+          ],
+          "source": "For example: Team Aapmcm26300001",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.27999877929688,
+                598.9819946289062,
+                298.9200134277344,
+                615.1220092773438
+              ],
+              "text": "For example: Team Aapmcm26300001",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                611.4500122070312
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "For example: Team Aapmcm26300001",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 32,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0009",
+          "source_styles": [
+            {
+              "text": "For example: Team Aapmcm26300001",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "de334050102df667bc38f47a0db42daebdd1eb17e01476c26ad5b1a65d70e185",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            437.15899658203125,
+            598.9819946289062,
+            503.3999938964844,
+            615.1220092773438
+          ],
+          "source": "Page 10 of 25",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                437.15899658203125,
+                598.9819946289062,
+                503.3999938964844,
+                615.1220092773438
+              ],
+              "text": "Page 10 of 25",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                437.15899658203125,
+                611.4500122070312
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "Page 10 of 25",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 13,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0010",
+          "source_styles": [
+            {
+              "text": "Page 10 of 25",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "96383a6458cd47f57fdcd345bb8d6ce1101211e6235572b106ed9b5ce20d0d8d",
+          "style_role": "footer"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            621.4219970703125,
+            506.3994140625,
+            703.9219970703125
+          ],
+          "source": " The solution paper should be clear in thinking, simple in expression and readable in fonts, the size of font is usually 11 or 12. The solution paper must be written in English, and no Chinese word should be found in the main body of the solution paper, the chart, etc. (The main body of the solution paper should be controlled within 25 pages, the appendix is no limit).",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                623.114013671875,
+                98.23200225830078,
+                636.4100341796875
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                633.8900146484375
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                621.4219970703125,
+                506.314208984375,
+                637.56201171875
+              ],
+              "text": "The solution paper should be clear in thinking, simple in expression and readable",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                633.8900146484375
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                637.9819946289062,
+                506.3994140625,
+                654.1220092773438
+              ],
+              "text": "in fonts, the size of font is usually 11 or 12. The solution paper must be written in",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                650.4500122070312
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                654.5409545898438,
+                506.3979187011719,
+                670.6809692382812
+              ],
+              "text": "English, and no Chinese word should be found in the main body of the solution",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                667.0089721679688
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                671.2219848632812,
+                506.2770080566406,
+                687.3619995117188
+              ],
+              "text": "paper, the chart, etc. (The main body of the solution paper should be controlled",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                683.6900024414062
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                687.781982421875,
+                312.35687255859375,
+                703.9219970703125
+              ],
+              "text": "within 25 pages, the appendix is no limit).",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                700.25
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " The solution paper should be clear in thinking, simple in expression and readable in fonts, the size of font is usually 11 or 12. The solution paper must be written in English, and no Chinese word should be found in the main body of the solution paper, the chart, etc. (The main body of the solution paper should be controlled within 25 pages, the appendix is no limit).",
+          "page": 1,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 83,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 84,
+              "end": 169,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 170,
+              "end": 247,
+              "span": 3,
+              "line": 3
+            },
+            {
+              "start": 248,
+              "end": 328,
+              "span": 4,
+              "line": 4
+            },
+            {
+              "start": 329,
+              "end": 372,
+              "span": 5,
+              "line": 5
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0001-b0011",
+          "source_styles": [
+            {
+              "text": " The solution paper should be clear in thinking, simple in expression and readable in fonts, the size of font is usually 11 or 12. The solution paper must be written in English, and no Chinese word should be found in the main body of the solution paper, the chart, etc. (The main body of the solution paper should be controlled within 25 pages, the appendix is no limit).",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "cc0ab567c85eaca5976bb76736aba6e1b83b18e0e11ffaec6e6556b06c4c6243",
+          "style_role": "body"
+        }
+      ],
+      "images": []
+    },
+    {
+      "number": 2,
+      "width": 595.5,
+      "height": 842.0,
+      "blocks": [
+        {
+          "bbox": [
+            89.27999877929688,
+            67.14099884033203,
+            506.4826354980469,
+            149.52200317382812
+          ],
+          "source": " Citation of other people's achievements or other public information (including the information found online) must be clearly stated in the quoted literature and in the references in accordance with the prescribed reference. References to the text should be in square brackets reference number, such as [1] [3], etc.; cited books must also indicate the page number. References are listed in the body of citation.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                68.83300018310547,
+                98.23200225830078,
+                82.12899780273438
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                79.60900115966797
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                67.14099884033203,
+                506.4344177246094,
+                83.28099822998047
+              ],
+              "text": "Citation of other people's achievements or other public information (including the",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                79.60900115966797
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                83.70199584960938,
+                506.4344177246094,
+                99.84199523925781
+              ],
+              "text": "information found online) must be clearly stated in the quoted literature and in the",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                96.16999816894531
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                100.26200103759766,
+                506.4826354980469,
+                116.4020004272461
+              ],
+              "text": "references in accordance with the prescribed reference. References to the text",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                112.7300033569336
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                116.82199096679688,
+                506.38800048828125,
+                132.9619903564453
+              ],
+              "text": "should be in square brackets reference number, such as [1] [3], etc.; cited books",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                129.2899932861328
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                133.3820037841797,
+                496.916015625,
+                149.52200317382812
+              ],
+              "text": "must also indicate the page number. References are listed in the body of citation.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                145.85000610351562
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " Citation of other people's achievements or other public information (including the information found online) must be clearly stated in the quoted literature and in the references in accordance with the prescribed reference. References to the text should be in square brackets reference number, such as [1] [3], etc.; cited books must also indicate the page number. References are listed in the body of citation.",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 84,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 85,
+              "end": 169,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 170,
+              "end": 248,
+              "span": 3,
+              "line": 3
+            },
+            {
+              "start": 249,
+              "end": 330,
+              "span": 4,
+              "line": 4
+            },
+            {
+              "start": 331,
+              "end": 413,
+              "span": 5,
+              "line": 5
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0001",
+          "source_styles": [
+            {
+              "text": " Citation of other people's achievements or other public information (including the information found online) must be clearly stated in the quoted literature and in the references in accordance with the prescribed reference. References to the text should be in square brackets reference number, such as [1] [3], etc.; cited books must also indicate the page number. References are listed in the body of citation.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "63456c193f3d82c0f7a9ae9f7528ba9ac8cadabfa320d4c797d62c381d40d23c",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            110.15899658203125,
+            155.58200073242188,
+            253.7631072998047,
+            171.7220001220703
+          ],
+          "source": "a) The format of the book is:",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.15899658203125,
+                155.58200073242188,
+                253.7631072998047,
+                171.7220001220703
+              ],
+              "text": "a) The format of the book is:",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.15899658203125,
+                168.0500030517578
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "a) The format of the book is:",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 29,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0002",
+          "source_styles": [
+            {
+              "text": "a) The format of the book is:",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "1064f452c5d98d223b6b746d5c32d578a246b79555a203c7b522d89953806fef",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            178.1409912109375,
+            500.156005859375,
+            210.9619903564453
+          ],
+          "source": "i. [ID] Author, Title[M], Place of Publication: Press, Year of publication, starting and ending page number.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.27999877929688,
+                178.1409912109375,
+                500.156005859375,
+                194.28099060058594
+              ],
+              "text": "i. [ID] Author, Title[M], Place of Publication: Press, Year of publication, starting",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                190.60899353027344
+              ]
+            },
+            {
+              "bbox": [
+                89.27999877929688,
+                194.82199096679688,
+                210.47850036621094,
+                210.9619903564453
+              ],
+              "text": "and ending page number.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                207.2899932861328
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "i. [ID] Author, Title[M], Place of Publication: Press, Year of publication, starting and ending page number.",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 84,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 85,
+              "end": 108,
+              "span": 1,
+              "line": 1
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0003",
+          "source_styles": [
+            {
+              "text": "i. [ID] Author, Title[M], Place of Publication: Press, Year of publication, starting and ending page number.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "a30ae371c52089cb0aa68b4eec617db85e08875edf3ee8bcd73d2e5ad0c28dee",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            110.15899658203125,
+            217.3820037841797,
+            296.60308837890625,
+            233.52200317382812
+          ],
+          "source": "b) The format of the journal article is:",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.15899658203125,
+                217.3820037841797,
+                296.60308837890625,
+                233.52200317382812
+              ],
+              "text": "b) The format of the journal article is:",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.15899658203125,
+                229.85000610351562
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "b) The format of the journal article is:",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 40,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0004",
+          "source_styles": [
+            {
+              "text": "b) The format of the journal article is:",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "ef6d533ed8307ee4751a5ee03b474e95727af8e0050dcbbac49eba8f66ae4a00",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            239.82199096679688,
+            467.7938232421875,
+            272.5220031738281
+          ],
+          "source": "i. [ID] author, paper name[J], magazine name, year of publication, volume number, starting and ending page number.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.27999877929688,
+                239.82199096679688,
+                467.7938232421875,
+                255.9619903564453
+              ],
+              "text": "i. [ID] author, paper name[J], magazine name, year of publication, volume",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                252.2899932861328
+              ]
+            },
+            {
+              "bbox": [
+                89.27999877929688,
+                256.38201904296875,
+                292.0784912109375,
+                272.5220031738281
+              ],
+              "text": "number, starting and ending page number.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                268.8500061035156
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "i. [ID] author, paper name[J], magazine name, year of publication, volume number, starting and ending page number.",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 73,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 74,
+              "end": 114,
+              "span": 1,
+              "line": 1
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0005",
+          "source_styles": [
+            {
+              "text": "i. [ID] author, paper name[J], magazine name, year of publication, volume number, starting and ending page number.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "be5e0344ad3dfa79e8d3cd8d0db471b97b9c222e57c00d4cabfd3201915fc457",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            110.15899658203125,
+            279.06201171875,
+            290.36309814453125,
+            295.2019958496094
+          ],
+          "source": "c) The format of online resources is:",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.15899658203125,
+                279.06201171875,
+                290.36309814453125,
+                295.2019958496094
+              ],
+              "text": "c) The format of online resources is:",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.15899658203125,
+                291.5299987792969
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "c) The format of online resources is:",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 37,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0006",
+          "source_styles": [
+            {
+              "text": "c) The format of online resources is:",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "2e4c4ee3c08bee44ee0b127cae62ab7676ace9c16b98a3a069e16a1fab7eedfc",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            110.27999877929688,
+            301.62200927734375,
+            433.3188171386719,
+            317.7619934082031
+          ],
+          "source": "i. [ID] author, resource title, web site, visit time (year, month, day).",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                110.27999877929688,
+                301.62200927734375,
+                433.3188171386719,
+                317.7619934082031
+              ],
+              "text": "i. [ID] author, resource title, web site, visit time (year, month, day).",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                314.0899963378906
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "i. [ID] author, resource title, web site, visit time (year, month, day).",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 72,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0007",
+          "source_styles": [
+            {
+              "text": "i. [ID] author, resource title, web site, visit time (year, month, day).",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "639a3699414a0cd9fb53eb5c9a8e7413a9b39d9b10d0365edcf196dbcf978cd2",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            324.1820068359375,
+            506.3144226074219,
+            389.8810119628906
+          ],
+          "source": " In the appendix, you should provide the name of the software which you use and all computer source code (if you have). At the same time, the team should reserve all the source code until the final list of winners were announced, and it is for testing needs.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                325.8739929199219,
+                98.23200225830078,
+                339.16998291015625
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                336.6499938964844
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                324.1820068359375,
+                506.2796936035156,
+                340.3219909667969
+              ],
+              "text": "In the appendix, you should provide the name of the software which you use and",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                336.6499938964844
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                340.62200927734375,
+                506.314208984375,
+                356.7619934082031
+              ],
+              "text": "all computer source code (if you have). At the same time, the team should reserve",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                353.0899963378906
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                357.1820068359375,
+                506.3144226074219,
+                373.3219909667969
+              ],
+              "text": "all the source code until the final list of winners were announced, and it is for",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                369.6499938964844
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                373.74102783203125,
+                175.4390869140625,
+                389.8810119628906
+              ],
+              "text": "testing needs.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                386.2090148925781
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " In the appendix, you should provide the name of the software which you use and all computer source code (if you have). At the same time, the team should reserve all the source code until the final list of winners were announced, and it is for testing needs.",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 80,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 81,
+              "end": 162,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 163,
+              "end": 244,
+              "span": 3,
+              "line": 3
+            },
+            {
+              "start": 245,
+              "end": 259,
+              "span": 4,
+              "line": 4
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0008",
+          "source_styles": [
+            {
+              "text": " In the appendix, you should provide the name of the software which you use and all computer source code (if you have). At the same time, the team should reserve all the source code until the final list of winners were announced, and it is for testing needs.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "e8cc0b0abd0bbcaa418299725445820a113099cd85885e811908309d169e1f0b",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            396.4220275878906,
+            506.434814453125,
+            445.56201171875
+          ],
+          "source": " Things which are not mentioned in this specification, such as layout (font, line spacing, color, etc.), do not have specific requirements, but you should you're your solution paper look beautiful.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                398.114013671875,
+                98.23200225830078,
+                411.4100036621094
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                408.8900146484375
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                396.4220275878906,
+                506.434814453125,
+                412.56201171875
+              ],
+              "text": "Things which are not mentioned in this specification, such as layout (font, line",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                408.8900146484375
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                412.9820251464844,
+                506.3140563964844,
+                429.12200927734375
+              ],
+              "text": "spacing, color, etc.), do not have specific requirements, but you should you're",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                425.45001220703125
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                429.4220275878906,
+                276.4770202636719,
+                445.56201171875
+              ],
+              "text": "your solution paper look beautiful.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                441.8900146484375
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " Things which are not mentioned in this specification, such as layout (font, line spacing, color, etc.), do not have specific requirements, but you should you're your solution paper look beautiful.",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 82,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 83,
+              "end": 162,
+              "span": 2,
+              "line": 2
+            },
+            {
+              "start": 163,
+              "end": 198,
+              "span": 3,
+              "line": 3
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0009",
+          "source_styles": [
+            {
+              "text": " Things which are not mentioned in this specification, such as layout (font, line spacing, color, etc.), do not have specific requirements, but you should you're your solution paper look beautiful.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "9bab940c4d96591c36ec4d9c13300074438d89975824612454f56205362cc204",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            451.9820251464844,
+            506.2666931152344,
+            484.6809997558594
+          ],
+          "source": " Solution papers that do not comply with this specification will be considered as breaking the competition rules and unconditionally disqualified.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                453.67401123046875,
+                98.23200225830078,
+                466.9700012207031
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                464.45001220703125
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                451.9820251464844,
+                506.2666931152344,
+                468.12200927734375
+              ],
+              "text": "Solution papers that do not comply with this specification will be considered as",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                464.45001220703125
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                468.541015625,
+                417.5951232910156,
+                484.6809997558594
+              ],
+              "text": "breaking the competition rules and unconditionally disqualified.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                481.0090026855469
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " Solution papers that do not comply with this specification will be considered as breaking the competition rules and unconditionally disqualified.",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 82,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 83,
+              "end": 147,
+              "span": 2,
+              "line": 2
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0010",
+          "source_styles": [
+            {
+              "text": " Solution papers that do not comply with this specification will be considered as breaking the competition rules and unconditionally disqualified.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "55d660d3036997add9ca7ebd04c45e0edfec1c879f675ff3eb991d976e23c6f0",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            89.27999877929688,
+            491.2220153808594,
+            506.3868103027344,
+            523.9219970703125
+          ],
+          "source": " Organizing Committee of the APMCM has the final power of interpreting this specification.",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                89.27999877929688,
+                492.91400146484375,
+                98.23200225830078,
+                506.2099914550781
+              ],
+              "text": "",
+              "font": "Wingdings-Regular",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                89.27999877929688,
+                503.69000244140625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                491.2220153808594,
+                506.3868103027344,
+                507.36199951171875
+              ],
+              "text": "Organizing Committee of the APMCM has the final power of interpreting this",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                503.69000244140625
+              ]
+            },
+            {
+              "bbox": [
+                110.27999877929688,
+                507.7820129394531,
+                174.59580993652344,
+                523.9219970703125
+              ],
+              "text": "specification.",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                110.27999877929688,
+                520.25
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": " Organizing Committee of the APMCM has the final power of interpreting this specification.",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 1,
+              "span": 0,
+              "line": 0
+            },
+            {
+              "start": 2,
+              "end": 76,
+              "span": 1,
+              "line": 1
+            },
+            {
+              "start": 77,
+              "end": 91,
+              "span": 2,
+              "line": 2
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0011",
+          "source_styles": [
+            {
+              "text": " Organizing Committee of the APMCM has the final power of interpreting this specification.",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "1239a94087641ee780f3a599d83a9a246492a9841de3d634019572a54a17d321",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            315.239990234375,
+            585.781982421875,
+            506.386962890625,
+            601.9219970703125
+          ],
+          "source": "Organizing Committee of the APMCM",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "translate",
+          "spans": [
+            {
+              "bbox": [
+                315.239990234375,
+                585.781982421875,
+                506.386962890625,
+                601.9219970703125
+              ],
+              "text": "Organizing Committee of the APMCM",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                315.239990234375,
+                598.25
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "Organizing Committee of the APMCM",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 33,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0012",
+          "source_styles": [
+            {
+              "text": "Organizing Committee of the APMCM",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "8d01d1cc365603f7e5c72d8030aa31b405e91116d344176cc92b04e093c5ee79",
+          "style_role": "body"
+        },
+        {
+          "bbox": [
+            467.7590026855469,
+            613.3819580078125,
+            506.5199890136719,
+            629.52197265625
+          ],
+          "source": "2026.11",
+          "kind": "text",
+          "rotation": 0,
+          "cell_bbox": null,
+          "suggested_action": "keep",
+          "spans": [
+            {
+              "bbox": [
+                467.7590026855469,
+                613.3819580078125,
+                506.5199890136719,
+                629.52197265625
+              ],
+              "text": "2026.11",
+              "font": "TimesNewRomanPSMT",
+              "size": 12.0,
+              "color": 0,
+              "flags": 4,
+              "face_style": {
+                "bold": 0,
+                "italic": 0,
+                "serif": 1,
+                "monospace": 0
+              },
+              "char_flags": 16,
+              "origin": [
+                467.7590026855469,
+                625.8499755859375
+              ]
+            }
+          ],
+          "font_size": 12.0,
+          "bold": false,
+          "terms": [],
+          "prompt_text": "2026.11",
+          "page": 2,
+          "semantic": true,
+          "source_runs": [
+            {
+              "start": 0,
+              "end": 7,
+              "span": 0,
+              "line": 0
+            }
+          ],
+          "protected_math": [],
+          "role": "paragraph",
+          "id": "p0002-b0013",
+          "source_styles": [
+            {
+              "text": "2026.11",
+              "style": {
+                "bold": false,
+                "italic": false,
+                "monospace": false,
+                "superscript": false,
+                "underline": false,
+                "strike": false,
+                "color": 0
+              }
+            }
+          ],
+          "style_default": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "input_hash": "7d9af09bda1a0fc1c07a2d7893a30dd4c0215a78c0031eff4003343426cee9a9",
+          "style_role": "body"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "warnings": [],
+  "source_registry": {
+    "p0001-b0001": "2abf46daf6a37056a1d40b38be64543ed34595c3400ebf20245d293ce762c22e",
+    "p0001-b0002": "3468120073ecaf5b4e2a0e6370f4c1bfd698c8482b679f7f7a2008b6bcf39907",
+    "p0001-b0003": "52133ddd8410fac0f37ae41b64304cbb671bf5f13119226b91e732179f118b00",
+    "p0001-b0004": "9c669ea9fac8276c5ea4fb24971c5d1ac2e41980d45b4696822cf60155fb0d3f",
+    "p0001-b0005": "91a52939a66afd608c023e5b96664fe987023815b1209e7c5fd5e38e27068eca",
+    "p0001-b0006": "6472710e1334e9632fa9ce94b21ed14e5bfd53a9e1c20cb2ffec835a562ac942",
+    "p0001-b0007": "566944133236fd3bee6dc149166334d4f57b495dbc39d4078f98fc1af966878c",
+    "p0001-b0008": "1132b4926dc757ca24e4b705f3d30db4009a55d7aa53ab38e0aecb40efb3f4bf",
+    "p0001-b0009": "64149c8720d1cd7f64865fb5af3257bb5e3e8b70a4c0f3b67af815e0eb3e62d0",
+    "p0001-b0010": "d2f40230d81f72777e613f593aedbb980872a1c361e573aeb486d6aa827d761e",
+    "p0001-b0011": "8a984189f46e81fef9053a67b261a0143308536b677e6fbf1fd897e3b086c67d",
+    "p0002-b0001": "a2c0bf4aa46b5c020ae5cd8bf091338c09c230305c04326af370e841fcb6fc1c",
+    "p0002-b0002": "ea450ab017c3f1091564fbb2835bce650a16c50f820a27e0369ec530d37b694e",
+    "p0002-b0003": "9970ca6902cfb775c3f816bcf5eadcd75d0743b437b96a10a7bfb301071725ca",
+    "p0002-b0004": "ba926a4d74ffc0f4e53c4809f1154a44dafc2085c1ec7af9f5244379ee6d2718",
+    "p0002-b0005": "e037c485ff233bce3bfe30483aac43e5cc2fee955745fc9a6db9cddfe0ad0a19",
+    "p0002-b0006": "8231b441d4625dee5cd3e9711f74e0a66d470516685b606373b9597f4204b0ad",
+    "p0002-b0007": "9293e51675fcdb03d93043376280e80d760b95108291d08557203a38a57c1c0f",
+    "p0002-b0008": "17c75820080e350d09cf1e75cea3472b6ca6a5c4e98b85bf687739db5c01222a",
+    "p0002-b0009": "6a10ce1ad7533e072e55e6d7b7b04344cc47013cb00bc483225aeb9966dfa791",
+    "p0002-b0010": "a91db30e7c5cebac44594533de5384a701e947a75ed416c46156c1dd163cd443",
+    "p0002-b0011": "7f57f11a8ce461ec03c5e3c7aa8ac8ed28c87ecf347cd540aee7c9c182b2ffc3",
+    "p0002-b0012": "955709e43dcd3278be6b1000da031b17d0daa26afa79591bc83a34693ca7911a",
+    "p0002-b0013": "27bb588a0e6763205d689913a383ec25a46c29b636d6a8fbb2da2af9a6fa938d"
+  },
+  "style_profile": {
+    "schema": 1,
+    "state": "confirmed",
+    "fonts": {
+      "serif": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sans": "C:\\Windows\\Fonts\\simhei.ttf"
+    },
+    "roles": {
+      "body": {
+        "font_family": "serif",
+        "font_size": 12.0,
+        "bold": false,
+        "line_height": 16.2,
+        "paragraph_gap": 7.2,
+        "first_line_indent": 2
+      },
+      "title": {
+        "font_family": "sans",
+        "font_size": 21.5,
+        "bold": true,
+        "line_height": 25.8,
+        "paragraph_gap": 9.6
+      },
+      "heading": {
+        "font_family": "sans",
+        "font_size": 14.0,
+        "bold": true,
+        "line_height": 17.5,
+        "paragraph_gap": 6.6
+      },
+      "subheading": {
+        "font_family": "sans",
+        "font_size": 13.0,
+        "bold": true,
+        "line_height": 16.25,
+        "paragraph_gap": 6.0
+      },
+      "caption": {
+        "font_family": "serif",
+        "font_size": 11.0,
+        "bold": false,
+        "line_height": 14.3,
+        "paragraph_gap": 5.4
+      },
+      "table": {
+        "font_family": "serif",
+        "font_size": 9.5,
+        "bold": false,
+        "line_height": 10.92,
+        "paragraph_gap": 3.0
+      },
+      "table_compact": {
+        "font_family": "serif",
+        "font_size": 7.0,
+        "bold": false,
+        "line_height": 7.7,
+        "paragraph_gap": 2.4
+      },
+      "label_compact": {
+        "font_family": "sans",
+        "font_size": 7.0,
+        "bold": false,
+        "line_height": 7.7,
+        "paragraph_gap": 2.4
+      },
+      "running": {
+        "font_family": "serif",
+        "font_size": 9.0,
+        "bold": false,
+        "line_height": 10.8,
+        "paragraph_gap": 3.0
+      },
+      "footnote": {
+        "font_family": "serif",
+        "font_size": 9.0,
+        "bold": false,
+        "line_height": 10.8,
+        "paragraph_gap": 2.4
+      },
+      "footer": {
+        "font_family": "sans",
+        "font_size": 9.0,
+        "bold": false,
+        "line_height": 10.8,
+        "paragraph_gap": 2.4
+      },
+      "author": {
+        "font_family": "serif",
+        "font_size": 11.0,
+        "bold": false,
+        "line_height": 13.75,
+        "paragraph_gap": 3.6
+      },
+      "affiliation": {
+        "font_family": "serif",
+        "font_size": 11.0,
+        "bold": false,
+        "line_height": 13.75,
+        "paragraph_gap": 2.4
+      }
+    },
+    "content_width": 417.12,
+    "wide_width": 416.94,
+    "note": "正文采用宋体类，标题采用黑体类；保留语义强调。正文 1.35 倍行距、0.6em 段后距，可统一调整。",
+    "font_hashes": {
+      "serif": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "sans": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e"
+    },
+    "confirmation": {
+      "actor": "user",
+      "note": "用户确认：正文宋体12pt/1.35倍行距/段后0.6em，标题黑体14pt加粗，保留●项目符号",
+      "time": "2026-11-26T08:54:38+00:00"
+    }
+  },
+  "reviewed_regions": [
+    {
+      "id": "p1-example-para",
+      "page": 1,
+      "bbox": [
+        89.28,
+        216.5,
+        506.7,
+        498.2
+      ],
+      "kind": "paragraph",
+      "source_ids": [
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006"
+      ],
+      "reason": "源 PDF 把同一个项目符号段落拆成三个文本块（末行行尾片段与续行），分块渲染会使英文栏裁片错位，故按原视觉段落合并。",
+      "translation": "● 参赛队通过报名系统（https://www.saikr.com/vse/apmcm26）提交解题论文的电子版。参赛论文应以 PDF 文件形式提交，文件名为“#***.pdf”，其中“#”为题号，“***”为参赛队号。控制页（control sheet）需打印并签字，然后扫描为 PDF 文件，或用相机／手机拍照生成 JPG 图像。控制页的文件名为“#***cns.pdf”或“#***cns.jpg”。“支撑材料”应与竞赛相关的一切其他文件（包括程序、数据（不含竞赛提供的原始数据）及结果等）一并打包上传，请务必审慎提交。支撑材料的文件名为“#***fj.rar”或“# *** fj.zip”。例如，若 apmcm26300001 队选择 A 题，则论文文件名为“Aapmcm2630001.pdf”，控制页文件名为“Aapmcm26300001cns.pdf”或“Aapmcm26300001cns.jpg”，支撑材料文件名为“Aapmcm26300001fj.rar”或“Aapmcm26300001fj.zip”。",
+      "source_text": "\nThe team submits an electronic copy of its solution paper through the registration\nsystem (https://www.saikr.com/vse/apmcm26) Team papers should be submitted\nas a PDF file, the name of paper is \"#***.pdf\", where \"#\" is the problem number,\n\"***\" is the team number. The control sheet needs to be printed and be signed,\nthen you should scan it as a PDF file, or take a picture with a camera / phone to\nproduce a JPG image. The name of the control sheet is \"#***cns.pdf\" or\n\"#***cns.jpg\". The \"Support Materials\" will be packaged and uploaded with all\nother documents which are related to the competition (including the program, data\n(excluding the original data in the competition) and the results, etc.), and you\nshould submit it carefully. The name of the supporting materials is \"#***fj.rar\", or\n\"# *** fj.zip\". For example, if the apmcm26300001 team selects Problem A, then\nthe\nname\nof\npaper\nis\n\"Aapmcm2630001.pdf\"\nand\nthe\ncontrol\nsheet\nis\n\"Aapmcm26300001cns.pdf\" or \"Aapmcm26300001cns.jpg\", and the name of\nsupporting material is \"Aapmcm26300001fj.rar\" or \"Aapmcm26300001fj.zip\".\nYou must submit your electronic copy of solution paper, commitment and\nsupporting materials (if they are not expressly required in the problem, please do\nnot submit) to the registration system at the same time.\n",
+      "source_sha256": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+      "number_check": {
+        "source": {},
+        "translation": {},
+        "matched": true
+      }
+    },
+    {
+      "id": "p1-example-header",
+      "page": 1,
+      "bbox": [
+        110.2,
+        598.9,
+        503.5,
+        615.2
+      ],
+      "kind": "paragraph",
+      "source_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ],
+      "reason": "源 PDF 把同一行示例页眉拆成左右两个文本块；二者同属一行，分块渲染会把页码挤到下一行，故合并为一行保留并排关系。",
+      "translation": "例如：参赛队 Aapmcm26300001　　第 10 页，共 25 页",
+      "source_text": "For example: Team Aapmcm26300001\nPage 10 of 25\n",
+      "source_sha256": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+      "number_check": {
+        "source": {
+          "10": 1,
+          "25": 1
+        },
+        "translation": {
+          "10": 1,
+          "25": 1
+        },
+        "matched": true
+      }
+    }
+  ]
+}

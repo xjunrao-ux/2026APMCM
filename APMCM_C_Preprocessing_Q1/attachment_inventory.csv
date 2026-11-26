@@ -1,0 +1,22 @@
+﻿file,size_bytes,details
+2026 APMCM 赛题中文译文.pdf,895242,2026 年亚太地区大学生数学建模竞赛（APMCM）
+Code1_AfricanPenguins_playbacks_analyses.R,34899,"737 lines, reference analysis script"
+Code2_AfricanPenguins_signal_degradation.R,21651,"454 lines, reference analysis script"
+Data01_AfricanPenguins_seasurface_calls_acoustics.csv,7743,"Data table, see input_audit"
+Data02_AfricanPenguins_playbacks_data.csv,28879,"Data table, see input_audit"
+Data03_correlation1m_flat_call_spectrogram.csv,12300,"Data table, see input_audit"
+Data04_correlation1m_modulated_call_spectrogram.csv,12496,"Data table, see input_audit"
+Data05_correlation1m_twovoice_call_spectrogram.csv,11990,"Data table, see input_audit"
+Data06_correlation1m_flat_call_amplitude_spectrum.csv,12300,"Data table, see input_audit"
+Data07_correlation1m_modulated_call_amplitude_spectrum.csv,12478,"Data table, see input_audit"
+Data08_correlation1m_twovoice_call_amplitude_spectrum.csv,12018,"Data table, see input_audit"
+Data09_correlation1m_flat_call_envelope.csv,12293,"Data table, see input_audit"
+Data10_correlation1m_modulated_call_envelope.csv,12518,"Data table, see input_audit"
+Data11_correlation1m_twovoice_call_envelope.csv,11988,"Data table, see input_audit"
+Supplementary1_Distribution_of_African_penguin_group_sizes.pdf,41298,Supplementary 1: Distribution of African penguin group sizes.
+Supplementary2_Video_recordings_of_a_playback_experiment.mp4,62493953,"44.928 s, video 1920 1080, audio 48000 2"
+Supplementary3_Modelling_analyses_on_playback_experiments.pdf,507413,Supplementary 3: Modelling analyses on playback experiments
+Supplementary4_Signal_degradation_estimation.pdf,126923,Supplementary 4: Signal degradation.
+Supplementary5_Audio_recordings_of_African_penguins’_sea-surfacecalls_flat.wav,30118,"1.211 s, audio 12000 1"
+Supplementary5_Audio_recordings_of_African_penguins’_sea-surfacecalls_modulated.wav,25048,"1.000 s, audio 12000 1"
+Supplementary5_Audio_recordings_of_African_penguins’_sea-surfacecalls_two-voice.wav,24910,"1.000 s, audio 12000 1"

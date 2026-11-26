@@ -1,0 +1,170 @@
+{
+  "p0002-b0013": {
+    "input_hash": "7d9af09bda1a0fc1c07a2d7893a30dd4c0215a78c0031eff4003343426cee9a9",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0001-b0001": {
+    "input_hash": "6a088d69a618fa229c177441a679bdd58e64e9e5c5c56c240fb1e8931dd23ee6",
+    "action": "translate",
+    "text": "2026 年亚太地区大学生数学建模竞赛",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0002": {
+    "input_hash": "803335572b9deffbecb486953cd0307e4f041a06fbe6624990c0cf55ddf82e1c",
+    "action": "translate",
+    "text": "论文格式与提交规范",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0003": {
+    "input_hash": "616f7926227b2e0251c8d38fdc481cb7fdf6a689a0e28c321f0e55f341846b96",
+    "action": "translate",
+    "text": "● 参赛队可从 A 题、B 题、C 题或 D 题中任选一题。在报名系统中填报本队所选题目编号（A、B、C 或 D）时，请务必选择正确的编号。若编号与论文内容不符，将被取消参赛资格。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0004": {
+    "input_hash": "ed53e612b87aa03c0943229ade0e5e13d4ae80bbeb6c93489b24ae3ca94ca992",
+    "action": "translate",
+    "text": "● 参赛队通过报名系统（https://www.saikr.com/vse/apmcm26）提交解题论文的电子版。参赛论文应以 PDF 文件形式提交，文件名为“#***.pdf”，其中“#”为题号，“***”为参赛队号。控制页（control sheet）需打印并签字，然后扫描为 PDF 文件，或用相机／手机拍照生成 JPG 图像。控制页的文件名为“#***cns.pdf”或“#***cns.jpg”。“支撑材料”应与竞赛相关的一切其他文件（包括程序、数据（不含竞赛提供的原始数据）及结果等）一并打包上传，请务必审慎提交。支撑材料的文件名为“#***fj.rar”或“# *** fj.zip”。例如，若 apmcm26300001 队选择 A 题，则论文文件名为“Aapmcm2630001.pdf”，",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0005": {
+    "input_hash": "49bb8a3bf2d151e9d1a0e385d888ba05b10a11686bf6c6efe9809d4b8ef782bd",
+    "action": "translate",
+    "text": "控制页为",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0006": {
+    "input_hash": "12856acfb19615b505086283ef721e44e2c279f27ad2a2db3e8e0cab53dcb68c",
+    "action": "translate",
+    "text": "“Aapmcm26300001cns.pdf”或“Aapmcm26300001cns.jpg”，支撑材料文件名为“Aapmcm26300001fj.rar”或“Aapmcm26300001fj.zip”。必须将解题论文电子版、承诺书与支撑材料（若题目未明确要求，请勿提交）同时提交至报名系统。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0007": {
+    "input_hash": "b038bcc7ceb7bea00cb411a739f002e0bf2c2bc7b33834fd50df07588f27db72",
+    "action": "translate",
+    "text": "● 解题论文的第一页为摘要页（通常为一页），第二页为目录页，正文自目录页之后开始。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0008": {
+    "input_hash": "13092945ee5fe72b56cbe96ed3425e1a4c1bbe842dc1ff922ede2f9285c9b7c1",
+    "action": "translate",
+    "text": "● 解题论文的页眉只应包含参赛队号和页码，不得出现个人身份与学校信息。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0009": {
+    "input_hash": "de334050102df667bc38f47a0db42daebdd1eb17e01476c26ad5b1a65d70e185",
+    "action": "translate",
+    "text": "例如：参赛队 Aapmcm26300001",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0010": {
+    "input_hash": "96383a6458cd47f57fdcd345bb8d6ce1101211e6235572b106ed9b5ce20d0d8d",
+    "action": "translate",
+    "text": "第 10 页，共 25 页",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0011": {
+    "input_hash": "cc0ab567c85eaca5976bb76736aba6e1b83b18e0e11ffaec6e6556b06c4c6243",
+    "action": "translate",
+    "text": "● 解题论文应思路清晰、表述简洁、字体易读，字号通常为 11 或 12。解题论文必须用英文撰写，正文、图表等处不得出现任何中文词语。（正文应控制在 25 页以内，附录不限。）",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0001": {
+    "input_hash": "63456c193f3d82c0f7a9ae9f7528ba9ac8cadabfa320d4c797d62c381d40d23c",
+    "action": "translate",
+    "text": "● 引用他人成果或其他公开信息（包括网上检索到的信息）时，必须在被引文献及参考文献中依照规定格式明确说明。正文中的引用应使用方括号编号，如 [1] [3] 等；引用书籍还须注明页码。参考文献列于正文引用处。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0002": {
+    "input_hash": "1064f452c5d98d223b6b746d5c32d578a246b79555a203c7b522d89953806fef",
+    "action": "translate",
+    "text": "a) 书籍的格式为：",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0003": {
+    "input_hash": "a30ae371c52089cb0aa68b4eec617db85e08875edf3ee8bcd73d2e5ad0c28dee",
+    "action": "translate",
+    "text": "i. [ID] 作者，书名[M]，出版地：出版社，出版年，起止页码。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0004": {
+    "input_hash": "ef6d533ed8307ee4751a5ee03b474e95727af8e0050dcbbac49eba8f66ae4a00",
+    "action": "translate",
+    "text": "b) 期刊论文的格式为：",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0005": {
+    "input_hash": "be5e0344ad3dfa79e8d3cd8d0db471b97b9c222e57c00d4cabfd3201915fc457",
+    "action": "translate",
+    "text": "i. [ID] 作者，论文题目[J]，期刊名称，出版年，卷号，起止页码。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0006": {
+    "input_hash": "2e4c4ee3c08bee44ee0b127cae62ab7676ace9c16b98a3a069e16a1fab7eedfc",
+    "action": "translate",
+    "text": "c) 网络资源的格式为：",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0007": {
+    "input_hash": "639a3699414a0cd9fb53eb5c9a8e7413a9b39d9b10d0365edcf196dbcf978cd2",
+    "action": "translate",
+    "text": "i. [ID] 作者，资源标题，网址，访问时间（年、月、日）。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0008": {
+    "input_hash": "e8cc0b0abd0bbcaa418299725445820a113099cd85885e811908309d169e1f0b",
+    "action": "translate",
+    "text": "● 附录中应提供所用软件的名称及全部计算机源代码（如有）。同时，参赛队须保留全部源代码直至最终获奖名单公布，以备测试之需。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0009": {
+    "input_hash": "9bab940c4d96591c36ec4d9c13300074438d89975824612454f56205362cc204",
+    "action": "translate",
+    "text": "● 本规范未提及的事项，如版式（字体、行距、颜色等），不作具体要求，但应使论文版面美观。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0010": {
+    "input_hash": "55d660d3036997add9ca7ebd04c45e0edfec1c879f675ff3eb991d976e23c6f0",
+    "action": "translate",
+    "text": "● 不符合本规范的解题论文将被视为违反竞赛规则，并无条件取消参赛资格。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0011": {
+    "input_hash": "1239a94087641ee780f3a599d83a9a246492a9841de3d634019572a54a17d321",
+    "action": "translate",
+    "text": "● 亚太地区大学生数学建模竞赛组织委员会对本规范拥有最终解释权。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0012": {
+    "input_hash": "8d01d1cc365603f7e5c72d8030aa31b405e91116d344176cc92b04e093c5ee79",
+    "action": "translate",
+    "text": "亚太地区大学生数学建模竞赛组织委员会",
+    "styles": [],
+    "anchor_protocol": true
+  }
+}

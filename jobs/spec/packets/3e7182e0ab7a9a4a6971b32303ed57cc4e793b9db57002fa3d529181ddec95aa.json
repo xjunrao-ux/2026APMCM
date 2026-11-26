@@ -1,0 +1,123 @@
+{
+  "protocol": 2,
+  "source": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+  "snapshots": {
+    "p0001-b0001": "6a088d69a618fa229c177441a679bdd58e64e9e5c5c56c240fb1e8931dd23ee6",
+    "p0001-b0002": "803335572b9deffbecb486953cd0307e4f041a06fbe6624990c0cf55ddf82e1c",
+    "p0001-b0003": "616f7926227b2e0251c8d38fdc481cb7fdf6a689a0e28c321f0e55f341846b96",
+    "p0001-b0004": "ed53e612b87aa03c0943229ade0e5e13d4ae80bbeb6c93489b24ae3ca94ca992",
+    "p0001-b0005": "49bb8a3bf2d151e9d1a0e385d888ba05b10a11686bf6c6efe9809d4b8ef782bd",
+    "p0001-b0006": "12856acfb19615b505086283ef721e44e2c279f27ad2a2db3e8e0cab53dcb68c",
+    "p0001-b0007": "b038bcc7ceb7bea00cb411a739f002e0bf2c2bc7b33834fd50df07588f27db72",
+    "p0001-b0008": "13092945ee5fe72b56cbe96ed3425e1a4c1bbe842dc1ff922ede2f9285c9b7c1",
+    "p0001-b0009": "de334050102df667bc38f47a0db42daebdd1eb17e01476c26ad5b1a65d70e185",
+    "p0001-b0010": "96383a6458cd47f57fdcd345bb8d6ce1101211e6235572b106ed9b5ce20d0d8d",
+    "p0001-b0011": "cc0ab567c85eaca5976bb76736aba6e1b83b18e0e11ffaec6e6556b06c4c6243",
+    "p0002-b0001": "63456c193f3d82c0f7a9ae9f7528ba9ac8cadabfa320d4c797d62c381d40d23c",
+    "p0002-b0002": "1064f452c5d98d223b6b746d5c32d578a246b79555a203c7b522d89953806fef",
+    "p0002-b0003": "a30ae371c52089cb0aa68b4eec617db85e08875edf3ee8bcd73d2e5ad0c28dee",
+    "p0002-b0004": "ef6d533ed8307ee4751a5ee03b474e95727af8e0050dcbbac49eba8f66ae4a00",
+    "p0002-b0005": "be5e0344ad3dfa79e8d3cd8d0db471b97b9c222e57c00d4cabfd3201915fc457",
+    "p0002-b0006": "2e4c4ee3c08bee44ee0b127cae62ab7676ace9c16b98a3a069e16a1fab7eedfc",
+    "p0002-b0007": "639a3699414a0cd9fb53eb5c9a8e7413a9b39d9b10d0365edcf196dbcf978cd2",
+    "p0002-b0008": "e8cc0b0abd0bbcaa418299725445820a113099cd85885e811908309d169e1f0b",
+    "p0002-b0009": "9bab940c4d96591c36ec4d9c13300074438d89975824612454f56205362cc204",
+    "p0002-b0010": "55d660d3036997add9ca7ebd04c45e0edfec1c879f675ff3eb991d976e23c6f0",
+    "p0002-b0011": "1239a94087641ee780f3a599d83a9a246492a9841de3d634019572a54a17d321",
+    "p0002-b0012": "8d01d1cc365603f7e5c72d8030aa31b405e91116d344176cc92b04e093c5ee79"
+  },
+  "entries": [
+    [
+      "p0001-b0001",
+      "2026 Asia and Pacific Mathematical Contest in Modeling"
+    ],
+    [
+      "p0001-b0002",
+      "Essay format and submission specifications"
+    ],
+    [
+      "p0001-b0003",
+      " The team can choose one from Problem A, Problem B,Problem C or Problem D. When you submit the problem number (A, B, C or D) of your own team in the registration system, please be sure to select the correct number. If the number does not match your content, you will be disqualified."
+    ],
+    [
+      "p0001-b0004",
+      " The team submits an electronic copy of its solution paper through the registration system (https://www.saikr.com/vse/apmcm26) Team papers should be submitted as a PDF file, the name of paper is \"#***.pdf\", where \"#\" is the problem number, \"***\" is the team number. The control sheet needs to be printed and be signed, then you should scan it as a PDF file, or take a picture with a camera / phone to produce a JPG image. The name of the control sheet is \"#***cns.pdf\" or \"#***cns.jpg\". The \"Support Materials\" will be packaged and uploaded with all other documents which are related to the competition (including the program, data (excluding the original data in the competition) and the results, etc.), and you should submit it carefully. The name of the supporting materials is \"#***fj.rar\", or \"# *** fj.zip\". For example, if the apmcm26300001 team selects Problem A, then the name of paper is \"Aapmcm2630001.pdf\""
+    ],
+    [
+      "p0001-b0005",
+      "and the control sheet is"
+    ],
+    [
+      "p0001-b0006",
+      "\"Aapmcm26300001cns.pdf\" or \"Aapmcm26300001cns.jpg\", and the name of supporting material is \"Aapmcm26300001fj.rar\" or \"Aapmcm26300001fj.zip\". You must submit your electronic copy of solution paper, commitment and supporting materials (if they are not expressly required in the problem, please do not submit) to the registration system at the same time."
+    ],
+    [
+      "p0001-b0007",
+      " The first page of the solution paper is the summary page (usually one page), and the second page is the directory page, and the content page starts after the directory page."
+    ],
+    [
+      "p0001-b0008",
+      " The header of the solution paper should only contain team number and page number, it should not appear the person identity and school information."
+    ],
+    [
+      "p0001-b0009",
+      "For example: Team Aapmcm26300001"
+    ],
+    [
+      "p0001-b0010",
+      "Page 10 of 25"
+    ],
+    [
+      "p0001-b0011",
+      " The solution paper should be clear in thinking, simple in expression and readable in fonts, the size of font is usually 11 or 12. The solution paper must be written in English, and no Chinese word should be found in the main body of the solution paper, the chart, etc. (The main body of the solution paper should be controlled within 25 pages, the appendix is no limit)."
+    ],
+    [
+      "p0002-b0001",
+      " Citation of other people's achievements or other public information (including the information found online) must be clearly stated in the quoted literature and in the references in accordance with the prescribed reference. References to the text should be in square brackets reference number, such as [1] [3], etc.; cited books must also indicate the page number. References are listed in the body of citation."
+    ],
+    [
+      "p0002-b0002",
+      "a) The format of the book is:"
+    ],
+    [
+      "p0002-b0003",
+      "i. [ID] Author, Title[M], Place of Publication: Press, Year of publication, starting and ending page number."
+    ],
+    [
+      "p0002-b0004",
+      "b) The format of the journal article is:"
+    ],
+    [
+      "p0002-b0005",
+      "i. [ID] author, paper name[J], magazine name, year of publication, volume number, starting and ending page number."
+    ],
+    [
+      "p0002-b0006",
+      "c) The format of online resources is:"
+    ],
+    [
+      "p0002-b0007",
+      "i. [ID] author, resource title, web site, visit time (year, month, day)."
+    ],
+    [
+      "p0002-b0008",
+      " In the appendix, you should provide the name of the software which you use and all computer source code (if you have). At the same time, the team should reserve all the source code until the final list of winners were announced, and it is for testing needs."
+    ],
+    [
+      "p0002-b0009",
+      " Things which are not mentioned in this specification, such as layout (font, line spacing, color, etc.), do not have specific requirements, but you should you're your solution paper look beautiful."
+    ],
+    [
+      "p0002-b0010",
+      " Solution papers that do not comply with this specification will be considered as breaking the competition rules and unconditionally disqualified."
+    ],
+    [
+      "p0002-b0011",
+      " Organizing Committee of the APMCM has the final power of interpreting this specification."
+    ],
+    [
+      "p0002-b0012",
+      "Organizing Committee of the APMCM"
+    ]
+  ]
+}

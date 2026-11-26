@@ -1,0 +1,3053 @@
+{
+  "engine_version": "2.5.0",
+  "protocol_version": 2,
+  "revision": "645adbdaccff6219eaf1efcd5d289a9cfa38420240b281810be29accc5e735c0",
+  "source_sha256": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+  "status": "complete",
+  "alignment": "paired",
+  "issues": [],
+  "blockers": [],
+  "layouts": [
+    {
+      "lines": [
+        "● 参赛队通过报名系统（https://www.saikr.com/vse/apmcm26）提交解题论",
+        "文的电子版。参赛论文应以 PDF 文件形式提交，文件名为“#***.pdf”，其中",
+        "“#”为题号，“***”为参赛队号。控制页（control sheet）需打印并签字，",
+        "然后扫描为 PDF 文件，或用相机／手机拍照生成 JPG 图像。控制页的文件名",
+        "为“#***cns.pdf”或“#***cns.jpg”。“支撑材料”应与竞赛相关的一切其",
+        "他文件（包括程序、数据（不含竞赛提供的原始数据）及结果等）一并打包上",
+        "传，请务必审慎提交。支撑材料的文件名为“#***fj.rar”或“# ***",
+        "fj.zip”。例如，若 apmcm26300001 队选择 A 题，则论文文件名为",
+        "“Aapmcm2630001.pdf”，控制页文件名为“Aapmcm26300001cns.pdf”或",
+        "“Aapmcm26300001cns.jpg”，支撑材料文件名为“Aapmcm26300001fj.rar”或",
+        "“Aapmcm26300001fj.zip”。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        240.5,
+        506.2199987792969,
+        414.5
+      ],
+      "segments": [
+        {
+          "text": "● 参赛队通过报名系统（https://www.saikr.com/vse/apmcm26）提交解题论",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 250.8125,
+          "line_index": 0
+        },
+        {
+          "text": "文的电子版。参赛论文应以 PDF 文件形式提交，文件名为“#***.pdf”，其中",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 267.0125,
+          "line_index": 1
+        },
+        {
+          "text": "“#”为题号，“***”为参赛队号。控制页（control sheet）需打印并签字，",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 283.2125,
+          "line_index": 2
+        },
+        {
+          "text": "然后扫描为 PDF 文件，或用相机／手机拍照生成 JPG 图像。控制页的文件名",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 299.4125,
+          "line_index": 3
+        },
+        {
+          "text": "为“#***cns.pdf”或“#***cns.jpg”。“支撑材料”应与竞赛相关的一切其",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 315.6125,
+          "line_index": 4
+        },
+        {
+          "text": "他文件（包括程序、数据（不含竞赛提供的原始数据）及结果等）一并打包上",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 331.8125,
+          "line_index": 5
+        },
+        {
+          "text": "传，请务必审慎提交。支撑材料的文件名为“#***fj.rar”或“# ***",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 366.0,
+          "x": 89.27999877929688,
+          "baseline": 348.0125,
+          "line_index": 6
+        },
+        {
+          "text": "fj.zip”。例如，若 apmcm26300001 队选择 A 题，则论文文件名为",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 360.0,
+          "x": 89.27999877929688,
+          "baseline": 364.2125,
+          "line_index": 7
+        },
+        {
+          "text": "“Aapmcm2630001.pdf”，控制页文件名为“Aapmcm26300001cns.pdf”或",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 384.0,
+          "x": 89.27999877929688,
+          "baseline": 380.4125,
+          "line_index": 8
+        },
+        {
+          "text": "“Aapmcm26300001cns.jpg”，支撑材料文件名为“Aapmcm26300001fj.rar”或",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 396.61249999999995,
+          "line_index": 9
+        },
+        {
+          "text": "“Aapmcm26300001fj.zip”。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 156.0,
+          "x": 89.27999877929688,
+          "baseline": 412.8125,
+          "line_index": 10
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0004",
+      "source_page": 1,
+      "source_bbox": [
+        89.28,
+        216.5,
+        506.7,
+        498.2
+      ],
+      "target": "● 参赛队通过报名系统（https://www.saikr.com/vse/apmcm26）提交解题论文的电子版。参赛论文应以 PDF 文件形式提交，文件名为“#***.pdf”，其中“#”为题号，“***”为参赛队号。控制页（control sheet）需打印并签字，然后扫描为 PDF 文件，或用相机／手机拍照生成 JPG 图像。控制页的文件名为“#***cns.pdf”或“#***cns.jpg”。“支撑材料”应与竞赛相关的一切其他文件（包括程序、数据（不含竞赛提供的原始数据）及结果等）一并打包上传，请务必审慎提交。支撑材料的文件名为“#***fj.rar”或“# *** fj.zip”。例如，若 apmcm26300001 队选择 A 题，则论文文件名为“Aapmcm2630001.pdf”，控制页文件名为“Aapmcm26300001cns.pdf”或“Aapmcm26300001cns.jpg”，支撑材料文件名为“Aapmcm26300001fj.rar”或“Aapmcm26300001fj.zip”。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        240.5
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006"
+      ]
+    },
+    {
+      "lines": [
+        "例如：参赛队 Aapmcm26300001　　第 10 页，共 25 页"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        110.19999694824219,
+        622.9000244140625,
+        503.5,
+        634.9000244140625
+      ],
+      "segments": [
+        {
+          "text": "例如：参赛队 Aapmcm26300001　　第 10 页，共 25 页",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 294.0,
+          "x": 110.19999694824219,
+          "baseline": 633.2125244140625,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0009",
+      "source_page": 1,
+      "source_bbox": [
+        110.2,
+        598.9,
+        503.5,
+        615.2
+      ],
+      "target": "例如：参赛队 Aapmcm26300001　　第 10 页，共 25 页",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        110.19999694824219,
+        622.9000244140625
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ]
+    },
+    {
+      "lines": [
+        "2026 年亚太地区大学生数学建模竞赛"
+      ],
+      "size": 14.0,
+      "line_height": 17.5,
+      "source_typography": {
+        "font_size": 14.0,
+        "fonts": [
+          "TimesNewRomanPS-BoldMT"
+        ],
+        "line_height": 17.5
+      },
+      "rect": [
+        128.52000427246094,
+        97.42725372314453,
+        545.460004272461,
+        111.42725372314453
+      ],
+      "segments": [
+        {
+          "text": "2026 年亚太地区大学生数学建模竞赛",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 14.0,
+          "shift": 0,
+          "advance": 231.0,
+          "x": 128.52000427246094,
+          "baseline": 109.45850372314453,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": true,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0001",
+      "source_page": 1,
+      "source_bbox": [
+        128.52000427246094,
+        73.42725372314453,
+        467.9442138671875,
+        92.84435272216797
+      ],
+      "target": "2026 年亚太地区大学生数学建模竞赛",
+      "font_policy": {
+        "source_family": "sans",
+        "target_family": "sans",
+        "font": "SimHei Regular",
+        "path": "C:\\Windows\\Fonts\\simhei.ttf",
+        "sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "heading",
+      "article_font_size": 14.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        128.52000427246094,
+        97.42725372314453
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0001"
+      ]
+    },
+    {
+      "lines": [
+        "论文格式与提交规范"
+      ],
+      "size": 14.0,
+      "line_height": 17.5,
+      "source_typography": {
+        "font_size": 14.0,
+        "fonts": [
+          "TimesNewRomanPS-BoldMT"
+        ],
+        "line_height": 17.5
+      },
+      "rect": [
+        169.1999969482422,
+        122.26725006103516,
+        586.3199969482422,
+        136.26725006103516
+      ],
+      "segments": [
+        {
+          "text": "论文格式与提交规范",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 14.0,
+          "shift": 0,
+          "advance": 126.0,
+          "x": 169.1999969482422,
+          "baseline": 134.29850006103516,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": true,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0002",
+      "source_page": 1,
+      "source_bbox": [
+        169.1999969482422,
+        98.26725006103516,
+        427.5022277832031,
+        117.6843490600586
+      ],
+      "target": "论文格式与提交规范",
+      "font_policy": {
+        "source_family": "sans",
+        "target_family": "sans",
+        "font": "SimHei Regular",
+        "path": "C:\\Windows\\Fonts\\simhei.ttf",
+        "sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "heading",
+      "article_font_size": 14.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        169.1999969482422,
+        122.26725006103516
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0002"
+      ]
+    },
+    {
+      "lines": [
+        "● 参赛队可从 A 题、B 题、C 题或 D 题中任选一题。在报名系统中填报本队",
+        "所选题目编号（A、B、C 或 D）时，请务必选择正确的编号。若编号与论文内",
+        "容不符，将被取消参赛资格。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        168.66200256347656,
+        506.2199987792969,
+        213.06200256347657
+      ],
+      "segments": [
+        {
+          "text": "● 参赛队可从 A 题、B 题、C 题或 D 题中任选一题。在报名系统中填报本队",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 178.97450256347656,
+          "line_index": 0
+        },
+        {
+          "text": "所选题目编号（A、B、C 或 D）时，请务必选择正确的编号。若编号与论文内",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 195.17450256347655,
+          "line_index": 1
+        },
+        {
+          "text": "容不符，将被取消参赛资格。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 156.0,
+          "x": 89.27999877929688,
+          "baseline": 211.37450256347657,
+          "line_index": 2
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0003",
+      "source_page": 1,
+      "source_bbox": [
+        89.27999877929688,
+        144.66200256347656,
+        506.4350891113281,
+        210.36199951171875
+      ],
+      "target": "● 参赛队可从 A 题、B 题、C 题或 D 题中任选一题。在报名系统中填报本队所选题目编号（A、B、C 或 D）时，请务必选择正确的编号。若编号与论文内容不符，将被取消参赛资格。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        168.66200256347656
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0003"
+      ]
+    },
+    {
+      "lines": [
+        "● 解题论文的第一页为摘要页（通常为一页），第二页为目录页，正文自目录",
+        "页之后开始。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        528.1820373535156,
+        506.2199987792969,
+        556.3820373535157
+      ],
+      "segments": [
+        {
+          "text": "● 解题论文的第一页为摘要页（通常为一页），第二页为目录页，正文自目录",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 538.4945373535156,
+          "line_index": 0
+        },
+        {
+          "text": "页之后开始。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 72.0,
+          "x": 89.27999877929688,
+          "baseline": 554.6945373535157,
+          "line_index": 1
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0007",
+      "source_page": 1,
+      "source_bbox": [
+        89.27999877929688,
+        504.1820373535156,
+        506.3154296875,
+        553.4409790039062
+      ],
+      "target": "● 解题论文的第一页为摘要页（通常为一页），第二页为目录页，正文自目录页之后开始。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        528.1820373535156
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0007"
+      ]
+    },
+    {
+      "lines": [
+        "● 解题论文的页眉只应包含参赛队号和页码，不得出现个人身份与学校信息。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        583.8619995117188,
+        506.2199987792969,
+        595.8619995117188
+      ],
+      "segments": [
+        {
+          "text": "● 解题论文的页眉只应包含参赛队号和页码，不得出现个人身份与学校信息。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 594.1744995117188,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0008",
+      "source_page": 1,
+      "source_bbox": [
+        89.27999877929688,
+        559.8619995117188,
+        506.3157043457031,
+        592.56201171875
+      ],
+      "target": "● 解题论文的页眉只应包含参赛队号和页码，不得出现个人身份与学校信息。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        583.8619995117188
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0008"
+      ]
+    },
+    {
+      "lines": [
+        "● 解题论文应思路清晰、表述简洁、字体易读，字号通常为 11 或 12。解题",
+        "论文必须用英文撰写，正文、图表等处不得出现任何中文词语。（正文应控制",
+        "在 25 页以内，附录不限。）"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        645.4219970703125,
+        506.2199987792969,
+        689.8219970703125
+      ],
+      "segments": [
+        {
+          "text": "● 解题论文应思路清晰、表述简洁、字体易读，字号通常为 11 或 12。解题",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 655.7344970703125,
+          "line_index": 0
+        },
+        {
+          "text": "论文必须用英文撰写，正文、图表等处不得出现任何中文词语。（正文应控制",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 671.9344970703125,
+          "line_index": 1
+        },
+        {
+          "text": "在 25 页以内，附录不限。）",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 156.0,
+          "x": 89.27999877929688,
+          "baseline": 688.1344970703125,
+          "line_index": 2
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0001-b0011",
+      "source_page": 1,
+      "source_bbox": [
+        89.27999877929688,
+        621.4219970703125,
+        506.3994140625,
+        703.9219970703125
+      ],
+      "target": "● 解题论文应思路清晰、表述简洁、字体易读，字号通常为 11 或 12。解题论文必须用英文撰写，正文、图表等处不得出现任何中文词语。（正文应控制在 25 页以内，附录不限。）",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        645.4219970703125
+      ],
+      "page": 1,
+      "covered_source_ids": [
+        "p0001-b0011"
+      ]
+    },
+    {
+      "lines": [
+        "● 引用他人成果或其他公开信息（包括网上检索到的信息）时，必须在被引文",
+        "献及参考文献中依照规定格式明确说明。正文中的引用应使用方括号编号，如",
+        "[1] [3] 等；引用书籍还须注明页码。参考文献列于正文引用处。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        91.14099884033203,
+        506.2199987792969,
+        135.54099884033204
+      ],
+      "segments": [
+        {
+          "text": "● 引用他人成果或其他公开信息（包括网上检索到的信息）时，必须在被引文",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 101.45349884033203,
+          "line_index": 0
+        },
+        {
+          "text": "献及参考文献中依照规定格式明确说明。正文中的引用应使用方括号编号，如",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 408.0,
+          "x": 89.27999877929688,
+          "baseline": 117.65349884033203,
+          "line_index": 1
+        },
+        {
+          "text": "[1] [3] 等；引用书籍还须注明页码。参考文献列于正文引用处。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 348.0,
+          "x": 89.27999877929688,
+          "baseline": 133.85349884033204,
+          "line_index": 2
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0001",
+      "source_page": 2,
+      "source_bbox": [
+        89.27999877929688,
+        67.14099884033203,
+        506.4826354980469,
+        149.52200317382812
+      ],
+      "target": "● 引用他人成果或其他公开信息（包括网上检索到的信息）时，必须在被引文献及参考文献中依照规定格式明确说明。正文中的引用应使用方括号编号，如 [1] [3] 等；引用书籍还须注明页码。参考文献列于正文引用处。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        91.14099884033203
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0001"
+      ]
+    },
+    {
+      "lines": [
+        "a) 书籍的格式为："
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        110.15899658203125,
+        179.58200073242188,
+        527.2789965820313,
+        191.58200073242188
+      ],
+      "segments": [
+        {
+          "text": "a) 书籍的格式为：",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 102.0,
+          "x": 110.15899658203125,
+          "baseline": 189.89450073242188,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0002",
+      "source_page": 2,
+      "source_bbox": [
+        110.15899658203125,
+        155.58200073242188,
+        253.7631072998047,
+        171.7220001220703
+      ],
+      "target": "a) 书籍的格式为：",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        110.15899658203125,
+        179.58200073242188
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0002"
+      ]
+    },
+    {
+      "lines": [
+        "i. [ID] 作者，书名[M]，出版地：出版社，出版年，起止页码。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        202.1409912109375,
+        506.2199987792969,
+        214.1409912109375
+      ],
+      "segments": [
+        {
+          "text": "i. [ID] 作者，书名[M]，出版地：出版社，出版年，起止页码。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 342.0,
+          "x": 113.27999877929688,
+          "baseline": 212.4534912109375,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0003",
+      "source_page": 2,
+      "source_bbox": [
+        89.27999877929688,
+        178.1409912109375,
+        500.156005859375,
+        210.9619903564453
+      ],
+      "target": "i. [ID] 作者，书名[M]，出版地：出版社，出版年，起止页码。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        202.1409912109375
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0003"
+      ]
+    },
+    {
+      "lines": [
+        "b) 期刊论文的格式为："
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        110.15899658203125,
+        241.3820037841797,
+        527.2789965820313,
+        253.3820037841797
+      ],
+      "segments": [
+        {
+          "text": "b) 期刊论文的格式为：",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 126.0,
+          "x": 110.15899658203125,
+          "baseline": 251.6945037841797,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0004",
+      "source_page": 2,
+      "source_bbox": [
+        110.15899658203125,
+        217.3820037841797,
+        296.60308837890625,
+        233.52200317382812
+      ],
+      "target": "b) 期刊论文的格式为：",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        110.15899658203125,
+        241.3820037841797
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0004"
+      ]
+    },
+    {
+      "lines": [
+        "i. [ID] 作者，论文题目[J]，期刊名称，出版年，卷号，起止页码。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        263.8219909667969,
+        506.2199987792969,
+        275.8219909667969
+      ],
+      "segments": [
+        {
+          "text": "i. [ID] 作者，论文题目[J]，期刊名称，出版年，卷号，起止页码。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 366.0,
+          "x": 113.27999877929688,
+          "baseline": 274.1344909667969,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0005",
+      "source_page": 2,
+      "source_bbox": [
+        89.27999877929688,
+        239.82199096679688,
+        467.7938232421875,
+        272.5220031738281
+      ],
+      "target": "i. [ID] 作者，论文题目[J]，期刊名称，出版年，卷号，起止页码。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        263.8219909667969
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0005"
+      ]
+    },
+    {
+      "lines": [
+        "c) 网络资源的格式为："
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        110.15899658203125,
+        303.06201171875,
+        527.2789965820313,
+        315.06201171875
+      ],
+      "segments": [
+        {
+          "text": "c) 网络资源的格式为：",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 126.0,
+          "x": 110.15899658203125,
+          "baseline": 313.37451171875,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0006",
+      "source_page": 2,
+      "source_bbox": [
+        110.15899658203125,
+        279.06201171875,
+        290.36309814453125,
+        295.2019958496094
+      ],
+      "target": "c) 网络资源的格式为：",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        110.15899658203125,
+        303.06201171875
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0006"
+      ]
+    },
+    {
+      "lines": [
+        "i. [ID] 作者，资源标题，网址，访问时间（年、月、日）。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        110.27999877929688,
+        325.62200927734375,
+        527.3999987792969,
+        337.62200927734375
+      ],
+      "segments": [
+        {
+          "text": "i. [ID] 作者，资源标题，网址，访问时间（年、月、日）。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 324.0,
+          "x": 110.27999877929688,
+          "baseline": 335.93450927734375,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0007",
+      "source_page": 2,
+      "source_bbox": [
+        110.27999877929688,
+        301.62200927734375,
+        433.3188171386719,
+        317.7619934082031
+      ],
+      "target": "i. [ID] 作者，资源标题，网址，访问时间（年、月、日）。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        110.27999877929688,
+        325.62200927734375
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0007"
+      ]
+    },
+    {
+      "lines": [
+        "● 附录中应提供所用软件的名称及全部计算机源代码（如有）。同时，参赛队",
+        "须保留全部源代码直至最终获奖名单公布，以备测试之需。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        348.1820068359375,
+        506.2199987792969,
+        376.3820068359375
+      ],
+      "segments": [
+        {
+          "text": "● 附录中应提供所用软件的名称及全部计算机源代码（如有）。同时，参赛队",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 358.4945068359375,
+          "line_index": 0
+        },
+        {
+          "text": "须保留全部源代码直至最终获奖名单公布，以备测试之需。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 312.0,
+          "x": 89.27999877929688,
+          "baseline": 374.6945068359375,
+          "line_index": 1
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0008",
+      "source_page": 2,
+      "source_bbox": [
+        89.27999877929688,
+        324.1820068359375,
+        506.3144226074219,
+        389.8810119628906
+      ],
+      "target": "● 附录中应提供所用软件的名称及全部计算机源代码（如有）。同时，参赛队须保留全部源代码直至最终获奖名单公布，以备测试之需。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        348.1820068359375
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0008"
+      ]
+    },
+    {
+      "lines": [
+        "● 本规范未提及的事项，如版式（字体、行距、颜色等），不作具体要求，但",
+        "应使论文版面美观。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        420.4220275878906,
+        506.2199987792969,
+        448.6220275878906
+      ],
+      "segments": [
+        {
+          "text": "● 本规范未提及的事项，如版式（字体、行距、颜色等），不作具体要求，但",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 430.7345275878906,
+          "line_index": 0
+        },
+        {
+          "text": "应使论文版面美观。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 108.0,
+          "x": 89.27999877929688,
+          "baseline": 446.9345275878906,
+          "line_index": 1
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0009",
+      "source_page": 2,
+      "source_bbox": [
+        89.27999877929688,
+        396.4220275878906,
+        506.434814453125,
+        445.56201171875
+      ],
+      "target": "● 本规范未提及的事项，如版式（字体、行距、颜色等），不作具体要求，但应使论文版面美观。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        420.4220275878906
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0009"
+      ]
+    },
+    {
+      "lines": [
+        "● 不符合本规范的解题论文将被视为违反竞赛规则，并无条件取消参赛资格。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        475.9820251464844,
+        506.2199987792969,
+        487.9820251464844
+      ],
+      "segments": [
+        {
+          "text": "● 不符合本规范的解题论文将被视为违反竞赛规则，并无条件取消参赛资格。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 414.0,
+          "x": 89.27999877929688,
+          "baseline": 486.2945251464844,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0010",
+      "source_page": 2,
+      "source_bbox": [
+        89.27999877929688,
+        451.9820251464844,
+        506.2666931152344,
+        484.6809997558594
+      ],
+      "target": "● 不符合本规范的解题论文将被视为违反竞赛规则，并无条件取消参赛资格。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        475.9820251464844
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0010"
+      ]
+    },
+    {
+      "lines": [
+        "● 亚太地区大学生数学建模竞赛组织委员会对本规范拥有最终解释权。"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT",
+          "Wingdings-Regular"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        89.27999877929688,
+        515.2220153808594,
+        506.2199987792969,
+        527.2220153808594
+      ],
+      "segments": [
+        {
+          "text": "● 亚太地区大学生数学建模竞赛组织委员会对本规范拥有最终解释权。",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 378.0,
+          "x": 89.27999877929688,
+          "baseline": 525.5345153808594,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0011",
+      "source_page": 2,
+      "source_bbox": [
+        89.27999877929688,
+        491.2220153808594,
+        506.3868103027344,
+        523.9219970703125
+      ],
+      "target": "● 亚太地区大学生数学建模竞赛组织委员会对本规范拥有最终解释权。",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        89.27999877929688,
+        515.2220153808594
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0011"
+      ]
+    },
+    {
+      "lines": [
+        "亚太地区大学生数学建模竞赛组织委员会"
+      ],
+      "size": 12.0,
+      "line_height": 16.2,
+      "source_typography": {
+        "font_size": 12.0,
+        "fonts": [
+          "TimesNewRomanPSMT"
+        ],
+        "line_height": 16.2
+      },
+      "rect": [
+        315.239990234375,
+        609.781982421875,
+        587.5,
+        621.781982421875
+      ],
+      "segments": [
+        {
+          "text": "亚太地区大学生数学建模竞赛组织委员会",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strike": false,
+            "monospace": false,
+            "superscript": false,
+            "color": 0
+          },
+          "size": 12.0,
+          "shift": 0,
+          "advance": 216.0,
+          "x": 315.239990234375,
+          "baseline": 620.094482421875,
+          "line_index": 0
+        }
+      ],
+      "formatting": {
+        "synthetic_bold": false,
+        "synthetic_italic": false
+      },
+      "block_id": "p0002-b0012",
+      "source_page": 2,
+      "source_bbox": [
+        315.239990234375,
+        585.781982421875,
+        506.386962890625,
+        601.9219970703125
+      ],
+      "target": "亚太地区大学生数学建模竞赛组织委员会",
+      "font_policy": {
+        "source_family": "serif",
+        "target_family": "serif",
+        "font": "SimSun Regular",
+        "path": "C:\\Windows\\Fonts\\simsun.ttc",
+        "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+        "selection": "explicit",
+        "family_match": true,
+        "note": ""
+      },
+      "style_role": "body",
+      "article_font_size": 12.0,
+      "size_ratio": 1.0,
+      "expected_anchor": [
+        315.239990234375,
+        609.781982421875
+      ],
+      "page": 2,
+      "covered_source_ids": [
+        "p0002-b0012"
+      ]
+    }
+  ],
+  "paragraph_pairs": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006"
+      ],
+      "kind": "reviewed",
+      "lane": "span",
+      "group_id": "p1-example-para",
+      "top": 240.5,
+      "height": 281.70001220703125,
+      "left_height": 281.70001220703125,
+      "right_height": 173.99999999999997,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 107.7,
+      "left_rect": [
+        89.27999877929688,
+        240.5,
+        506.70001220703125,
+        522.2000122070312
+      ],
+      "source_rect": [
+        89.27999877929688,
+        216.5,
+        506.70001220703125,
+        498.20001220703125
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": false
+    },
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ],
+      "kind": "reviewed",
+      "lane": "span",
+      "group_id": "p1-example-header",
+      "top": 622.9000244140625,
+      "height": 16.29998779296875,
+      "left_height": 16.29998779296875,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 4.3,
+      "left_rect": [
+        110.19999694824219,
+        622.9000244140625,
+        503.5,
+        639.2000122070312
+      ],
+      "source_rect": [
+        110.19999694824219,
+        598.9000244140625,
+        503.5,
+        615.2000122070312
+      ],
+      "right_x": 717.6999969482422,
+      "mono_x": 110.19999694824219,
+      "two_columns": false
+    },
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0001"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 97.42725372314453,
+      "height": 19.417098999023438,
+      "left_height": 19.417098999023438,
+      "right_height": 14.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 5.417,
+      "left_rect": [
+        128.52000427246094,
+        97.42725372314453,
+        467.9442138671875,
+        116.84435272216797
+      ],
+      "source_rect": [
+        128.52000427246094,
+        73.42725372314453,
+        467.9442138671875,
+        92.84435272216797
+      ],
+      "right_x": 736.0200042724609,
+      "mono_x": 128.52000427246094,
+      "two_columns": false
+    },
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0002"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 122.26725006103516,
+      "height": 19.417098999023438,
+      "left_height": 19.417098999023438,
+      "right_height": 14.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 5.417,
+      "left_rect": [
+        169.1999969482422,
+        122.26725006103516,
+        427.5022277832031,
+        141.6843490600586
+      ],
+      "source_rect": [
+        169.1999969482422,
+        98.26725006103516,
+        427.5022277832031,
+        117.6843490600586
+      ],
+      "right_x": 776.6999969482422,
+      "mono_x": 169.1999969482422,
+      "two_columns": false
+    },
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0003"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 168.66200256347656,
+      "height": 65.69999694824219,
+      "left_height": 65.69999694824219,
+      "right_height": 44.4,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 21.3,
+      "left_rect": [
+        89.27999877929688,
+        168.66200256347656,
+        506.4350891113281,
+        234.36199951171875
+      ],
+      "source_rect": [
+        89.27999877929688,
+        144.66200256347656,
+        506.4350891113281,
+        210.36199951171875
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": false
+    },
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0007"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 528.1820373535156,
+      "height": 49.258941650390625,
+      "left_height": 49.258941650390625,
+      "right_height": 28.2,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 21.059,
+      "left_rect": [
+        89.27999877929688,
+        528.1820373535156,
+        506.3154296875,
+        577.4409790039062
+      ],
+      "source_rect": [
+        89.27999877929688,
+        504.1820373535156,
+        506.3154296875,
+        553.4409790039062
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": false
+    },
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0008"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 583.8619995117188,
+      "height": 32.70001220703125,
+      "left_height": 32.70001220703125,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 20.7,
+      "left_rect": [
+        89.27999877929688,
+        583.8619995117188,
+        506.3157043457031,
+        616.56201171875
+      ],
+      "source_rect": [
+        89.27999877929688,
+        559.8619995117188,
+        506.3157043457031,
+        592.56201171875
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": false
+    },
+    {
+      "page": 1,
+      "source_page": 1,
+      "block_ids": [
+        "p0001-b0011"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 645.4219970703125,
+      "height": 82.5,
+      "left_height": 82.5,
+      "right_height": 44.4,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 38.1,
+      "left_rect": [
+        89.27999877929688,
+        645.4219970703125,
+        506.3994140625,
+        727.9219970703125
+      ],
+      "source_rect": [
+        89.27999877929688,
+        621.4219970703125,
+        506.3994140625,
+        703.9219970703125
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": false
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0001"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 91.14099884033203,
+      "height": 82.3810043334961,
+      "left_height": 82.3810043334961,
+      "right_height": 44.4,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 37.981,
+      "left_rect": [
+        89.27999877929688,
+        91.14099884033203,
+        506.4826354980469,
+        173.52200317382812
+      ],
+      "source_rect": [
+        89.27999877929688,
+        67.14099884033203,
+        506.4826354980469,
+        149.52200317382812
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0002"
+      ],
+      "kind": "text",
+      "lane": "left",
+      "group_id": null,
+      "top": 179.58200073242188,
+      "height": 16.139999389648438,
+      "left_height": 16.139999389648438,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 4.14,
+      "left_rect": [
+        110.15899658203125,
+        179.58200073242188,
+        253.7631072998047,
+        195.7220001220703
+      ],
+      "source_rect": [
+        110.15899658203125,
+        155.58200073242188,
+        253.7631072998047,
+        171.7220001220703
+      ],
+      "right_x": 717.6589965820312,
+      "mono_x": 110.15899658203125,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0003"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 202.1409912109375,
+      "height": 32.82099914550781,
+      "left_height": 32.82099914550781,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 20.821,
+      "left_rect": [
+        89.27999877929688,
+        202.1409912109375,
+        500.156005859375,
+        234.9619903564453
+      ],
+      "source_rect": [
+        89.27999877929688,
+        178.1409912109375,
+        500.156005859375,
+        210.9619903564453
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0004"
+      ],
+      "kind": "text",
+      "lane": "left",
+      "group_id": null,
+      "top": 241.3820037841797,
+      "height": 16.139999389648438,
+      "left_height": 16.139999389648438,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 4.14,
+      "left_rect": [
+        110.15899658203125,
+        241.3820037841797,
+        296.60308837890625,
+        257.5220031738281
+      ],
+      "source_rect": [
+        110.15899658203125,
+        217.3820037841797,
+        296.60308837890625,
+        233.52200317382812
+      ],
+      "right_x": 717.6589965820312,
+      "mono_x": 110.15899658203125,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0005"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 263.8219909667969,
+      "height": 32.70001220703125,
+      "left_height": 32.70001220703125,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 20.7,
+      "left_rect": [
+        89.27999877929688,
+        263.8219909667969,
+        467.7938232421875,
+        296.5220031738281
+      ],
+      "source_rect": [
+        89.27999877929688,
+        239.82199096679688,
+        467.7938232421875,
+        272.5220031738281
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0006"
+      ],
+      "kind": "text",
+      "lane": "left",
+      "group_id": null,
+      "top": 303.06201171875,
+      "height": 16.139984130859375,
+      "left_height": 16.139984130859375,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 4.14,
+      "left_rect": [
+        110.15899658203125,
+        303.06201171875,
+        290.36309814453125,
+        319.2019958496094
+      ],
+      "source_rect": [
+        110.15899658203125,
+        279.06201171875,
+        290.36309814453125,
+        295.2019958496094
+      ],
+      "right_x": 717.6589965820312,
+      "mono_x": 110.15899658203125,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0007"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 325.62200927734375,
+      "height": 16.139984130859375,
+      "left_height": 16.139984130859375,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 4.14,
+      "left_rect": [
+        110.27999877929688,
+        325.62200927734375,
+        433.3188171386719,
+        341.7619934082031
+      ],
+      "source_rect": [
+        110.27999877929688,
+        301.62200927734375,
+        433.3188171386719,
+        317.7619934082031
+      ],
+      "right_x": 717.7799987792969,
+      "mono_x": 110.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0008"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 348.1820068359375,
+      "height": 65.69900512695312,
+      "left_height": 65.69900512695312,
+      "right_height": 28.2,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 37.499,
+      "left_rect": [
+        89.27999877929688,
+        348.1820068359375,
+        506.3144226074219,
+        413.8810119628906
+      ],
+      "source_rect": [
+        89.27999877929688,
+        324.1820068359375,
+        506.3144226074219,
+        389.8810119628906
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0009"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 420.4220275878906,
+      "height": 49.139984130859375,
+      "left_height": 49.139984130859375,
+      "right_height": 28.2,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 20.94,
+      "left_rect": [
+        89.27999877929688,
+        420.4220275878906,
+        506.434814453125,
+        469.56201171875
+      ],
+      "source_rect": [
+        89.27999877929688,
+        396.4220275878906,
+        506.434814453125,
+        445.56201171875
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0010"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 475.9820251464844,
+      "height": 32.698974609375,
+      "left_height": 32.698974609375,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 20.699,
+      "left_rect": [
+        89.27999877929688,
+        475.9820251464844,
+        506.2666931152344,
+        508.6809997558594
+      ],
+      "source_rect": [
+        89.27999877929688,
+        451.9820251464844,
+        506.2666931152344,
+        484.6809997558594
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0011"
+      ],
+      "kind": "text",
+      "lane": "span",
+      "group_id": null,
+      "top": 515.2220153808594,
+      "height": 32.699981689453125,
+      "left_height": 32.699981689453125,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 20.7,
+      "left_rect": [
+        89.27999877929688,
+        515.2220153808594,
+        506.3868103027344,
+        547.9219970703125
+      ],
+      "source_rect": [
+        89.27999877929688,
+        491.2220153808594,
+        506.3868103027344,
+        523.9219970703125
+      ],
+      "right_x": 696.7799987792969,
+      "mono_x": 89.27999877929688,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0012"
+      ],
+      "kind": "text",
+      "lane": "right",
+      "group_id": null,
+      "top": 609.781982421875,
+      "height": 16.1400146484375,
+      "left_height": 16.1400146484375,
+      "right_height": 12.0,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 4.14,
+      "left_rect": [
+        315.239990234375,
+        609.781982421875,
+        506.386962890625,
+        625.9219970703125
+      ],
+      "source_rect": [
+        315.239990234375,
+        585.781982421875,
+        506.386962890625,
+        601.9219970703125
+      ],
+      "right_x": 922.739990234375,
+      "mono_x": 315.239990234375,
+      "two_columns": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "block_ids": [
+        "p0002-b0013"
+      ],
+      "kind": "text",
+      "lane": "right",
+      "group_id": null,
+      "top": 637.3819580078125,
+      "height": 16.1400146484375,
+      "left_height": 16.1400146484375,
+      "right_height": 16.1400146484375,
+      "english_blank_pt": 0.0,
+      "chinese_blank_pt": 0.0,
+      "left_rect": [
+        467.7590026855469,
+        637.3819580078125,
+        506.5199890136719,
+        653.52197265625
+      ],
+      "source_rect": [
+        467.7590026855469,
+        613.3819580078125,
+        506.5199890136719,
+        629.52197265625
+      ],
+      "right_x": 1075.2590026855469,
+      "mono_x": 467.7590026855469,
+      "two_columns": true
+    }
+  ],
+  "translated": "X:\\2026APMCM\\jobs\\spec\\output\\translated.paired.pdf",
+  "bilingual": "X:\\2026APMCM\\jobs\\spec\\output\\bilingual.paired.pdf",
+  "output_hashes": {
+    "X:\\2026APMCM\\jobs\\spec\\output\\translated.paired.pdf": "6912388009b3a8e872609fcae3aaa5075910ef79e9fbe36bdcce2cda0b1c418b",
+    "X:\\2026APMCM\\jobs\\spec\\output\\bilingual.paired.pdf": "ef0aa22f2b1db6a2147f25f3f2b3a8a8b8dd57206e519150287d5175124b4ed6"
+  },
+  "translated_blocks": 20,
+  "kept_blocks": 1,
+  "total_blocks": 24,
+  "grouped_source_blocks": 5,
+  "source_registry_count": 24,
+  "reviewed_regions": [
+    {
+      "id": "p1-example-para",
+      "page": 1,
+      "bbox": [
+        89.28,
+        216.5,
+        506.7,
+        498.2
+      ],
+      "kind": "paragraph",
+      "source_ids": [
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006"
+      ],
+      "reason": "源 PDF 把同一个项目符号段落拆成三个文本块（末行行尾片段与续行），分块渲染会使英文栏裁片错位，故按原视觉段落合并。",
+      "translation": "● 参赛队通过报名系统（https://www.saikr.com/vse/apmcm26）提交解题论文的电子版。参赛论文应以 PDF 文件形式提交，文件名为“#***.pdf”，其中“#”为题号，“***”为参赛队号。控制页（control sheet）需打印并签字，然后扫描为 PDF 文件，或用相机／手机拍照生成 JPG 图像。控制页的文件名为“#***cns.pdf”或“#***cns.jpg”。“支撑材料”应与竞赛相关的一切其他文件（包括程序、数据（不含竞赛提供的原始数据）及结果等）一并打包上传，请务必审慎提交。支撑材料的文件名为“#***fj.rar”或“# *** fj.zip”。例如，若 apmcm26300001 队选择 A 题，则论文文件名为“Aapmcm2630001.pdf”，控制页文件名为“Aapmcm26300001cns.pdf”或“Aapmcm26300001cns.jpg”，支撑材料文件名为“Aapmcm26300001fj.rar”或“Aapmcm26300001fj.zip”。",
+      "source_text": "\nThe team submits an electronic copy of its solution paper through the registration\nsystem (https://www.saikr.com/vse/apmcm26) Team papers should be submitted\nas a PDF file, the name of paper is \"#***.pdf\", where \"#\" is the problem number,\n\"***\" is the team number. The control sheet needs to be printed and be signed,\nthen you should scan it as a PDF file, or take a picture with a camera / phone to\nproduce a JPG image. The name of the control sheet is \"#***cns.pdf\" or\n\"#***cns.jpg\". The \"Support Materials\" will be packaged and uploaded with all\nother documents which are related to the competition (including the program, data\n(excluding the original data in the competition) and the results, etc.), and you\nshould submit it carefully. The name of the supporting materials is \"#***fj.rar\", or\n\"# *** fj.zip\". For example, if the apmcm26300001 team selects Problem A, then\nthe\nname\nof\npaper\nis\n\"Aapmcm2630001.pdf\"\nand\nthe\ncontrol\nsheet\nis\n\"Aapmcm26300001cns.pdf\" or \"Aapmcm26300001cns.jpg\", and the name of\nsupporting material is \"Aapmcm26300001fj.rar\" or \"Aapmcm26300001fj.zip\".\nYou must submit your electronic copy of solution paper, commitment and\nsupporting materials (if they are not expressly required in the problem, please do\nnot submit) to the registration system at the same time.\n",
+      "source_sha256": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+      "number_check": {
+        "source": {},
+        "translation": {},
+        "matched": true
+      }
+    },
+    {
+      "id": "p1-example-header",
+      "page": 1,
+      "bbox": [
+        110.2,
+        598.9,
+        503.5,
+        615.2
+      ],
+      "kind": "paragraph",
+      "source_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ],
+      "reason": "源 PDF 把同一行示例页眉拆成左右两个文本块；二者同属一行，分块渲染会把页码挤到下一行，故合并为一行保留并排关系。",
+      "translation": "例如：参赛队 Aapmcm26300001　　第 10 页，共 25 页",
+      "source_text": "For example: Team Aapmcm26300001\nPage 10 of 25\n",
+      "source_sha256": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+      "number_check": {
+        "source": {
+          "10": 1,
+          "25": 1
+        },
+        "translation": {
+          "10": 1,
+          "25": 1
+        },
+        "matched": true
+      }
+    }
+  ],
+  "label_records": [],
+  "font_policy": {
+    "p0001-b0004": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0001-b0009": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0001-b0001": {
+      "source_family": "sans",
+      "target_family": "sans",
+      "font": "SimHei Regular",
+      "path": "C:\\Windows\\Fonts\\simhei.ttf",
+      "sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0001-b0002": {
+      "source_family": "sans",
+      "target_family": "sans",
+      "font": "SimHei Regular",
+      "path": "C:\\Windows\\Fonts\\simhei.ttf",
+      "sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0001-b0003": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0001-b0007": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0001-b0008": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0001-b0011": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0001": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0002": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0003": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0004": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0005": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0006": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0007": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0008": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0009": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0010": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0011": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    },
+    "p0002-b0012": {
+      "source_family": "serif",
+      "target_family": "serif",
+      "font": "SimSun Regular",
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "selection": "explicit",
+      "family_match": true,
+      "note": ""
+    }
+  },
+  "style_profile": {
+    "schema": 1,
+    "state": "confirmed",
+    "fonts": {
+      "serif": "C:\\Windows\\Fonts\\simsun.ttc",
+      "sans": "C:\\Windows\\Fonts\\simhei.ttf"
+    },
+    "roles": {
+      "body": {
+        "font_family": "serif",
+        "font_size": 12.0,
+        "bold": false,
+        "line_height": 16.2,
+        "paragraph_gap": 7.2,
+        "first_line_indent": 2
+      },
+      "title": {
+        "font_family": "sans",
+        "font_size": 21.5,
+        "bold": true,
+        "line_height": 25.8,
+        "paragraph_gap": 9.6
+      },
+      "heading": {
+        "font_family": "sans",
+        "font_size": 14.0,
+        "bold": true,
+        "line_height": 17.5,
+        "paragraph_gap": 6.6
+      },
+      "subheading": {
+        "font_family": "sans",
+        "font_size": 13.0,
+        "bold": true,
+        "line_height": 16.25,
+        "paragraph_gap": 6.0
+      },
+      "caption": {
+        "font_family": "serif",
+        "font_size": 11.0,
+        "bold": false,
+        "line_height": 14.3,
+        "paragraph_gap": 5.4
+      },
+      "table": {
+        "font_family": "serif",
+        "font_size": 9.5,
+        "bold": false,
+        "line_height": 10.92,
+        "paragraph_gap": 3.0
+      },
+      "table_compact": {
+        "font_family": "serif",
+        "font_size": 7.0,
+        "bold": false,
+        "line_height": 7.7,
+        "paragraph_gap": 2.4
+      },
+      "label_compact": {
+        "font_family": "sans",
+        "font_size": 7.0,
+        "bold": false,
+        "line_height": 7.7,
+        "paragraph_gap": 2.4
+      },
+      "running": {
+        "font_family": "serif",
+        "font_size": 9.0,
+        "bold": false,
+        "line_height": 10.8,
+        "paragraph_gap": 3.0
+      },
+      "footnote": {
+        "font_family": "serif",
+        "font_size": 9.0,
+        "bold": false,
+        "line_height": 10.8,
+        "paragraph_gap": 2.4
+      },
+      "footer": {
+        "font_family": "sans",
+        "font_size": 9.0,
+        "bold": false,
+        "line_height": 10.8,
+        "paragraph_gap": 2.4
+      },
+      "author": {
+        "font_family": "serif",
+        "font_size": 11.0,
+        "bold": false,
+        "line_height": 13.75,
+        "paragraph_gap": 3.6
+      },
+      "affiliation": {
+        "font_family": "serif",
+        "font_size": 11.0,
+        "bold": false,
+        "line_height": 13.75,
+        "paragraph_gap": 2.4
+      }
+    },
+    "content_width": 417.12,
+    "wide_width": 416.94,
+    "note": "正文采用宋体类，标题采用黑体类；保留语义强调。正文 1.35 倍行距、0.6em 段后距，可统一调整。",
+    "font_hashes": {
+      "serif": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "sans": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e"
+    },
+    "confirmation": {
+      "actor": "user",
+      "note": "用户确认：正文宋体12pt/1.35倍行距/段后0.6em，标题黑体14pt加粗，保留●项目符号",
+      "time": "2026-11-26T08:54:38+00:00"
+    }
+  },
+  "render_options": {
+    "alignment": "paired"
+  },
+  "generated": "2026-11-26T08:59:02+00:00",
+  "original_left": "Original glyphs and columns preserved; paragraph spacing and page heights may expand.",
+  "preserved_checks": [
+    {
+      "block_id": "p0002-b0013",
+      "page": 2,
+      "preserved": true
+    }
+  ],
+  "region_checks": [
+    {
+      "id": "p1-example-para",
+      "kind": "paragraph",
+      "source_ids": [
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006"
+      ],
+      "labels": 0,
+      "present": true
+    },
+    {
+      "id": "p1-example-header",
+      "kind": "paragraph",
+      "source_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ],
+      "labels": 0,
+      "present": true
+    }
+  ],
+  "checks": [
+    {
+      "block_id": "p0001-b0004",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0001-b0009",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0001-b0001",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0001-b0002",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0001-b0003",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0001-b0007",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0001-b0008",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0001-b0011",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0001",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0002",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0003",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0004",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0005",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0006",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0007",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0008",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0009",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0010",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0011",
+      "text_present": true,
+      "paragraph_aligned": true
+    },
+    {
+      "block_id": "p0002-b0012",
+      "text_present": true,
+      "paragraph_aligned": true
+    }
+  ],
+  "build_key": "b87e838f81a6afd22fb687537420e682b0556d9d3e507acdfa2e4c80fd7ef497",
+  "visual_review": {
+    "note": "逐页查看双语预览 2 页：左侧英文原页字形/栏目/段距保持，右侧中文宋体 12pt 与标题黑体 14pt 层级正确；核对合并后两处区域（支撑材料整段、示例页眉行）中英文行位一致，英文无裁片错位；符号 ●、方括号引用编号、文件名字符串、25 页上限等数字与原文一致；中文因较英文紧凑，段末留白按 paired 规则补足。",
+    "time": "2026-11-26T09:00:15+00:00",
+    "outputs": {
+      "X:\\2026APMCM\\jobs\\spec\\output\\translated.paired.pdf": "6912388009b3a8e872609fcae3aaa5075910ef79e9fbe36bdcce2cda0b1c418b",
+      "X:\\2026APMCM\\jobs\\spec\\output\\bilingual.paired.pdf": "ef0aa22f2b1db6a2147f25f3f2b3a8a8b8dd57206e519150287d5175124b4ed6"
+    }
+  }
+}

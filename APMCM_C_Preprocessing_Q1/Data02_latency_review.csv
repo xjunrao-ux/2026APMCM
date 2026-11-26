@@ -1,0 +1,10 @@
+﻿source_row,expID,Type,CallType,VocalYesNo,VocalLatency,VocalNcallsBefore,VocalNcalls,VocalRelNCalls,ApproachYesNo,ApproachLatency,ApproachDuration
+46,25,call,tv,0,,0,0,0,0,8.0,0
+59,34,control,control,0,26.8,3,2,0,0,,0
+91,53,call,tv,0,,0,0,0,0,5.0,0
+133,80,control,control,0,7.1,11,4,0,0,,0
+134,80,call,flat,1,2.5,3,11,8,0,13.0,0
+222,129,call,tv,0,,0,0,0,0,3.0,0
+223,130,call,tv,1,1.5,0,2,2,0,11.0,0
+235,136,call,tv,0,5.4,4,1,0,0,,0
+278,160,call,tv,0,0.8,3,2,0,1,6.0,60
