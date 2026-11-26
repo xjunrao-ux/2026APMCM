@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "state": "proposed",
+  "fonts": {
+    "serif": "C:\\Windows\\Fonts\\simsun.ttc",
+    "sans": "C:\\Windows\\Fonts\\simhei.ttf"
+  },
+  "roles": {
+    "body": {"font_family": "serif", "font_size": 12.0, "bold": false, "line_height": 16.2, "paragraph_gap": 7.2, "first_line_indent": 2},
+    "title": {"font_family": "sans", "font_size": 16.0, "bold": true, "line_height": 21.6, "paragraph_gap": 9.6},
+    "heading": {"font_family": "sans", "font_size": 13.0, "bold": true, "line_height": 17.55, "paragraph_gap": 6.6},
+    "subheading": {"font_family": "sans", "font_size": 11.5, "bold": true, "line_height": 15.53, "paragraph_gap": 6.0},
+    "caption": {"font_family": "serif", "font_size": 10.5, "bold": false, "line_height": 13.65, "paragraph_gap": 5.4},
+    "table": {"font_family": "serif", "font_size": 9.5, "bold": false, "line_height": 10.92, "paragraph_gap": 3.0},
+    "table_compact": {"font_family": "serif", "font_size": 7.0, "bold": false, "line_height": 7.7, "paragraph_gap": 2.4},
+    "label_compact": {"font_family": "sans", "font_size": 7.0, "bold": false, "line_height": 7.7, "paragraph_gap": 2.4},
+    "running": {"font_family": "serif", "font_size": 9.0, "bold": false, "line_height": 10.8, "paragraph_gap": 3.0},
+    "footnote": {"font_family": "serif", "font_size": 9.0, "bold": false, "line_height": 10.8, "paragraph_gap": 2.4},
+    "footer": {"font_family": "sans", "font_size": 9.0, "bold": false, "line_height": 10.8, "paragraph_gap": 2.4},
+    "author": {"font_family": "serif", "font_size": 11.0, "bold": false, "line_height": 13.75, "paragraph_gap": 3.6},
+    "affiliation": {"font_family": "serif", "font_size": 11.0, "bold": false, "line_height": 13.75, "paragraph_gap": 2.4}
+  },
+  "content_width": 432.0,
+  "wide_width": 428.4,
+  "note": "正文宋体 12pt、标题黑体；文题 16pt，节标题 13pt，图注 10.5pt。行距 1.35 倍、段后 0.6em，首行缩进 2em。"
+}

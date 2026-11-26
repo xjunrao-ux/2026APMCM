@@ -1,0 +1,183 @@
+{
+  "protocol": 2,
+  "source": "0100957428d10aaa6711410ac6619b7ce83689ca1ae463dda89c2dd5bbbd66ed",
+  "snapshots": {
+    "p0001-b0001": "6a088d69a618fa229c177441a679bdd58e64e9e5c5c56c240fb1e8931dd23ee6",
+    "p0001-b0002": "8c0c20aadd4d5ba5d55429829b5ccee6646e95b93e56962763f501825f79f350",
+    "p0001-b0003": "24bc14239ae8fd6e02325669df379cd3b8675dde22c8689e961aa2db05649bcc",
+    "p0001-b0004": "9690bffda15b17e8f13d61de194560a17709da9cc538616d7b7ced769f99b9aa",
+    "p0001-b0005": "1a1e38722324fb32c70541c7ce07b3dceaa95f1aa2c94d48c2471edc9cded417",
+    "p0001-b0006": "9201973d54090bca7a3142f2dd0dfbdcd01bd695c914299a0973779900617e83",
+    "p0001-b0007": "7a743e0cb273e63e4a21a7016b65cd78a703e61db96b1a90d8ba7b490baae241",
+    "p0001-b0008": "89931cbde34fd91d4e0f8a0e810fb3426a36d7b213692757c795c07d8a2d8914",
+    "p0001-b0009": "be38075ef437ca0c22f58cafe4bf273d2f107a4d1b1f22e43a377226a8de013a",
+    "p0002-b0001": "6d538870dbeba24c8636a94c187cc10be1371cd09bc49d8a4fbb2878cfd1a11a",
+    "p0002-b0002": "d2e0b9a8a2853359d300282bccb86e4169918a2d08e0f1c3ff7a37408090efc0",
+    "p0002-b0003": "016795e87a8c623be17e05a21d4c6a102da67caf1fd5a0a0622fef47fd725f33",
+    "p0002-b0004": "5d83b7e6783eb49992221813014423a6346d6a4105845b7a6198a856abe62a96",
+    "p0002-b0005": "ae0816b196052c3f75e98c818bc88b8f021c2a1cebe6212f46c395248a03035f",
+    "p0002-b0006": "21b51b3fe71aff23aecaef57bf7a259910874816007404fd02055cfde81fb1f8",
+    "p0002-b0007": "9aa654ebb03eca68948e15dbef1efe744004387ac72281c64bb104da3f7dd4d7",
+    "p0002-b0008": "6967c21338674ab6a3e789bf7a9d042ffb96e63d6c4e7db64bb30ea81d9ccb14",
+    "p0002-b0009": "dd33f6005a51f831f12992701e4f288263bea276001ac51b660ca5a59a1e6924",
+    "p0002-b0010": "917f30c23c18e0163fbc1377cc41ed6cf6ca2b4478ebccfa98a0df5a7b5a5599",
+    "p0002-b0011": "55a2a5bd869ec88f65b75bb75d5e74a97f4c57c37cf438b2e03a30a14696bb15",
+    "p0002-b0012": "231f907839268fcf69d1810a8c2efc18d73a1b2d85b48ce32976958c2bfc7304",
+    "p0002-b0013": "e83be80342942680cf03f836295d053221f4a9f2bd3bb0cc19e40c19a43ff7ed",
+    "p0002-b0014": "7ab3ba18b05c3e2d2e99fd140288c421c63e4817f1da65ab260d48ee88ed3a2a",
+    "p0002-b0015": "3e38114789aeabd027757f955428e8cec82ccbc45ccfb832f151febdf6a2173d",
+    "p0002-b0016": "6f7a00b9a5f01dbcf2a5ab350eb620eebad25a629f12e5ab2291b1fc12addf77",
+    "p0002-b0017": "a7c50f960645a6b00950de1328a1bc31a60ba1b39d86eb454c14567adfc09678",
+    "p0003-b0001": "b972f700c41e0a139c48d8f83cc430d63ce4ca33a0beb07ca715fefb5e371974",
+    "p0003-b0002": "4fe95c4a018c877be620457933e8c354932efbdda4f78e324fd9fb55b2488972",
+    "p0003-b0003": "c5a6f88b49670017a473438b500be7cb1d4a77d728369f32c23ba3c933a354fd",
+    "p0003-b0004": "644cd21949140fee93291337f23785370933c4e32196f25a005462fce0f08efc",
+    "p0003-b0005": "8adec0949b88fa2e2aa0dc2b48bcc9b0f2fa3be43671453b09f5eba7ddf6373a",
+    "p0003-b0006": "cddb3d0e9268464ec6e89dc5020b13b0bd51a4d41e27e220badcba5556043a36",
+    "p0003-b0007": "f743793492fd7726523b956f6a42cf0c8a99cf4de304a46430a52dd7de2d1d23",
+    "p0003-b0008": "0d28c7347db61ab52feaa5a171cd238edcaff23bf5ca7adf7ff8c430de7e0176",
+    "p0003-b0009": "98b68a9a88af1e939f26418e60277324bada126aaeeb7c609d6427b587334b60"
+  },
+  "entries": [
+    [
+      "p0001-b0001",
+      "2026 Asia and Pacific Mathematical Contest in Modeling"
+    ],
+    [
+      "p0001-b0002",
+      "Problem C"
+    ],
+    [
+      "p0001-b0003",
+      "Acoustic Communication and Playback Responses of African Penguins"
+    ],
+    [
+      "p0001-b0004",
+      "at Sea"
+    ],
+    [
+      "p0001-b0005",
+      "The African penguin (Spheniscus demersus) is an endangered seabird that inhabits the"
+    ],
+    [
+      "p0001-b0006",
+      "coasts of southern Africa. Research by the Southern African Foundation for the Conservation of Coastal Birds (SAFCCB) indicates that the African penguin population is declining at an average annual rate of 8%. Some studies predicted that its wild population could become extinct by 2035. Accordingly, the International Union for Conservation of Nature (IUCN) has assessed the species as Critically Endangered. The African penguin is also known as the black-footed penguin, Cape penguin, or jackass penguin. It produces loud, donkey-like calls; when many penguins call simultaneously, they create substantial ambient noise. They breed, molt, and rest on land, and forage in nearby coastal waters. The marine environment is open, and the distances between individuals change rapidly. Waves, lighting, and visibility limit the use of visual signals. Calls are therefore likely to be an important means for African penguins to stay in contact at sea, recognize companions, and gather into foraging groups."
+    ],
+    [
+      "p0001-b0007",
+      "<s0>Figure 1.</s0> African penguins foraging in coastal waters"
+    ],
+    [
+      "p0001-b0008",
+      "Researchers conducted field experiments on the natural vocalizations of African"
+    ],
+    [
+      "p0001-b0009",
+      "penguins at the sea surface and their responses to playback. First, they recorded and analyzed the acoustic characteristics of different types of sea-surface calls. They also played penguin calls and control sounds at sea and observed whether nearby penguins"
+    ],
+    [
+      "p0002-b0001",
+      "raised their heads, approached, or vocalized in response. In addition, they conducted sound-propagation experiments to quantify how call spectra degrade as transmission distance increases. These experimental data provide a basis for characterizing the effective range of African penguin acoustic communication at sea, its behavioral response patterns, and its relevance to species conservation."
+    ],
+    [
+      "p0002-b0002",
+      "Develop mathematical models using the acoustic characteristics, sound-propagation"
+    ],
+    [
+      "p0002-b0003",
+      "degradation, and marine playback-response data to investigate the functions of different call types in communication at sea, and assess the implications of the findings for research on penguin foraging groups and conservation management."
+    ],
+    [
+      "p0002-b0004",
+      "Problem 1 Acoustic characteristics and classification of sea-surface calls"
+    ],
+    [
+      "p0002-b0005",
+      "Using the call data provided, examine three call types (CallType): flat, modulated"
+    ],
+    [
+      "p0002-b0006",
+      "(mod), and two-voice (tv). Perform descriptive statistics and visualizations for measures including call duration, characteristic frequencies, peak frequency, spectral quartiles, and pulse rate, and compare the principal differences among the three call types. Use the call samples in the provided data to identify the main influencing factors and build a classifier for the three call types. Also select at least two nonparametric tests to determine whether acoustic-feature measures different significantly among call types."
+    ],
+    [
+      "p0002-b0007",
+      "Combine the classification results with the propagation and playback data to discuss"
+    ],
+    [
+      "p0002-b0008",
+      "potential differences among the three call types in information function and transmission robustness, and select key acoustic measures for subsequent signal degradation and behavioral-response models."
+    ],
+    [
+      "p0002-b0009",
+      "Problem 2 Sound-signal propagation degradation and effective communication"
+    ],
+    [
+      "p0002-b0010",
+      "range"
+    ],
+    [
+      "p0002-b0011",
+      "Using the acoustic and playback experiment data provided, jointly consider"
+    ],
+    [
+      "p0002-b0012",
+      "amplitude-spectrum"
+    ],
+    [
+      "p0002-b0013",
+      "spectrogram correlation,"
+    ],
+    [
+      "p0002-b0014",
+      "correlation, and amplitude-envelope"
+    ],
+    [
+      "p0002-b0015",
+      "correlation to construct an acoustic-fidelity measure that varies with propagation distance."
+    ],
+    [
+      "p0002-b0016",
+      "Build signal-propagation degradation models for flat, modulated (mod), and two-voice (tv) calls, analyze the models, and present clear conclusions."
+    ],
+    [
+      "p0002-b0017",
+      "Assume that penguins' ability to recognize calls depends on whether the correlation"
+    ],
+    [
+      "p0003-b0001",
+      "between a signal after propagation and the original call reaches specified thresholds, with different thresholds representing different levels of recognition reliability. Design a tiered threshold scheme covering multiple recognition states, including the minimum similarity for potential recognition, recognition, and more stringent reliable recognition. Focus on two criteria: the minimum similarity threshold for potential recognition and the more stringent threshold for reliable recognition. Estimate the effective communication range of each of the three call types under both criteria, report uncertainty ranges, and conduct sensitivity analyses. Compare the robustness of the three call types over long-distance propagation and determine which is better suited to transmitting information over relatively long distances at sea."
+    ],
+    [
+      "p0003-b0002",
+      "Problem 3 Modeling behavioral responses in marine playback experiments"
+    ],
+    [
+      "p0003-b0003",
+      "Using the playback experiment data provided, compare the overall response rates to"
+    ],
+    [
+      "p0003-b0004",
+      "playbacks of natural calls and control sounds. Analyze response differences in relation to context (Context), call type (CallType), playback distance (Distance), and the number of penguins observed (Npenguins). Treat head raising, vocalizing, and approaching as three"
+    ],
+    [
+      "p0003-b0005",
+      "the probability"
+    ],
+    [
+      "p0003-b0006",
+      "response behaviors. Analyze"
+    ],
+    [
+      "p0003-b0007",
+      "distribution of response-behavior"
+    ],
+    [
+      "p0003-b0008",
+      "combinations following a single playback stimulus, and compare whether natural calls and control sounds change the distribution of these combinations. Within a common modeling framework, compare responses to natural calls and control sounds and assess whether call type increases the probability of specific response combinations."
+    ],
+    [
+      "p0003-b0009",
+      "For response-intensity measures such as vocalization count (VocalNcalls), head-up"
+    ]
+  ]
+}

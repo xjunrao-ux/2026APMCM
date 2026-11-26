@@ -1,0 +1,580 @@
+{
+  "p0001-b0010": {
+    "input_hash": "0f55d1326ceb5990296341f6c8e978d698b4c608d850a7332d873d8b252050d3",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0002-b0018": {
+    "input_hash": "fca01d70587082d335601afbabbdbc8e059d1792ea3da16d9eb8dc771daa9bbe",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0003-b0011": {
+    "input_hash": "56170c38798b15acb010371f32eebe5cd28b941fdbb269b694645eaa756c2522",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0004-b0011": {
+    "input_hash": "f7fe8704931199cf76522ca94219e838e5d3026f103873afbe91e82390dce4e9",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0005-b0015": {
+    "input_hash": "3fa6b389d177306f47bc564ab12d8e36f107de416380912e6ad16890e1edfdc4",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0005-b0019": {
+    "input_hash": "3fca0ac23f1ef9cbbea6795ca67120db9fac3e4c2ca463efc0392a8b78e2871c",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0005-b0025": {
+    "input_hash": "04d506d0dd224675b9ef44ac71a82dee252c176783ea3b36b142168ca10a8bf8",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0005-b0028": {
+    "input_hash": "93edaae42de6484141ccce87dd15b45109c36f8f154d5b0f8ccd364acec59f69",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0006-b0023": {
+    "input_hash": "adade56156646b3e11cc826cdc24091c5b590b1b6ef5836b55cbcf86deb7da96",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0011": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0012": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0013": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0014": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0015": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0016": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0017": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0018": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0019": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0020": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0021": {
+    "input_hash": "0e8d82922c3ac445485068f3a7a6124d849623d3d94c8278a3a3251432439e72",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0022": {
+    "input_hash": "c73ba649b52f39edafd76217753dea8ace38de06a229fb143042f8f5c8ee7831",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0023": {
+    "input_hash": "f4f8af58c220d0d474239a8f5d56774e5ea63c70030d989dfe5680e52433b755",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0024": {
+    "input_hash": "c59b6fb78d9236ca3b79eb5cbaa2db90d4ad6f83cca951f87aaec41cc56b77a0",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0025": {
+    "input_hash": "9b82ea7cb1fc9f1ebf20ba7db521637c90c9df793b9e91ad515c083cdc1a12e8",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0026": {
+    "input_hash": "36458c4249d832a7dd5756d73f65a98071a699c00617a75dd6117400d776e701",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0027": {
+    "input_hash": "105ab6db0202c5c185a9ed2b50c7461709842fe7bec422c72d5f1f4b66336280",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0028": {
+    "input_hash": "9a025ea863f234e811dca761261dfb2446d73699de7f2bf280c7daf648931fd4",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0029": {
+    "input_hash": "6255be8d48549dd122917548a752169e4ef97aa9804cc06c745cda062c783845",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0030": {
+    "input_hash": "dfef2051818ce6430320d3a05235cdd5e33cf36121b6a49f8b251f65c5dfdce1",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0039": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0040": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0041": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0042": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0043": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0044": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0045": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0046": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0047": {
+    "input_hash": "5654f6c997d2dae6a4438f5ab922fb3e0f5d9f360944dd607f2afa055a778182",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "程序保留：identifier",
+    "issues": []
+  },
+  "p0007-b0048": {
+    "input_hash": "95f87bcf85cf43dba91d2a4a42f19d959e3b0e720617be65f73522660990004e",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0049": {
+    "input_hash": "8fb46fd6e0a436ddf4fc134273725d75912ddfa9800ead291d0ec1215a46239c",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0050": {
+    "input_hash": "a1f15e4fba5676a12585b9c36dc411b7a8a9bdf2a007ddcb07db92c6974cfeee",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0051": {
+    "input_hash": "2f7007abdd362f1c78300a9bdc51d20b1839448cf4cf61f94ca48e076e2b1331",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0052": {
+    "input_hash": "effad8763a5cdda2381be7398c887b42c0bb232e6346becdfb93e38048bb45ba",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0053": {
+    "input_hash": "a9cf2fe27718c538ce78bded418e1331bc769ac66247228f6b4639a83fdafcbd",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0054": {
+    "input_hash": "c48582d8d77af0810a0d7a089ce4a570c0c76d2b72fea89faa46996bb0b2bc97",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0055": {
+    "input_hash": "d553d9fad763b6b2aa8ebb181c5c16e8ba9a53ef0a19bed4126c0c475011eb2f",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0056": {
+    "input_hash": "16c953fc4171f8a1ac2c13a9c8e749f7a946609e070b9f8692407baa83ee2ded",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0007-b0062": {
+    "input_hash": "de7c7ccd7a54b2997887292a80d3941b65fbd2cf39f4d722e8bee769adb340c5",
+    "action": "keep",
+    "keep_kind": "numeric_or_symbol",
+    "reason": "程序保留：numeric_or_symbol",
+    "issues": []
+  },
+  "p0001-b0001": {
+    "input_hash": "6a088d69a618fa229c177441a679bdd58e64e9e5c5c56c240fb1e8931dd23ee6",
+    "action": "translate",
+    "text": "2026 年亚太地区大学生数学建模竞赛",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0002": {
+    "input_hash": "8c0c20aadd4d5ba5d55429829b5ccee6646e95b93e56962763f501825f79f350",
+    "action": "translate",
+    "text": "C 题",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0001-b0007": {
+    "input_hash": "7a743e0cb273e63e4a21a7016b65cd78a703e61db96b1a90d8ba7b490baae241",
+    "action": "translate",
+    "text": "图 1. 在沿岸海域觅食的非洲企鹅",
+    "styles": [
+      {
+        "start": 0,
+        "end": 4,
+        "source_anchor": "s0",
+        "bold": true
+      }
+    ],
+    "anchor_protocol": true
+  },
+  "p0002-b0001": {
+    "input_hash": "6d538870dbeba24c8636a94c187cc10be1371cd09bc49d8a4fbb2878cfd1a11a",
+    "action": "translate",
+    "text": "抬起头、靠近或发出叫声作为回应。此外，他们还开展了声音传播实验，量化叫声频谱随传输距离增加而衰减的程度。这些实验数据为表征非洲企鹅在海上声学通信的有效距离、其行为反应模式及其对物种保护的意义提供了依据。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0004": {
+    "input_hash": "5d83b7e6783eb49992221813014423a6346d6a4105845b7a6198a856abe62a96",
+    "action": "translate",
+    "text": "问题 1 海面叫声的声学特征与分类",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0002-b0017": {
+    "input_hash": "a7c50f960645a6b00950de1328a1bc31a60ba1b39d86eb454c14567adfc09678",
+    "action": "translate",
+    "text": "假设企鹅识别叫声的能力取决于传播后的信号与原始叫声之间的相关性",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0003-b0001": {
+    "input_hash": "b972f700c41e0a139c48d8f83cc430d63ce4ca33a0beb07ca715fefb5e371974",
+    "action": "translate",
+    "text": "是否达到给定阈值，不同阈值代表不同的识别可靠度水平。设计一套覆盖多种识别状态的分级阈值方案，包括潜在识别、识别以及更为严格的可靠识别所需的最低相似度。重点关注两项判据：潜在识别的最低相似度阈值与可靠识别的更严格阈值。估计三种叫声类型在两项判据下各自的有效通信距离，报告不确定度范围，并开展敏感性分析。比较三种叫声类型在长距离传播中的稳健性，判断哪一种更适合在海上进行相对远距离的信息传递。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0003-b0002": {
+    "input_hash": "4fe95c4a018c877be620457933e8c354932efbdda4f78e324fd9fb55b2488972",
+    "action": "translate",
+    "text": "问题 3 海上回放实验中行为反应的建模",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0004-b0010": {
+    "input_hash": "65a9863593e78ebd91e3fc2ac1944dba549a2b7de79cbd3713813224dcea3073",
+    "action": "translate",
+    "text": "数据来源： https://zenodo.org/records/21376649",
+    "styles": [
+      {
+        "start": 0,
+        "end": 5,
+        "source_anchor": "s0",
+        "color": 0
+      }
+    ],
+    "anchor_protocol": true
+  },
+  "p0005-b0001": {
+    "input_hash": "6a3b41cd187c5001f56d817ffef1fa1f6f189e227c0811bc9e2f7914546ea307",
+    "action": "translate",
+    "text": "补充数据文件：",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0006-b0001": {
+    "input_hash": "903e1f6ed8b5f35530cd99ef1a75c80929d6e9bd9f8953da4e374b02044db3c7",
+    "action": "translate",
+    "text": "更远距离处之间的包络相关度指标的数据文件）。",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0006-b0008": {
+    "input_hash": "926fa6f10cb48b4ce21b5fbc830935f44c414193d501ca869f1454edf572ab4b",
+    "action": "translate",
+    "text": "补充材料 1. 非洲企鹅群体规模的分布：",
+    "styles": [
+      {
+        "start": 0,
+        "end": 7,
+        "source_anchor": "s0",
+        "bold": true
+      }
+    ],
+    "anchor_protocol": true
+  },
+  "p0006-b0009": {
+    "input_hash": "4f10cdb516183188131708e48207bb54c3fc31164d43dc530cc858e35c9c594c",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0010": {
+    "input_hash": "ae1093c03f3c6d935ac38821f4dfdc7fdddb540128b6f9ccd190f1838f41f2ea",
+    "action": "translate",
+    "text": "补充材料 2. 回放实验的视频记录：",
+    "styles": [
+      {
+        "start": 0,
+        "end": 7,
+        "source_anchor": "s0",
+        "bold": true
+      }
+    ],
+    "anchor_protocol": true
+  },
+  "p0006-b0011": {
+    "input_hash": "09ea5a4513cba18abe18e2bdc9810aa7b6a4d87ce02d0ec41320afeaf4e7862d",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0012": {
+    "input_hash": "1147157a7a1fc9be9796ece431ac4cd4283ae598dbb7d3b4460d476a608922f1",
+    "action": "translate",
+    "text": "补充材料 3. 回放实验的建模分析：",
+    "styles": [
+      {
+        "start": 0,
+        "end": 7,
+        "source_anchor": "s0",
+        "bold": true
+      }
+    ],
+    "anchor_protocol": true
+  },
+  "p0006-b0013": {
+    "input_hash": "a0919eb1ddcdd5f522c4f78a8fc1fcc96bfe128b6b3f284b159d2128daa41f6a",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0014": {
+    "input_hash": "2070bbe56ee9e9c6be73fb287020b1b471eb9a1b765a1d5301dad577a5f40289",
+    "action": "translate",
+    "text": "补充材料 4. 信号衰减估计：",
+    "styles": [
+      {
+        "start": 0,
+        "end": 7,
+        "source_anchor": "s0",
+        "bold": true
+      }
+    ],
+    "anchor_protocol": true
+  },
+  "p0006-b0015": {
+    "input_hash": "f2b843a2bd480e1bc2c136a4ea5397442bedfeb4efcf85b14be58fd33bfa0141",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0016": {
+    "input_hash": "24128b7de2327a71d66084fd064fd21ebcdfe6f63c92165a0ed6f2463222b2c3",
+    "action": "translate",
+    "text": "补充材料 5. 非洲企鹅海面叫声的录音：",
+    "styles": [
+      {
+        "start": 0,
+        "end": 7,
+        "source_anchor": "s0",
+        "bold": true
+      }
+    ],
+    "anchor_protocol": true
+  },
+  "p0007-b0001": {
+    "input_hash": "30e014ac923609ccb15b21f547624dddf04a680b1d842033a212c932b0cc763c",
+    "action": "translate",
+    "text": "数据文件 01",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0007-b0010": {
+    "input_hash": "3d6f5e48caaa0c141dd7e338202c7aff2e52f12244099e272769bbb20c95d816",
+    "action": "translate",
+    "text": "数据文件 02",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0007-b0059": {
+    "input_hash": "c412fb0d05a75915468aecd21b2cf9d0f423866663fedd74b6a47f0a3ee9273b",
+    "action": "translate",
+    "text": "数据文件 03 至 11",
+    "styles": [],
+    "anchor_protocol": true
+  },
+  "p0006-b0017": {
+    "input_hash": "d3837cd51c295a380cf664be0640eddfcadaa201e41ea43b2d7213ad77597923",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0018": {
+    "input_hash": "9aa3d4410682ac8c5bba15c25a3bed155b6c18f66ae49d052e3f1f43bbf45c64",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0019": {
+    "input_hash": "d3837cd51c295a380cf664be0640eddfcadaa201e41ea43b2d7213ad77597923",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0020": {
+    "input_hash": "e83d32e20fbf95556db8896ee8e149924904e13044a90c41502fbd62a0ef2db1",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0021": {
+    "input_hash": "3f688eb399a36bf31effa655b108a89019c25159b9a7d2ccca8ff0560e4ea686",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  },
+  "p0006-b0022": {
+    "input_hash": "32f601a735e5b9e5270de44e4acb1dbdaf3389cebeacd21e55c32031df2f647d",
+    "action": "keep",
+    "keep_kind": "identifier",
+    "reason": "该行是补充材料的字面文件名（含下划线与扩展名），不作翻译，保留原文以免改动标识"
+  }
+}

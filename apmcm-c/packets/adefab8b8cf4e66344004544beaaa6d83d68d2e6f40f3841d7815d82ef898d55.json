@@ -1,0 +1,123 @@
+{
+  "protocol": 2,
+  "source": "0100957428d10aaa6711410ac6619b7ce83689ca1ae463dda89c2dd5bbbd66ed",
+  "snapshots": {
+    "p0001-b0001": "6a088d69a618fa229c177441a679bdd58e64e9e5c5c56c240fb1e8931dd23ee6",
+    "p0001-b0002": "8c0c20aadd4d5ba5d55429829b5ccee6646e95b93e56962763f501825f79f350",
+    "p0001-b0007": "7a743e0cb273e63e4a21a7016b65cd78a703e61db96b1a90d8ba7b490baae241",
+    "p0002-b0001": "6d538870dbeba24c8636a94c187cc10be1371cd09bc49d8a4fbb2878cfd1a11a",
+    "p0002-b0004": "5d83b7e6783eb49992221813014423a6346d6a4105845b7a6198a856abe62a96",
+    "p0002-b0017": "a7c50f960645a6b00950de1328a1bc31a60ba1b39d86eb454c14567adfc09678",
+    "p0003-b0001": "b972f700c41e0a139c48d8f83cc430d63ce4ca33a0beb07ca715fefb5e371974",
+    "p0003-b0002": "4fe95c4a018c877be620457933e8c354932efbdda4f78e324fd9fb55b2488972",
+    "p0004-b0010": "65a9863593e78ebd91e3fc2ac1944dba549a2b7de79cbd3713813224dcea3073",
+    "p0005-b0001": "6a3b41cd187c5001f56d817ffef1fa1f6f189e227c0811bc9e2f7914546ea307",
+    "p0006-b0001": "903e1f6ed8b5f35530cd99ef1a75c80929d6e9bd9f8953da4e374b02044db3c7",
+    "p0006-b0008": "926fa6f10cb48b4ce21b5fbc830935f44c414193d501ca869f1454edf572ab4b",
+    "p0006-b0009": "4f10cdb516183188131708e48207bb54c3fc31164d43dc530cc858e35c9c594c",
+    "p0006-b0010": "ae1093c03f3c6d935ac38821f4dfdc7fdddb540128b6f9ccd190f1838f41f2ea",
+    "p0006-b0011": "09ea5a4513cba18abe18e2bdc9810aa7b6a4d87ce02d0ec41320afeaf4e7862d",
+    "p0006-b0012": "1147157a7a1fc9be9796ece431ac4cd4283ae598dbb7d3b4460d476a608922f1",
+    "p0006-b0013": "a0919eb1ddcdd5f522c4f78a8fc1fcc96bfe128b6b3f284b159d2128daa41f6a",
+    "p0006-b0014": "2070bbe56ee9e9c6be73fb287020b1b471eb9a1b765a1d5301dad577a5f40289",
+    "p0006-b0015": "f2b843a2bd480e1bc2c136a4ea5397442bedfeb4efcf85b14be58fd33bfa0141",
+    "p0006-b0016": "24128b7de2327a71d66084fd064fd21ebcdfe6f63c92165a0ed6f2463222b2c3",
+    "p0007-b0001": "30e014ac923609ccb15b21f547624dddf04a680b1d842033a212c932b0cc763c",
+    "p0007-b0010": "3d6f5e48caaa0c141dd7e338202c7aff2e52f12244099e272769bbb20c95d816",
+    "p0007-b0059": "c412fb0d05a75915468aecd21b2cf9d0f423866663fedd74b6a47f0a3ee9273b"
+  },
+  "entries": [
+    [
+      "p0001-b0001",
+      "2026 Asia and Pacific Mathematical Contest in Modeling"
+    ],
+    [
+      "p0001-b0002",
+      "Problem C"
+    ],
+    [
+      "p0001-b0007",
+      "<s0>Figure 1.</s0> African penguins foraging in coastal waters"
+    ],
+    [
+      "p0002-b0001",
+      "raised their heads, approached, or vocalized in response. In addition, they conducted sound-propagation experiments to quantify how call spectra degrade as transmission distance increases. These experimental data provide a basis for characterizing the effective range of African penguin acoustic communication at sea, its behavioral response patterns, and its relevance to species conservation."
+    ],
+    [
+      "p0002-b0004",
+      "Problem 1 Acoustic characteristics and classification of sea-surface calls"
+    ],
+    [
+      "p0002-b0017",
+      "Assume that penguins' ability to recognize calls depends on whether the correlation"
+    ],
+    [
+      "p0003-b0001",
+      "between a signal after propagation and the original call reaches specified thresholds, with different thresholds representing different levels of recognition reliability. Design a tiered threshold scheme covering multiple recognition states, including the minimum similarity for potential recognition, recognition, and more stringent reliable recognition. Focus on two criteria: the minimum similarity threshold for potential recognition and the more stringent threshold for reliable recognition. Estimate the effective communication range of each of the three call types under both criteria, report uncertainty ranges, and conduct sensitivity analyses. Compare the robustness of the three call types over long-distance propagation and determine which is better suited to transmitting information over relatively long distances at sea."
+    ],
+    [
+      "p0003-b0002",
+      "Problem 3 Modeling behavioral responses in marine playback experiments"
+    ],
+    [
+      "p0004-b0010",
+      "<s0>Data source:</s0> https://zenodo.org/records/21376649"
+    ],
+    [
+      "p0005-b0001",
+      "Supplementary data files:"
+    ],
+    [
+      "p0006-b0001",
+      "at further distances.)"
+    ],
+    [
+      "p0006-b0008",
+      "<s0>Supplementary 1.</s0> Distribution of African penguin group sizes:"
+    ],
+    [
+      "p0006-b0009",
+      "\"Supplementary1_Distribution_of_African_penguin_group_sizes.pdf\""
+    ],
+    [
+      "p0006-b0010",
+      "<s0>Supplementary 2.</s0> Video recordings of a playback experiment:"
+    ],
+    [
+      "p0006-b0011",
+      "\"Supplementary2_Video_recordings_of_a_playback_experiment.mp4\""
+    ],
+    [
+      "p0006-b0012",
+      "<s0>Supplementary 3.</s0> Modelling analyses on playback experiments:"
+    ],
+    [
+      "p0006-b0013",
+      "\"Supplementary3_Modelling_analyses_on_playback_experiments.pdf\""
+    ],
+    [
+      "p0006-b0014",
+      "<s0>Supplementary 4.</s0> Signal degradation estimation:"
+    ],
+    [
+      "p0006-b0015",
+      "\"Supplementary4_Signaldegradationestimation.pdf\""
+    ],
+    [
+      "p0006-b0016",
+      "<s0>Supplementary 5.</s0> Audio recordings of African penguins’ sea-surface calls:"
+    ],
+    [
+      "p0007-b0001",
+      "Data file 01"
+    ],
+    [
+      "p0007-b0010",
+      "Data file 02"
+    ],
+    [
+      "p0007-b0059",
+      "Data files 03 to 11"
+    ]
+  ]
+}

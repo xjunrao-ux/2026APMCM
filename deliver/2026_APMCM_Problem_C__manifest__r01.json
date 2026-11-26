@@ -1,0 +1,30 @@
+{
+  "source_name": "2026 APMCM Problem C.pdf",
+  "source_sha256": "0100957428d10aaa6711410ac6619b7ce83689ca1ae463dda89c2dd5bbbd66ed",
+  "status": "complete",
+  "revision": 1,
+  "task_revision": "b5a35a9341ea1bd144a9aac403ed7c7170736a55c7a7b7828ca6b4cf2af7e0a4",
+  "alignment": "paired",
+  "files": [
+    {
+      "file": "2026_APMCM_Problem_C__zh-CN__r01.pdf",
+      "sha256": "06ceb9bbd41645c2db1e8f05c955065116639fc811e56574dd652e08eb126354",
+      "bytes": 14937795
+    },
+    {
+      "file": "2026_APMCM_Problem_C__en-zh-CN__r01.pdf",
+      "sha256": "3ae98a80a5f7843efd0f58a019ba69c290470a15c03ce246e9977a49bd40f583",
+      "bytes": 14946665
+    },
+    {
+      "file": "2026_APMCM_Problem_C__review__r01.md",
+      "sha256": "75359dfa9e6add8a9d14bc48640aea7a0995f36d3e59999156bef3a3f201d062",
+      "bytes": 2751
+    },
+    {
+      "file": "2026_APMCM_Problem_C__qa__r01.json",
+      "sha256": "d6339e6ea1cc3d27799147049f05bd0b78b451d2ae70cbd1a7be61db2bc048ef",
+      "bytes": 279570
+    }
+  ]
+}
