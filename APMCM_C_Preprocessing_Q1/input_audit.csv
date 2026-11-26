@@ -1,0 +1,12 @@
+﻿file,source_rows,source_columns,duplicate_rows,missing_cells
+Data01_AfricanPenguins_seasurface_calls_acoustics.csv,108,11,0,138
+Data02_AfricanPenguins_playbacks_data.csv,278,40,0,5619
+Data03_correlation1m_flat_call_spectrogram.csv,300,7,0,140
+Data04_correlation1m_modulated_call_spectrogram.csv,300,7,0,70
+Data05_correlation1m_twovoice_call_spectrogram.csv,300,7,0,240
+Data06_correlation1m_flat_call_amplitude_spectrum.csv,300,7,0,140
+Data07_correlation1m_modulated_call_amplitude_spectrum.csv,300,7,0,70
+Data08_correlation1m_twovoice_call_amplitude_spectrum.csv,300,7,0,240
+Data09_correlation1m_flat_call_envelope.csv,300,7,0,140
+Data10_correlation1m_modulated_call_envelope.csv,300,7,0,70
+Data11_correlation1m_twovoice_call_envelope.csv,300,7,0,240

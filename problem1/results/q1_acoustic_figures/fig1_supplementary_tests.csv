@@ -1,0 +1,3 @@
+﻿comparison,metric,n_mod,n_tv,median_mod,median_tv,U,p,cliff_delta,note
+mod/tv,PulseRate,34.0,20,28.358,31.072000000000003,279.0,0.2784965925308338,-0.17941176470588238,single pre-specified comparison; not in the Holm family
+tv: F02 vs F01,F02,,24,,303.5,0.0,1.8072402374229977e-05,,F02 above F01 in 24/24 calls; median difference 29.5 Hz

@@ -1,0 +1,30 @@
+{
+  "source_name": "2026 APMCM Essay format and submission specifications.pdf",
+  "source_sha256": "a1b3f5235dcc94d0359b2042c137ff217696a140169f91097e54f3bf7132d88e",
+  "status": "complete",
+  "revision": 1,
+  "task_revision": "645adbdaccff6219eaf1efcd5d289a9cfa38420240b281810be29accc5e735c0",
+  "alignment": "paired",
+  "files": [
+    {
+      "file": "2026_APMCM_Essay_format_and_submission_specifications__zh-CN__r01.pdf",
+      "sha256": "6912388009b3a8e872609fcae3aaa5075910ef79e9fbe36bdcce2cda0b1c418b",
+      "bytes": 14704552
+    },
+    {
+      "file": "2026_APMCM_Essay_format_and_submission_specifications__en-zh-CN__r01.pdf",
+      "sha256": "ef0aa22f2b1db6a2147f25f3f2b3a8a8b8dd57206e519150287d5175124b4ed6",
+      "bytes": 14737021
+    },
+    {
+      "file": "2026_APMCM_Essay_format_and_submission_specifications__review__r01.md",
+      "sha256": "e2faa6e8a7eb6d115aeabf9384cac9e9001c3e8a0fefe619b7baa1c5a808635f",
+      "bytes": 2714
+    },
+    {
+      "file": "2026_APMCM_Essay_format_and_submission_specifications__qa__r01.json",
+      "sha256": "c51db531388e9fffeb8f2450329945caef7c4028cde4b3c82e574ff02b8f783a",
+      "bytes": 90660
+    }
+  ]
+}
