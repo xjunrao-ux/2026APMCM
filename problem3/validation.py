@@ -2,11 +2,11 @@ from itertools import combinations
 
 import numpy as np
 import pandas as pd
-from scipy.special import expit, log_ndtr, logsumexp, ndtr
+from scipy.special import expit, log_ndtr, logsumexp
 from scipy.stats import binomtest, chi2
 
 from models import (BEHAVIORS, BITS, CALLS, COMBOS, WINDOW, count_fit, count_nll,
-                    design, estimate, fit, logistic, predict)
+                    design, estimate, fit, logistic, predict, window_time_cdf)
 
 
 def folds(d, seed):
@@ -51,14 +51,16 @@ def aft_loss(x,t,event,b,family):
     return -np.where(event,np.where(t==0,logcdf,logpdf),logsurv)
 
 
-def cross_validate(d,splits,structure,count_family):
+def cross_validate(d,splits,seed):
     parts, comparisons = [], []
     for fold, test in enumerate(splits):
         train, val = d[~test],d[test]
+        _,structure,count_family=select(train,folds(train,seed+fold+1))
         m = fit(train,np.ones(len(train)),structure,count_family)
         p, cp, _, time, intensity = predict(val,m,structure,count_family)
         result = val[["expID","Type","ResponseYesNo","code"]].copy()
         result["fold"], result["overall_probability"] = fold,p
+        result["overall_structure"],result["positive_count_family"]=structure,count_family
         result["combo_logloss"] = -np.log(cp[np.arange(len(val)),val.code])
         # Positive durations are recorded as integer seconds. Benchmark the
         # original study's count family with the same marginal covariates.
@@ -71,7 +73,7 @@ def cross_validate(d,splits,structure,count_family):
             pr, _, _, _, mu, sigma = time[:,j].T
             e, t = val[h+"YesNo"].to_numpy(bool),val[h+"Latency"].to_numpy()
             for horizon in [5,15,60]:
-                pred = pr*ndtr((np.log(horizon)-mu)/sigma)/ndtr((np.log(60)-mu)/sigma)
+                pred = pr*window_time_cdf(horizon,mu,sigma)
                 result[h+f"_observed_{horizon}"] = (e & (t<=horizon)).astype(int)
                 result[h+f"_predicted_{horizon}"] = pred
             z = (np.log(np.where(e & (t>0),t,.5))-mu)/sigma
@@ -108,7 +110,8 @@ def paired_tests(d, seed):
     for _ in range(100):
         signs = rng.integers(0,2,size=(500,len(c)))*2-1
         exceed += np.count_nonzero(((signs@differences)**2).sum(axis=1)>=stat)
-    return int(plus),int(minus),binomtest(plus,plus+minus).pvalue,(1+exceed)/50001
+    paired_p = binomtest(plus,plus+minus).pvalue if plus+minus else 1.
+    return int(plus),int(minus),paired_p,(1+exceed)/50001
 
 
 def overall_checks(d,structure):

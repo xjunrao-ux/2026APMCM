@@ -4,6 +4,60 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from models import BEHAVIORS, CALLS, CONTEXTS, WINDOW
+
+
+def verify_curves(curves, times, data, keys):
+    group = keys + ["behavior"]
+    assert not curves.duplicated(group + ["time_s"]).any()
+    horizons = sorted(curves.time_s.unique())
+    assert horizons[0] == 0 and horizons[-1] == WINDOW
+    assert len(curves) == len(times) * len(horizons)
+    joined = curves.merge(times[group+["p_event_60","median_if_event_s"]],
+                          on=group, how="left", validate="many_to_one", indicator=True)
+    assert joined._merge.eq("both").all()
+    supported = joined.events_in_call_all_contexts.gt(0)
+    assert joined.p_by_t_given_event.notna().equals(supported)
+    assert joined.p_event_by_t.between(0,1).all()
+    np.testing.assert_allclose(joined.loc[supported,"p_by_t_given_event"] * joined.loc[supported,"p_event_60"],
+                               joined.loc[supported,"p_event_by_t"],atol=1e-9)
+    assert joined.loc[joined.time_s.eq(0),"p_event_by_t"].eq(0).all()
+    end = joined[joined.time_s.eq(WINDOW)]
+    np.testing.assert_allclose(end.p_event_by_t,end.p_event_60)
+    for col in ["p_event_by_t","p_by_t_given_event"]:
+        diffs = joined.sort_values("time_s").groupby(group)[col].diff().dropna()
+        assert (diffs >= -1e-9).all()
+    before = supported & (joined.time_s < joined.median_if_event_s)
+    after = supported & (joined.time_s > joined.median_if_event_s)
+    assert joined.loc[before,"p_by_t_given_event"].le(.5+1e-8).all()
+    assert joined.loc[after,"p_by_t_given_event"].ge(.5-1e-8).all()
+    weights = data.Context.value_counts(normalize=True)
+    detail = curves[curves.Context.ne("standardized")].copy()
+    detail["weighted"] = detail.Context.map(weights) * detail.p_event_by_t
+    mixed_keys = ["CallType","Distance","Npenguins","behavior","time_s"]
+    expected = detail.groupby(mixed_keys).weighted.sum().sort_index()
+    actual = curves.query("Context=='standardized'").set_index(mixed_keys).p_event_by_t.sort_index()
+    pd.testing.assert_index_equal(expected.index,actual.index)
+    np.testing.assert_allclose(expected,actual,atol=1e-9)
+
+
+def verify_trials(trials, data):
+    observed = data.merge(trials,on=["expID","Type"],validate="one_to_one",
+                          suffixes=("_raw","_fit"))
+    assert len(observed)==len(data)==len(trials)
+    for r in observed.itertuples():
+        event_times = {h:getattr(r,h+"Latency") for h in BEHAVIORS if getattr(r,h+"YesNo")}
+        combo = "".join(x for x,h in zip("HVA",BEHAVIORS) if h in event_times) or "000"
+        assert r.observed_combo==combo
+        if event_times:
+            first=min(event_times.values())
+            assert first==r.first_observed_s
+            assert r.first_behaviors.split("+")==[h for h,t in event_times.items() if t==first]
+        else:
+            assert pd.isna(r.first_observed_s) and pd.isna(r.first_behaviors)
+            assert np.isclose(r.fitted_p_observed_combo,1-r.fitted_p_any_behavior)
+    assert trials.filter(regex="^fitted_p_").apply(lambda s:s.between(0,1).all()).all()
+
 
 def main():
     here = Path(__file__).resolve().parent
@@ -13,13 +67,25 @@ def main():
         pd.read_csv(output / f"q3_{name}_predictions.csv")
         for name in ["overall_response", "behavior_combo", "latency", "intensity"]
     ]
+    curves=pd.read_csv(output/"q3_latency_curves.csv")
+    trials=pd.read_csv(output/"q3_trial_responses.csv",dtype={"observed_combo":str})
+    context=pd.read_csv(output/"q3_context_contrasts.csv")
+    oof=pd.read_csv(output/"grouped_oof.csv")
     assert [len(frame) for frame in [overall, combos, times, intensity]] == [36, 288, 144, 108]
     keys = ["CallType", "Distance", "Context", "Npenguins"]
     assert set(combos.combo) == {"000", "H", "V", "A", "HV", "HA", "VA", "HVA"}
     assert not combos.duplicated(keys + ["combo"]).any()
     assert not times.duplicated(keys + ["behavior"]).any()
-    positive = combos[combos.combo != "000"].groupby(keys).p_all.sum().sort_index()
-    assert np.allclose(positive, overall.set_index(keys).p_response.sort_index())
+    assert np.allclose(combos.groupby(keys).p_all.sum(),1)
+    assert np.allclose(combos.groupby(keys).p_given_any.sum(),1)
+    assert np.allclose(intensity.p_positive*intensity.mean_if_positive,intensity.expected_all)
+    empty = combos[combos.combo=="000"].set_index(keys).p_all.sort_index()
+    positive = combos[combos.combo!="000"].copy()
+    expected_any = 1-positive.set_index(keys).index.map(empty).to_numpy()
+    assert np.allclose(positive.p_all,expected_any*positive.p_given_any)
+    flags = data[[h+"YesNo" for h in BEHAVIORS]].any(axis=1)
+    if flags.eq(data.ResponseYesNo).all():
+        assert np.allclose(1-empty,overall.set_index(keys).p_response.sort_index())
     assert times.Npenguins.eq(data.Npenguins.median()).all()
     for row in times.itertuples():
         exact = data[data.CallType.eq(row.CallType) & data.Distance.eq(row.Distance)
@@ -32,17 +98,40 @@ def main():
             assert np.isclose(row.p_event_60, cell.loc[cell.combo.str.contains(letter), "p_all"].sum())
         assert len(exact) == row.n_exact
         assert exact[row.behavior + "YesNo"].sum() == row.events_exact
+        actual=exact.loc[exact[row.behavior+"YesNo"].eq(1),row.behavior+"Latency"]
+        assert np.isclose(actual.median(),row.observed_median_if_event_s,equal_nan=True)
+        status="无该条件观测" if exact.empty else ("无响应" if actual.empty else "观察到响应")
+        assert row.observed_status==status
+        cell=data[data.CallType.eq(row.CallType)]
+        assert cell[row.behavior+"YesNo"].sum()==row.events_in_call_all_contexts
+        if row.Context!="standardized":
+            cell=cell[cell.Context.eq(row.Context)]
+        ranges=cell.groupby("Context").Distance.agg(["min","max"])
+        assert row.outside_distance_range==((ranges["min"]>row.Distance)|(ranges["max"]<row.Distance)).any()
         assert 60 * row.p_no_event_60 - 1e-7 <= row.rmst_60_s <= 60
-    unsupported = times.CallType.eq("control") & times.behavior.eq("Approach")
-    assert times.loc[unsupported, "median_if_event_s"].isna().all()
-    partial_extrapolation = times.CallType.eq("mod") & times.Context.eq("standardized") & times.Distance.eq(150)
-    assert times.loc[partial_extrapolation, "outside_distance_range"].all()
-    for frame in [overall, times, combos, intensity]:
+    assert times.median_if_event_s.isna().equals(times.events_in_call_all_contexts.eq(0))
+    assert np.allclose(times.p_event_60+times.p_no_event_60,1)
+    verify_curves(curves,times,data,keys)
+    verify_trials(trials,data)
+    assert set(context.Context)==set(CONTEXTS)
+    assert len(context)==len(CONTEXTS)*len(CALLS)
+    assert not context.duplicated(["Context","CallType"]).any()
+    for _,g in context.groupby("Context"):
+        arms=g.set_index("CallType")
+        assert set(arms.index)=={*CALLS[1:],"natural_equal"}
+        assert np.isclose(arms.loc[CALLS[1:],"p_call"].mean(),arms.loc["natural_equal","p_call"])
+        assert g.p_control.nunique()==1
+        assert np.allclose(g.p_call-g.p_control,g.risk_difference,atol=1e-9)
+    assert len(oof)==len(oof.merge(data[["expID","Type"]],validate="one_to_one"))==len(data)
+    assert oof.groupby("expID").fold.nunique().eq(1).all() and oof.fold.nunique()==5
+    assert oof.groupby("fold")[["overall_structure","positive_count_family"]].nunique().eq(1).all().all()
+    for frame in [overall, times, combos, intensity, curves, context]:
         for low in frame.filter(regex="_lo$"):
             high = low[:-3] + "_hi"
             assert frame[low].isna().equals(frame[high].isna())
             assert (frame[low].dropna() <= frame[high].dropna()).all()
-    print("Verified four CSV interfaces against the original data and probability/time identities.")
+    print(f"Verified {len(trials)} trials, {len(curves)} curve rows, {len(context)} context contrasts, "
+          "grouped folds, and all four prediction interfaces against Data02.")
 
 
 if __name__ == "__main__":

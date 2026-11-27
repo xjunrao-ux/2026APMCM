@@ -8,9 +8,10 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from scipy.special import expit, ndtr
+from scipy.special import expit, softmax
 
-from models import BEHAVIORS, BITS, CALLS, COMBOS, CONTEXTS, combo_design, design, fit, predict
+from models import (BEHAVIORS, BITS, CALLS, COMBOS, CONTEXTS, WINDOW, combo_design,
+                    design, fit, predict, window_time_cdf)
 from validation import comparisons, cross_validate, folds, overall_checks, paired_tests, select
 
 HERE = Path(__file__).resolve().parent
@@ -19,6 +20,7 @@ OUT = HERE / "results"
 SEED = 20261127
 TARGETS = ["HeadsUpDuration","VocalNcalls","ApproachDuration"]
 KEYS = ["CallType","Distance","Context","Npenguins"]
+HORIZONS = np.array([0, .5, 1, 1.5, 1.75, 2, 5, 10, 15, 30, 45, WINDOW])
 PROTOCOL = "https://ore.eu/article/view/1538/version/2510"
 
 
@@ -43,6 +45,9 @@ def audit(d):
                                        "distinct","min","max"]),"field_audit")
     pairs=d.groupby("expID")
     assert (pairs.size()==2).all() and (pairs.Type.nunique()==2).all()
+    assert set(d.CallType)==set(CALLS) and set(d.Context)==set(CONTEXTS)
+    assert d[["CallType","Context","Type","expID"]].notna().all().all()
+    assert set(d.Type)=={"call","control"}
     assert (d.Type.eq("call")==d.CallType.ne("control")).all()
     needed=["Distance","Npenguins","ResponseYesNo","VocalNcallsBefore",*TARGETS]+[h+"YesNo" for h in BEHAVIORS]
     assert not d[needed].isna().any().any()
@@ -60,7 +65,9 @@ def audit(d):
                               flag_used_for_time=d.loc[mask,h+"YesNo"],
                               analysis_time_s=np.where(flag[mask],d.loc[mask,h+"Latency"],60),
                               decision="原值保留；潜伏期按YesNo；强度按实测值"))
-    save(pd.concat(issues,ignore_index=True),"audit_discrepancies")
+    empty_issues=raw.iloc[:0].reindex(columns=[*raw,"csv_line","field","flag_used_for_time",
+                                               "analysis_time_s","decision"])
+    save(pd.concat([empty_issues,*issues],ignore_index=True),"audit_discrepancies")
     d["code"]=d[[h+"YesNo" for h in BEHAVIORS]].to_numpy() @ BITS
     counts = pd.crosstab(d.Type,d.code).reindex(columns=range(8),fill_value=0)
     counts.columns=COMBOS
@@ -72,7 +79,7 @@ def audit(d):
     save(tracks,"track_audit")
     base_match=(d.VocalRelNCalls==np.maximum(0,d.VocalNcalls-d.VocalNcallsBefore)).sum()
     mismatch=(d.ResponseYesNo.ne(d.code>0)).sum()
-    if mismatch:
+    if mismatch or (OUT/"overall_flag_discrepancies.csv").exists():
         save(raw.loc[d.ResponseYesNo.ne(d.code>0)],"overall_flag_discrepancies")
     text=f"""# Data02 数据审计
 
@@ -98,31 +105,66 @@ def with_intervals(meta,values,boot,names):
 
 def integrate_context(time,weights):
     # Median of an incidence-weighted mixture, rather than mean of medians.
-    by=time.reshape(-1,3,3,6)
+    by=time.reshape(-1,len(CONTEXTS),len(BEHAVIORS),6)
     p=by[:,:,:,0]*weights[None,:,None]
     event=p.sum(axis=1)
     mu,sig=by[:,:,:,4],by[:,:,:,5]
-    denom=ndtr((np.log(60)-mu)/sig)
     low=np.zeros_like(event)
-    high=low+60
+    high=low+WINDOW
     for _ in range(33):
         mid=(low+high)/2
-        cdf=(p*ndtr((np.log(mid[:,None,:])-mu)/sig)/denom).sum(axis=1)
+        cdf=(p*window_time_cdf(mid[:,None,:],mu,sig)).sum(axis=1)
         smaller=cdf<.5*event
         low,high=np.where(smaller,mid,low),np.where(smaller,high,mid)
     rmst=(by[:,:,:,3]*weights[None,:,None]).sum(axis=1)
     return np.stack([event,1-event,(low+high)/2,rmst],axis=-1)
 
 
+def latency_curves(time, weights):
+    p60 = time[:, :, 0, None]
+    conditional = window_time_cdf(HORIZONS, time[:, :, 4, None], time[:, :, 5, None])
+    all_trials = p60 * conditional
+    # grid rows are ordered by (call, distance, context); average joint
+    # probabilities before conditioning on an event in the window.
+    def mix(values):
+        by_context = values.reshape(-1, len(CONTEXTS), *values.shape[1:])
+        return np.einsum("c,gcbt->gbt", weights, by_context)
+    mixed = mix(all_trials)
+    joint = np.concatenate([all_trials, mixed])
+    given_event = np.concatenate([conditional, mixed / mix(p60)])
+    return np.stack([joint, given_event], axis=-1)
+
+
+def trial_responses(d, model, structure, family):
+    out = d[["expID","Type",*KEYS,"ResponseYesNo"]].copy()
+    out["observed_combo"] = np.take(COMBOS, d.code)
+    observed = pd.DataFrame({h: d[h+"Latency"].where(d[h+"YesNo"].eq(1))
+                             for h in BEHAVIORS})
+    out["first_observed_s"] = observed.min(axis=1)
+    ties = observed.eq(out.first_observed_s, axis="index")
+    out["first_behaviors"] = ["+".join(ties.columns[row]) for row in ties.to_numpy()]
+    prob, combos, _, _, _ = predict(d,model,structure,family)
+    out["fitted_p_response"] = prob
+    out["fitted_p_any_behavior"] = 1 - combos[:,0]
+    out["fitted_p_observed_combo"] = combos[np.arange(len(d)), d.code]
+    return out
+
+
 def predictions(d,grid,standard,ctx_weights,model,structure,family):
     overall,cp,q,tm,im=predict(grid,model,structure,family)
     b,gate,classes,_,_=model
-    x,z=standard
-    from scipy.special import softmax
+    x,z,context_design=standard
     s=expit(z@b).reshape(4,-1).mean(axis=1)
     p=expit(z@gate)
     scp=np.column_stack([1-p,p[:,None]*softmax(combo_design(x)@classes,axis=1)]).reshape(4,len(d),8).mean(axis=1)
     standardized=comparisons(s,scp)
+    # Hold distance and group size at the same empirical distribution across
+    # all contexts, and use a common control in each within-context contrast.
+    by_context = expit(context_design @ b).mean(axis=-1)
+    natural = by_context[:,1:]
+    arms = np.column_stack([natural,natural.mean(axis=1)])
+    control = np.broadcast_to(by_context[:,:1],arms.shape)
+    context_effects = np.stack([arms,control,arms-control],axis=-1)
     marginal=[]
     for var,step in [("Distance",10),("Npenguins",1)]:
         inside=d[var]<=d[var].max()-step
@@ -130,7 +172,8 @@ def predictions(d,grid,standard,ctx_weights,model,structure,family):
         modified=orig.assign(**{var:orig[var]+step})
         marginal.append((expit(design(modified,structure)@b)-expit(design(orig,structure)@b)).mean())
     return [overall[:,None],cp[:,:,None],q[:,:,None],tm[:,:,:4],im,integrate_context(tm,ctx_weights),
-            standardized,np.column_stack([s,scp]),np.array(marginal)[:,None]]
+            standardized,np.column_stack([s,scp]),np.array(marginal)[:,None],
+            latency_curves(tm,ctx_weights),context_effects]
 
 
 def support(d,meta):
@@ -161,16 +204,19 @@ def main(n_boot):
     splits=folds(d,SEED)
     scores,structure,family=select(d,splits)
     save(scores,"candidate_cv")
-    val,times=cross_validate(d,splits,structure,family)
+    val,times=cross_validate(d,splits,SEED)
     save(val,"grouped_oof")
     save(times,"survival_cv")
     weights=np.ones(len(d))
     model=fit(d,weights,structure,family)
+    save(trial_responses(d,model,structure,family),"q3_trial_responses")
     grid=pd.DataFrame(product(CALLS,[50,100,150],CONTEXTS),columns=KEYS[:3])
     grid["Npenguins"]=d.Npenguins.median()
     grid["VocalNcallsBefore"]=d.VocalNcallsBefore.median()
     common=pd.concat([d.assign(CallType=c) for c in CALLS],ignore_index=True)
-    standard=design(common),design(common,structure)
+    context_design=np.stack([design(common.assign(Context=c),structure)
+                             .reshape(len(CALLS),len(d),-1) for c in CONTEXTS])
+    standard=design(common),design(common,structure),context_design
     ctx_weights=d.Context.value_counts(normalize=True).reindex(CONTEXTS).to_numpy()
     args=(d,grid,standard,ctx_weights)
     point=predictions(*args,model,structure,family)
@@ -199,10 +245,19 @@ def main(n_boot):
     avggrid=grid[KEYS].drop_duplicates(["CallType","Distance"]).assign(Context="standardized")
     avg=interval(5,support(d,avggrid.merge(labels,how="cross")),tnames)
     latency=pd.concat([lat,avg],ignore_index=True)
-    # No timing estimate for an entirely unsupported treatment-behavior pair.
-    for col in ["median_if_event_s","median_if_event_s_lo","median_if_event_s_hi"]:
-        latency.loc[(latency.CallType=="control") & (latency.behavior=="Approach"),col]=np.nan
+    event_counts=d.groupby("CallType")[[h+"YesNo" for h in BEHAVIORS]].sum()
+    call_behavior_n={(c,h): int(event_counts.loc[c,h+"YesNo"]) for c in CALLS for h in BEHAVIORS}
+    latency["events_in_call_all_contexts"]=[call_behavior_n[c,h] for c,h in
+                                            zip(latency.CallType,latency.behavior)]
+    unsupported=latency.events_in_call_all_contexts.eq(0)
+    latency.loc[unsupported,["median_if_event_s","median_if_event_s_lo","median_if_event_s_hi"]]=np.nan
     save(latency,"q3_latency_predictions")
+    curve_keys=latency[[*KEYS,"behavior","events_in_call_all_contexts","outside_distance_range"]]
+    curve_grid=curve_keys.merge(label(HORIZONS,"time_s"),how="cross")
+    curves=interval(9,curve_grid,["p_event_by_t","p_by_t_given_event"])
+    conditional_cols=["p_by_t_given_event"+suffix for suffix in ["","_lo","_hi"]]
+    curves.loc[curves.events_in_call_all_contexts.eq(0),conditional_cols]=np.nan
+    save(curves,"q3_latency_curves")
     intensity=interval(4,grid.merge(label(TARGETS,"measure"),how="cross"),
                        ["p_positive","mean_if_positive","expected_all"])
     save(intensity,"q3_intensity_predictions")
@@ -214,6 +269,10 @@ def main(n_boot):
     save(st,"q3_standardized_by_call")
     effects=interval(8,label(["Distance_plus_10m","Npenguins_plus_1"],"change"),["risk_difference"])
     save(effects,"q3_covariate_effects")
+    context_rows=pd.DataFrame(product(CONTEXTS,[*CALLS[1:],"natural_equal"]),
+                              columns=["Context","CallType"])
+    context_effects=interval(10,context_rows,["p_call","p_control","risk_difference"])
+    save(context_effects,"q3_context_contrasts")
     assert np.allclose(cf.groupby(KEYS).p_all.sum(),1)
     assert np.allclose(cf.groupby(KEYS).p_given_any.sum(),1)
     assert np.allclose(latency.p_no_event_60+latency.p_event_60,1)
@@ -232,15 +291,15 @@ def main(n_boot):
         for j,h in enumerate(BEHAVIORS):
             ss[h+"_p60"]=t[:,j,0]
             ss[h+"_median_if_event_s"]=t[:,j,2]
-            if h=="Approach":
-                ss.loc[ss.CallType=="control",h+"_median_if_event_s"]=np.nan
+            event_flag=d[h+"Latency"].notna() if alt else d[h+"YesNo"].eq(1)
+            ss.loc[~ss.CallType.isin(d.loc[event_flag,"CallType"]),h+"_median_if_event_s"]=np.nan
         sensitivity.append(ss)
     save(pd.concat(sensitivity),"sensitivity")
     score_p,glmm_sd,glmm=overall_checks(d,structure)
     plus,minus,paired_p,combo_p=paired_tests(d,SEED)
     from report import report
     report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,minus,
-           paired_p,combo_p,score_p,glmm_sd,glmm,intensity)
+           paired_p,combo_p,score_p,glmm_sd,glmm,intensity,context_effects,curves)
     print("All prediction identities and grouped-fold checks passed.",flush=True)
 
 

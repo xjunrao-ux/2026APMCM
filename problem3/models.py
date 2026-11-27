@@ -112,6 +112,17 @@ def time_summary(x, b, p):
                             np.full(len(x), sigma)])
 
 
+def window_time_cdf(seconds, mu, sigma):
+    """Fraction of within-window responders that have started by time t."""
+    seconds = np.asarray(seconds, dtype=float)
+    if np.any((seconds < 0) | (seconds > WINDOW)):
+        raise ValueError("Time must lie inside the observation window")
+    log_t = np.log(np.maximum(seconds, np.finfo(float).tiny))
+    log_f = log_ndtr((log_t - mu) / sigma)
+    log_f_window = log_ndtr((np.log(WINDOW) - mu) / sigma)
+    return np.where(seconds == 0, 0., np.exp(log_f - log_f_window))
+
+
 def count_nll(x, y, b, family):
     eta = np.clip(x @ b[:x.shape[1]], -12, 10)
     mean = np.exp(eta)
