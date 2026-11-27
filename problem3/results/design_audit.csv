@@ -1,0 +1,13 @@
+﻿Type,CallType,Context,n,responses,distance_min,distance_max
+call,flat,after,12,8,5,200
+call,flat,commuting,25,11,5,150
+call,flat,searching,11,10,50,150
+call,mod,after,9,6,30,120
+call,mod,commuting,15,6,20,150
+call,mod,searching,9,9,10,150
+call,tv,after,15,5,20,200
+call,tv,commuting,25,18,20,150
+call,tv,searching,18,17,40,200
+control,control,after,36,7,5,200
+control,control,commuting,65,6,5,200
+control,control,searching,38,5,20,200

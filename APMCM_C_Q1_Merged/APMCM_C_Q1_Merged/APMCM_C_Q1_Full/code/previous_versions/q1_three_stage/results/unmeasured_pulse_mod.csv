@@ -1,0 +1,7 @@
+﻿source_row,Date,Location,CallType,F02,PulseRate,stage,rules_only,single_logistic_05,stack_05,stack_tuned,fold,stack_score_mod,stack_threshold,single_score_mod
+10,2021-07-16,FalseBay,mod,,,3,flat,flat,mod,flat,3,0.5541390705545105,1.0,0.38276170994733866
+49,2022-06-09,FalseBay,mod,,,3,flat,mod,mod,flat,9,0.6158166758137492,1.0,0.7165784224658646
+79,2022-06-25,FalseBay,mod,,,3,flat,flat,mod,flat,14,0.6150090870706052,1.0,0.1966993978620437
+105,2022-06-28,FalseBay,mod,,,3,flat,flat,flat,flat,16,0.03057414538399323,0.8,0.007128754149437279
+107,2022-06-28,FalseBay,mod,,,3,flat,flat,flat,flat,16,0.01773741401093652,0.8,0.007706935202975919
+108,2022-06-28,FalseBay,mod,,,3,flat,flat,flat,flat,16,0.03481746189274195,0.8,0.07278967959508746

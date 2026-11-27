@@ -1,0 +1,17 @@
+﻿call_type,outcome,label,n,positive,proportion
+flat,ResponseYesNo,Any response,48,29,0.6041666666666666
+flat,HeadsUpYesNo,Heads up,48,21,0.4375
+flat,VocalYesNo,Vocal response,48,26,0.5416666666666666
+flat,ApproachYesNo,Approach,48,4,0.08333333333333333
+mod,ResponseYesNo,Any response,33,21,0.6363636363636364
+mod,HeadsUpYesNo,Heads up,33,15,0.45454545454545453
+mod,VocalYesNo,Vocal response,33,16,0.48484848484848486
+mod,ApproachYesNo,Approach,33,8,0.24242424242424243
+tv,ResponseYesNo,Any response,58,40,0.6896551724137931
+tv,HeadsUpYesNo,Heads up,58,19,0.3275862068965517
+tv,VocalYesNo,Vocal response,58,34,0.5862068965517241
+tv,ApproachYesNo,Approach,58,11,0.1896551724137931
+control,ResponseYesNo,Any response,139,18,0.12949640287769784
+control,HeadsUpYesNo,Heads up,139,13,0.09352517985611511
+control,VocalYesNo,Vocal response,139,5,0.03597122302158273
+control,ApproachYesNo,Approach,139,0,0.0

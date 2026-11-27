@@ -1,0 +1,12 @@
+﻿input,rows,columns,check
+Data01_AfricanPenguins_seasurface_calls_acoustics.csv,108,11,Same columns and values after date normalization
+Data02_AfricanPenguins_playbacks_data.csv,278,40,Same columns and values after date normalization
+Data03_correlation1m_flat_call_spectrogram.csv,300,7,Same values and missing cells after reshaping
+Data04_correlation1m_modulated_call_spectrogram.csv,300,7,Same values and missing cells after reshaping
+Data05_correlation1m_twovoice_call_spectrogram.csv,300,7,Same values and missing cells after reshaping
+Data06_correlation1m_flat_call_amplitude_spectrum.csv,300,7,Same values and missing cells after reshaping
+Data07_correlation1m_modulated_call_amplitude_spectrum.csv,300,7,Same values and missing cells after reshaping
+Data08_correlation1m_twovoice_call_amplitude_spectrum.csv,300,7,Same values and missing cells after reshaping
+Data09_correlation1m_flat_call_envelope.csv,300,7,Same values and missing cells after reshaping
+Data10_correlation1m_modulated_call_envelope.csv,300,7,Same values and missing cells after reshaping
+Data11_correlation1m_twovoice_call_envelope.csv,300,7,Same values and missing cells after reshaping

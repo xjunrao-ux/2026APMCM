@@ -1,0 +1,13 @@
+﻿type,outcome,pairs,call_positive,control_positive,call_only,control_only
+flat,ResponseYesNo,48,29,6,23,0
+flat,HeadsUpYesNo,48,21,6,17,2
+flat,VocalYesNo,48,26,0,26,0
+flat,ApproachYesNo,48,4,0,4,0
+mod,ResponseYesNo,33,21,4,18,1
+mod,HeadsUpYesNo,33,15,3,13,1
+mod,VocalYesNo,33,16,1,16,1
+mod,ApproachYesNo,33,8,0,8,0
+tv,ResponseYesNo,58,40,8,33,1
+tv,HeadsUpYesNo,58,19,4,15,0
+tv,VocalYesNo,58,34,4,31,1
+tv,ApproachYesNo,58,11,0,11,0

@@ -1,0 +1,14 @@
+﻿Date,expID,Context,Type,CallType,PlaybackTrack,Distance,Npenguins,ResponseYesNo,HeadsUpYesNo,HeadsUpLatency,HeadsUpDuration,ApproachYesNo,ApproachLatency,ApproachDuration,ApproachRelDist,VocalYesNo,VocalLatency,VocalNcallsBefore,VocalNcalls,VocalRelNCalls,VR1,VR2,VR3,VR4,VR5,VR6,VR7,VR8,VR9,VR10,VR11,VR12,VR13,VR14,VR15,VR16,VR17,VR18,VR19,csv_line,field,flag_used_for_time,analysis_time_s,decision
+09/06/2022,34,searching,control,control,control,80,1,0,0,NA,0,0,NA,0,0,0,26.8,3,2,0,mod,flat,,,,,,,,,,,,,,,,,,60,VocalLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+16/06/2022,80,after,control,control,control,80,5,0,0,NA,0,0,NA,0,0,0,7.1,11,4,0,mod,mod,mod,flat,,,,,,,,,,,,,,,,134,VocalLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+27/06/2022,136,after,call,tv,tv09_N1,50,4,0,0,NA,0,0,NA,0,0,0,5.4,4,1,0,flat,,,,,,,,,,,,,,,,,,,236,VocalLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+28/06/2022,160,searching,call,tv,tv25,40,2,1,0,NA,0,1,6,60,0.25,0,0.8,3,2,0,mod,mod,,,,,,,,,,,,,,,,,,279,VocalLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+09/06/2022,34,searching,control,control,control,80,1,0,0,NA,0,0,NA,0,0,0,26.8,3,2,0,mod,flat,,,,,,,,,,,,,,,,,,60,VocalNcalls,0,60,原值保留；潜伏期按YesNo；强度按实测值
+16/06/2022,80,after,control,control,control,80,5,0,0,NA,0,0,NA,0,0,0,7.1,11,4,0,mod,mod,mod,flat,,,,,,,,,,,,,,,,134,VocalNcalls,0,60,原值保留；潜伏期按YesNo；强度按实测值
+27/06/2022,136,after,call,tv,tv09_N1,50,4,0,0,NA,0,0,NA,0,0,0,5.4,4,1,0,flat,,,,,,,,,,,,,,,,,,,236,VocalNcalls,0,60,原值保留；潜伏期按YesNo；强度按实测值
+28/06/2022,160,searching,call,tv,tv25,40,2,1,0,NA,0,1,6,60,0.25,0,0.8,3,2,0,mod,mod,,,,,,,,,,,,,,,,,,279,VocalNcalls,0,60,原值保留；潜伏期按YesNo；强度按实测值
+08/06/2022,25,commuting,call,tv,tvN2,80,10,1,1,4,41,0,8,0,0,0,NA,0,0,0,,,,,,,,,,,,,,,,,,,,47,ApproachLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+10/06/2022,53,after,call,tv,tvN2,20,20,0,0,NA,0,0,5,0,0,0,NA,0,0,0,,,,,,,,,,,,,,,,,,,,92,ApproachLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+16/06/2022,80,after,call,flat,flat09_N1,100,5,1,0,NA,0,0,13,0,0,1,2.5,3,11,8,mod,flat,mod,mod,mod,mod,mod,tv,mod,mod,mod,,,,,,,,,135,ApproachLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+27/06/2022,129,commuting,call,tv,tv25_N2,20,18,1,1,1,17,0,3,0,0,0,NA,0,0,0,,,,,,,,,,,,,,,,,,,,223,ApproachLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
+27/06/2022,130,commuting,call,tv,tv09_N1,80,30,1,0,NA,0,0,11,0,0,1,1.5,0,2,2,flat,mod,,,,,,,,,,,,,,,,,,224,ApproachLatency,0,60,原值保留；潜伏期按YesNo；强度按实测值
