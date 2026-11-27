@@ -1,0 +1,4 @@
+﻿call_type,threshold,lower_distance_m,upper_distance_m
+flat,0.5,64,128
+mod,0.5,128,256
+tv,0.5,128,256

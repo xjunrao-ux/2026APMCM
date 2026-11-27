@@ -1,0 +1,5 @@
+﻿method,overall_correct,overall_accuracy,overall_macro_f1,stage3_correct,stage3_accuracy,blank_mod_recovered,flat_false_positives
+rules_only,102,0.9444444444444444,0.9516963772282921,44,0.88,0,0
+single_logistic_05,90,0.8333333333333334,0.8568181818181818,32,0.64,1,13
+stack_05,102,0.9444444444444444,0.9522727272727273,44,0.88,3,3
+stack_tuned,102,0.9444444444444444,0.9516963772282921,44,0.88,0,0
