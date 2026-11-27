@@ -1,0 +1,49 @@
+﻿context,stimulus,combination,count,all_playbacks_n,percent_of_all_playbacks,responding_playbacks_n,percent_of_responding_playbacks
+after,natural_observed,No response,17,36,47.22222222,19,
+after,natural_observed,H,1,36,2.77777778,19,5.26315789
+after,natural_observed,V,7,36,19.44444444,19,36.84210526
+after,natural_observed,A,0,36,0.00000000,19,0.00000000
+after,natural_observed,H+V,6,36,16.66666667,19,31.57894737
+after,natural_observed,H+A,1,36,2.77777778,19,5.26315789
+after,natural_observed,V+A,1,36,2.77777778,19,5.26315789
+after,natural_observed,H+V+A,3,36,8.33333333,19,15.78947368
+after,control,No response,29,36,80.55555556,7,
+after,control,H,5,36,13.88888889,7,71.42857143
+after,control,V,2,36,5.55555556,7,28.57142857
+after,control,A,0,36,0.00000000,7,0.00000000
+after,control,H+V,0,36,0.00000000,7,0.00000000
+after,control,H+A,0,36,0.00000000,7,0.00000000
+after,control,V+A,0,36,0.00000000,7,0.00000000
+after,control,H+V+A,0,36,0.00000000,7,0.00000000
+commuting,natural_observed,No response,30,65,46.15384615,35,
+commuting,natural_observed,H,6,65,9.23076923,35,17.14285714
+commuting,natural_observed,V,9,65,13.84615385,35,25.71428571
+commuting,natural_observed,A,0,65,0.00000000,35,0.00000000
+commuting,natural_observed,H+V,12,65,18.46153846,35,34.28571429
+commuting,natural_observed,H+A,2,65,3.07692308,35,5.71428571
+commuting,natural_observed,V+A,2,65,3.07692308,35,5.71428571
+commuting,natural_observed,H+V+A,4,65,6.15384615,35,11.42857143
+commuting,control,No response,59,65,90.76923077,6,
+commuting,control,H,5,65,7.69230769,6,83.33333333
+commuting,control,V,1,65,1.53846154,6,16.66666667
+commuting,control,A,0,65,0.00000000,6,0.00000000
+commuting,control,H+V,0,65,0.00000000,6,0.00000000
+commuting,control,H+A,0,65,0.00000000,6,0.00000000
+commuting,control,V+A,0,65,0.00000000,6,0.00000000
+commuting,control,H+V+A,0,65,0.00000000,6,0.00000000
+searching,natural_observed,No response,2,38,5.26315789,36,
+searching,natural_observed,H,3,38,7.89473684,36,8.33333333
+searching,natural_observed,V,13,38,34.21052632,36,36.11111111
+searching,natural_observed,A,1,38,2.63157895,36,2.77777778
+searching,natural_observed,H+V,10,38,26.31578947,36,27.77777778
+searching,natural_observed,H+A,0,38,0.00000000,36,0.00000000
+searching,natural_observed,V+A,2,38,5.26315789,36,5.55555556
+searching,natural_observed,H+V+A,7,38,18.42105263,36,19.44444444
+searching,control,No response,33,38,86.84210526,5,
+searching,control,H,3,38,7.89473684,5,60.00000000
+searching,control,V,2,38,5.26315789,5,40.00000000
+searching,control,A,0,38,0.00000000,5,0.00000000
+searching,control,H+V,0,38,0.00000000,5,0.00000000
+searching,control,H+A,0,38,0.00000000,5,0.00000000
+searching,control,V+A,0,38,0.00000000,5,0.00000000
+searching,control,H+V+A,0,38,0.00000000,5,0.00000000

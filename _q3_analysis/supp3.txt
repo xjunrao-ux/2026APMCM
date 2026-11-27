@@ -1,0 +1,569 @@
+Supplementary 3: Modelling analyses on playback experiments 
+ 
+Model on Heads up duration 
+Model selection 
+Priors tested and compared: normal(0,1), normal(0,1.5), normal(0,2), student_t(1,0,1), student_t(1,0,2), 
+student_t(3,0,1), student_t(3,0,2), student_t(5,0,1), student_t(5,02).  
+ 
+Results were very robust to the prior (Table 1). Factors were considered to be having a significant effect 
+when the confidence interval (CI) of posterior distribution did not cross zero (+ significant positive effect, - 
+significant negative effect). A tendency was considered when CI was within the range [-0.05, X>0] or 
+[X<0.05] (brackets in the table). 
+ 
+Table 1. Significativity of factors effects for each model with different priors on Heads up. 
+ 
+Fixed factors 
+n(0,1)  
+n(0,1.5) 
+n(0,2) 
+s(1,0,1) 
+s(1,0,2) 
+s(3,0,1) 
+s(3,0,2) 
+s(5,0,1) 
+s(5,0,2) 
+Context 
+Commuting 
+(-) 
+(-) 
+- 
+ 
+(-) 
+(-) 
+(-) 
+(-) 
+(-) 
+Searching 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Call type 
+Flat 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulated 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Two-voice 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Interaction Context * 
+Call type 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Number of penguins 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+ 
+- 
+Distance to the boat 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hurdle 
+Call type 
+Flat 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+ 
+- 
+Modulated 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+ 
+- 
+Two-voice 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+ 
+- 
+ 
+ 
+Model run with the prior student_t(1,0,1) was selected as it showed the lowest expected predictive accuracy 
+(elpd_loo) as tested with the function ‘loo_compare’.  
+ 
+
+Model diagnostics 
+(a) 
+ 
+
+ 
+ 
+
+ 
+(b) 
+ 
+ 
+(c) 
+(d) 
+Graphical diagnostics on the Heads up duration model: (a) trace plots showing mixing and stationarity of 
+the chains, (b) posterior predictive checks (pp_check function) comparing model fit to the data, (c) 
+distribution of model residuals of condition component and (d) of hurdle component. 
+ 
+ 
+Results 
+summary(H_brm) 
+ Family: hurdle_negbinomial  
+  Links: mu = log; shape = identity; hu = logit  
+Formula: HeadsUpDuration ~ Context * CallType + scale(Npenguins) + scale(Distance) + (1 | CallTy
+pe:PlaybackTrack) + (1 | expID)  
+         hu ~ CallType 
+   Data: dat (Number of observations: 278)  
+  Draws: 4 chains, each with iter = 20000; warmup = 5000; thin = 1; 
+         total post-warmup draws = 60000 
+ 
+Multilevel Hyperparameters: 
+~CallType:PlaybackTrack (Number of levels: 29)  
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+sd(Intercept)     0.15      0.10     0.01     0.39 1.00    15713    28533 
+ 
+~expID (Number of levels: 139)  
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+sd(Intercept)     0.35      0.14     0.04     0.59 1.00     4179    10939 
+ 
+Regression Coefficients: 
+                              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+Intercept                         3.00      0.25     2.51     3.51 1.00    35638    36335 
+hu_Intercept                      2.28      0.29     1.74     2.89 1.00    47999    38860 
+Contextcommuting                 -0.57      0.33    -1.24     0.06 1.00    30905    37515 
+Contextsearching                 -0.40      0.31    -1.02     0.21 1.00    38865    41907 
+CallTypeflat                      0.12      0.32    -0.51     0.77 1.00    21868    37379 
+CallTypemod                       0.20      0.36    -0.51     0.91 1.00    33753    39702 
+CallTypetv                        0.36      0.31    -0.24     1.00 1.00    42582    40020 
+scaleNpenguins                   -0.31      0.14    -0.58    -0.03 1.00    52093    45745 
+scaleDistance                     0.03      0.10    -0.16     0.22 1.00    47494    45278 
+Contextcommuting:CallTypeflat     0.18      0.39    -0.58     0.95 1.00    27846    38692 
+Contextsearching:CallTypeflat     0.07      0.39    -0.70     0.82 1.00    39830    41192 
+Contextcommuting:CallTypemod      0.20      0.43    -0.65     1.06 1.00    35259    40684 
+
+Contextsearching:CallTypemod      0.57      0.43    -0.26     1.44 1.00    41475    43907 
+Contextcommuting:CallTypetv       0.48      0.38    -0.26     1.25 1.00    43467    42956 
+Contextsearching:CallTypetv       0.16      0.41    -0.64     0.97 1.00    42594    43180 
+hu_CallTypeflat                  -2.03      0.42    -2.86    -1.23 1.00    59885    46161 
+hu_CallTypemod                   -2.10      0.46    -3.02    -1.21 1.00    61917    46385 
+hu_CallTypetv                    -1.56      0.41    -2.36    -0.77 1.00    54962    44994 
+ 
+Further Distributional Parameters: 
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+shape    15.78     24.58     3.24    78.23 1.00     3987    11703 
+ 
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS 
+and Tail_ESS are effective sample size measures, and Rhat is the potential 
+scale reduction factor on split chains (at convergence, Rhat = 1). 
+ 
+ 
+Model on Vocal activity 
+Model selection 
+Priors tested and compared: normal(0,1), normal(0,1.5), normal(0,2), normal(0,3), student_t(1,0,1), 
+student_t(1,0,2), student_t(3,0,1), student_t(3,0,2), student_t(5,0,1), student_t(5,02).  
+ 
+Results were robust to the prior (Table 2). Factors were considered to be having a significant effect when the 
+confidence interval (CI) of posterior distribution did not cross zero (+ significant positive effect, - significant 
+negative effect). A tendency was considered when CI was within the range [-0.05, X>0] or [X<0.05] 
+(brackets in the table). 
+ 
+Table 2. Significativity of factors effects for each model with different priors on Vocal activity. 
+ 
+Fixed factors 
+n(0,1)  
+n(0,1.5) 
+n(0,2) 
+n(0,3) 
+s(1,0,1) 
+s(1,0,2) 
+s(3,0,1) 
+s(3,0,2) 
+s(5,0,1) 
+s(5,0,2) 
+Context 
+Commuting 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Searching 
+ 
+ 
++ 
++ 
+ 
+(+) 
+ 
++ 
+ 
++ 
+Call 
+type 
+Flat 
+ 
+ 
++ 
++ 
+ 
++ 
+ 
++ 
+ 
++ 
+Modulated 
++ 
++ 
++ 
++ 
++ 
++ 
++ 
++ 
++ 
++ 
+Two-voice 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Interaction Context * 
+Call type 
+ 
+ 
+s:m - 
+s:m - 
+ 
+ 
+ 
+s:m - 
+ 
+s:m - 
+Number of penguins 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Distance to the boat 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+N calls before 
+(+) 
++ 
++ 
++ 
+(+) 
++ 
+(+) 
++ 
+(+) 
++ 
+Hurdle 
+Call 
+type 
+Flat 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+Modulated 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+Two-voice 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+ 
+Model run with the prior normal(0,2) was selected as it showed the lowest expected predictive accuracy 
+(elpd_loo) as tested using the function ‘loo_compare’. 
+ 
+ 
+Model diagnostics 
+
+(a) 
+ 
+ 
+
+ 
+
+(b) 
+ 
+ 
+(c) 
+Graphical diagnostics on Vocal activity model: (a) trace plots showing mixing and stationarity of the 
+chains, (b) posterior predictive checks (pp_check function) comparing model fit to the data, (c) 
+distribution of model residuals. 
+ 
+Results 
+summary(V_brm) 
+ Family: hurdle_poisson  
+  Links: mu = log; hu = logit  
+Formula: VocalNcalls ~ Context * CallType + VocalNcallsBefore + scale(Npenguins) + scale(Distanc
+e) + (1 | CallType:PlaybackTrack) + (1 | expID)  
+         hu ~ CallType 
+   Data: dat (Number of observations: 278)  
+  Draws: 4 chains, each with iter = 20000; warmup = 5000; thin = 1; 
+         total post-warmup draws = 60000 
+ 
+Multilevel Hyperparameters: 
+~CallType:PlaybackTrack (Number of levels: 29)  
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+sd(Intercept)     0.25      0.17     0.01     0.64 1.00    13309    25341 
+ 
+~expID (Number of levels: 139)  
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+sd(Intercept)     0.67      0.13     0.43     0.95 1.00    24167    36330 
+ 
+Regression Coefficients: 
+                              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+Intercept                        -0.90      0.66    -2.22     0.39 1.00    22713    32574 
+hu_Intercept                      2.96      0.39     2.26     3.79 1.00    42720    34272 
+Contextcommuting                 -0.35      0.94    -2.26     1.44 1.00    30269    36206 
+Contextsearching                  1.20      0.58     0.06     2.36 1.00    27071    34020 
+CallTypeflat                      1.60      0.69     0.20     2.92 1.00    23388    35082 
+CallTypemod                       2.40      0.75     0.92     3.86 1.00    24068    34761 
+CallTypetv                        1.10      0.71    -0.30     2.50 1.00    26776    37553 
+VocalNcallsBefore                 0.18      0.07     0.03     0.33 1.00    31815    40260 
+scaleNpenguins                   -0.08      0.16    -0.39     0.23 1.00    46199    45527 
+scaleDistance                     0.09      0.11    -0.13     0.31 1.00    45040    44717 
+Contextcommuting:CallTypeflat     0.18      1.01    -1.75     2.19 1.00    31126    37635 
+Contextsearching:CallTypeflat    -0.90      0.67    -2.20     0.44 1.00    27949    37191 
+Contextcommuting:CallTypemod      0.07      1.06    -1.98     2.19 1.00    34108    39271 
+Contextsearching:CallTypemod     -1.46      0.73    -2.89    -0.01 1.00    29605    39126 
+Contextcommuting:CallTypetv       0.72      1.02    -1.25     2.74 1.00    32197    38499 
+Contextsearching:CallTypetv      -0.36      0.67    -1.67     0.94 1.00    31447    39978 
+hu_CallTypeflat                  -3.14      0.49    -4.15    -2.22 1.00    46306    40694 
+
+hu_CallTypemod                   -2.91      0.53    -3.98    -1.90 1.00    49124    42384 
+hu_CallTypetv                    -3.47      0.48    -4.46    -2.58 1.00    46416    41550 
+ 
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS 
+and Tail_ESS are effective sample size measures, and Rhat is the potential 
+scale reduction factor on split chains (at convergence, Rhat = 1). 
+ 
+ 
+Model on Approach 
+Model selection 
+Priors tested and compared: normal(0,1), normal(0,1.5), student_t(1,0,1), student_t(3,0,1), student_t(5,0,1). 
+Only restrictive priors were used in this model given the sparsity of positive responses. 
+ 
+Results were very robust to the prior (Table 3). Factors were considered to be having a significant effect 
+when the confidence interval (CI) of posterior distribution did not cross zero (+ significant positive effect, - 
+significant negative effect). A tendency was considered when CI was within the range [-0.05, X>0] or 
+[X<0.05] (brackets in the table). 
+ 
+Table 3. Significativity of factors effects for each model with different priors on Approach. 
+Fixed factors 
+n(0,1)  
+n(0,1.5) 
+s(1,0,1) 
+s(3,0,1) 
+s(5,0,1) 
+Context 
+Commuting 
+ 
+ 
+ 
+ 
+ 
+Searching 
+ 
+ 
+ 
+ 
+ 
+Call type 
+Flat 
+ 
+ 
+ 
+ 
+ 
+Modulated 
++ 
++ 
++ 
++ 
++ 
+Two-voice 
++ 
++ 
++ 
++ 
++ 
+Interaction Context * Call type 
+ 
+ 
+ 
+ 
+ 
+Number of penguins 
+ 
+ 
+ 
+ 
+ 
+Distance to the boat 
+(-) 
+(-) 
+ 
+ 
+ 
+ 
+Model run with the prior student_t(1,0,1) was selected as it showed the lowest expected predictive accuracy 
+(elpd_loo) as tested using the function ‘loo_compare’. 
+
+Model diagnostics 
+(a) 
+
+ 
+ 
+ 
+ 
+(b) 
+ 
+ 
+(c) 
+Graphical diagnostics on Approach model: (a) trace plots showing mixing and stationarity of the chains, 
+(b) posterior predictive checks (pp_check function) comparing model fit to the data, (c) distribution of 
+model residuals. 
+ 
+ 
+Results 
+summary(A_brm) 
+ Family: bernoulli  
+  Links: mu = logit  
+Formula: ApproachYesNo ~ Context * CallType + scale(Npenguins) + scale(Distance) + (1 | expID)  
+   Data: dat (Number of observations: 278)  
+  Draws: 4 chains, each with iter = 20000; warmup = 5000; thin = 1; 
+         total post-warmup draws = 60000 
+ 
+Multilevel Hyperparameters: 
+
+~expID (Number of levels: 139)  
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+sd(Intercept)     1.81      1.23     0.10     4.70 1.00     5942    13381 
+ 
+Regression Coefficients: 
+                              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS 
+Intercept                        -6.40      2.41   -12.41    -3.43 1.00     8515    12822 
+Contextcommuting                 -0.29      0.83    -2.10     1.25 1.00    60528    31499 
+Contextsearching                  0.11      0.87    -1.62     1.91 1.00    64707    37863 
+CallTypeflat                      2.33      1.71    -0.10     6.41 1.00    24917    18122 
+CallTypemod                       3.15      2.10     0.02     8.16 1.00    17233    15464 
+CallTypetv                        3.57      1.93     0.72     8.21 1.00    13482    14771 
+scaleNpenguins                   -0.35      0.42    -1.28     0.38 1.00    55102    29892 
+scaleDistance                    -0.62      0.43    -1.60     0.09 1.00    34822    25202 
+Contextcommuting:CallTypeflat    -0.36      1.19    -3.09     1.77 1.00    68299    32100 
+Contextsearching:CallTypeflat     0.01      1.17    -2.43     2.40 1.00    74164    36681 
+Contextcommuting:CallTypemod      0.35      1.25    -1.91     3.24 1.00    52694    29146 
+Contextsearching:CallTypemod      2.27      2.03    -0.52     7.16 1.00    33954    23111 
+Contextcommuting:CallTypetv       0.70      1.11    -1.15     3.28 1.00    56416    30429 
+Contextsearching:CallTypetv       0.31      1.04    -1.59     2.66 1.00    65947    35182 
+ 
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS 
+and Tail_ESS are effective sample size measures, and Rhat is the potential 
+scale reduction factor on split chains (at convergence, Rhat = 1). 
+ 
+ 
