@@ -114,7 +114,7 @@ def score_models(x, occurrence_sd, combo_sd):
     return losses / len(YCODE)
 
 
-def fit_settings(n_boot, seed, interactions):
+def fit_settings(n_boot, seed, interactions, plot_draws=None):
     x = features(CTYPE, CTX, D, N, interactions)
     scenarios = build_scenarios(interactions)
     occurrence_sd = np.r_[OCC_SD, .65] if interactions else OCC_SD[:8]
@@ -128,6 +128,7 @@ def fit_settings(n_boot, seed, interactions):
     point = contrasts(p)
     print(f"penalty scales {scale_occ}, {scale_combo}; resampling {n_boot} track sets", flush=True)
     draws = {key: [] for key in point}
+    combination_draws = []
     rng = np.random.default_rng(seed)
     for _ in range(n_boot):
         sampled = np.concatenate([rng.choice(pool, len(pool), replace=True) for pool in TRACKS])
@@ -139,9 +140,21 @@ def fit_settings(n_boot, seed, interactions):
         selected = weights > 0
         boot_fit = fit_occ(weights[selected], x[selected], occurrence_sd, combo_sd,
                            codes=YCODE[selected], start=fit)
-        boot_point = contrasts(probabilities(boot_fit, scenarios)[0])
+        boot_probabilities, boot_combinations = probabilities(boot_fit, scenarios)
+        boot_point = contrasts(boot_probabilities)
         for key, value in boot_point.items():
             draws[key].append(value)
+        if plot_draws is not None:
+            control, *sounds = boot_combinations["observed"][0]
+            combination_draws.append(np.mean(sounds, axis=0) - control)
+    if plot_draws is not None:
+        control, *sounds = combo["observed"][0]
+        np.savez_compressed(
+            plot_draws,
+            **{key: np.asarray(draws[key]) for key in ("sound", "context", "distance", "size")},
+            combination=np.asarray(combination_draws),
+            combination_point=np.mean(sounds, axis=0) - control,
+        )
     return {
         "penalty_scales": [scale_occ, scale_combo],
         "scores": scores,

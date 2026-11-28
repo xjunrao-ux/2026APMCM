@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "candidate": "plot_behavior_effects.py",
+  "baseline": ".vivid/template-sources/2fbebfaf50b1828ecb0004c5.py",
+  "source": {
+    "id": "advanced.dot_ci",
+    "variant": "main",
+    "codeSha256": "2d798fefa3fd35800a3480fb26018276d857ebcd1b854d802792c66763d3863f",
+    "contentSha256": "c35da3f410a20313817179674a8cf40adee7183649c7943290b1f8ecf342cf1e",
+    "file": "figure_recipes_advanced.md",
+    "blocks": [
+      0
+    ],
+    "requiredInputs": []
+  }
+}

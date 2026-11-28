@@ -1,0 +1,2 @@
+FAIL '均值±标准差' rect [264.22, 553.29, 302.13, 562.88] size 6.3 font 'SimHei Regular' w 37.91 h 9.59
+   wrap -> ['均值±标', '准差']

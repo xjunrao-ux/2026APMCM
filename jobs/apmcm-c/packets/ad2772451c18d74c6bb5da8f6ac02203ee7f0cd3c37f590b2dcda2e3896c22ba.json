@@ -1,0 +1,132 @@
+{
+  "protocol": 2,
+  "source": "36a571860eb965ef880ec5403c3158beaa69f296e7eb252e6f73789f52efccf1",
+  "snapshots": {
+    "p0026-b0024": "106adbb0995702dd2fc8e818417debfcc8380e61412a001c14ac8b91601ff5e2",
+    "p0026-b0025": "64852da139f96eb30769b7f11c86d8bc092fc3fef527f3802795eba5129c8080",
+    "p0026-b0026": "686b128f87a389d563d736f139e9a25f8dd97933288fe27d574f96a80d915170",
+    "p0026-b0027": "d56f6b06f262b56bff371b7cca06157cead5abe5a3baf4ef20712b33c581fcd0",
+    "p0026-b0028": "0c1db8527b19ee4d586d1cb5e740251a33720a3e8138729bc24471eb661b4f92",
+    "p0026-b0029": "edf6680680171e97477c3f8391cda774e7b2a9665e8cad985c67ec2652eb9cb6",
+    "p0026-b0030": "bbd933c43b332fbea41e6d2d49e894cf8f135c19f8bef997d69b0dbcab5d3d09",
+    "p0026-b0031": "c1a68e4c8504529669b82e78301a33798325a12614090c693ea284c272e53e4a",
+    "p0026-b0032": "670084a2a8bda5a2eaae376b4c6d76c41eda80214890e72115a0a1f7cb078db9",
+    "p0026-b0033": "6897d619f7379c7fa544f6885c359312a6dc2de1bf18431aa44767736e6f63f8",
+    "p0026-b0034": "7ad168d64a54cc1d2ee4baa666de31357360d98d2bbda0c80a80b462c5d98571",
+    "p0027-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0027-b0002": "9ad32392f5414b2f7af7652c7fc1b075fc1972654cca3f4ff8d28b0aead967d9",
+    "p0027-b0003": "d257c9abc8d3fb23c78f945dfd4a31b8ba48e8eea38aa9c16a759fca9be824cb",
+    "p0027-b0004": "6555b4d55c02818c0d537335edf3698357ef4263aa94f2c00b4e3b04e0ce70d5",
+    "p0027-b0005": "8f610bfc35fbcdbd365b8b3e101761ed52b52897e27f108ff55b05f7e52fd064",
+    "p0027-b0006": "f21da9f4b87746aeda51dc4e66dd69fec8f0614718a44e4a4888a1cc80ae9bdc",
+    "p0027-b0007": "a8ad1da16061fe8c5103b4dd4811468f6dd6fc67a21995d2bf07a095c1cdd1f0",
+    "p0027-b0012": "025789843c686ef1cb4db042ff0071fb9828df359ffe4b994004a1ed4af1fcc8",
+    "p0027-b0021": "c97f9c4c2ff2f71cec79a94d187a11f54cea1d0bd3ee29e1f27b356452c26b5b",
+    "p0028-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0028-b0002": "36f8d1c903f5ea15ae8c33e8ead9d3e8d72cba3603a378617d3693e79ed5a7b0",
+    "p0028-b0003": "e462feba4444f761465b02258995a5e84f9987897067c917652c54e68d9a5ede",
+    "p0028-b0004": "a1389ae9b48499d992bc4e04cc53558e955535322b869c9f870b7387bd94e5e3"
+  },
+  "entries": [
+    [
+      "p0026-b0024",
+      "[16] Farewell V. T., The use of mixture models for the analysis of survival data with long-term"
+    ],
+    [
+      "p0026-b0025",
+      "survivors, Biometrics, 38(4): 1041–1046, 1982."
+    ],
+    [
+      "p0026-b0026",
+      "[17] Buckland S. T., Anderson D. R., Burnham K. P., Laake J. L., Borchers D. L., Thomas L.,"
+    ],
+    [
+      "p0026-b0027",
+      "Introduction to Distance Sampling, Oxford: Oxford University Press, 2001."
+    ],
+    [
+      "p0026-b0028",
+      "[18] Barron F. H., Barrett B. E., Decision quality using ranked attribute weights, Management Sci-"
+    ],
+    [
+      "p0026-b0029",
+      "ence, 42(11): 1515–1523, 1996."
+    ],
+    [
+      "p0026-b0030",
+      "[19] Pichegru L., Vibert L., Thiebault A., et al., Maritime traffic trends around the southern tip of"
+    ],
+    [
+      "p0026-b0031",
+      "Africa – Did marine noise pollution contribute to the local penguins’ collapse? Science of the"
+    ],
+    [
+      "p0026-b0032",
+      "Total Environment, 849: 157878, 2022."
+    ],
+    [
+      "p0026-b0033",
+      "[20] Clark C. W., Ellison W. T., Southall B. L., et al., Acoustic masking in marine ecosystems:"
+    ],
+    [
+      "p0026-b0034",
+      "intuitions, analysis, and implication, Marine Ecology Progress Series, 395: 201–222, 2009."
+    ],
+    [
+      "p0027-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0027-b0002",
+      "Page 24 of 25"
+    ],
+    [
+      "p0027-b0003",
+      "XI. Appendix"
+    ],
+    [
+      "p0027-b0004",
+      "11 . 1 Core code"
+    ],
+    [
+      "p0027-b0005",
+      "All computations were done in Python (numpy, pandas, scipy, scikit-learn, matplotlib). The"
+    ],
+    [
+      "p0027-b0006",
+      "two model-specific routines are listed below; the complete notebook is submitted with the paper."
+    ],
+    [
+      "p0027-b0007",
+      "Listing 1: Degradation curve M3: fit, threshold distance and recognition probability"
+    ],
+    [
+      "p0027-b0012",
+      "n, mu = (~np.isnan(M)).sum(0), np.nanmean(M, 0) ss_within = float(np.nansum((M - mu) ** 2)) p, _ = optimize.curve_fit(m3, DIST, mu, p0=[0.85, 120.0, 1.5],",
+      {
+        "role": "code_annotation",
+        "instruction": "逐行解释自然语言说明与注释；原标识不改，中文写入审阅附件"
+      }
+    ],
+    [
+      "p0027-b0021",
+      "Listing 2: Gated logistic regression and the profile likelihood of the behavioural threshold"
+    ],
+    [
+      "p0028-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0028-b0002",
+      "11 . 2 Report on the use of AI tools"
+    ],
+    [
+      "p0028-b0003",
+      "Page 25 of 25"
+    ],
+    [
+      "p0028-b0004",
+      "[To be completed by the team in accordance with this year’s APMCM rules on AI tools.]"
+    ]
+  ]
+}

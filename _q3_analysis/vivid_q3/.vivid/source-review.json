@@ -1,0 +1,4679 @@
+{
+  "reports": [
+    {
+      "findings": [
+        {
+          "kind": "operation_not_found",
+          "method": "fill",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            49
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "call_added",
+          "method": "axhspan",
+          "candidate_lines": [
+            40
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "axvline",
+          "candidate_lines": [
+            39
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "errorbar",
+          "parameter": "markersize",
+          "before": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "after": [
+            6.6
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            48
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "errorbar",
+          "parameter": "xerr",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "ci[i, j]",
+            "ci[i, j]",
+            "ci[i, j]",
+            "ci[i, j]"
+          ],
+          "after": [
+            "[[point - lo], [hi - point]]"
+          ],
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            48
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              8,
+              5
+            ]
+          ],
+          "after": [
+            [
+              7.9,
+              5.45
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [
+            32
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            33
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "text",
+          "before": 1,
+          "after": 3,
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            34,
+            35,
+            68
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            7
+          ],
+          "after": [
+            16,
+            9,
+            8.2
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            34,
+            35,
+            68
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "f'{pooled[i]:.3f}'"
+          ],
+          "after": [
+            "'哪些因素关联到更晚的首次响应？'",
+            "'60 秒内已响应的回放 · 条件时间模型的逐项 95% 区间'",
+            "'区间由 3,000 次录音轨道整组重抽样得到。抬头与靠近的选定时间模型仅含截距。'"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            34,
+            35,
+            68
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "va",
+          "before": [
+            "center"
+          ],
+          "after": [
+            "top",
+            "top",
+            "center"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            34,
+            35,
+            68
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "text",
+          "parameter": "weight",
+          "after": [
+            "bold"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            34,
+            35,
+            68
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "x",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "pooled[i] + pooled_ci[i] + 0.008"
+          ],
+          "after": [
+            "0.075",
+            "0.075",
+            "0.075"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            34,
+            35,
+            68
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "y_base[i] + 0.35"
+          ],
+          "after": [
+            "0.945",
+            "0.875",
+            "0.063"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            34,
+            35,
+            68
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            68
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "repetition_changed",
+          "methods": [
+            "errorbar"
+          ],
+          "message": "样式值及其周期内顺序相同，重复次数不同；可能来自组数或循环组织变化。若重复用于叠加透明图层，仍需核对层数。",
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 11,
+      "candidate_calls": 12,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "advanced.dot_ci",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\04b41cb5727bee070a79f200.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_latency_effects.py",
+      "checkpoints": [
+        {
+          "feature": "错位点区间和汇总菱形",
+          "preserve": "保留方法行内错位的点区间、白边点与单独汇总菱形；不能只留中心点丢区间。",
+          "allowed_adaptation": "区间、颜色映射与汇总须有真实计算依据；示例 p 值和简单平均不能直接用作正式统计，图例与点色需一致。",
+          "evidence": [
+            {
+              "line": 38,
+              "end_line": 41,
+              "code": "        ax.errorbar(scores[i, j], y_base[i] + offsets[j], xerr=ci[i, j],\n                     fmt='o', color=dot_color, markersize=8, capsize=3,\n                     linewidth=1.5, markeredgecolor='white', markeredgewidth=0.8,\n                     label=metric if i == 0 else '', zorder=3)",
+              "href": "sources/advanced.dot_ci/original.html#L38"
+            },
+            {
+              "line": 49,
+              "end_line": 50,
+              "code": "    ax.fill(diamond_x, diamond_y, color=PALETTE[0] if i == 0 else COLORS['ref_line'],\n            alpha=0.7, zorder=4)",
+              "href": "sources/advanced.dot_ci/original.html#L49"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,69 +1,78 @@\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten; from _utils.vivid_config import palette_colors\n-setup_style(); scale_colors = palette_colors()\n+\"\"\"Visualize the conditional time-position estimates and bootstrap intervals.\"\"\"\n+\n+import json\n+\n+from figure_data import ANALYSIS\n import matplotlib.pyplot as plt\n-import matplotlib.colors as mcolors\n import numpy as np\n+from matplotlib.lines import Line2D\n \n-methods = ['Ours', 'BERT', 'GPT-4', 'LLaMA', 'T5']\n-metrics = ['Acc', 'F1', 'Prec', 'Rec']\n-scores = np.array([[0.92, 0.90, 0.91, 0.89],\n-                    [0.88, 0.86, 0.89, 0.84],\n-                    [0.90, 0.88, 0.87, 0.90],\n-                    [0.85, 0.83, 0.86, 0.81],\n-                    [0.87, 0.85, 0.88, 0.83]])\n-ci = np.random.uniform(0.01, 0.03, scores.shape)\n+from _utils.plot_utils import COLORS, PALETTE, save_fig, setup_style\n \n-# Compute p-values (simulated) for gradient coloring\n-np.random.seed(42)\n-pvals = np.random.uniform(0.001, 0.1, scores.shape)\n-pvals[0, :] = np.random.uniform(0.001, 0.01, 4)  # Ours is most significant\n \n-fig, ax = plt.subplots(figsize=(8, 5))\n+TERMS = (\n+    (\"距离翻倍\", \"log2_distance_over_80\"),\n+    (\"企鹅数量翻倍\", \"log2_group_size\"),\n+    (\"flat 相对对照\", \"flat_vs_control\"),\n+    (\"mod 相对对照\", \"mod_vs_control\"),\n+    (\"tv 相对对照\", \"tv_vs_control\"),\n+    (\"进食后相对赶路\", \"after_vs_commuting\"),\n+    (\"搜索食物相对赶路\", \"searching_vs_commuting\"),\n+)\n+ENDPOINTS = ((\"任一行为首次出现\", \"Any\"), (\"首次鸣叫\", \"Vocal\"))\n \n-# Subtle grid\n-ax.grid(axis='x', alpha=0.15, linestyle='-', color=COLORS['grid'])\n-ax.set_axisbelow(True)\n \n-y_base = np.arange(len(methods))\n-offsets = np.linspace(-0.25, 0.25, len(metrics))\n+def main():\n+    setup_style()\n+    model = json.loads((ANALYSIS / \"q3_latency_model_results.json\").read_text(encoding=\"utf-8\"))\n+    scores = np.exp([[model[\"time\"][key][\"report_coefficients\"][term] for _, key in ENDPOINTS]\n+                     for _, term in TERMS])\n+    assert np.all(scores[:, :, 1] <= scores[:, :, 0])\n+    assert np.all(scores[:, :, 0] <= scores[:, :, 2])\n+    fig, ax = plt.subplots(figsize=(7.9, 5.45))\n+    fig.subplots_adjust(left=.227, right=.955, top=.77, bottom=.22)\n+    fig.text(.075, .945, \"哪些因素关联到更晚的首次响应？\", fontsize=16, weight=\"bold\", va=\"top\")\n+    fig.text(.075, .875, \"60 秒内已响应的回放 · 条件时间模型的逐项 95% 区间\",\n+             fontsize=9, color=COLORS[\"text\"], va=\"top\")\n+    ax.grid(axis=\"x\", alpha=.38, linestyle=\"-\", color=COLORS[\"grid\"])\n+    ax.set_axisbelow(True)\n+    ax.axvline(1, color=COLORS[\"ref_line\"], linestyle=\"--\", linewidth=1.1, zorder=2)\n+    ax.axhspan(-.5, .5, facecolor=PALETTE[0], alpha=.075, zorder=0)\n+    y_base = np.arange(len(TERMS))\n+    offsets = (-.17, .17)\n+    colors = (PALETTE[0], PALETTE[2])\n+    symbols = (\"o\", \"s\")\n+    for j, (name, _) in enumerate(ENDPOINTS):\n+        for i in range(len(TERMS)):\n+            point, lo, hi = scores[i, j]\n+            ax.errorbar(point, y_base[i] + offsets[j], xerr=[[point-lo], [hi-point]],\n+                        fmt=symbols[j], color=colors[j], markersize=6.6, capsize=3,\n+                        linewidth=1.5, markeredgecolor=\"white\", markeredgewidth=.8,\n+                        label=name if i == 0 else \"\", zorder=3)\n+    ax.set_yticks(y_base, [name for name, _ in TERMS], fontsize=9.5)\n+    ax.set_ylim(len(TERMS)-.5, -.5)\n+    ax.set_xscale(\"log\")\n+    ax.set_xlim(.78, 1.40)\n+    ax.set_xticks([.8, .9, 1, 1.1, 1.2, 1.3, 1.4])\n+    ax.set_xticklabels([\"0.8\", \"0.9\", \"1.0\", \"1.1\", \"1.2\", \"1.3\", \"1.4\"])\n+    ax.set_xlabel(\"截断前的时间位置比（大于 1 表示更晚）\", fontsize=10, labelpad=8)\n+    legend_elements = [\n+        Line2D([0], [0], marker=symbols[j], color=\"w\", markerfacecolor=colors[j],\n+               markersize=7, label=name)\n+        for j, (name, _) in enumerate(ENDPOINTS)\n+    ]\n+    ax.legend(handles=legend_elements, loc=\"lower left\", bbox_to_anchor=(0, 1.035), ncol=2,\n+              frameon=False, handlelength=1.1, fontsize=9)\n+    ax.spines[\"top\"].set_visible(False)\n+    ax.spines[\"right\"].set_visible(False)\n+    fig.text(.075, .063, \"区间由 3,000 次录音轨道整组重抽样得到。抬头与靠近的选定时间模型仅含截距。\",\n+             fontsize=8.2, color=COLORS[\"text\"], va=\"center\")\n+    out = ANALYSIS.parent / \"figures\" / \"q3_latency_02_effects\"\n+    save_fig(fig, str(out), formats=(\"pdf\", \"png\", \"svg\"))\n+    np.set_printoptions(precision=4)\n+    print(\"time-position ratios by feature (Any, Vocal):\")\n+    print(scores)\n \n-# Gradient colormap for significance\n-cmap_sig = mcolors.LinearSegmentedColormap.from_list('sig', [scale_colors[1], scale_colors[4] if len(scale_colors) > 4 else scale_colors[0], scale_colors[2] if len(scale_colors) > 2 else scale_colors[0]])\n \n-for j, metric in enumerate(metrics):\n-    for i in range(len(methods)):\n-        # Color by significance (lower p = greener)\n-        sig_norm = min(pvals[i, j] / 0.1, 1.0)\n-        dot_color = cmap_sig(1 - sig_norm)\n-        ax.errorbar(scores[i, j], y_base[i] + offsets[j], xerr=ci[i, j],\n-                     fmt='o', color=dot_color, markersize=8, capsize=3,\n-                     linewidth=1.5, markeredgecolor='white', markeredgewidth=0.8,\n-                     label=metric if i == 0 else '', zorder=3)\n-\n-# Pooled estimate diamond for each method\n-pooled = np.mean(scores, axis=1)\n-pooled_ci = np.mean(ci, axis=1)\n-for i in range(len(methods)):\n-    diamond_x = [pooled[i] - pooled_ci[i], pooled[i], pooled[i] + pooled_ci[i], pooled[i]]\n-    diamond_y = [y_base[i] + 0.35, y_base[i] + 0.42, y_base[i] + 0.35, y_base[i] + 0.28]\n-    ax.fill(diamond_x, diamond_y, color=PALETTE[0] if i == 0 else COLORS['ref_line'],\n-            alpha=0.7, zorder=4)\n-    ax.text(pooled[i] + pooled_ci[i] + 0.008, y_base[i] + 0.35,\n-            f'{pooled[i]:.3f}', fontsize=7, va='center', color=COLORS['text'])\n-\n-ax.set_yticks(y_base)\n-ax.set_yticklabels(methods, fontsize=10)\n-ax.set_xlabel('Score', fontsize=11)\n-\n-# Custom legend\n-from matplotlib.lines import Line2D\n-legend_elements = [Line2D([0], [0], marker='o', color='w', markerfacecolor=PALETTE[j],\n-                           markersize=8, label=metrics[j]) for j in range(len(metrics))]\n-legend_elements.append(Line2D([0], [0], marker='D', color='w', markerfacecolor=COLORS['ref_line'],\n-                               markersize=8, label='Pooled'))\n-ax.legend(handles=legend_elements, loc='lower right', frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=8, ncol=3)\n-ax.invert_yaxis()\n-ax.spines['top'].set_visible(False)\n-ax.spines['right'].set_visible(False)\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_dot_ci.pdf')\n+if __name__ == \"__main__\":\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "operation_not_found",
+          "method": "fill",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            49
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "call_added",
+          "method": "axvline",
+          "candidate_lines": [
+            14
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "errorbar",
+          "parameter": "linewidth",
+          "before": [
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "after": [
+            1.15
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            22
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "errorbar",
+          "parameter": "markeredgewidth",
+          "before": [
+            0.8,
+            0.8,
+            0.8,
+            0.8
+          ],
+          "after": [
+            0.75
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            22
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "errorbar",
+          "parameter": "markersize",
+          "before": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "after": [
+            5.6
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            22
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "errorbar",
+          "parameter": "xerr",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "ci[i, j]",
+            "ci[i, j]",
+            "ci[i, j]",
+            "ci[i, j]"
+          ],
+          "after": [
+            "[[point - low], [high - point]]"
+          ],
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            22
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg0",
+          "after": [
+            1
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [
+            45
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg1",
+          "after": [
+            2
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [
+            45
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              8,
+              5
+            ]
+          ],
+          "after": [
+            [
+              7.2,
+              3.45
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [
+            45
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            46
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            7
+          ],
+          "after": [
+            7.6
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            54
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "f'{pooled[i]:.3f}'"
+          ],
+          "after": [
+            "'点为主模型估计。线段为录音轨道重抽样的 95% 同时置信区间。两幅图的横轴刻度不同。'"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            54
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "va",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            54
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "x",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "pooled[i] + pooled_ci[i] + 0.008"
+          ],
+          "after": [
+            "0.063"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            54
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "y_base[i] + 0.35"
+          ],
+          "after": [
+            "0.048"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            54
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            68
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "repetition_changed",
+          "methods": [
+            "errorbar"
+          ],
+          "message": "样式值及其周期内顺序相同，重复次数不同；可能来自组数或循环组织变化。若重复用于叠加透明图层，仍需核对层数。",
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 11,
+      "candidate_calls": 8,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "advanced.dot_ci",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\2fbebfaf50b1828ecb0004c5.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_behavior_effects.py",
+      "checkpoints": [
+        {
+          "feature": "错位点区间和汇总菱形",
+          "preserve": "保留方法行内错位的点区间、白边点与单独汇总菱形；不能只留中心点丢区间。",
+          "allowed_adaptation": "区间、颜色映射与汇总须有真实计算依据；示例 p 值和简单平均不能直接用作正式统计，图例与点色需一致。",
+          "evidence": [
+            {
+              "line": 38,
+              "end_line": 41,
+              "code": "        ax.errorbar(scores[i, j], y_base[i] + offsets[j], xerr=ci[i, j],\n                     fmt='o', color=dot_color, markersize=8, capsize=3,\n                     linewidth=1.5, markeredgecolor='white', markeredgewidth=0.8,\n                     label=metric if i == 0 else '', zorder=3)",
+              "href": "sources/advanced.dot_ci/original.html#L38"
+            },
+            {
+              "line": 49,
+              "end_line": 50,
+              "code": "    ax.fill(diamond_x, diamond_y, color=PALETTE[0] if i == 0 else COLORS['ref_line'],\n            alpha=0.7, zorder=4)",
+              "href": "sources/advanced.dot_ci/original.html#L49"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,69 +1,60 @@\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten; from _utils.vivid_config import palette_colors\n-setup_style(); scale_colors = palette_colors()\n+\"\"\"Behavior probability differences with matched uncertainty intervals.\"\"\"\n+from figure_data import OUT, inputs\n+\n import matplotlib.pyplot as plt\n-import matplotlib.colors as mcolors\n import numpy as np\n+from matplotlib.lines import Line2D\n+from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS\n \n-methods = ['Ours', 'BERT', 'GPT-4', 'LLaMA', 'T5']\n-metrics = ['Acc', 'F1', 'Prec', 'Rec']\n-scores = np.array([[0.92, 0.90, 0.91, 0.89],\n-                    [0.88, 0.86, 0.89, 0.84],\n-                    [0.90, 0.88, 0.87, 0.90],\n-                    [0.85, 0.83, 0.86, 0.81],\n-                    [0.87, 0.85, 0.88, 0.83]])\n-ci = np.random.uniform(0.01, 0.03, scores.shape)\n \n-# Compute p-values (simulated) for gradient coloring\n-np.random.seed(42)\n-pvals = np.random.uniform(0.001, 0.1, scores.shape)\n-pvals[0, :] = np.random.uniform(0.001, 0.01, 4)  # Ours is most significant\n+def panel(ax, labels, values, limits, ticks):\n+    # Vivid offset point intervals. The three marginal outcomes do not form a pooled estimate.\n+    ax.grid(axis='x', alpha=.32, linestyle='-', color=COLORS['grid'])\n+    ax.set_axisbelow(True)\n+    ax.axvline(0, color=COLORS['ref_line'], linewidth=.8, linestyle='--', zorder=1)\n+    y_base = np.arange(len(labels))\n+    offsets = np.linspace(-.25, .25, values.shape[1])\n+    colors = (PALETTE[0], PALETTE[2], PALETTE[5])\n+    markers = ('o', 's', '^')\n+    for j, (color, marker) in enumerate(zip(colors, markers)):\n+        for i, (point, low, high) in enumerate(values[:, j]):\n+            assert low <= point <= high\n+            ax.errorbar(point, y_base[i] + offsets[j], xerr=[[point-low], [high-point]],\n+                        fmt=marker, color=color, markersize=5.6, capsize=2.1,\n+                        linewidth=1.15, markeredgecolor='white', markeredgewidth=.75, zorder=3)\n+    ax.set(yticks=y_base, yticklabels=labels, xlim=limits, xticks=ticks, ylim=(len(labels)-.45, -.55))\n+    ax.set_xlabel('概率差（百分点）', fontsize=8.7)\n+    ax.tick_params(axis='both', labelsize=8)\n+    ax.tick_params(axis='y', length=0, pad=5)\n+    for side in ('top', 'right', 'left'):\n+        ax.spines[side].set_visible(False)\n+    return [Line2D([0], [0], marker=m, color='white', markerfacecolor=c,\n+                   markersize=6, label=b) for c, m, b in zip(colors, markers, ('抬头', '鸣叫', '靠近'))]\n \n-fig, ax = plt.subplots(figsize=(8, 5))\n \n-# Subtle grid\n-ax.grid(axis='x', alpha=0.15, linestyle='-', color=COLORS['grid'])\n-ax.set_axisbelow(True)\n+def main():\n+    setup_style()\n+    _, _, factors = inputs()\n+    main_results = factors['additive']['contrasts']\n+    sound = 100 * np.asarray(main_results['sound'])\n+    covariates = 100 * np.concatenate((\n+        np.asarray(main_results['context'])[:, 1],\n+        np.asarray(main_results['distance'])[:, 1],\n+        np.asarray(main_results['size'])[:, 1],\n+    ))\n+    fig, (left, right) = plt.subplots(1, 2, figsize=(7.2, 3.45))\n+    fig.subplots_adjust(left=.155, right=.98, bottom=.25, top=.84, wspace=.75)\n+    left.set_title('a   声型相对对照', loc='left', fontsize=10, fontweight='bold', pad=10)\n+    right.set_title('b   自然声下的条件比较', loc='left', fontsize=10, fontweight='bold', pad=10)\n+    handles = panel(left, ('flat', 'mod', 'tv', '自然声等权'), sound, (-4, 63), (0, 15, 30, 45, 60))\n+    panel(right, ('搜索食物−赶路', '进食后−赶路', '100 m−50 m', '8 只−4 只'),\n+          covariates, (-19, 14), (-15, -10, -5, 0, 5, 10))\n+    fig.legend(handles=handles, loc='lower center', bbox_to_anchor=(.5, .085), ncol=3,\n+               fontsize=8.5, frameon=False, columnspacing=2, borderaxespad=0)\n+    fig.text(.063, .048, '点为主模型估计。线段为录音轨道重抽样的 95% 同时置信区间。两幅图的横轴刻度不同。', fontsize=7.6)\n+    save_fig(fig, str(OUT / '02_behavior_effects.pdf'), formats=('pdf', 'png', 'svg'))\n+    plt.close(fig)\n \n-y_base = np.arange(len(methods))\n-offsets = np.linspace(-0.25, 0.25, len(metrics))\n \n-# Gradient colormap for significance\n-cmap_sig = mcolors.LinearSegmentedColormap.from_list('sig', [scale_colors[1], scale_colors[4] if len(scale_colors) > 4 else scale_colors[0], scale_colors[2] if len(scale_colors) > 2 else scale_colors[0]])\n-\n-for j, metric in enumerate(metrics):\n-    for i in range(len(methods)):\n-        # Color by significance (lower p = greener)\n-        sig_norm = min(pvals[i, j] / 0.1, 1.0)\n-        dot_color = cmap_sig(1 - sig_norm)\n-        ax.errorbar(scores[i, j], y_base[i] + offsets[j], xerr=ci[i, j],\n-                     fmt='o', color=dot_color, markersize=8, capsize=3,\n-                     linewidth=1.5, markeredgecolor='white', markeredgewidth=0.8,\n-                     label=metric if i == 0 else '', zorder=3)\n-\n-# Pooled estimate diamond for each method\n-pooled = np.mean(scores, axis=1)\n-pooled_ci = np.mean(ci, axis=1)\n-for i in range(len(methods)):\n-    diamond_x = [pooled[i] - pooled_ci[i], pooled[i], pooled[i] + pooled_ci[i], pooled[i]]\n-    diamond_y = [y_base[i] + 0.35, y_base[i] + 0.42, y_base[i] + 0.35, y_base[i] + 0.28]\n-    ax.fill(diamond_x, diamond_y, color=PALETTE[0] if i == 0 else COLORS['ref_line'],\n-            alpha=0.7, zorder=4)\n-    ax.text(pooled[i] + pooled_ci[i] + 0.008, y_base[i] + 0.35,\n-            f'{pooled[i]:.3f}', fontsize=7, va='center', color=COLORS['text'])\n-\n-ax.set_yticks(y_base)\n-ax.set_yticklabels(methods, fontsize=10)\n-ax.set_xlabel('Score', fontsize=11)\n-\n-# Custom legend\n-from matplotlib.lines import Line2D\n-legend_elements = [Line2D([0], [0], marker='o', color='w', markerfacecolor=PALETTE[j],\n-                           markersize=8, label=metrics[j]) for j in range(len(metrics))]\n-legend_elements.append(Line2D([0], [0], marker='D', color='w', markerfacecolor=COLORS['ref_line'],\n-                               markersize=8, label='Pooled'))\n-ax.legend(handles=legend_elements, loc='lower right', frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=8, ncol=3)\n-ax.invert_yaxis()\n-ax.spines['top'].set_visible(False)\n-ax.spines['right'].set_visible(False)\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_dot_ci.pdf')\n+if __name__ == '__main__':\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.boxstyle",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.edgecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.facecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.linewidth",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "annotate",
+          "candidate_lines": [
+            112
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "subplots",
+          "before": 3,
+          "after": 1,
+          "source_lines": [
+            118,
+            143,
+            159
+          ],
+          "candidate_lines": [
+            144
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              9,
+              5
+            ],
+            [
+              10,
+              5.5
+            ],
+            [
+              10.5,
+              6
+            ]
+          ],
+          "after": [
+            [
+              7.2,
+              3.4
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            118,
+            143,
+            159
+          ],
+          "candidate_lines": [
+            144
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            145
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "text",
+          "before": 4,
+          "after": 8,
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            9,
+            9,
+            10,
+            8.5
+          ],
+          "after": [
+            8.5,
+            8.5,
+            8.6,
+            10,
+            10.5,
+            10.5,
+            7.9,
+            7.9
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "fontweight",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "'bold'",
+            "'bold'",
+            "'bold'"
+          ],
+          "after": [
+            "flow.get('weight', 'normal')",
+            "'bold'"
+          ],
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "ha",
+          "before": [
+            "right",
+            "left",
+            "center",
+            "left"
+          ],
+          "after": [
+            "right",
+            "left",
+            "center",
+            "center",
+            "center",
+            "center"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "f'{name}\\n{v:g}'",
+            "f'{name}\\n{v:g}'",
+            "title_top",
+            "f'自给率 = {auto_rate:.1f}%   进口依赖 = {import_rate:.1f}%'"
+          ],
+          "after": [
+            "f'{name}\\n{v}/{total_src} ({v / total_src:.2%})'",
+            "f'{name}\\n{v}/{total_tgt} ({v / total_tgt:.2%})'",
+            "flow['label']",
+            "title_top",
+            "'Control sound'",
+            "'Natural calls'",
+            "'139 paired experiments'",
+            "f'Adjusted difference +{-diff:.2f} pp (95% simultaneous CI {-hi:.2f} to {-lo:.2f})'"
+          ],
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "va",
+          "before": [
+            "center",
+            "center",
+            "top",
+            "bottom"
+          ],
+          "after": [
+            "center",
+            "center",
+            "center",
+            "top",
+            "bottom",
+            "bottom"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "text",
+          "parameter": "weight",
+          "after": [
+            "bold",
+            "bold"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "x",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "left_x - node_width / 2 - 0.012",
+            "right_x + node_width / 2 + 0.012",
+            "0.5",
+            "0.05"
+          ],
+          "after": [
+            "left_x - node_width / 2 - 0.024",
+            "right_x + node_width / 2 + 0.024",
+            "flow.get('label_x', mid_x)",
+            "0.5",
+            "0.232",
+            "0.768",
+            "0.065",
+            "0.369"
+          ],
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "(y0 + y1) / 2",
+            "(y0 + y1) / 2",
+            "0.98",
+            "0.04"
+          ],
+          "after": [
+            "(y0 + y1) / 2",
+            "(y0 + y1) / 2",
+            "midpoint",
+            "0.98",
+            "0.985",
+            "0.985",
+            "0.056",
+            "0.056"
+          ],
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "text",
+          "parameter": "zorder",
+          "after": [
+            4
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            61,
+            70,
+            104,
+            118,
+            148,
+            149,
+            151,
+            152
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            138,
+            154,
+            175
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 16,
+      "candidate_calls": 17,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "advanced.sankey",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\3346a1a30b548e2820153d8a.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_paired_response_en.py",
+      "checkpoints": [
+        {
+          "feature": "流带宽度与交叉叠色",
+          "preserve": "保留矩形节点与封闭贝塞尔宽带、alpha=0.42 的流带叠色及 alpha=0.92 的节点。宽带不能缩成普通连线。",
+          "allowed_adaptation": "流量、节点数、节点间距与控制点可变；分别核对两侧流量占比和守恒，不机械等宽。",
+          "evidence": [
+            {
+              "line": 62,
+              "end_line": 63,
+              "code": "        rect = Rectangle((left_x - node_width / 2, y0), node_width, y1 - y0,\n                         facecolor=source_colors[i], edgecolor='none', alpha=0.92, zorder=3)",
+              "href": "sources/advanced.sankey/original.html#L62"
+            },
+            {
+              "line": 72,
+              "end_line": 73,
+              "code": "        rect = Rectangle((right_x - node_width / 2, y0), node_width, y1 - y0,\n                         facecolor=target_colors[i], edgecolor='none', alpha=0.92, zorder=3)",
+              "href": "sources/advanced.sankey/original.html#L72"
+            },
+            {
+              "line": 105,
+              "end_line": 106,
+              "code": "        patch = PathPatch(Path(verts, codes),\n                          facecolor=flow_color, edgecolor='none', alpha=0.42, zorder=2)",
+              "href": "sources/advanced.sankey/original.html#L105"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,16 +1,12 @@\n-import shutil, os\n-os.makedirs('_utils', exist_ok=True)\n-for f in ['plot_utils.py']:\n-    src = os.path.join(os.path.dirname(__file__), f)\n-    if os.path.exists(src):\n-        shutil.copy2(src, f'_utils/{f}')\n+from figure_data import inputs\n+from figure_english import (\n+    BLUE, GRAY, INK, MUTED, OUT_EN, TEAL, blend_with_white, configure_english,\n+)\n \n-import numpy as np\n import matplotlib.pyplot as plt\n from matplotlib.path import Path\n from matplotlib.patches import PathPatch, Rectangle\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten\n-setup_style()\n+from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS\n \n \n def draw_sankey(ax, source_nodes, target_nodes, flows,\n@@ -62,20 +58,18 @@\n         rect = Rectangle((left_x - node_width / 2, y0), node_width, y1 - y0,\n                          facecolor=source_colors[i], edgecolor='none', alpha=0.92, zorder=3)\n         ax.add_patch(rect)\n-        ax.text(left_x - node_width / 2 - 0.012, (y0 + y1) / 2,\n-                f'{name}\\n{v:g}',\n-                ha='right', va='center', fontsize=9,\n-                color=COLORS.get('text', '#222'), fontweight='bold')\n+        ax.text(left_x - node_width / 2 - .024, (y0 + y1) / 2,\n+                f'{name}\\n{v}/{total_src} ({v / total_src:.2%})',\n+                ha='right', va='center', fontsize=8.5, color=INK, linespacing=1.3)\n \n     # 右侧节点矩形 + 标签\n     for i, ((name, v), (y0, y1)) in enumerate(zip(target_nodes, tgt_ranges)):\n         rect = Rectangle((right_x - node_width / 2, y0), node_width, y1 - y0,\n                          facecolor=target_colors[i], edgecolor='none', alpha=0.92, zorder=3)\n         ax.add_patch(rect)\n-        ax.text(right_x + node_width / 2 + 0.012, (y0 + y1) / 2,\n-                f'{name}\\n{v:g}',\n-                ha='left', va='center', fontsize=9,\n-                color=COLORS.get('text', '#222'), fontweight='bold')\n+        ax.text(right_x + node_width / 2 + .024, (y0 + y1) / 2,\n+                f'{name}\\n{v}/{total_tgt} ({v / total_tgt:.2%})',\n+                ha='left', va='center', fontsize=8.5, color=INK, linespacing=1.3)\n \n     # 贝塞尔流带\n     src_top_used = [r[1] for r in src_ranges]\n@@ -105,6 +99,20 @@\n         patch = PathPatch(Path(verts, codes),\n                           facecolor=flow_color, edgecolor='none', alpha=0.42, zorder=2)\n         ax.add_patch(patch)\n+        if 'label' in flow:\n+            midpoint = (s_y_top + s_y_bot + t_y_top + t_y_bot) / 4\n+            ax.text(flow.get('label_x', mid_x), midpoint, flow['label'], ha='center', va='center',\n+                    fontsize=8.6, color=INK, zorder=4, fontweight=flow.get('weight', 'normal'))\n+        if 'callout' in flow:\n+            # The leader terminates on the center line of the actual cubic ribbon.\n+            t = .76\n+            a, b, c, d = (1-t)**3, 3*(1-t)**2*t, 3*(1-t)*t*t, t**3\n+            x = a * (left_x + node_width/2) + (b+c) * mid_x + d * (right_x-node_width/2)\n+            y = (a+b)*(s_y_top+s_y_bot)/2 + (c+d)*(t_y_top+t_y_bot)/2\n+            ax.annotate(flow['callout'], xy=(x, y), xytext=(.48, .014),\n+                        ha='center', va='center', color=BLUE, fontsize=8.2,\n+                        arrowprops={'arrowstyle': '-', 'lw': .7, 'color': BLUE, 'shrinkB': 2},\n+                        zorder=5)\n \n     if title_top:\n         ax.text(0.5, 0.98, title_top, ha='center', va='top',\n@@ -114,63 +122,38 @@\n     ax.set_aspect('auto'); ax.axis('off')\n \n \n-# ── 示例 1: 多 source → 单 target（资源分配场景）\n-fig, ax = plt.subplots(figsize=(9, 5))\n-source_nodes = [('国产', 1473), ('俄罗斯', 1500), ('卡塔尔', 27)]\n-target_nodes = [('总供给 = 需求 (万 m³)', 3000)]\n-flows = [\n-    {'source_idx': 0, 'target_idx': 0, 'value': 1473},\n-    {'source_idx': 1, 'target_idx': 0, 'value': 1500},\n-    {'source_idx': 2, 'target_idx': 0, 'value': 27},\n-]\n-draw_sankey(ax, source_nodes, target_nodes, flows,\n-            title_top='问题一 最优供应量分配（流量守恒，万 m³）')\n-\n-auto_rate = 1473 / 3000 * 100\n-import_rate = (1500 + 27) / 3000 * 100\n-ax.text(0.05, 0.04,\n-        f'自给率 = {auto_rate:.1f}%   进口依赖 = {import_rate:.1f}%',\n-        ha='left', va='bottom', fontsize=8.5,\n-        color=COLORS.get('text', '#444'),\n-        bbox=dict(boxstyle='round,pad=0.4', facecolor='white',\n-                  edgecolor='#cccccc', linewidth=0.5))\n-\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_sankey_supply.pdf')\n+def main():\n+    setup_style(language='en')\n+    counts, combo, _ = inputs()\n+    configure_english()\n+    natural_only, control_only = counts[1, 0], counts[0, 1]\n+    both, neither = counts[1, 1], counts[0, 0]\n+    left = [('Response', both + control_only), ('No response', natural_only + neither)]\n+    right = [('Response', both + natural_only), ('No response', control_only + neither)]\n+    flows = [\n+        {'source_idx': 0, 'target_idx': 0, 'value': both, 'color': blend_with_white(TEAL, .30),\n+         'label': f'{both} responded to both'},\n+        {'source_idx': 1, 'target_idx': 0, 'value': natural_only, 'color': TEAL,\n+         'label': f'{natural_only} responded only to calls', 'label_x': .605, 'weight': 'bold'},\n+        {'source_idx': 1, 'target_idx': 1, 'value': neither, 'color': GRAY, 'label': f'{neither} responded to neither',\n+         'label_x': .43},\n+        {'source_idx': 0, 'target_idx': 1, 'value': control_only, 'color': BLUE,\n+         'callout': f'{control_only} responded only to the control'},\n+    ]\n+    assert sum(flow['value'] for flow in flows) == 139\n+    fig, ax = plt.subplots(figsize=(7.2, 3.40))\n+    fig.subplots_adjust(left=.022, right=.978, bottom=.15, top=.865)\n+    draw_sankey(ax, left, right, flows, source_colors=[TEAL, GRAY], target_colors=[TEAL, GRAY],\n+                left_x=.232, right_x=.768, node_width=.018, node_gap=.056)\n+    ax.text(.232, .985, 'Control sound', ha='center', va='bottom', fontsize=10.5, weight='bold', color=INK)\n+    ax.text(.768, .985, 'Natural calls', ha='center', va='bottom', fontsize=10.5, weight='bold', color=INK)\n+    diff, lo, hi = combo['natural_equal', 'No response'][2:]\n+    fig.text(.065, .056, '139 paired experiments', fontsize=7.9, color=MUTED)\n+    fig.text(.369, .056, f'Adjusted difference +{-diff:.2f} pp (95% simultaneous CI {-hi:.2f} to {-lo:.2f})',\n+             fontsize=7.9, color=MUTED)\n+    save_fig(fig, str(OUT_EN / '01_paired_response.pdf'), formats=('pdf', 'png', 'svg'))\n+    plt.close(fig)\n \n \n-# ── 示例 2: 单 source → 多 target（数据分流场景）\n-fig, ax = plt.subplots(figsize=(10, 5.5))\n-source_nodes = [('原始数据', 1000)]\n-target_nodes = [('训练集', 600), ('测试集', 300), ('验证集', 100)]\n-flows = [\n-    {'source_idx': 0, 'target_idx': 0, 'value': 600, 'color': PALETTE[0]},\n-    {'source_idx': 0, 'target_idx': 1, 'value': 300, 'color': PALETTE[1]},\n-    {'source_idx': 0, 'target_idx': 2, 'value': 100, 'color': PALETTE[2]},\n-]\n-draw_sankey(ax, source_nodes, target_nodes, flows,\n-            target_colors=[PALETTE[0], PALETTE[1], PALETTE[2]],\n-            title_top='数据集划分')\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_sankey_split.pdf')\n-\n-\n-# ── 示例 3: 多对多\n-fig, ax = plt.subplots(figsize=(10.5, 6))\n-source_nodes = [('来源A', 500), ('来源B', 300), ('来源C', 200)]\n-target_nodes = [('去向X', 400), ('去向Y', 350), ('去向Z', 150), ('去向W', 100)]\n-flows = [\n-    {'source_idx': 0, 'target_idx': 0, 'value': 300},\n-    {'source_idx': 0, 'target_idx': 1, 'value': 150},\n-    {'source_idx': 0, 'target_idx': 2, 'value':  50},\n-    {'source_idx': 1, 'target_idx': 0, 'value': 100},\n-    {'source_idx': 1, 'target_idx': 1, 'value': 150},\n-    {'source_idx': 1, 'target_idx': 3, 'value':  50},\n-    {'source_idx': 2, 'target_idx': 1, 'value':  50},\n-    {'source_idx': 2, 'target_idx': 2, 'value': 100},\n-    {'source_idx': 2, 'target_idx': 3, 'value':  50},\n-]\n-draw_sankey(ax, source_nodes, target_nodes, flows,\n-            title_top='多对多流向分析')\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_sankey_many.pdf')\n+if __name__ == '__main__':\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "operation_not_found",
+          "method": "fill",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            49
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "call_added",
+          "method": "axvspan",
+          "candidate_lines": [
+            22
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "errorbar",
+          "parameter": "linewidth",
+          "before": [
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "after": [
+            1.45
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "errorbar",
+          "parameter": "markersize",
+          "before": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "after": [
+            6.5
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "errorbar",
+          "parameter": "xerr",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "errorbar",
+          "parameter": "yerr",
+          "after": [
+            "[[point[j] - lo[j]], [hi[j] - point[j]]]"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            38
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "plot",
+          "candidate_lines": [
+            28
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg0",
+          "after": [
+            1
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [
+            70
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg1",
+          "after": [
+            2
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [
+            70
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              8,
+              5
+            ]
+          ],
+          "after": [
+            [
+              10.15,
+              4.75
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [
+            70
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            71
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "text",
+          "before": 1,
+          "after": 4,
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            72,
+            73,
+            88,
+            90
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            7
+          ],
+          "after": [
+            17,
+            9.2,
+            8.1,
+            8.1
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            72,
+            73,
+            88,
+            90
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "f'{pooled[i]:.3f}'"
+          ],
+          "after": [
+            "'代表性距离下的企鹅首次响应'",
+            "f\"固定观测企鹅数量为 {data['group_size']:g} 只，按实测情境比例加权\"",
+            "'点与线段表示模型估计及逐项 95% 区间。mod 在 100 m 实测 0/5，两个面板均留空。'",
+            "'浅色区为 150 m 的预测条件，该距离没有恰好 8 只的实测回放。'"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            72,
+            73,
+            88,
+            90
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "va",
+          "before": [
+            "center"
+          ],
+          "after": [
+            "top",
+            "top",
+            "center",
+            "center"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            72,
+            73,
+            88,
+            90
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "text",
+          "parameter": "weight",
+          "after": [
+            "bold"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            72,
+            73,
+            88,
+            90
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "x",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "pooled[i] + pooled_ci[i] + 0.008"
+          ],
+          "after": [
+            "0.088",
+            "0.088",
+            "0.088",
+            "0.088"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            72,
+            73,
+            88,
+            90
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "y_base[i] + 0.35"
+          ],
+          "after": [
+            "0.952",
+            "0.873",
+            "0.112",
+            "0.062"
+          ],
+          "source_lines": [
+            51
+          ],
+          "candidate_lines": [
+            72,
+            73,
+            88,
+            90
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            68
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "repetition_changed",
+          "methods": [
+            "errorbar"
+          ],
+          "message": "样式值及其周期内顺序相同，重复次数不同；可能来自组数或循环组织变化。若重复用于叠加透明图层，仍需核对层数。",
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 11,
+      "candidate_calls": 14,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "advanced.dot_ci",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\58afc9a836578fcbc1f2b1ae.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_latency_scenarios.py",
+      "checkpoints": [
+        {
+          "feature": "错位点区间和汇总菱形",
+          "preserve": "保留方法行内错位的点区间、白边点与单独汇总菱形；不能只留中心点丢区间。",
+          "allowed_adaptation": "区间、颜色映射与汇总须有真实计算依据；示例 p 值和简单平均不能直接用作正式统计，图例与点色需一致。",
+          "evidence": [
+            {
+              "line": 38,
+              "end_line": 41,
+              "code": "        ax.errorbar(scores[i, j], y_base[i] + offsets[j], xerr=ci[i, j],\n                     fmt='o', color=dot_color, markersize=8, capsize=3,\n                     linewidth=1.5, markeredgecolor='white', markeredgewidth=0.8,\n                     label=metric if i == 0 else '', zorder=3)",
+              "href": "sources/advanced.dot_ci/original.html#L38"
+            },
+            {
+              "line": 49,
+              "end_line": 50,
+              "code": "    ax.fill(diamond_x, diamond_y, color=PALETTE[0] if i == 0 else COLORS['ref_line'],\n            alpha=0.7, zorder=4)",
+              "href": "sources/advanced.dot_ci/original.html#L49"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,69 +1,97 @@\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten; from _utils.vivid_config import palette_colors\n-setup_style(); scale_colors = palette_colors()\n+\"\"\"Plot the fitted response probabilities and times at the requested distances.\"\"\"\n+\n+import json\n+\n+from figure_data import ANALYSIS\n import matplotlib.pyplot as plt\n-import matplotlib.colors as mcolors\n import numpy as np\n+from matplotlib.lines import Line2D\n+from matplotlib.ticker import PercentFormatter\n \n-methods = ['Ours', 'BERT', 'GPT-4', 'LLaMA', 'T5']\n-metrics = ['Acc', 'F1', 'Prec', 'Rec']\n-scores = np.array([[0.92, 0.90, 0.91, 0.89],\n-                    [0.88, 0.86, 0.89, 0.84],\n-                    [0.90, 0.88, 0.87, 0.90],\n-                    [0.85, 0.83, 0.86, 0.81],\n-                    [0.87, 0.85, 0.88, 0.83]])\n-ci = np.random.uniform(0.01, 0.03, scores.shape)\n+from _utils.plot_utils import COLORS, PALETTE, save_fig, setup_style\n \n-# Compute p-values (simulated) for gradient coloring\n-np.random.seed(42)\n-pvals = np.random.uniform(0.001, 0.1, scores.shape)\n-pvals[0, :] = np.random.uniform(0.001, 0.01, 4)  # Ours is most significant\n \n-fig, ax = plt.subplots(figsize=(8, 5))\n+DISTANCES = np.array([50, 100, 150])\n+SOUNDS = (\"control\", \"flat\", \"mod\", \"tv\")\n+LABELS = (\"对照声\", \"flat\", \"mod\", \"tv\")\n+MARKERS = (\"D\", \"o\", \"s\", \"^\")\n \n-# Subtle grid\n-ax.grid(axis='x', alpha=0.15, linestyle='-', color=COLORS['grid'])\n-ax.set_axisbelow(True)\n \n-y_base = np.arange(len(methods))\n-offsets = np.linspace(-0.25, 0.25, len(metrics))\n+def panel(ax, values, colors, title, ylabel, limits):\n+    offsets = np.array([-7.5, -2.5, 2.5, 7.5])\n+    ax.axvspan(129, 169, facecolor=PALETTE[0], alpha=.075, linewidth=0, zorder=0)\n+    ax.grid(axis=\"y\", linestyle=\"--\", alpha=.36, color=COLORS[\"grid\"])\n+    ax.set_axisbelow(True)\n+    for i, (color, marker) in enumerate(zip(colors, MARKERS)):\n+        point, lo, hi = values[i].T\n+        locations = DISTANCES + offsets[i]\n+        ax.plot(locations, point, color=color, linewidth=1.0, alpha=.5, zorder=2)\n+        for j in np.flatnonzero(np.isfinite(point)):\n+            ax.errorbar(locations[j], point[j],\n+                        yerr=[[point[j]-lo[j]], [hi[j]-point[j]]], fmt=marker,\n+                        color=color, markersize=6.5, capsize=3, linewidth=1.45,\n+                        markeredgecolor=\"white\", markeredgewidth=.8, zorder=3)\n+    ax.set_title(title, loc=\"left\", fontsize=11, fontweight=\"bold\", pad=11)\n+    ax.set_ylabel(ylabel, fontsize=10, labelpad=7)\n+    ax.set_xlabel(\"回放距离（m）\", fontsize=10, labelpad=6)\n+    ax.set_xticks(DISTANCES)\n+    ax.set_xlim(31, 169)\n+    ax.set_ylim(*limits)\n+    ax.spines[\"top\"].set_visible(False)\n+    ax.spines[\"right\"].set_visible(False)\n \n-# Gradient colormap for significance\n-cmap_sig = mcolors.LinearSegmentedColormap.from_list('sig', [scale_colors[1], scale_colors[4] if len(scale_colors) > 4 else scale_colors[0], scale_colors[2] if len(scale_colors) > 2 else scale_colors[0]])\n \n-for j, metric in enumerate(metrics):\n-    for i in range(len(methods)):\n-        # Color by significance (lower p = greener)\n-        sig_norm = min(pvals[i, j] / 0.1, 1.0)\n-        dot_color = cmap_sig(1 - sig_norm)\n-        ax.errorbar(scores[i, j], y_base[i] + offsets[j], xerr=ci[i, j],\n-                     fmt='o', color=dot_color, markersize=8, capsize=3,\n-                     linewidth=1.5, markeredgecolor='white', markeredgewidth=0.8,\n-                     label=metric if i == 0 else '', zorder=3)\n+def read_estimates(data):\n+    lookup = {(r[\"sound\"], r[\"distance_m\"]): r[\"outcomes\"][\"Any\"] for r in data[\"rows\"]}\n+    probability = np.full((len(SOUNDS), len(DISTANCES), 3), np.nan)\n+    latency = np.full_like(probability, np.nan)\n+    for i, sound in enumerate(SOUNDS):\n+        for j, distance in enumerate(DISTANCES):\n+            row = lookup[sound, distance]\n+            if row[\"reported_conditional_median_seconds\"] is not None:\n+                probability[i, j] = row[\"probability_by_60\"]\n+                latency[i, j] = row[\"reported_conditional_median_seconds\"]\n+    assert set(zip(*np.where(~np.isfinite(latency[..., 0])))) == {(2, 1)}\n+    assert lookup[\"mod\", 100][\"distance_events\"] == 0 and lookup[\"mod\", 100][\"distance_sample\"] == 5\n+    assert all(lookup[sound, 150][\"exact_sample\"] == 0 for sound in SOUNDS)\n+    for values in (probability, latency):\n+        defined = values[np.isfinite(values[..., 0])]\n+        assert np.all((defined[:, 1] <= defined[:, 0]) & (defined[:, 0] <= defined[:, 2]))\n+    return probability, latency\n \n-# Pooled estimate diamond for each method\n-pooled = np.mean(scores, axis=1)\n-pooled_ci = np.mean(ci, axis=1)\n-for i in range(len(methods)):\n-    diamond_x = [pooled[i] - pooled_ci[i], pooled[i], pooled[i] + pooled_ci[i], pooled[i]]\n-    diamond_y = [y_base[i] + 0.35, y_base[i] + 0.42, y_base[i] + 0.35, y_base[i] + 0.28]\n-    ax.fill(diamond_x, diamond_y, color=PALETTE[0] if i == 0 else COLORS['ref_line'],\n-            alpha=0.7, zorder=4)\n-    ax.text(pooled[i] + pooled_ci[i] + 0.008, y_base[i] + 0.35,\n-            f'{pooled[i]:.3f}', fontsize=7, va='center', color=COLORS['text'])\n \n-ax.set_yticks(y_base)\n-ax.set_yticklabels(methods, fontsize=10)\n-ax.set_xlabel('Score', fontsize=11)\n+def main():\n+    setup_style()\n+    path = ANALYSIS / \"q3_latency_scenarios_results.json\"\n+    data = json.loads(path.read_text(encoding=\"utf-8\"))\n+    probability, latency = read_estimates(data)\n+    colors = (\"#62737E\", PALETTE[0], PALETTE[2], \"#226F79\")\n \n-# Custom legend\n-from matplotlib.lines import Line2D\n-legend_elements = [Line2D([0], [0], marker='o', color='w', markerfacecolor=PALETTE[j],\n-                           markersize=8, label=metrics[j]) for j in range(len(metrics))]\n-legend_elements.append(Line2D([0], [0], marker='D', color='w', markerfacecolor=COLORS['ref_line'],\n-                               markersize=8, label='Pooled'))\n-ax.legend(handles=legend_elements, loc='lower right', frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=8, ncol=3)\n-ax.invert_yaxis()\n-ax.spines['top'].set_visible(False)\n-ax.spines['right'].set_visible(False)\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_dot_ci.pdf')\n+    fig, (left, right) = plt.subplots(1, 2, figsize=(10.15, 4.75))\n+    fig.subplots_adjust(left=.088, right=.975, top=.69, bottom=.24, wspace=.30)\n+    fig.text(.088, .952, \"代表性距离下的企鹅首次响应\", fontsize=17, weight=\"bold\", va=\"top\")\n+    fig.text(.088, .873, f\"固定观测企鹅数量为 {data['group_size']:g} 只，按实测情境比例加权\",\n+             fontsize=9.2, color=COLORS[\"text\"], va=\"top\")\n+    handles = [Line2D([0], [0], marker=m, color=c, linewidth=1, markersize=6,\n+                      markeredgecolor=\"white\", label=label)\n+               for label, m, c in zip(LABELS, MARKERS, colors)]\n+    fig.legend(handles=handles, loc=\"upper left\", bbox_to_anchor=(.085, .824),\n+               frameon=False, ncol=4, fontsize=9, handlelength=1.5, columnspacing=1.75)\n+\n+    panel(left, probability, colors, \"A   60 秒内是否出现响应\",\n+          \"响应概率\", (0, .85))\n+    left.yaxis.set_major_formatter(PercentFormatter(1, decimals=0))\n+    left.set_yticks([0, .2, .4, .6, .8])\n+    panel(right, latency, colors, \"B   有响应时多久开始\",\n+          \"中位潜伏期（秒）\", (1.35, 3.42))\n+    right.set_yticks([1.5, 2, 2.5, 3])\n+    fig.text(.088, .112, \"点与线段表示模型估计及逐项 95% 区间。mod 在 100 m 实测 0/5，两个面板均留空。\",\n+             fontsize=8.1, color=COLORS[\"text\"], va=\"center\")\n+    fig.text(.088, .062, \"浅色区为 150 m 的预测条件，该距离没有恰好 8 只的实测回放。\",\n+             fontsize=8.1, color=COLORS[\"text\"], va=\"center\")\n+    out = ANALYSIS.parent / \"figures\" / \"q3_latency_03_scenarios\"\n+    save_fig(fig, str(out), formats=(\"pdf\", \"png\", \"svg\"))\n+\n+\n+if __name__ == \"__main__\":\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "axis_label_missing",
+          "method": "ax.set_ylabel",
+          "candidate_lines": [],
+          "priority": "focus",
+          "message": "ax 的 y 轴未找到非空标签；核对变量名称和单位，动态或共享标签需人工确认。",
+          "source_lines": [],
+          "severity": "advisory"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "boxplot",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            24
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "plot",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            42
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "scatter",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            33
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_alpha",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_edgecolor",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            19
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_facecolor",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            18
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_linewidth",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            20
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "violinplot",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            14
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.alpha",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.boxstyle",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.edgecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.facecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.linewidth",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "_lighten",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            18
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg0",
+          "after": [
+            1
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            11
+          ],
+          "candidate_lines": [
+            39
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg1",
+          "after": [
+            2
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            11
+          ],
+          "candidate_lines": [
+            39
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              8,
+              5.5
+            ]
+          ],
+          "after": [
+            [
+              7.2,
+              3.43
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            11
+          ],
+          "candidate_lines": [
+            39
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            40
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            7.5,
+            7
+          ],
+          "after": [
+            7.3,
+            7.3
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "fontweight",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "ha",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "f'{d.mean():.1f}'",
+            "f'{stars}\\np={p_val:.2e}'"
+          ],
+          "after": [
+            "'3,000 bootstrap refits by recording track. Boxes show the interquartile range and median.'",
+            "'Whiskers mark the 2.5th and 97.5th percentiles. The panels have different vertical scales.'"
+          ],
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "va",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "x",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "i + 0.25",
+            "(x1 + x2) / 2"
+          ],
+          "after": [
+            "0.064",
+            "0.064"
+          ],
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "d.mean()",
+            "y + h + 0.3"
+          ],
+          "after": [
+            "0.09",
+            "0.051"
+          ],
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            51,
+            53
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            61
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 16,
+      "candidate_calls": 7,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "basic.raincloud_violin",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\5bc0ab477c043a6041fe1ee7.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_behavior_boxes_en.py",
+      "checkpoints": [
+        {
+          "feature": "对称琴体与内部窄箱",
+          "preserve": "保留浅色半透明对称琴体、深轮廓、内部窄箱与均值菱形；不是左右错位的半雨云。",
+          "allowed_adaptation": "组数与间距可变；箱线和均值由样本计算，比较括号只用于有效检验。",
+          "evidence": [
+            {
+              "line": 14,
+              "end_line": 15,
+              "code": "parts = ax.violinplot(data, positions=range(len(groups)), showmeans=False,\n                      showmedians=False, showextrema=False)",
+              "href": "sources/basic.raincloud_violin/original.html#L14"
+            },
+            {
+              "line": 21,
+              "end_line": 21,
+              "code": "    pc.set_alpha(0.7)",
+              "href": "sources/basic.raincloud_violin/original.html#L21"
+            },
+            {
+              "line": 24,
+              "end_line": 29,
+              "code": "bp = ax.boxplot(data, positions=range(len(groups)), widths=0.15, patch_artist=True,\n                boxprops=dict(facecolor='white', edgecolor=COLORS['text'], linewidth=1.2),\n                medianprops=dict(color=COLORS['text'], linewidth=2),\n                whiskerprops=dict(linewidth=1.2),\n                capprops=dict(linewidth=1.2),\n                flierprops=dict(marker='.', markersize=3, alpha=0.3))",
+              "href": "sources/basic.raincloud_violin/original.html#L24"
+            },
+            {
+              "line": 33,
+              "end_line": 34,
+              "code": "    ax.scatter(i, d.mean(), marker='D', s=40, color=PALETTE[i],\n               edgecolor='white', linewidth=1, zorder=5)",
+              "href": "sources/basic.raincloud_violin/original.html#L33"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,62 +1,60 @@\n+\"\"\"Vertical boxplots of bootstrap differences for individual behaviors.\"\"\"\n+from figure_english import (\n+    BLUE, INK, MUTED, OUT_EN, RUST, TEAL, blend_with_white,\n+    bootstrap_results, configure_english, draw_boxes,\n+)\n+\n+import matplotlib.pyplot as plt\n+from matplotlib.patches import Patch\n+from matplotlib.ticker import MultipleLocator\n import numpy as np\n-import matplotlib.pyplot as plt\n-from scipy.stats import ttest_ind\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten\n-setup_style()\n+from _utils.plot_utils import setup_style, save_fig\n \n-np.random.seed(42)\n-groups = ['A组', 'B组', 'C组', 'D组']\n-data = [np.random.normal(m, s, 100) for m, s in [(80, 5), (85, 3), (78, 8), (90, 4)]]\n \n-fig, ax = plt.subplots(figsize=(8, 5.5))\n+SERIES = (TEAL, RUST, BLUE)\n \n-# ★ 淡色填充 + 原色边框小提琴\n-parts = ax.violinplot(data, positions=range(len(groups)), showmeans=False,\n-                      showmedians=False, showextrema=False)\n \n-for i, pc in enumerate(parts['bodies']):\n-    pc.set_facecolor(_lighten(PALETTE[i], 0.4))\n-    pc.set_edgecolor(PALETTE[i])\n-    pc.set_linewidth(1.2)\n-    pc.set_alpha(0.7)\n+def panel(ax, values, labels, ticks):\n+    x = np.arange(len(labels))\n+    positions = (x[:, None] + np.array([-.23, 0, .23])).ravel()\n+    colors = list(SERIES) * len(labels)\n+    draw_boxes(ax, values.reshape(len(values), -1), positions, colors, width=.185)\n+    ax.set_xticks(x, labels)\n+    ax.set_xlim(-.53, len(labels)-.45)\n+    low, high = np.percentile(values, [2.5, 97.5], axis=0)\n+    lower = min(0, low.min())\n+    upper = max(0, high.max())\n+    ax.set_ylim(lower - .10*(upper-lower), upper + .10*(upper-lower))\n+    ax.yaxis.set_major_locator(MultipleLocator(ticks))\n+    ax.tick_params(axis='x', length=0, pad=6)\n \n-# 叠加窄箱线图\n-bp = ax.boxplot(data, positions=range(len(groups)), widths=0.15, patch_artist=True,\n-                boxprops=dict(facecolor='white', edgecolor=COLORS['text'], linewidth=1.2),\n-                medianprops=dict(color=COLORS['text'], linewidth=2),\n-                whiskerprops=dict(linewidth=1.2),\n-                capprops=dict(linewidth=1.2),\n-                flierprops=dict(marker='.', markersize=3, alpha=0.3))\n \n-# 均值菱形 + 数值标注\n-for i, d in enumerate(data):\n-    ax.scatter(i, d.mean(), marker='D', s=40, color=PALETTE[i],\n-               edgecolor='white', linewidth=1, zorder=5)\n-    ax.text(i + 0.25, d.mean(), f'{d.mean():.1f}', fontsize=7.5, color=PALETTE[i],\n-            va='center', fontweight='bold',\n-            bbox=dict(boxstyle='round,pad=0.1', facecolor='white',\n-                      edgecolor='none', alpha=0.7))\n+def main():\n+    setup_style(language='en')\n+    configure_english()\n+    draws = bootstrap_results()\n+    conditional = np.concatenate(\n+        [draws[name][:, :, 1, :] for name in ('context', 'distance', 'size')], axis=1\n+    )\n+    fig, (a, b) = plt.subplots(1, 2, figsize=(7.2, 3.43))\n+    fig.subplots_adjust(left=.116, right=.98, bottom=.265, top=.81, wspace=.30)\n+    a.set_title('a   Call type vs. control', loc='left', fontsize=9.6, fontweight='bold', pad=8)\n+    b.set_title('b   Conditions within natural calls', loc='left', fontsize=9.6, fontweight='bold', pad=8)\n+    panel(a, draws['sound'], ('Flat', 'Modulated', 'Two-voice', 'All calls'), 15)\n+    panel(b, conditional, ('Searching\\nvs. transit', 'After feeding\\nvs. transit',\n+                           '100 m\\nvs. 50 m', '8 vs. 4\\npenguins'), 5)\n+    a.set_ylabel('Adjusted probability difference (pp)', fontsize=8.4, labelpad=6, color=INK)\n+    handles = [Patch(facecolor=blend_with_white(c), edgecolor=c, label=s)\n+               for c, s in zip(SERIES, ('Head raising', 'Vocalizing', 'Approach'))]\n+    fig.legend(handles=handles, loc='upper center', bbox_to_anchor=(.53, .985),\n+               ncol=3, fontsize=7.8, frameon=False, columnspacing=1.6)\n+    fig.text(.064, .09, '3,000 bootstrap refits by recording track. Boxes show the interquartile range and median.',\n+             fontsize=7.3, color=MUTED)\n+    fig.text(.064, .051, 'Whiskers mark the 2.5th and 97.5th percentiles. The panels have different vertical scales.',\n+             fontsize=7.3, color=MUTED)\n+    save_fig(fig, str(OUT_EN / '02_behavior_boxes.pdf'), formats=('pdf', 'png', 'svg'))\n+    plt.close(fig)\n \n-# 显著性括号\n-def add_significance(ax, x1, x2, y, p_val, h=2):\n-    ax.plot([x1, x1, x2, x2], [y, y + h, y + h, y], color=COLORS['text'], linewidth=0.8)\n-    stars = '***' if p_val < 0.001 else '**' if p_val < 0.01 else '*' if p_val < 0.05 else 'n.s.'\n-    ax.text((x1 + x2) / 2, y + h + 0.3, f'{stars}\\np={p_val:.2e}',\n-            ha='center', va='bottom', fontsize=7, color=COLORS['text'],\n-            bbox=dict(boxstyle='round,pad=0.15', facecolor=COLORS['bg_box'],\n-                      edgecolor=COLORS['grid'], alpha=0.9, linewidth=0.3))\n \n-y_max = max(d.max() for d in data) + 3\n-# 比较最优组（D组）与其他组\n-for idx, comp in enumerate([0, 1, 2]):\n-    _, p = ttest_ind(data[3], data[comp])\n-    add_significance(ax, comp, 3, y_max + idx * 6, p)\n-\n-ax.set_xticks(range(len(groups)))\n-ax.set_xticklabels(groups, fontsize=10)\n-ax.set_ylabel('数值', fontsize=11)\n-ax.spines['top'].set_visible(False)\n-ax.spines['right'].set_visible(False)\n-ax.grid(axis='y', alpha=0.12, linestyle='--', color=COLORS['grid'])\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_violin.pdf')\n+if __name__ == '__main__':\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.boxstyle",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.edgecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.facecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.linewidth",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "_lighten",
+          "candidate_lines": [
+            123
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "plot",
+          "candidate_lines": [
+            139
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "subplots",
+          "before": 3,
+          "after": 1,
+          "source_lines": [
+            118,
+            143,
+            159
+          ],
+          "candidate_lines": [
+            131
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              9,
+              5
+            ],
+            [
+              10,
+              5.5
+            ],
+            [
+              10.5,
+              6
+            ]
+          ],
+          "after": [
+            [
+              7.2,
+              3.55
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            118,
+            143,
+            159
+          ],
+          "candidate_lines": [
+            131
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            132
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "text",
+          "before": 4,
+          "after": 9,
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            9,
+            9,
+            10,
+            8.5
+          ],
+          "after": [
+            9,
+            9,
+            9,
+            10,
+            11,
+            11,
+            8,
+            8,
+            8
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "ha",
+          "before": [
+            "right",
+            "left",
+            "center",
+            "left"
+          ],
+          "after": [
+            "right",
+            "left",
+            "center",
+            "center",
+            "center",
+            "center"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "f'{name}\\n{v:g}'",
+            "f'{name}\\n{v:g}'",
+            "title_top",
+            "f'自给率 = {auto_rate:.1f}%   进口依赖 = {import_rate:.1f}%'"
+          ],
+          "after": [
+            "f'{name}\\n{v}/{total_src}  ({v / total_src:.2%})'",
+            "f'{name}\\n{v}/{total_tgt}  ({v / total_tgt:.2%})'",
+            "flow['label']",
+            "title_top",
+            "'对照声'",
+            "'自然鸣声'",
+            "f'{control_only} 对仅对照声有响应'",
+            "'139 对实验，带宽表示配对数。'",
+            "f'调整后差值 +{-no_response:.2f} 个百分点  [95% 同时区间 {-no_response_high:.2f}, {-no_response_low:.2f}]'"
+          ],
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "va",
+          "before": [
+            "center",
+            "center",
+            "top",
+            "bottom"
+          ],
+          "after": [
+            "center",
+            "center",
+            "center",
+            "top",
+            "bottom",
+            "bottom",
+            "center"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "text",
+          "parameter": "weight",
+          "after": [
+            "bold",
+            "bold"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "x",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "left_x - node_width / 2 - 0.012",
+            "right_x + node_width / 2 + 0.012",
+            "0.5",
+            "0.05"
+          ],
+          "after": [
+            "left_x - node_width / 2 - 0.022",
+            "right_x + node_width / 2 + 0.022",
+            "flow.get('label_x', mid_x)",
+            "0.5",
+            "0.235",
+            "0.765",
+            "0.352",
+            "0.06",
+            "0.43"
+          ],
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "(y0 + y1) / 2",
+            "(y0 + y1) / 2",
+            "0.98",
+            "0.04"
+          ],
+          "after": [
+            "(y0 + y1) / 2",
+            "(y0 + y1) / 2",
+            "midpoint",
+            "0.98",
+            "0.985",
+            "0.985",
+            "0.011",
+            "0.067",
+            "0.067"
+          ],
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "text",
+          "parameter": "zorder",
+          "after": [
+            4
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            65,
+            75,
+            110,
+            131
+          ],
+          "candidate_lines": [
+            58,
+            68,
+            103,
+            107,
+            137,
+            138,
+            140,
+            142,
+            143
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            138,
+            154,
+            175
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 16,
+      "candidate_calls": 19,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "advanced.sankey",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\60540e0e493b51c1363d84bd.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_paired_response.py",
+      "checkpoints": [
+        {
+          "feature": "流带宽度与交叉叠色",
+          "preserve": "保留矩形节点与封闭贝塞尔宽带、alpha=0.42 的流带叠色及 alpha=0.92 的节点。宽带不能缩成普通连线。",
+          "allowed_adaptation": "流量、节点数、节点间距与控制点可变；分别核对两侧流量占比和守恒，不机械等宽。",
+          "evidence": [
+            {
+              "line": 62,
+              "end_line": 63,
+              "code": "        rect = Rectangle((left_x - node_width / 2, y0), node_width, y1 - y0,\n                         facecolor=source_colors[i], edgecolor='none', alpha=0.92, zorder=3)",
+              "href": "sources/advanced.sankey/original.html#L62"
+            },
+            {
+              "line": 72,
+              "end_line": 73,
+              "code": "        rect = Rectangle((right_x - node_width / 2, y0), node_width, y1 - y0,\n                         facecolor=target_colors[i], edgecolor='none', alpha=0.92, zorder=3)",
+              "href": "sources/advanced.sankey/original.html#L72"
+            },
+            {
+              "line": 105,
+              "end_line": 106,
+              "code": "        patch = PathPatch(Path(verts, codes),\n                          facecolor=flow_color, edgecolor='none', alpha=0.42, zorder=2)",
+              "href": "sources/advanced.sankey/original.html#L105"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,16 +1,9 @@\n-import shutil, os\n-os.makedirs('_utils', exist_ok=True)\n-for f in ['plot_utils.py']:\n-    src = os.path.join(os.path.dirname(__file__), f)\n-    if os.path.exists(src):\n-        shutil.copy2(src, f'_utils/{f}')\n+from figure_data import OUT, inputs\n \n-import numpy as np\n import matplotlib.pyplot as plt\n from matplotlib.path import Path\n from matplotlib.patches import PathPatch, Rectangle\n from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten\n-setup_style()\n \n \n def draw_sankey(ax, source_nodes, target_nodes, flows,\n@@ -62,8 +55,8 @@\n         rect = Rectangle((left_x - node_width / 2, y0), node_width, y1 - y0,\n                          facecolor=source_colors[i], edgecolor='none', alpha=0.92, zorder=3)\n         ax.add_patch(rect)\n-        ax.text(left_x - node_width / 2 - 0.012, (y0 + y1) / 2,\n-                f'{name}\\n{v:g}',\n+        ax.text(left_x - node_width / 2 - 0.022, (y0 + y1) / 2,\n+                f'{name}\\n{v}/{total_src}  ({v / total_src:.2%})',\n                 ha='right', va='center', fontsize=9,\n                 color=COLORS.get('text', '#222'), fontweight='bold')\n \n@@ -72,8 +65,8 @@\n         rect = Rectangle((right_x - node_width / 2, y0), node_width, y1 - y0,\n                          facecolor=target_colors[i], edgecolor='none', alpha=0.92, zorder=3)\n         ax.add_patch(rect)\n-        ax.text(right_x + node_width / 2 + 0.012, (y0 + y1) / 2,\n-                f'{name}\\n{v:g}',\n+        ax.text(right_x + node_width / 2 + 0.022, (y0 + y1) / 2,\n+                f'{name}\\n{v}/{total_tgt}  ({v / total_tgt:.2%})',\n                 ha='left', va='center', fontsize=9,\n                 color=COLORS.get('text', '#222'), fontweight='bold')\n \n@@ -105,6 +98,10 @@\n         patch = PathPatch(Path(verts, codes),\n                           facecolor=flow_color, edgecolor='none', alpha=0.42, zorder=2)\n         ax.add_patch(patch)\n+        if 'label' in flow:\n+            midpoint = (s_y_top + s_y_bot + t_y_top + t_y_bot) / 4\n+            ax.text(flow.get('label_x', mid_x), midpoint, flow['label'], ha='center', va='center',\n+                    fontsize=9, color=COLORS['dark'], zorder=4)\n \n     if title_top:\n         ax.text(0.5, 0.98, title_top, ha='center', va='top',\n@@ -114,63 +111,41 @@\n     ax.set_aspect('auto'); ax.axis('off')\n \n \n-# ── 示例 1: 多 source → 单 target（资源分配场景）\n-fig, ax = plt.subplots(figsize=(9, 5))\n-source_nodes = [('国产', 1473), ('俄罗斯', 1500), ('卡塔尔', 27)]\n-target_nodes = [('总供给 = 需求 (万 m³)', 3000)]\n-flows = [\n-    {'source_idx': 0, 'target_idx': 0, 'value': 1473},\n-    {'source_idx': 1, 'target_idx': 0, 'value': 1500},\n-    {'source_idx': 2, 'target_idx': 0, 'value': 27},\n-]\n-draw_sankey(ax, source_nodes, target_nodes, flows,\n-            title_top='问题一 最优供应量分配（流量守恒，万 m³）')\n-\n-auto_rate = 1473 / 3000 * 100\n-import_rate = (1500 + 27) / 3000 * 100\n-ax.text(0.05, 0.04,\n-        f'自给率 = {auto_rate:.1f}%   进口依赖 = {import_rate:.1f}%',\n-        ha='left', va='bottom', fontsize=8.5,\n-        color=COLORS.get('text', '#444'),\n-        bbox=dict(boxstyle='round,pad=0.4', facecolor='white',\n-                  edgecolor='#cccccc', linewidth=0.5))\n-\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_sankey_supply.pdf')\n+def main():\n+    setup_style()\n+    counts, combo, _ = inputs()\n+    natural_only, control_only = counts[1, 0], counts[0, 1]\n+    both, neither = counts[1, 1], counts[0, 0]\n+    left = [('有响应', both + control_only), ('无响应', natural_only + neither)]\n+    right = [('有响应', both + natural_only), ('无响应', control_only + neither)]\n+    flows = [\n+        {'source_idx': 0, 'target_idx': 0, 'value': both,\n+         'color': _lighten(PALETTE[0], .27), 'label': f'{both} 对均响应'},\n+        {'source_idx': 1, 'target_idx': 0, 'value': natural_only,\n+         'color': PALETTE[0], 'label': f'{natural_only} 对仅自然声有响应', 'label_x': .60},\n+        {'source_idx': 1, 'target_idx': 1, 'value': neither,\n+         'color': COLORS['gray'], 'label': f'{neither} 对均无响应'},\n+        {'source_idx': 0, 'target_idx': 1, 'value': control_only, 'color': PALETTE[2]},\n+    ]\n+    assert sum(flow['value'] for flow in flows) == 139\n+    fig, ax = plt.subplots(figsize=(7.2, 3.55))\n+    fig.subplots_adjust(left=.018, right=.982, bottom=.145, top=.863)\n+    draw_sankey(ax, left, right, flows,\n+                source_colors=[PALETTE[0], COLORS['gray']],\n+                target_colors=[PALETTE[0], COLORS['gray']],\n+                left_x=.235, right_x=.765, node_width=.018, node_gap=.055)\n+    ax.text(.235, .985, '对照声', ha='center', va='bottom', fontsize=11, weight='bold')\n+    ax.text(.765, .985, '自然鸣声', ha='center', va='bottom', fontsize=11, weight='bold')\n+    ax.plot([.31, .34], [.011, .011], color=PALETTE[2], lw=1.8)\n+    ax.text(.352, .011, f'{control_only} 对仅对照声有响应', fontsize=8, va='center')\n+    no_response, no_response_low, no_response_high = combo['natural_equal', 'No response'][2:]\n+    fig.text(.06, .067, '139 对实验，带宽表示配对数。', fontsize=8)\n+    fig.text(.43, .067,\n+             f'调整后差值 +{-no_response:.2f} 个百分点  [95% 同时区间 {-no_response_high:.2f}, {-no_response_low:.2f}]',\n+             fontsize=8, color=COLORS['dark'])\n+    save_fig(fig, str(OUT / '01_paired_response.pdf'), formats=('pdf', 'png', 'svg'))\n+    plt.close(fig)\n \n \n-# ── 示例 2: 单 source → 多 target（数据分流场景）\n-fig, ax = plt.subplots(figsize=(10, 5.5))\n-source_nodes = [('原始数据', 1000)]\n-target_nodes = [('训练集', 600), ('测试集', 300), ('验证集', 100)]\n-flows = [\n-    {'source_idx': 0, 'target_idx': 0, 'value': 600, 'color': PALETTE[0]},\n-    {'source_idx': 0, 'target_idx': 1, 'value': 300, 'color': PALETTE[1]},\n-    {'source_idx': 0, 'target_idx': 2, 'value': 100, 'color': PALETTE[2]},\n-]\n-draw_sankey(ax, source_nodes, target_nodes, flows,\n-            target_colors=[PALETTE[0], PALETTE[1], PALETTE[2]],\n-            title_top='数据集划分')\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_sankey_split.pdf')\n-\n-\n-# ── 示例 3: 多对多\n-fig, ax = plt.subplots(figsize=(10.5, 6))\n-source_nodes = [('来源A', 500), ('来源B', 300), ('来源C', 200)]\n-target_nodes = [('去向X', 400), ('去向Y', 350), ('去向Z', 150), ('去向W', 100)]\n-flows = [\n-    {'source_idx': 0, 'target_idx': 0, 'value': 300},\n-    {'source_idx': 0, 'target_idx': 1, 'value': 150},\n-    {'source_idx': 0, 'target_idx': 2, 'value':  50},\n-    {'source_idx': 1, 'target_idx': 0, 'value': 100},\n-    {'source_idx': 1, 'target_idx': 1, 'value': 150},\n-    {'source_idx': 1, 'target_idx': 3, 'value':  50},\n-    {'source_idx': 2, 'target_idx': 1, 'value':  50},\n-    {'source_idx': 2, 'target_idx': 2, 'value': 100},\n-    {'source_idx': 2, 'target_idx': 3, 'value':  50},\n-]\n-draw_sankey(ax, source_nodes, target_nodes, flows,\n-            title_top='多对多流向分析')\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_sankey_many.pdf')\n+if __name__ == '__main__':\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "unresolved",
+          "method": "plot",
+          "parameter": "alpha",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "alpha"
+          ],
+          "after": [
+            "1.0 if i else 0.83"
+          ],
+          "source_lines": [
+            23
+          ],
+          "candidate_lines": [
+            40
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "annotate",
+          "before": 1,
+          "after": 2,
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "annotate",
+          "parameter": "arrowprops.color",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "COLORS['down']"
+          ],
+          "after": [
+            "colors[1]",
+            "colors[1]"
+          ],
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "annotate",
+          "parameter": "arrowprops.lw",
+          "before": [
+            1.5
+          ],
+          "after": [
+            1.1,
+            1.1
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "annotate",
+          "parameter": "fontsize",
+          "before": [
+            10
+          ],
+          "after": [
+            9,
+            8.8
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "annotate",
+          "parameter": "fontweight",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "annotate",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "'收敛点'"
+          ],
+          "after": [
+            "f'5 秒内  {at_five:.1%}'",
+            "f'中位等待时间\\n自然声  {medians[1]:.2f} 秒\\n对照声  {medians[0]:.2f} 秒'"
+          ],
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "annotate",
+          "parameter": "xy",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "(iters[conv_idx], ours[conv_idx])"
+          ],
+          "after": [
+            "(5, at_five)",
+            "(medians[1], 0.5)"
+          ],
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "annotate",
+          "parameter": "xytext",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "(iters[conv_idx] + 60, ours[conv_idx] + 12)"
+          ],
+          "after": [
+            "(13, 0.36)",
+            "(4.75, 0.145)"
+          ],
+          "source_lines": [
+            37
+          ],
+          "candidate_lines": [
+            74,
+            84
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "axhline",
+          "candidate_lines": [
+            82
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "plot",
+          "parameter": "linestyle",
+          "after": [
+            "'-' if i else '--'"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            23
+          ],
+          "candidate_lines": [
+            40
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "plot",
+          "parameter": "linewidth",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "lw"
+          ],
+          "after": [
+            "2.5 if i else 1.5"
+          ],
+          "source_lines": [
+            23
+          ],
+          "candidate_lines": [
+            40
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "scatter",
+          "before": 1,
+          "after": 2,
+          "source_lines": [
+            41
+          ],
+          "candidate_lines": [
+            73,
+            83
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg0",
+          "after": [
+            1
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            15
+          ],
+          "candidate_lines": [
+            62
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "subplots",
+          "parameter": "arg1",
+          "after": [
+            2
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            15
+          ],
+          "candidate_lines": [
+            62
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              7,
+              4.5
+            ]
+          ],
+          "after": [
+            [
+              10.0,
+              4.25
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            15
+          ],
+          "candidate_lines": [
+            62
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            63
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "text",
+          "candidate_lines": [
+            64,
+            65,
+            89
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            49
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "repetition_changed",
+          "methods": [
+            "annotate",
+            "scatter"
+          ],
+          "message": "样式值及其周期内顺序相同，重复次数不同；可能来自组数或循环组织变化。若重复用于叠加透明图层，仍需核对层数。",
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 8,
+      "candidate_calls": 16,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "competition.convergence",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\6e6e365f11cf35e02dd79f43.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_latency_curves.py",
+      "checkpoints": [
+        {
+          "feature": "主曲线浅填充与收敛标记",
+          "preserve": "保留主算法加粗、曲线下浅填充、终点标签和有依据的收敛位置箭头，不能只画等粗裸线。",
+          "allowed_adaptation": "迭代次数、目标值与收敛判据按实际优化过程更新；曲线下填充不是不确定性区间。",
+          "evidence": [
+            {
+              "line": 23,
+              "end_line": 23,
+              "code": "    ax.plot(iters, vals, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)",
+              "href": "sources/competition.convergence/original.html#L23"
+            },
+            {
+              "line": 32,
+              "end_line": 32,
+              "code": "ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[highlight_index], linewidth=0, zorder=1)",
+              "href": "sources/competition.convergence/original.html#L32"
+            },
+            {
+              "line": 37,
+              "end_line": 40,
+              "code": "ax.annotate('收敛点', xy=(iters[conv_idx], ours[conv_idx]),\n            xytext=(iters[conv_idx]+60, ours[conv_idx]+12),\n            fontsize=10, color=COLORS['down'], fontweight='bold',\n            arrowprops=dict(arrowstyle='->', color=COLORS['down'], lw=1.5), zorder=5)",
+              "href": "sources/competition.convergence/original.html#L37"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,50 +1,103 @@\n+\"\"\"Compare the cumulative and conditional first-response curves.\"\"\"\n+\n+import json\n+\n import numpy as np\n+from figure_data import ANALYSIS\n import matplotlib.pyplot as plt\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS\n-setup_style()\n+from matplotlib.ticker import PercentFormatter\n \n-np.random.seed(42)\n-iters = np.arange(0, 501, 5)\n-methods = {\n-    '遗传算法 (GA)': 100*np.exp(-0.008*iters) + 5 + np.random.normal(0,0.5,len(iters))*0.5,\n-    '粒子群 (PSO)': 100*np.exp(-0.012*iters) + 3 + np.random.normal(0,0.4,len(iters))*0.5,\n-    '模拟退火 (SA)': 100*np.exp(-0.006*iters) + 8 + np.random.normal(0,0.6,len(iters))*0.5,\n-    '本文算法': 100*np.exp(-0.018*iters) + 1.5 + np.random.normal(0,0.2,len(iters))*0.3,\n-}\n+from _fit_q3_work import CTX, D, N, design, prob\n+from q3_latency_model import conditional_cdf, time_parameters\n+from _utils.plot_utils import COLORS, PALETTE, save_fig, setup_style, smart_labels\n \n-fig, ax = plt.subplots(figsize=(7, 4.5))\n-highlight_index = min(3, len(methods) - 1)  # 重点系列的位置，与显示名称无关\n-ax.grid(True, linestyle='--', alpha=0.15, color=COLORS['grid']); ax.set_axisbelow(True)\n \n-_end_xs, _end_ys, _end_texts, _end_colors = [], [], [], []\n-for i, (name, vals) in enumerate(methods.items()):\n-    lw = 2.5 if i == highlight_index else 1.5\n-    alpha = 1.0 if i == highlight_index else 0.55\n-    ax.plot(iters, vals, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)\n-    _end_xs.append(iters[-1]); _end_ys.append(vals[-1])\n-    _end_texts.append(f'{vals[-1]:.1f}'); _end_colors.append(PALETTE[i])\n-# ★ 终点标注用 smart_labels 防重叠\n-from _utils.plot_utils import save_fig, smart_labels\n-smart_labels(ax, _end_xs, _end_ys, _end_texts, colors=_end_colors, fontsize=8, offset=(8, 0))\n+def standardized_curves(model, times):\n+    occ = model[\"occurrence\"]\n+    binary, combo = (np.asarray(occ[k]) for k in (\"binary_coefficients\", \"combination_coefficients\"))\n+    time_fit = model[\"time\"][\"Any\"]\n+    coefficients = np.asarray(time_fit[\"coefficients\"])\n+    columns = np.asarray(time_fit[\"features\"])\n+    curves = []\n+    for sound in range(4):\n+        x = design(sound, CTX, D, N)[:, :8]\n+        p = 1 - prob(x, (binary, combo))[:, 0]\n+        mu, sigma = time_parameters(x[:, columns], coefficients)\n+        curve = (p[:, None] * conditional_cdf(times, mu[:, None], sigma)).mean(axis=0)\n+        np.testing.assert_allclose(curve[-1], p.mean())\n+        curves.append(curve)\n+    cumulative = np.stack([curves[0], np.mean(curves[1:], axis=0)])\n+    conditional = cumulative / cumulative[:, -1, None]\n+    assert np.all(np.diff(cumulative, axis=1) >= -1e-12)\n+    return cumulative, conditional\n \n-# 本文算法的下方填充区域（强调单独）\n-ours = list(methods.values())[highlight_index]\n-ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[highlight_index], linewidth=0, zorder=1)\n \n-# 收敛点标注\n-diff = np.abs(np.diff(ours))\n-conv_idx = np.argmax(diff < 0.15) + 1\n-ax.annotate('收敛点', xy=(iters[conv_idx], ours[conv_idx]),\n-            xytext=(iters[conv_idx]+60, ours[conv_idx]+12),\n-            fontsize=10, color=COLORS['down'], fontweight='bold',\n-            arrowprops=dict(arrowstyle='->', color=COLORS['down'], lw=1.5), zorder=5)\n-ax.scatter([iters[conv_idx]], [ours[conv_idx]], color=COLORS['down'], s=50, zorder=5, edgecolors='white')\n+def curve_panel(ax, time, methods, stop, ylim, ylabel, title):\n+    colors = (PALETTE[2], PALETTE[0])\n+    ax.grid(True, linestyle=\"--\", alpha=0.32, color=COLORS[\"grid\"])\n+    ax.set_axisbelow(True)\n+    for i, (name, vals) in enumerate(methods.items()):\n+        ax.plot(time, vals, color=colors[i], linewidth=2.5 if i else 1.5,\n+                linestyle=\"-\" if i else \"--\", label=name, alpha=1.0 if i else 0.83, zorder=3)\n+    ours = list(methods.values())[1]\n+    ax.fill_between(time, ours, alpha=0.10, color=colors[1], linewidth=0, zorder=1)\n+    ax.set_xlabel(\"回放开始后的时间（秒）\", fontsize=10)\n+    ax.set_ylabel(ylabel, fontsize=10)\n+    ax.set_title(title, fontsize=11, fontweight=\"bold\", loc=\"left\", pad=10)\n+    ax.set_xlim(0, stop)\n+    ax.set_ylim(0, ylim)\n+    ax.yaxis.set_major_formatter(PercentFormatter(1, decimals=0))\n+    ax.spines[\"top\"].set_visible(False)\n+    ax.spines[\"right\"].set_visible(False)\n+    return colors\n \n-ax.set_xlabel('迭代次数', fontsize=11); ax.set_ylabel('目标函数值', fontsize=11)\n-# ★ 图例用 loc='best' 自适应，不要硬编码 'upper right'（避免数据在右上角时遮挡图例）\n-ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc='best')\n-ax.set_xlim(0, 520)\n-ax.spines['top'].set_visible(False)\n-ax.spines['right'].set_visible(False)\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_convergence.pdf')\n+\n+def main():\n+    setup_style()\n+    model = json.loads((ANALYSIS / \"q3_latency_model_results.json\").read_text(encoding=\"utf-8\"))\n+    times = np.linspace(0, 60, 2401)\n+    cumulative, conditional = standardized_curves(model, times)\n+    medians = [np.interp(0.5, curve, times) for curve in conditional]\n+    names = (\"对照声\", \"自然声（三类等权）\")\n+    fig, (ax, zoom) = plt.subplots(1, 2, figsize=(10.0, 4.25))\n+    fig.subplots_adjust(left=.09, right=.971, bottom=.22, top=.76, wspace=.32)\n+    fig.text(.09, .945, \"企鹅首次响应的概率与等待时间\", fontsize=17, weight=\"bold\", va=\"top\")\n+    fig.text(.09, .853, \"对照声与自然声代入相同的 278 组实测情境、距离和企鹅数量\",\n+             fontsize=9, color=COLORS[\"text\"], va=\"top\")\n+    colors = curve_panel(ax, times, dict(zip(names, cumulative)), 69, .73,\n+                         \"已响应的回放比例\", \"A   全部回放\")\n+    end = cumulative[:, -1]\n+    smart_labels(ax, [60, 60], end, [f\"{p:.1%}\" for p in end], colors=colors,\n+                 fontsize=9, offset=(6, 0))\n+    at_five = np.interp(5, times, cumulative[1])\n+    ax.scatter([5], [at_five], color=colors[1], s=37, edgecolors=\"white\", zorder=5)\n+    ax.annotate(f\"5 秒内  {at_five:.1%}\", xy=(5, at_five), xytext=(13, .36),\n+                fontsize=9, color=colors[1],\n+                arrowprops=dict(arrowstyle=\"->\", color=colors[1], lw=1.1), zorder=5)\n+    ax.set_xticks([0, 10, 20, 30, 40, 50, 60])\n+    ax.legend(frameon=False, fontsize=8.4, loc=\"lower right\")\n+\n+    curve_panel(zoom, times, dict(zip(names, conditional)), 10, 1.04,\n+                \"已响应回放中的累计比例\", \"B   60 秒内有响应的回放\")\n+    zoom.axhline(0.5, color=COLORS[\"ref_line\"], linestyle=\":\", linewidth=.9, zorder=2)\n+    zoom.scatter(medians, [.5, .5], color=colors, s=38, edgecolors=\"white\", zorder=5)\n+    zoom.annotate(f\"中位等待时间\\n自然声  {medians[1]:.2f} 秒\\n对照声  {medians[0]:.2f} 秒\",\n+                  xy=(medians[1], .5), xytext=(4.75, .145), fontsize=8.8,\n+                  color=COLORS[\"text\"],\n+                  arrowprops=dict(arrowstyle=\"->\", color=colors[1], lw=1.1), zorder=5)\n+    zoom.set_xticks([0, 2, 4, 6, 8, 10])\n+    fig.text(.09, .07, \"曲线为模型点估计。B 图放大前 10 秒，分母为 60 秒内出现任一行为的回放。\",\n+             color=COLORS[\"text\"], fontsize=8, va=\"center\")\n+    out = ANALYSIS.parent / \"figures\" / \"q3_latency_01_curves\"\n+    save_fig(fig, str(out), formats=(\"pdf\", \"png\", \"svg\"))\n+    print(json.dumps({\n+        \"seconds\": [3, 5, 10, 60],\n+        \"order\": list(names),\n+        \"cumulative\": [[np.interp(t, times, c) for t in (3, 5, 10, 60)] for c in cumulative],\n+        \"conditional\": [[np.interp(t, times, c) for t in (3, 5, 10, 60)] for c in conditional],\n+        \"conditional_medians_seconds\": medians,\n+    }, ensure_ascii=False))\n+\n+\n+if __name__ == \"__main__\":\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "operation_not_found",
+          "method": "boxplot",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            24
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "scatter",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            33
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_alpha",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            21
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_edgecolor",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            19
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_facecolor",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            18
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "set_linewidth",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            20
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "violinplot",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            14
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.alpha",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.boxstyle",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.edgecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.facecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.linewidth",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "_lighten",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            18
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "plot",
+          "parameter": "linestyle",
+          "after": [
+            "none"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            42
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "plot",
+          "parameter": "linewidth",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            42
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "plot",
+          "parameter": "markeredgecolor",
+          "after": [
+            "INK"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            42
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "plot",
+          "parameter": "markeredgewidth",
+          "after": [
+            0.8
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            42
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "plot",
+          "parameter": "markersize",
+          "after": [
+            3.9
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            42
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "plot",
+          "parameter": "zorder",
+          "after": [
+            4
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            42
+          ],
+          "candidate_lines": [
+            30
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "layout_changed",
+          "method": "subplots",
+          "parameter": "figsize",
+          "before": [
+            [
+              8,
+              5.5
+            ]
+          ],
+          "after": [
+            [
+              7.2,
+              3.72
+            ]
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            11
+          ],
+          "candidate_lines": [
+            26
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            27
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            7.5,
+            7
+          ],
+          "after": [
+            7.3,
+            7.3
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "fontweight",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "ha",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "f'{d.mean():.1f}'",
+            "f'{stars}\\np={p_val:.2e}'"
+          ],
+          "after": [
+            "'3,000 recording-track refits of the additive model. Boxes show the interquartile range and median.'",
+            "'Whiskers mark the 2.5th and 97.5th percentiles. Natural call types are equally weighted.'"
+          ],
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "va",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "x",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "i + 0.25",
+            "(x1 + x2) / 2"
+          ],
+          "after": [
+            "0.064",
+            "0.064"
+          ],
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "d.mean()",
+            "y + h + 0.3"
+          ],
+          "after": [
+            "0.09",
+            "0.051"
+          ],
+          "source_lines": [
+            35,
+            44
+          ],
+          "candidate_lines": [
+            45,
+            47
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            61
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 16,
+      "candidate_calls": 9,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "basic.raincloud_violin",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\b9753f96e0d5f7bb204616dd.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_combination_boxes_en.py",
+      "checkpoints": [
+        {
+          "feature": "对称琴体与内部窄箱",
+          "preserve": "保留浅色半透明对称琴体、深轮廓、内部窄箱与均值菱形；不是左右错位的半雨云。",
+          "allowed_adaptation": "组数与间距可变；箱线和均值由样本计算，比较括号只用于有效检验。",
+          "evidence": [
+            {
+              "line": 14,
+              "end_line": 15,
+              "code": "parts = ax.violinplot(data, positions=range(len(groups)), showmeans=False,\n                      showmedians=False, showextrema=False)",
+              "href": "sources/basic.raincloud_violin/original.html#L14"
+            },
+            {
+              "line": 21,
+              "end_line": 21,
+              "code": "    pc.set_alpha(0.7)",
+              "href": "sources/basic.raincloud_violin/original.html#L21"
+            },
+            {
+              "line": 24,
+              "end_line": 29,
+              "code": "bp = ax.boxplot(data, positions=range(len(groups)), widths=0.15, patch_artist=True,\n                boxprops=dict(facecolor='white', edgecolor=COLORS['text'], linewidth=1.2),\n                medianprops=dict(color=COLORS['text'], linewidth=2),\n                whiskerprops=dict(linewidth=1.2),\n                capprops=dict(linewidth=1.2),\n                flierprops=dict(marker='.', markersize=3, alpha=0.3))",
+              "href": "sources/basic.raincloud_violin/original.html#L24"
+            },
+            {
+              "line": 33,
+              "end_line": 34,
+              "code": "    ax.scatter(i, d.mean(), marker='D', s=40, color=PALETTE[i],\n               edgecolor='white', linewidth=1, zorder=5)",
+              "href": "sources/basic.raincloud_violin/original.html#L33"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,62 +1,54 @@\n+\"\"\"Vertical boxplots for the eight joint behavioral outcomes.\"\"\"\n+from figure_english import (\n+    BLUE, INK, MUTED, OUT_EN, TEAL, bootstrap_results, configure_english, draw_boxes,\n+)\n+\n+import matplotlib.pyplot as plt\n+from matplotlib.lines import Line2D\n import numpy as np\n-import matplotlib.pyplot as plt\n-from scipy.stats import ttest_ind\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten\n-setup_style()\n+from _utils.plot_utils import setup_style, save_fig\n \n-np.random.seed(42)\n-groups = ['A组', 'B组', 'C组', 'D组']\n-data = [np.random.normal(m, s, 100) for m, s in [(80, 5), (85, 3), (78, 8), (90, 4)]]\n \n-fig, ax = plt.subplots(figsize=(8, 5.5))\n+# The bits in the fitted response code are head raising, vocalizing, and approach.\n+ORDER = (0, 4, 2, 1, 6, 5, 3, 7)\n+LABELS = ('No\\nresponse', 'Head raising\\nonly', 'Vocalizing\\nonly', 'Approach\\nonly',\n+          'Head raising\\n+ vocalizing', 'Head raising\\n+ approach', 'Vocalizing\\n+ approach',\n+          'All three\\nbehaviors')\n \n-# ★ 淡色填充 + 原色边框小提琴\n-parts = ax.violinplot(data, positions=range(len(groups)), showmeans=False,\n-                      showmedians=False, showextrema=False)\n \n-for i, pc in enumerate(parts['bodies']):\n-    pc.set_facecolor(_lighten(PALETTE[i], 0.4))\n-    pc.set_edgecolor(PALETTE[i])\n-    pc.set_linewidth(1.2)\n-    pc.set_alpha(0.7)\n+def main():\n+    setup_style(language='en')\n+    configure_english()\n+    draws = bootstrap_results()\n+    distribution = draws['combination'][:, ORDER]\n+    estimates = draws['combination_point'][list(ORDER)]\n+    palette = [BLUE, MUTED, TEAL, MUTED, TEAL, MUTED, MUTED, TEAL]\n+    fig, ax = plt.subplots(figsize=(7.2, 3.72))\n+    fig.subplots_adjust(left=.123, right=.987, top=.86, bottom=.252)\n+    x = np.arange(len(LABELS))\n+    draw_boxes(ax, distribution, x, palette, width=.44)\n+    ax.plot(x, estimates, 'D', markerfacecolor='white', markeredgecolor=INK,\n+            markeredgewidth=.8, markersize=3.9, linestyle='none', zorder=4)\n+    ax.set_xticks(x, LABELS)\n+    ax.set_xlim(-.52, len(LABELS)-.48)\n+    ax.set_ylim(-63, 33)\n+    ax.set_yticks([-60, -40, -20, 0, 20])\n+    assert np.all(np.percentile(distribution, 2.5, axis=0) > -63)\n+    assert np.all(np.percentile(distribution, 97.5, axis=0) < 33)\n+    ax.tick_params(axis='x', labelsize=7.1, length=0, pad=6)\n+    ax.set_ylabel('Natural calls minus control (pp)', fontsize=8.5, labelpad=7, color=INK)\n+    ax.set_title('Joint behavioral outcomes', loc='left', fontsize=9.7, fontweight='bold', pad=10)\n+    diamond = Line2D([], [], marker='D', markersize=4, markeredgecolor=INK,\n+                     markerfacecolor='white', linewidth=0, label='Full-data estimate')\n+    ax.legend(handles=[diamond], loc='upper right', bbox_to_anchor=(1., 1.14),\n+              frameon=False, fontsize=7.5, borderaxespad=0)\n+    fig.text(.064, .09, '3,000 recording-track refits of the additive model. Boxes show the interquartile range and median.',\n+             fontsize=7.3, color=MUTED)\n+    fig.text(.064, .051, 'Whiskers mark the 2.5th and 97.5th percentiles. Natural call types are equally weighted.',\n+             fontsize=7.3, color=MUTED)\n+    save_fig(fig, str(OUT_EN / '03_combination_boxes.pdf'), formats=('pdf', 'png', 'svg'))\n+    plt.close(fig)\n \n-# 叠加窄箱线图\n-bp = ax.boxplot(data, positions=range(len(groups)), widths=0.15, patch_artist=True,\n-                boxprops=dict(facecolor='white', edgecolor=COLORS['text'], linewidth=1.2),\n-                medianprops=dict(color=COLORS['text'], linewidth=2),\n-                whiskerprops=dict(linewidth=1.2),\n-                capprops=dict(linewidth=1.2),\n-                flierprops=dict(marker='.', markersize=3, alpha=0.3))\n \n-# 均值菱形 + 数值标注\n-for i, d in enumerate(data):\n-    ax.scatter(i, d.mean(), marker='D', s=40, color=PALETTE[i],\n-               edgecolor='white', linewidth=1, zorder=5)\n-    ax.text(i + 0.25, d.mean(), f'{d.mean():.1f}', fontsize=7.5, color=PALETTE[i],\n-            va='center', fontweight='bold',\n-            bbox=dict(boxstyle='round,pad=0.1', facecolor='white',\n-                      edgecolor='none', alpha=0.7))\n-\n-# 显著性括号\n-def add_significance(ax, x1, x2, y, p_val, h=2):\n-    ax.plot([x1, x1, x2, x2], [y, y + h, y + h, y], color=COLORS['text'], linewidth=0.8)\n-    stars = '***' if p_val < 0.001 else '**' if p_val < 0.01 else '*' if p_val < 0.05 else 'n.s.'\n-    ax.text((x1 + x2) / 2, y + h + 0.3, f'{stars}\\np={p_val:.2e}',\n-            ha='center', va='bottom', fontsize=7, color=COLORS['text'],\n-            bbox=dict(boxstyle='round,pad=0.15', facecolor=COLORS['bg_box'],\n-                      edgecolor=COLORS['grid'], alpha=0.9, linewidth=0.3))\n-\n-y_max = max(d.max() for d in data) + 3\n-# 比较最优组（D组）与其他组\n-for idx, comp in enumerate([0, 1, 2]):\n-    _, p = ttest_ind(data[3], data[comp])\n-    add_significance(ax, comp, 3, y_max + idx * 6, p)\n-\n-ax.set_xticks(range(len(groups)))\n-ax.set_xticklabels(groups, fontsize=10)\n-ax.set_ylabel('数值', fontsize=11)\n-ax.spines['top'].set_visible(False)\n-ax.spines['right'].set_visible(False)\n-ax.grid(axis='y', alpha=0.12, linestyle='--', color=COLORS['grid'])\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_violin.pdf')\n+if __name__ == '__main__':\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "operation_not_found",
+          "method": "fill",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            71
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "plot",
+          "before": 5,
+          "after": 4,
+          "source_lines": [
+            33,
+            34,
+            35,
+            41,
+            72
+          ],
+          "candidate_lines": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "focus"
+        },
+        {
+          "kind": "style_changed",
+          "method": "axvline",
+          "parameter": "alpha",
+          "before": [
+            0.7
+          ],
+          "after": [
+            0.85
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            29
+          ],
+          "candidate_lines": [
+            25
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.alpha",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.boxstyle",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.edgecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "bbox.facecolor",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "_lighten",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            83,
+            84
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "axvline",
+          "parameter": "linewidth",
+          "before": [
+            1.5
+          ],
+          "after": [
+            1.05
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            29
+          ],
+          "candidate_lines": [
+            25
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "plot",
+          "parameter": "linewidth",
+          "before": [
+            1.2,
+            1.0,
+            1.0,
+            0.8
+          ],
+          "after": [
+            1.2,
+            0.9,
+            0.9
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            33,
+            34,
+            35,
+            41,
+            72
+          ],
+          "candidate_lines": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "plot",
+          "parameter": "markeredgecolor",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "ec"
+          ],
+          "after": [
+            "color"
+          ],
+          "source_lines": [
+            33,
+            34,
+            35,
+            41,
+            72
+          ],
+          "candidate_lines": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "plot",
+          "parameter": "markeredgewidth",
+          "before": [
+            1.3
+          ],
+          "after": [
+            1.0
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            33,
+            34,
+            35,
+            41,
+            72
+          ],
+          "candidate_lines": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "plot",
+          "parameter": "markersize",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "ms"
+          ],
+          "after": [
+            "5.1"
+          ],
+          "source_lines": [
+            33,
+            34,
+            35,
+            41,
+            72
+          ],
+          "candidate_lines": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "plot",
+          "parameter": "zorder",
+          "before": [
+            2,
+            3,
+            5
+          ],
+          "after": [
+            2,
+            3
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            33,
+            34,
+            35,
+            41,
+            72
+          ],
+          "candidate_lines": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "subplots",
+          "parameter": "figsize",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "(11, _fig_h)"
+          ],
+          "after": [
+            "(7.2, 3.88)"
+          ],
+          "source_lines": [
+            20
+          ],
+          "candidate_lines": [
+            17
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "subplots_adjust",
+          "candidate_lines": [
+            18
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_sites_changed",
+          "method": "text",
+          "before": 9,
+          "after": 5,
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "message": "独立调用位置数量变化（不是组数展开次数）；核对新增/删除图层。",
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "fontfamily",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "fontsize",
+          "before": [
+            9,
+            8,
+            8,
+            9.5,
+            9.5,
+            9.5,
+            9.5,
+            8,
+            8.5
+          ],
+          "after": [
+            8.8,
+            8.3,
+            8.3,
+            8.6,
+            8.7,
+            8.7,
+            8.7,
+            8.7,
+            7.6
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "text",
+          "parameter": "fontweight",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "ha",
+          "before": [
+            "right",
+            "left",
+            "right",
+            "right",
+            "left",
+            "right",
+            "right",
+            "left",
+            "center"
+          ],
+          "after": [
+            "left",
+            "center",
+            "center",
+            "center",
+            "left",
+            "center",
+            "center",
+            "center"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "text",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "lbl",
+            "f'{c:.3f} [{lo:.3f}, {hi:.3f}]{sig_mark}'",
+            "f'{wt:.1f}%'",
+            "'分组'",
+            "'系数 [95% CI]'",
+            "'权重'",
+            "'Pooled'",
+            "f'{pooled_coef:.3f} [{pooled_lo:.3f}, {pooled_hi:.3f}]***'",
+            "i2_text"
+          ],
+          "after": [
+            "label",
+            "f'{value:.2f}'",
+            "f'{value:.2f}'",
+            "estimate",
+            "title",
+            "title",
+            "title",
+            "title",
+            "'自然声按三类等权。实心点的 95% 同时置信区间排除零。组合均指同一次回放。'"
+          ],
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "va",
+          "before": [
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "top"
+          ],
+          "after": [
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center"
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "text",
+          "parameter": "weight",
+          "after": [
+            "'bold' if supported else 'normal'",
+            "'bold' if supported else 'normal'",
+            "bold",
+            "bold",
+            "bold",
+            "bold"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "text",
+          "parameter": "x",
+          "before": [
+            -0.065,
+            0.085,
+            0.16,
+            -0.065,
+            0.085,
+            0.16,
+            -0.065,
+            0.085,
+            0.0
+          ],
+          "after": [
+            0.072,
+            0.752,
+            0.853,
+            0.954,
+            0.072,
+            0.752,
+            0.853,
+            0.954,
+            0.064
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "text",
+          "parameter": "y",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "y[i]",
+            "y[i]",
+            "y[i]",
+            "max(y) + 1.0",
+            "max(y) + 1.0",
+            "max(y) + 1.0",
+            "diamond_y",
+            "diamond_y",
+            "diamond_y - 1.0"
+          ],
+          "after": [
+            "y[i]",
+            "y[i]",
+            "y[i]",
+            "y[i]",
+            "-0.99",
+            "-0.99",
+            "-0.99",
+            "-0.99",
+            "0.062"
+          ],
+          "source_lines": [
+            45,
+            49,
+            55,
+            59,
+            61,
+            63,
+            74,
+            76,
+            82
+          ],
+          "candidate_lines": [
+            37,
+            40,
+            43,
+            48,
+            58
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            96
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 23,
+      "candidate_calls": 19,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "empirical.forest",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\c6a1abc39561ad2a75608728.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_combinations.py",
+      "checkpoints": [
+        {
+          "feature": "点区间和汇总菱形",
+          "preserve": "保留浅交替行、带端帽的区间、空实心点、零线与汇总菱形，两侧文本按行对齐。",
+          "allowed_adaptation": "效应方向、研究数、权重与区间据实更新；空实心编码及汇总方法必须与说明一致。",
+          "evidence": [
+            {
+              "line": 26,
+              "end_line": 26,
+              "code": "        ax.axhspan(y[i] - 0.55, y[i] + 0.55, color=COLORS['bg_box'], zorder=0)",
+              "href": "sources/empirical.forest/original.html#L26"
+            },
+            {
+              "line": 33,
+              "end_line": 33,
+              "code": "    ax.plot([lo, hi], [y[i], y[i]], color=COLORS['text'], linewidth=1.2, zorder=2, solid_capstyle='round')",
+              "href": "sources/empirical.forest/original.html#L33"
+            },
+            {
+              "line": 34,
+              "end_line": 34,
+              "code": "    ax.plot([lo, lo], [y[i]-0.12, y[i]+0.12], color=COLORS['text'], linewidth=1.0)",
+              "href": "sources/empirical.forest/original.html#L34"
+            },
+            {
+              "line": 35,
+              "end_line": 35,
+              "code": "    ax.plot([hi, hi], [y[i]-0.12, y[i]+0.12], color=COLORS['text'], linewidth=1.0)",
+              "href": "sources/empirical.forest/original.html#L35"
+            },
+            {
+              "line": 41,
+              "end_line": 42,
+              "code": "    ax.plot(c, y[i], 'o', color=fc, markersize=ms, markeredgecolor=ec,\n            markeredgewidth=1.3, zorder=3)",
+              "href": "sources/empirical.forest/original.html#L41"
+            },
+            {
+              "line": 45,
+              "end_line": 45,
+              "code": "    ax.text(-0.065, y[i], lbl, ha='right', va='center', fontsize=9, color=COLORS['text'])",
+              "href": "sources/empirical.forest/original.html#L45"
+            },
+            {
+              "line": 49,
+              "end_line": 52,
+              "code": "    ax.text(0.085, y[i], f'{c:.3f} [{lo:.3f}, {hi:.3f}]{sig_mark}',\n            ha='left', va='center', fontsize=8, fontfamily='monospace',\n            color=PALETTE[0] if sig else COLORS['ref_line'],\n            fontweight='bold' if sig else 'normal')",
+              "href": "sources/empirical.forest/original.html#L49"
+            },
+            {
+              "line": 55,
+              "end_line": 56,
+              "code": "    ax.text(0.16, y[i], f'{wt:.1f}%', ha='right', va='center',\n            fontsize=8, color=COLORS['text'])",
+              "href": "sources/empirical.forest/original.html#L55"
+            },
+            {
+              "line": 59,
+              "end_line": 60,
+              "code": "ax.text(-0.065, max(y) + 1.0, '分组', ha='right', va='center',\n        fontsize=9.5, fontweight='bold', color=COLORS['text'])",
+              "href": "sources/empirical.forest/original.html#L59"
+            },
+            {
+              "line": 61,
+              "end_line": 62,
+              "code": "ax.text(0.085, max(y) + 1.0, '系数 [95% CI]', ha='left', va='center',\n        fontsize=9.5, fontweight='bold', color=COLORS['text'])",
+              "href": "sources/empirical.forest/original.html#L61"
+            },
+            {
+              "line": 63,
+              "end_line": 64,
+              "code": "ax.text(0.16, max(y) + 1.0, '权重', ha='right', va='center',\n        fontsize=9.5, fontweight='bold', color=COLORS['text'])",
+              "href": "sources/empirical.forest/original.html#L63"
+            },
+            {
+              "line": 71,
+              "end_line": 71,
+              "code": "ax.fill(diamond_x, diamond_yy, color=PALETTE[1], alpha=0.85, zorder=4)",
+              "href": "sources/empirical.forest/original.html#L71"
+            },
+            {
+              "line": 72,
+              "end_line": 73,
+              "code": "ax.plot(diamond_x + [diamond_x[0]], diamond_yy + [diamond_yy[0]],\n        color=COLORS['text'], linewidth=0.8, zorder=5)",
+              "href": "sources/empirical.forest/original.html#L72"
+            },
+            {
+              "line": 74,
+              "end_line": 75,
+              "code": "ax.text(-0.065, diamond_y, 'Pooled', ha='right', va='center',\n        fontsize=9.5, fontweight='bold', color=PALETTE[1])",
+              "href": "sources/empirical.forest/original.html#L74"
+            },
+            {
+              "line": 76,
+              "end_line": 78,
+              "code": "ax.text(0.085, diamond_y, f'{pooled_coef:.3f} [{pooled_lo:.3f}, {pooled_hi:.3f}]***',\n        ha='left', va='center', fontsize=8, fontfamily='monospace',\n        fontweight='bold', color=PALETTE[1])",
+              "href": "sources/empirical.forest/original.html#L76"
+            },
+            {
+              "line": 82,
+              "end_line": 85,
+              "code": "ax.text(0.0, diamond_y - 1.0, i2_text, ha='center', va='top', fontsize=8.5,\n        bbox=dict(boxstyle='round,pad=0.4', facecolor=_lighten(COLORS['highlight'], 0.85),\n                  edgecolor=_lighten(COLORS['highlight'], 0.4), alpha=0.95),\n        color=COLORS['text'])",
+              "href": "sources/empirical.forest/original.html#L82"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,97 +1,64 @@\n-import numpy as np, matplotlib.pyplot as plt\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS, _lighten\n-setup_style()\n+\"\"\"Forest plot of joint behavioral outcomes from the adjusted probability table.\"\"\"\n+from figure_data import COMBINATION_LABELS, COMBINATION_ORDER, OUT, inputs\n \n-labels = ['低固定资产组', '高固定资产组', '低负债组', '高负债组',\n-          '低资产负债率组', '高资产负债率组', '低流动性组', '高流动性组']\n-coefs  = np.array([-0.028,-0.042,-0.030,-0.031,-0.035,-0.025,-0.032,-0.033])\n-ci_lo  = np.array([-0.048,-0.058,-0.055,-0.052,-0.052,-0.010,-0.048,-0.046])\n-ci_hi  = np.array([-0.008,-0.026,-0.005,-0.010,-0.018,-0.040,-0.016,-0.020])\n-weights = np.array([12.8, 14.2, 10.5, 11.3, 13.1, 9.7, 14.6, 13.8])\n-significant = [True, True, False, False, True, True, False, False]\n+import matplotlib.pyplot as plt\n+import numpy as np\n+from matplotlib.transforms import blended_transform_factory\n+from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS\n \n-pooled_coef = np.average(coefs, weights=weights)\n-pooled_se   = 0.004\n-pooled_lo   = pooled_coef - 1.96 * pooled_se\n-pooled_hi   = pooled_coef + 1.96 * pooled_se\n \n-# ★ 自适应高度：变量多时不会过度拉伸\n-_fig_h = max(5, len(labels) * 0.7 + 2)\n-fig, ax = plt.subplots(figsize=(11, _fig_h))\n-y = np.arange(len(labels)) * 1.4\n+def main():\n+    setup_style()\n+    _, results, _ = inputs()\n+    values = np.array([results['natural_equal', name] for name in COMBINATION_ORDER])\n+    control, natural, coefs, ci_lo, ci_hi = values.T\n+    reported = (ci_lo > 0) | (ci_hi < 0)\n+    assert np.array_equal(np.where(reported)[0], [0, 2, 4, 7])\n+    fig, ax = plt.subplots(figsize=(7.2, 3.88))\n+    fig.subplots_adjust(left=.29, right=.675, top=.91, bottom=.18)\n+    y = np.arange(len(COMBINATION_LABELS)) * 1.4\n+    text_coords = blended_transform_factory(fig.transFigure, ax.transData)\n+    for i in range(len(y)):\n+        if i % 2 == 0:\n+            ax.axhspan(y[i] - .58, y[i] + .58, xmin=-.59, xmax=1.79,\n+                       color=COLORS['bg_box'], zorder=0, clip_on=False)\n+    ax.axvline(0, color=COLORS['down'], linestyle='--', linewidth=1.05, alpha=.85, zorder=1)\n+    positive = PALETTE[0]\n+    lower = PALETTE[2]\n+    for i, (c, lo, hi, label, supported) in enumerate(zip(coefs, ci_lo, ci_hi, COMBINATION_LABELS, reported)):\n+        color = (positive if c > 0 else lower) if supported else COLORS['text']\n+        ax.plot([lo, hi], [y[i], y[i]], color=color, linewidth=1.20, zorder=2, solid_capstyle='round')\n+        ax.plot([lo, lo], [y[i]-.11, y[i]+.11], color=color, linewidth=.90)\n+        ax.plot([hi, hi], [y[i]-.11, y[i]+.11], color=color, linewidth=.90)\n+        ax.plot(c, y[i], 'o', color=color, markersize=5.1,\n+                markerfacecolor=color if supported else 'white', markeredgecolor=color,\n+                markeredgewidth=1.0, zorder=3)\n \n-# 交替行阴影\n-for i in range(len(labels)):\n-    if i % 2 == 0:\n-        ax.axhspan(y[i] - 0.55, y[i] + 0.55, color=COLORS['bg_box'], zorder=0)\n+        ax.text(.072, y[i], label, transform=text_coords, ha='left', va='center',\n+                fontsize=8.8, color=COLORS['text'], weight='bold' if supported else 'normal')\n+        for x, value in ((.752, control[i]), (.853, natural[i])):\n+            ax.text(x, y[i], f'{value:.2f}', transform=text_coords, ha='center', va='center',\n+                    fontsize=8.3, color=COLORS['text'])\n+        estimate = f'{c:+.2f}'.replace('-', '−')\n+        ax.text(.954, y[i], estimate, transform=text_coords, ha='center', va='center',\n+                fontsize=8.6, color=color, weight='bold' if supported else 'normal')\n \n-# 零线参考\n-ax.axvline(x=0, color=COLORS['down'], linestyle='--', linewidth=1.5, alpha=0.7, zorder=1)\n+    for x, title, align in ((.072, '行为组合', 'left'), (.752, '对照声 %', 'center'),\n+                            (.853, '自然声 %', 'center'), (.954, '差值', 'center')):\n+        ax.text(x, -.99, title, transform=text_coords, ha=align, va='center', fontsize=8.7,\n+                color=COLORS['dark'], weight='bold')\n+    ax.set(yticks=[], xlim=(-64, 30), ylim=(10.44, -1.43),\n+           xticks=[-60, -40, -20, 0, 20])\n+    ax.set_xlabel('自然声－对照声（百分点）', fontsize=8.9)\n+    ax.tick_params(axis='x', labelsize=8)\n+    for side in ('top', 'right', 'left'):\n+        ax.spines[side].set_visible(False)\n+    ax.set_axisbelow(True)\n+    ax.grid(axis='x', alpha=.34, linestyle='-', color=COLORS['grid'])\n+    fig.text(.064, .062, '自然声按三类等权。实心点的 95% 同时置信区间排除零。组合均指同一次回放。', fontsize=7.6)\n+    save_fig(fig, str(OUT / '03_combinations.pdf'), formats=('pdf', 'png', 'svg'))\n+    plt.close(fig)\n \n-for i, (c, lo, hi, lbl, sig, wt) in enumerate(zip(coefs, ci_lo, ci_hi, labels, significant, weights)):\n-    # CI 线 + 端点帽\n-    ax.plot([lo, hi], [y[i], y[i]], color=COLORS['text'], linewidth=1.2, zorder=2, solid_capstyle='round')\n-    ax.plot([lo, lo], [y[i]-0.12, y[i]+0.12], color=COLORS['text'], linewidth=1.0)\n-    ax.plot([hi, hi], [y[i]-0.12, y[i]+0.12], color=COLORS['text'], linewidth=1.0)\n \n-    # 权重比例圆点（显著=实心，不显著=空心）\n-    fc = PALETTE[0] if sig else 'white'\n-    ec = PALETTE[0] if sig else COLORS['ref_line']\n-    ms = 5 + wt / 4\n-    ax.plot(c, y[i], 'o', color=fc, markersize=ms, markeredgecolor=ec,\n-            markeredgewidth=1.3, zorder=3)\n-\n-    # 左侧标签\n-    ax.text(-0.065, y[i], lbl, ha='right', va='center', fontsize=9, color=COLORS['text'])\n-\n-    # 右侧数值列：系数 [95% CI] + 显著性★\n-    sig_mark = '***' if sig else ''\n-    ax.text(0.085, y[i], f'{c:.3f} [{lo:.3f}, {hi:.3f}]{sig_mark}',\n-            ha='left', va='center', fontsize=8, fontfamily='monospace',\n-            color=PALETTE[0] if sig else COLORS['ref_line'],\n-            fontweight='bold' if sig else 'normal')\n-\n-    # 权重列\n-    ax.text(0.16, y[i], f'{wt:.1f}%', ha='right', va='center',\n-            fontsize=8, color=COLORS['text'])\n-\n-# 列标题\n-ax.text(-0.065, max(y) + 1.0, '分组', ha='right', va='center',\n-        fontsize=9.5, fontweight='bold', color=COLORS['text'])\n-ax.text(0.085, max(y) + 1.0, '系数 [95% CI]', ha='left', va='center',\n-        fontsize=9.5, fontweight='bold', color=COLORS['text'])\n-ax.text(0.16, max(y) + 1.0, '权重', ha='right', va='center',\n-        fontsize=9.5, fontweight='bold', color=COLORS['text'])\n-\n-# 菱形 pooled estimate\n-diamond_y = -1.5\n-dh = 0.35\n-diamond_x = [pooled_lo, pooled_coef, pooled_hi, pooled_coef]\n-diamond_yy = [diamond_y, diamond_y + dh, diamond_y, diamond_y - dh]\n-ax.fill(diamond_x, diamond_yy, color=PALETTE[1], alpha=0.85, zorder=4)\n-ax.plot(diamond_x + [diamond_x[0]], diamond_yy + [diamond_yy[0]],\n-        color=COLORS['text'], linewidth=0.8, zorder=5)\n-ax.text(-0.065, diamond_y, 'Pooled', ha='right', va='center',\n-        fontsize=9.5, fontweight='bold', color=PALETTE[1])\n-ax.text(0.085, diamond_y, f'{pooled_coef:.3f} [{pooled_lo:.3f}, {pooled_hi:.3f}]***',\n-        ha='left', va='center', fontsize=8, fontfamily='monospace',\n-        fontweight='bold', color=PALETTE[1])\n-\n-# I² 异质性标注框\n-i2_text = 'I² = 42.3%, Q = 13.8 (p = 0.055)'\n-ax.text(0.0, diamond_y - 1.0, i2_text, ha='center', va='top', fontsize=8.5,\n-        bbox=dict(boxstyle='round,pad=0.4', facecolor=_lighten(COLORS['highlight'], 0.85),\n-                  edgecolor=_lighten(COLORS['highlight'], 0.4), alpha=0.95),\n-        color=COLORS['text'])\n-\n-ax.set_yticks([])\n-ax.set_xlabel('回归系数', fontsize=12)\n-ax.spines['top'].set_visible(False)\n-ax.spines['right'].set_visible(False)\n-ax.spines['left'].set_visible(False)\n-ax.set_ylim(diamond_y - 1.8, max(y) + 1.5)\n-ax.set_xlim(-0.07, 0.17)\n-ax.invert_yaxis()\n-ax.grid(axis='x', alpha=0.15, linestyle='--')\n-fig.tight_layout()\n-save_fig(fig, 'figures/fig_forest.pdf')\n+if __name__ == '__main__':\n+    main()\n"
+    },
+    {
+      "findings": [
+        {
+          "kind": "axis_label_missing",
+          "method": "ax.set_xlabel",
+          "candidate_lines": [
+            45,
+            47,
+            49,
+            54,
+            56
+          ],
+          "priority": "focus",
+          "message": "ax 的 x 轴未找到非空标签；核对变量名称和单位，动态或共享标签需人工确认。",
+          "source_lines": [],
+          "severity": "advisory"
+        },
+        {
+          "kind": "axis_label_missing",
+          "method": "ax.set_ylabel",
+          "candidate_lines": [
+            45,
+            47,
+            49,
+            54,
+            56
+          ],
+          "priority": "focus",
+          "message": "ax 的 y 轴未找到非空标签；核对变量名称和单位，动态或共享标签需人工确认。",
+          "source_lines": [],
+          "severity": "advisory"
+        },
+        {
+          "kind": "call_added",
+          "method": "Rectangle",
+          "candidate_lines": [
+            45
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "add_axes",
+          "candidate_lines": [
+            24,
+            25
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "add_patch",
+          "candidate_lines": [
+            45
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "figure",
+          "candidate_lines": [
+            65
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_not_found",
+          "method": "heatmap",
+          "parameter": "annot",
+          "message": "原模板显式参数未在此类调用中找到；核对默认值或等价实现。",
+          "source_lines": [
+            13
+          ],
+          "candidate_lines": [
+            27
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "unresolved",
+          "method": "heatmap",
+          "parameter": "cmap",
+          "message": "表达式或组织方式改变，静态检查无法确认等价；阅读相关代码。",
+          "before": [
+            "palette_cmap('sequential')"
+          ],
+          "after": [
+            "color_map"
+          ],
+          "source_lines": [
+            13
+          ],
+          "candidate_lines": [
+            27
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "style_changed",
+          "method": "heatmap",
+          "parameter": "linewidths",
+          "before": [
+            0.3
+          ],
+          "after": [
+            1.4
+          ],
+          "message": "按源码出现/可展开循环顺序比较；结合卡片核对用途，不自动判错。",
+          "source_lines": [
+            13
+          ],
+          "candidate_lines": [
+            27
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "heatmap",
+          "parameter": "vmax",
+          "after": [
+            "scale[1]"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            13
+          ],
+          "candidate_lines": [
+            27
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "parameter_added",
+          "method": "heatmap",
+          "parameter": "vmin",
+          "after": [
+            "scale[0]"
+          ],
+          "message": "新增显式参数；核对其用途。",
+          "source_lines": [
+            13
+          ],
+          "candidate_lines": [
+            27
+          ],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "subplots",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            12
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "call_added",
+          "method": "text",
+          "candidate_lines": [
+            31,
+            47,
+            49,
+            54,
+            56,
+            66,
+            68,
+            74
+          ],
+          "message": "新增调用；核对数据依据及布局用途，必要适配允许保留。",
+          "source_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        },
+        {
+          "kind": "operation_not_found",
+          "method": "tight_layout",
+          "message": "当前文件未找到此调用；检查是否删除图元、改用等价实现或移入辅助文件。",
+          "source_lines": [
+            19
+          ],
+          "candidate_lines": [],
+          "severity": "advisory",
+          "priority": "detail"
+        }
+      ],
+      "baseline_calls": 6,
+      "candidate_calls": 20,
+      "verdict": "仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。",
+      "limits": "不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。",
+      "template_id": "competition.spatiotemporal_heatmap",
+      "baseline": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\.vivid\\template-sources\\eb2e81df2e7f17cf3d39867b.py",
+      "candidate": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\plot_latency_scenario_matrix.py",
+      "checkpoints": [
+        {
+          "feature": "地区时间格与原值",
+          "preserve": "保留地区行、年份列的顺序、连续色阶、原值注释、细白格线及有单位的色条。",
+          "allowed_adaptation": "时段、地区数量、数值精度和连续色相可变，不因检索分组而任意打乱时间。",
+          "evidence": [
+            {
+              "line": 13,
+              "end_line": 16,
+              "code": "sns.heatmap(data, annot=True, fmt='.1f', cmap=palette_cmap('sequential'),\n            xticklabels=years, yticklabels=regions,\n            linewidths=0.3, linecolor='white',\n            cbar_kws={'label': 'GDP增长率 (%)', 'shrink': 0.8}, ax=ax)",
+              "href": "sources/competition.spatiotemporal_heatmap/original.html#L13"
+            }
+          ]
+        }
+      ],
+      "source_diff": "--- template\n+++ adapted\n@@ -1,20 +1,81 @@\n-import numpy as np, matplotlib.pyplot as plt; from _utils.palette_maps import palette_cmap, palette_stops, contrast_text\n+\"\"\"Annotated matrices for the representative response estimates.\"\"\"\n+\n+import json\n+\n+from figure_data import ANALYSIS\n+import matplotlib.pyplot as plt\n+import numpy as np\n import seaborn as sns\n-from _utils.plot_utils import setup_style, save_fig, PALETTE, COLORS\n-setup_style()\n-np.random.seed(42)\n+from matplotlib.colors import LinearSegmentedColormap\n+from matplotlib.patches import Rectangle\n \n-regions = ['北京', '上海', '广东', '浙江', '江苏', '四川', '湖北', '山东']\n-years = [str(y) for y in range(2015, 2024)]\n-data = np.random.uniform(3, 12, (len(regions), len(years)))\n-data = np.round(data, 1)\n+from _utils.palette_maps import contrast_text\n+from _utils.plot_utils import save_fig, setup_style\n+from plot_latency_scenarios import LABELS, read_estimates\n \n-fig, ax = plt.subplots(figsize=(9, 5))\n-sns.heatmap(data, annot=True, fmt='.1f', cmap=palette_cmap('sequential'),\n-            xticklabels=years, yticklabels=regions,\n-            linewidths=0.3, linecolor='white',\n-            cbar_kws={'label': 'GDP增长率 (%)', 'shrink': 0.8}, ax=ax)\n-ax.set_xlabel('年份', fontsize=11); ax.set_ylabel('地区', fontsize=11)\n-ax.set_yticklabels(regions, rotation=0, fontsize=9)\n-[t.set_color(contrast_text(ax.collections[0].cmap(ax.collections[0].norm(float(t.get_text()))))) for t in ax.texts]; fig.tight_layout()\n-save_fig(fig, 'figures/fig_spatiotemporal.pdf')\n+\n+INK = \"#172820\"\n+MUTED = \"#52625A\"\n+PROBABILITY = (\"#F3F7F4\", \"#AFCABA\", \"#6B927E\")\n+LATENCY = (\"#FAF7F1\", \"#E8CFB9\", \"#BD7D5B\")\n+\n+\n+def draw_matrix(fig, left, estimates, stops, scale, title, percent=False):\n+    ax = fig.add_axes([left, .232, .356, .425])\n+    cax = fig.add_axes([left+.047, .163, .262, .015])\n+    color_map = LinearSegmentedColormap.from_list(title, stops)\n+    sns.heatmap(estimates[:, :, 0], cmap=color_map, vmin=scale[0], vmax=scale[1],\n+                xticklabels=(\"50 m\", \"100 m\", \"150 m*\"), yticklabels=LABELS,\n+                linewidths=1.4, linecolor=\"white\", ax=ax, cbar_ax=cax,\n+                cbar_kws={\"orientation\": \"horizontal\", \"ticks\": scale})\n+    fig.text(left, .753, title, ha=\"left\", va=\"top\", fontsize=13, weight=\"bold\", color=INK)\n+    ax.xaxis.tick_top()\n+    ax.tick_params(axis=\"both\", length=0, labelsize=9, pad=7, colors=MUTED)\n+    ax.set_yticklabels(LABELS, rotation=0)\n+    ax.set_xticklabels(ax.get_xticklabels(), rotation=0)\n+    cax.tick_params(axis=\"x\", length=0, pad=2, labelsize=7.5, colors=MUTED)\n+    if percent:\n+        cax.set_xticklabels([f\"{n:.0%}\" for n in scale])\n+    else:\n+        cax.set_xticklabels([f\"{n:g}\" for n in scale])\n+    surface = ax.collections[0]\n+    for row, col in np.ndindex(estimates.shape[:2]):\n+        center, lo, hi = estimates[row, col]\n+        if np.isnan(center):\n+            ax.add_patch(Rectangle((col+.045, row+.06), .91, .88, facecolor=\"#F2F4F1\",\n+                                   edgecolor=\"#AAB9AE\", linestyle=(0, (2.5, 2)), linewidth=.75))\n+            ax.text(col+.5, row+.41, \"无响应\", ha=\"center\", va=\"center\",\n+                    fontsize=10.5, weight=\"bold\", color=MUTED)\n+            ax.text(col+.5, row+.67, \"实测 0/5\", ha=\"center\", va=\"center\", fontsize=8, color=MUTED)\n+            continue\n+        ink = contrast_text(surface.cmap(surface.norm(center)))\n+        main_text = f\"{center:.1%}\" if percent else f\"{center:.2f}\"\n+        interval = f\"{100*lo:.1f}–{100*hi:.1f}%\" if percent else f\"{lo:.2f}–{hi:.2f}\"\n+        ax.text(col+.5, row+.39, main_text, ha=\"center\", va=\"center\",\n+                fontsize=17, weight=\"bold\", color=ink)\n+        ax.text(col+.5, row+.71, interval, ha=\"center\", va=\"center\",\n+                fontsize=8.1, color=ink, alpha=.94)\n+\n+\n+def main():\n+    setup_style()\n+    model_path = ANALYSIS / \"q3_latency_scenarios_results.json\"\n+    data = json.loads(model_path.read_text(encoding=\"utf-8\"))\n+    p, time = read_estimates(data)\n+    fig = plt.figure(figsize=(9.4, 4.55), facecolor=\"white\")\n+    fig.text(.045, .958, \"不同回放距离下的首次响应\",\n+             ha=\"left\", va=\"top\", fontsize=20, weight=\"bold\", color=INK)\n+    fig.text(.047, .854, f\"固定为 {data['group_size']:g} 只企鹅，按实测情境比例加权\",\n+             ha=\"left\", va=\"top\", fontsize=9, color=MUTED)\n+    fig.add_artist(plt.Line2D([.047, .97], [.808, .808], transform=fig.transFigure,\n+                              color=\"#DCE6DF\", linewidth=.7))\n+    draw_matrix(fig, .131, p, PROBABILITY, (0, .8), \"60 秒内的响应概率\", percent=True)\n+    draw_matrix(fig, .612, time, LATENCY, (1.8, 2.8), \"有响应时的中位潜伏期（秒）\")\n+    fig.text(.047, .068, \"数值下方为逐项 95% 区间。* 150 m 没有恰好 8 只的实测回放，数值为模型预测。\",\n+             ha=\"left\", va=\"center\", fontsize=8.1, color=MUTED)\n+    out = ANALYSIS.parent / \"figures\" / \"q3_latency_04_scenario_matrix\"\n+    save_fig(fig, str(out), formats=(\"pdf\", \"png\", \"svg\"))\n+\n+\n+if __name__ == \"__main__\":\n+    main()\n"
+    }
+  ],
+  "tracked_scripts": 10,
+  "limits": "Only registered scripts are covered; unregistered or helper files need separate review."
+}

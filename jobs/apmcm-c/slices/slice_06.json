@@ -1,0 +1,368 @@
+{
+ "packet": "d79a7e171f16855efb27975e44aeb149999931f1ce308cd747d70be01fe687bb",
+ "pages": [
+  "p0021",
+  "p0022",
+  "p0023",
+  "p0024"
+ ],
+ "items": [
+  [
+   "p0021-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0021-b0002",
+   "Page 18 of 25"
+  ],
+  [
+   "p0021-b0003",
+   "7 . 2 Effective radii and expected number of responders"
+  ],
+  [
+   "p0021-b0004",
+   "Each component of the index has its own radius, the distance at which the recognition proba-⟦M0001⟧   ⟦M0002⟧  and the recruitment radius bility falls to one half: the contact radius  We also report the effective-area radius used in distance sampling [17], ⟦M0003⟧ ⟦M0004⟧ ⟦M0005⟧ ⟦M0006⟧ 2   ; d⟦M0007⟧ (12) 0 where⟦M0008⟧ is the distance from the caller and⟦M0009⟧ m; it does not depend on a cut-off and does not collapse abruptly under noise. For the typical group (⟦M0010⟧) the contact radii are 155, 225 and 245 m and the recruitment radii 83, 144 and 177 m (Table 14). Group size changes the level of the index (near-field values 0.43–0.49 for⟦M0011⟧ and 0.21–0.23 for⟦M0012⟧) but hardly its radii. The data record only whether the group responded. The probability that a group shows any response is⟦M0013⟧; and that it approaches is⟦M0014⟧;. For the number of responders we consider three assumptions: S1, one bird responds (expected number⟦M0015⟧); S2, birds respond independently (⟦M0016⟧  ); S3, a share⟦M0017⟧ of the group responds ("
+  ],
+  [
+   "p0021-b0005",
+   "Response probabilities and expected number of responders for a group of⟦M0001⟧"
+  ],
+  [
+   "p0021-b0006",
+   "Table 15"
+  ],
+  [
+   "p0021-b0007",
+   "Type ⟦M0001⟧ (m) ⟦M0002⟧ ⟦M0003⟧"
+  ],
+  [
+   "p0021-b0009",
+   "flat 50 0.67 0.13 0.67 1.03"
+  ],
+  [
+   "p0021-b0021",
+   "mod 50 0.68 0.23 0.68 1.07"
+  ],
+  [
+   "p0021-b0033",
+   "tv 50 0.71 0.18 0.71 1.13"
+  ],
+  [
+   "p0021-b0045",
+   "Section 6.2 supports S1 and S2. Under them a call at 100 m is expected to elicit 0.6–1.1"
+  ],
+  [
+   "p0021-b0046",
+   "responders for every call type; at 200 m flat calls elicit 0.15, mod calls 0.5–0.7 and tv calls 0.7–1.1 (Table 15). S3 with⟦M0001⟧ is an upper bound. The probability of approach decays much earlier: 0.03 for flat calls at 100 m, 0.09 for mod at 150 m and 0.02 for tv at 200 m."
+  ],
+  [
+   "p0021-b0047",
+   "7 . 3 Sensitivity analysis"
+  ],
+  [
+   "p0021-b0048",
+   "Table 16 varies the behaviour weights, the context, the group size, the thresholds assigned to"
+  ],
+  [
+   "p0021-b0049",
+   "the behaviours and the way⟦M0001⟧ is estimated. Three features hold in every setting: the call types are close in the near field; flat calls fall behind by 100 m; tv calls are highest, or level with mod, at 150 m. Weights change the level of the index, not this pattern. Group size has the largest effect on"
+  ],
+  [
+   "p0022-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0022-b0002",
+   "Page 19 of 25"
+  ],
+  [
+   "p0022-b0003",
+   "the level. The single-threshold version gives 0.08 for flat calls at 100 m, at odds with the observed"
+  ],
+  [
+   "p0022-b0005",
+   "Sensitivity of the effectiveness index to weights, group size, threshold assignment and estimation"
+  ],
+  [
+   "p0022-b0006",
+   "Table 16"
+  ],
+  [
+   "p0022-b0007",
+   "choices"
+  ],
+  [
+   "p0022-b0008",
+   "Near field"
+  ],
+  [
+   "p0022-b0009",
+   "100 m"
+  ],
+  [
+   "p0022-b0010",
+   "150 m"
+  ],
+  [
+   "p0022-b0011",
+   "flat mod tv flat mod tv flat mod tv"
+  ],
+  [
+   "p0022-b0012",
+   "Setting"
+  ],
+  [
+   "p0022-b0014",
+   "baseline"
+  ],
+  [
+   "p0022-b0016",
+   "weights 4:2:1"
+  ],
+  [
+   "p0022-b0018",
+   "equal behaviour weights"
+  ],
+  [
+   "p0022-b0020",
+   "searching context only"
+  ],
+  [
+   "p0022-b0026",
+   "head-up gated at 0.4"
+  ],
+  [
+   "p0022-b0028",
+   "approach gated at 0.4"
+  ],
+  [
+   "p0022-b0030",
+   "approach gated at 0.6"
+  ],
+  [
+   "p0022-b0032",
+   "tendencies pooled over types"
+  ],
+  [
+   "p0022-b0034",
+   "single threshold 0.5"
+  ],
+  [
+   "p0022-b0035",
+   "7 . 4 Noise and rough-sea scenarios"
+  ],
+  [
+   "p0022-b0036",
+   "The problem proposes two scenarios: raising the recognition threshold from 0.5 to 0.6 or 0.7,"
+  ],
+  [
+   "p0022-b0037",
+   "which affects the recruitment tier, and lowering all correlations by 5–20%, which affects both tiers."
+  ],
+  [
+   "p0022-b0038",
+   "They can be placed on one axis, because"
+  ],
+  [
+   "p0022-b0041",
+   "so a 20% loss of correlation is equivalent to raising the threshold 0.5 to 0.625. The radii follow from the closed form of⟦M0001⟧ with⟦M0002⟧ replaced by⟦M0003⟧  (Table 17, Figure 11)."
+  ],
+  [
+   "p0022-b0042",
+   "Recruitment and contact radii (m) under the noise scenarios; changes relative to the baseline in"
+  ],
+  [
+   "p0022-b0043",
+   "Table 17"
+  ],
+  [
+   "p0022-b0044",
+   "parentheses"
+  ],
+  [
+   "p0022-b0045",
+   "Recruitment radius (⟦M0001⟧"
+  ],
+  [
+   "p0022-b0046",
+   "Scenario"
+  ],
+  [
+   "p0022-b0047",
+   "flat"
+  ],
+  [
+   "p0022-b0048",
+   "mod"
+  ],
+  [
+   "p0022-b0049",
+   "baseline"
+  ],
+  [
+   "p0022-b0052",
+   "Contact radius (⟦M0001⟧"
+  ],
+  [
+   "p0022-b0053",
+   "tv"
+  ],
+  [
+   "p0022-b0054",
+   "flat"
+  ],
+  [
+   "p0022-b0055",
+   "mod"
+  ],
+  [
+   "p0022-b0056",
+   "tv"
+  ],
+  [
+   "p0022-b0088",
+   "Raising⟦M0001⟧ affects the recruitment tier only, so the contact radius is unchanged (–)."
+  ],
+  [
+   "p0023-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0023-b0002",
+   "Page 20 of 25"
+  ],
+  [
+   "p0023-b0003",
+   "Figure 11 Change of the recruitment radius (effective-area radius, %) when both scenarios are combined"
+  ],
+  [
+   "p0023-b0004",
+   "Response probabilities and index values under the noise scenarios (⟦M0001⟧"
+  ],
+  [
+   "p0023-b0005",
+   "Table 18"
+  ],
+  [
+   "p0023-b0006",
+   "⟦M0001⟧ at 100 m"
+  ],
+  [
+   "p0023-b0007",
+   "⟦M0001⟧ at 150 m"
+  ],
+  [
+   "p0023-b0008",
+   "⟦M0001⟧ at 100 m"
+  ],
+  [
+   "p0023-b0009",
+   "flat mod tv flat mod tv flat mod tv"
+  ],
+  [
+   "p0023-b0010",
+   "Scenario"
+  ],
+  [
+   "p0023-b0012",
+   "baseline"
+  ],
+  [
+   "p0023-b0016",
+   "Four conclusions follow. (i) Flat calls are the most fragile: a 20% loss of correlation shortens"
+  ],
+  [
+   "p0023-b0017",
+   "their recruitment radius by 33%, against 25% and 21% for mod and tv. (ii) Recruitment is lost before contact: the same loss shortens the contact radius by only 12–22%, and raising the threshold to 0.7 shortens the recruitment radius by 39–51% (two thirds to three quarters of the area) while the probability of any response within 150 m is unchanged. (iii) At 100 m the probability of approach falls from 0.23 to 0.06 for mod and from 0.18 to 0.10 for tv when the threshold rises to 0.7 (Table 18)."
+  ],
+  [
+   "p0023-b0018",
+   "(iv) Tv calls are the most stable under moderate scenarios, but their near-field level is only 0.745: with⟦M0001⟧ and a further 10% loss the mean curve no longer reaches the threshold and⟦M0002⟧ drops to zero, while the effective-area radius is still 61 m. Both radii should be reported. Under M3 a rise of the ambient noise level by ∆⟦M0003⟧ dB lowers the signal-to-noise ratio by the same amount and rescales the characteristic distance,"
+  ],
+  [
+   "p0023-b0019",
+   "⟦M0001⟧ ⟦M0002⟧ ·⟦M0003⟧<s0>∆</s0>⟦M0004⟧ "
+  ],
+  [
+   "p0023-b0021",
+   "so every threshold distance shrinks by the same factor. A 3 dB rise multiplies the radii of flat, mod and tv by 0.73, 0.80 and 0.86 and removes 47%, 36% and 27% of the communication area; 6 dB removes 72%, 60% and 46%. This links the abstract scenarios to the decibel quantities used in the management of vessel noise [20]."
+  ],
+  [
+   "p0024-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0024-b0002",
+   "Page 21 of 25"
+  ],
+  [
+   "p0024-b0003",
+   "7 . 5 Recommendations for future playback experiments"
+  ],
+  [
+   "p0024-b0004",
+   "Each recommendation answers a limitation visible in the data."
+  ],
+  [
+   "p0024-b0005",
+   "•<s0> Sample size.</s0> With approach rates of 8.3% (flat) and 24.2% (mod), detecting the difference at the 5% level with 80% power needs about 84 playbacks per type (now 48 and 33); flat against tv needs about 163.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0024-b0006",
+   "•<s0> Balance type and distance.</s0> Flat calls were played 25 times at 80–100 m but only 7 times below 50 m. Playbacks should be stratified by type and distance.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0024-b0007",
+   "<s0>•</s0> More long-range playbacks and propagation points.<s1> Only 13 call playbacks were made at</s1>",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0024-b0008",
+   "150 m or beyond, where the contact radii lie; propagation should be measured between 128 and 256 m."
+  ],
+  [
+   "p0024-b0009",
+   "<s0>•</s0> Count responders,<s1> so that</s1>⟦M0001⟧<s2> can be estimated;</s2> randomise and record the order<s3> of call and</s3> <s4>control.</s4>",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0024-b0010",
+   "•<s0> More exemplars.</s0> The 28 tracks were used 1–10 times each, and the propagation data probably contain three exemplars per type.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0024-b0011",
+   "•<s0> Measure the threshold directly</s0> by playing calls degraded with added noise, and record wind, sea state and ambient noise at each playback.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0024-b0012",
+   "7 . 6 Conservation recommendations"
+  ],
+  [
+   "p0024-b0013",
+   "1.<s0> Cap the noise increment in foraging areas,</s0> for example at 3 dB above ambient. Basis: 3 dB removes 27–47% of the communication area and 6 dB removes 46–72%. Condition: the noise overlaps the band of the calls (fundamental near 280 Hz, energy mainly at 300–1200 Hz).",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0024-b0014",
+   "Limitation: the conversion rests on M3, and vessel noise was not measured in these data."
+  ]
+ ]
+}

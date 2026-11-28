@@ -1,0 +1,290 @@
+{
+ "packet": "d79a7e171f16855efb27975e44aeb149999931f1ce308cd747d70be01fe687bb",
+ "pages": [
+  "p0018",
+  "p0019",
+  "p0020"
+ ],
+ "items": [
+  [
+   "p0018-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0018-b0002",
+   "Page 15 of 25"
+  ],
+  [
+   "p0018-b0003",
+   "Figure 9 Cumulative proportion of first responses: (a) by stimulus; (b) call playbacks by context"
+  ],
+  [
+   "p0018-b0004",
+   "Two-part (mixture cure) model of the first response: odds ratios for responding and time ratios for"
+  ],
+  [
+   "p0018-b0005",
+   "Table 12"
+  ],
+  [
+   "p0018-b0006",
+   "the latency of responders"
+  ],
+  [
+   "p0018-b0007",
+   "⟦M0001⟧ Time ratio (95% CI)"
+  ],
+  [
+   "p0018-b0009",
+   "OR of responding (95% CI)"
+  ],
+  [
+   "p0018-b0010",
+   "Variable"
+  ],
+  [
+   "p0018-b0011",
+   "intercept"
+  ],
+  [
+   "p0018-b0013",
+   "mod vs flat"
+  ],
+  [
+   "p0018-b0015",
+   "tv vs flat"
+  ],
+  [
+   "p0018-b0017",
+   "searching vs commuting"
+  ],
+  [
+   "p0018-b0019",
+   "after vs commuting"
+  ],
+  [
+   "p0018-b0021",
+   "distance, per +50 m"
+  ],
+  [
+   "p0018-b0023",
+   "ln⟦M0001⟧, per +1"
+  ],
+  [
+   "p0018-b0046",
+   "Reference: flat, commuting, 80 m, 8 penguins. The intercept row gives the baseline odds and the baseline median latency (s)."
+  ],
+  [
+   "p0018-b0047",
+   "tests between call types give⟦M0001⟧; the difference between contexts lies in the share of responders, not in their speed. Sound needs 0.44 s to travel 150 m and a reply needs as long to return; after subtracting travel time the distance effect shrinks from 1.33 to 1.22 but remains. Among responders the median latencies are 2.0 s (head-up), 2.9 s (vocal reply) and 8.0 s (approach), and faster vocal replies contain more calls (Spearman⟦M0002⟧"
+  ],
+  [
+   "p0018-b0048",
+   "6 . 7 Predictions under representative conditions"
+  ],
+  [
+   "p0018-b0049",
+   "Table 13 gives the predictions for the median group size (⟦M0001⟧) at 50, 100 and 150 m,"
+  ],
+  [
+   "p0018-b0050",
+   "averaged over contexts with their sample shares (0.47, 0.27, 0.26). Intervals come from a bootstrap of the 139 call playbacks (500 replicates). Cells in which the raw data contain no response at all are marked “No Response” as required; the model values are still given, because a zero count in two to five playbacks only means that no visible behaviour occurred there."
+  ],
+  [
+   "p0018-b0051",
+   "Three remarks. First, each call type has only two or three playbacks at 150 m, so that column"
+  ],
+  [
+   "p0018-b0052",
+   "is essentially extrapolation and its intervals are wide. Second, the five mod playbacks at 100 m all lack a response, but they were made on the same day, four of them in the commuting context, with groups of 8–30 birds, and three used the same track; under such conditions the model predicts a low response rate anyway, and the cell does not show that mod calls fail at 100 m. Third, the distance effect in this table is shared by the three call types; the type-specific effect of propagation enters in"
+  ],
+  [
+   "p0019-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0019-b0002",
+   "Page 16 of 25"
+  ],
+  [
+   "p0019-b0003",
+   "Predictions under the representative conditions (⟦M0001⟧, context-weighted): probability of the"
+  ],
+  [
+   "p0019-b0004",
+   "Table 13"
+  ],
+  [
+   "p0019-b0005",
+   "behaviour within 60 s and median latency of responders (s)"
+  ],
+  [
+   "p0019-b0006",
+   "Any response"
+  ],
+  [
+   "p0019-b0007",
+   "Head-up"
+  ],
+  [
+   "p0019-b0008",
+   "Vocal reply"
+  ],
+  [
+   "p0019-b0009",
+   "Approach"
+  ],
+  [
+   "p0019-b0010",
+   "⟦M0001⟧ / latency ⟦M0002⟧ / latency ⟦M0003⟧ / latency Latency (95% CI)"
+  ],
+  [
+   "p0019-b0011",
+   "Type ⟦M0001⟧ (m) ⟦M0002⟧ (95% CI)"
+  ],
+  [
+   "p0019-b0012",
+   "flat 50 0.63 (0.48–0.77)"
+  ],
+  [
+   "p0019-b0018",
+   "mod 50 0.67 (0.51–0.83)"
+  ],
+  [
+   "p0019-b0023",
+   "tv 50 0.70 (0.56–0.84)"
+  ],
+  [
+   "p0019-b0051",
+   "⟦M0001⟧ No response was observed in the raw data under this condition (“No Response”); the model values borrow information from other distances and the latency reads “if a response occurs”."
+  ],
+  [
+   "p0019-b0052",
+   "Problem 4. Finally, the order of presentation matters: calls played first elicit a response in 75.3% of cases against 50.0% when played after the control (Fisher⟦M0001⟧; adjusted odds ratio 0.42, ⟦M0002⟧). Order is inferred from row order and should be randomised in future work."
+  ],
+  [
+   "p0019-b0053",
+   "VII. Problem 4: Communication Effectiveness and"
+  ],
+  [
+   "p0019-b0054",
+   "Conservation Scenarios"
+  ],
+  [
+   "p0019-b0055",
+   "7 . 1 Effectiveness index"
+  ],
+  [
+   "p0019-b0056",
+   "A call is effective if it still reaches the required threshold when it arrives and if the receiver then"
+  ],
+  [
+   "p0019-b0057",
+   "shows a functionally meaningful behaviour. Following the calibration of Section 5.4, head-up and vocal reply (contact) use the possible-recognition threshold⟦M0001⟧ and approach (recruitment) uses the recognition threshold⟦M0002⟧. The index is ⟦M0003⟧ ⟦M0004⟧ ⟦M0005⟧     ;   ⟦M0006⟧  ⟦M0007⟧;) = Φ  (11) where⟦M0008⟧ is the probability of behaviour⟦M0009⟧ once the call is recognised,⟦M0010⟧ the functional weight of the behaviour,⟦M0011⟧ the weight of context, and⟦M0012⟧ the overall loss of correlation caused by noise (0 in the baseline). lies between 0 and 1. If a response combination is scored by the sum of the weights of its behaviours, the weighted sum of combination probabilities equals ⟦M0013⟧ the index is also the combination-weighted score.  , so"
+  ],
+  [
+   "p0019-b0058",
+   "<s0>Weights and their ecological meaning.</s0> Head-up shows that the receiver noticed the signal,"
+  ],
+  [
+   "p0019-b0059",
+   "but the caller gets no feedback; a vocal reply establishes two-way contact and tells the caller that a conspecific is present and roughly where; approach shortens the distance between birds and is the direct precondition of group foraging [4]. Only this ordering is used. Rank-order-centroid weights"
+  ],
+  [
+   "p0020-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0020-b0003",
+   "Page 17 of 25"
+  ],
+  [
+   "p0020-b0004",
+   "⟦M0001⟧ with⟦M0002⟧, give 0.611 (approach), 0.278 (vocal reply) and 0.111 (head-up)."
+  ],
+  [
+   "p0020-b0005",
+   "⟦M0001⟧ The context weights⟦M0002⟧ are the shares of the three contexts in the experiments."
+  ],
+  [
+   "p0020-b0006",
+   "<s0>Post-recognition behaviour.</s0> The probabilities⟦M0001⟧ are estimated with the gated logistic regres-sion of Section 5.4, now with call type, context and ln⟦M0002⟧ as covariates (call type and ln⟦M0003⟧ only for approach, which has 23 events). A by-product is a test of whether call type still matters once recognition is accounted for. Without the gate the likelihood-ratio statistic of call type for approach is 4.49 (⟦M0004⟧); with the gate at 0.5 it drops to 0.91 (⟦M0005⟧). Flat calls rarely elicit ap-proach because beyond 80 m they are below the recognition threshold, not because penguins are less attracted by them."
+  ],
+  [
+   "p0020-b0007",
+   "Near-field value of the effectiveness index (⟦M0001⟧) and effective communication radii (m)"
+  ],
+  [
+   "p0020-b0008",
+   "Table 14"
+  ],
+  [
+   "p0020-b0009",
+   "⟦M0001⟧con"
+  ],
+  [
+   "p0020-b0010",
+   "⟦M0001⟧ ⟦M0002⟧ (rec.)"
+  ],
+  [
+   "p0020-b0011",
+   "Near-field⟦M0001⟧ (95% CI)"
+  ],
+  [
+   "p0020-b0012",
+   "Type Contact part"
+  ],
+  [
+   "p0020-b0013",
+   "Recruitment part"
+  ],
+  [
+   "p0020-b0014",
+   "Half-index radius"
+  ],
+  [
+   "p0020-b0016",
+   "flat"
+  ],
+  [
+   "p0020-b0023",
+   "mod"
+  ],
+  [
+   "p0020-b0030",
+   "tv"
+  ],
+  [
+   "p0020-b0036",
+   "The near-field index is 0.29, 0.32 and 0.30 for flat, mod and tv (Table 14); the bootstrap intervals"
+  ],
+  [
+   "p0020-b0037",
+   "overlap widely and the ordering probabilities are only 0.5–0.7. Once recognised, the three call types elicit behaviour of about the same value; their differences in the index come from how far they carry."
+  ],
+  [
+   "p0020-b0038",
+   "The control sound scores 0.03 under the same conditions."
+  ],
+  [
+   "p0020-b0039",
+   "<s0>Validation against the playbacks.</s0> For each call playback the index is computed from its type,"
+  ],
+  [
+   "p0020-b0040",
+   "distance, context and group size and compared with the observed score (sum of the weights of the behaviours shown). Averaged by type and distance band (Figure 10, right), the tiered index has a root-mean-square error of 0.064. A version with a single threshold of 0.5 for all behaviours has"
+  ],
+  [
+   "p0020-b0041",
+   "0.098 and underestimates at long range: for flat calls at 80–119 m the observed score is 0.22, the tiered index predicts 0.23 and the single-threshold version 0.13. The summed deviance of the three behaviour models is lower by 63 for the tiered version with the same number of parameters."
+  ],
+  [
+   "p0020-b0042",
+   "Figure 10 Left: recognition probability under the two thresholds. Right: effectiveness index against distance"
+  ],
+  [
+   "p0020-b0043",
+   "(circles: observed scores by distance band, mean and SE; crosses: model for the same playbacks)"
+  ]
+ ]
+}

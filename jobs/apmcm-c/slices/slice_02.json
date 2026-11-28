@@ -1,0 +1,331 @@
+{
+ "packet": "d79a7e171f16855efb27975e44aeb149999931f1ce308cd747d70be01fe687bb",
+ "pages": [
+  "p0007",
+  "p0008",
+  "p0009",
+  "p0010"
+ ],
+ "items": [
+  [
+   "p0007-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0007-b0002",
+   "Page 4 of 25"
+  ],
+  [
+   "p0007-b0003",
+   "Figure 2 Box plots of the six measures shared by the three call types (points are individual calls)"
+  ],
+  [
+   "p0007-b0004",
+   "Two tones of nearby frequency produce an amplitude fluctuation at their difference frequency, so the “pulses” of a two-voice call are most likely the beats of its two voices. In the plane of the first two principal components (59.8% of the variance) the three types overlap almost completely"
+  ],
+  [
+   "p0007-b0005",
+   "(Figure 3(c))."
+  ],
+  [
+   "p0007-b0006",
+   "Figure 3 (a) Ratio of peak frequency to fundamental; (b) beat frequency against pulse rate for tv calls; (c) first"
+  ],
+  [
+   "p0007-b0007",
+   "two principal components of the six shared measures"
+  ],
+  [
+   "p0007-b0008",
+   "4 . 2 Non-parametric tests"
+  ],
+  [
+   "p0007-b0009",
+   "The samples are small and unequal, the peak frequency is bimodal and Q25 is right-skewed,"
+  ],
+  [
+   "p0007-b0010",
+   "so rank-based tests are used. For each shared measure the Kruskal–Wallis statistic [8] and its effect size are"
+  ],
+  [
+   "p0007-b0015",
+   "where⟦M0001⟧ is the number of calls,⟦M0002⟧ the number of calls of type⟦M0003⟧, and⟦M0004⟧ the sum of their ranks in the pooled sample. The six⟦M0005⟧-values are adjusted by Holm’s method [10]; Dunn’s test [9] and the Mann–Whitney⟦M0006⟧ test give the pairwise comparisons. As a second, multivariate test we apply PERMANOVA [11] to the six standardised measures with 4999 permutations."
+  ],
+  [
+   "p0008-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0008-b0002",
+   "Page 5 of 25"
+  ],
+  [
+   "p0008-b0003",
+   "Kruskal–Wallis tests of the six shared measures (Holm-adjusted) and significant Dunn pairs"
+  ],
+  [
+   "p0008-b0004",
+   "Table 3"
+  ],
+  [
+   "p0008-b0005",
+   "⟦M0001⟧ ⟦M0002⟧ Holm⟦M0003⟧"
+  ],
+  [
+   "p0008-b0006",
+   "Measure"
+  ],
+  [
+   "p0008-b0007",
+   "⟦M0001⟧ Dunn pairs with Holm⟦M0002⟧"
+  ],
+  [
+   "p0008-b0009",
+   "Duration"
+  ],
+  [
+   "p0008-b0010",
+   "9.14 0.010 0.052 0.085 flat–tv (0.008)"
+  ],
+  [
+   "p0008-b0011",
+   "F01"
+  ],
+  [
+   "p0008-b0012",
+   "12.28 0.002 0.013 0.115 flat–mod (0.004), flat–tv (0.017)"
+  ],
+  [
+   "p0008-b0013",
+   "Fpeak"
+  ],
+  [
+   "p0008-b0015",
+   "Q25"
+  ],
+  [
+   "p0008-b0017",
+   "Q50"
+  ],
+  [
+   "p0008-b0019",
+   "Q75"
+  ],
+  [
+   "p0008-b0020",
+   "After correction only the peak frequency remains significant (Table 3); F01 is marginal. Every"
+  ],
+  [
+   "p0008-b0021",
+   "significant pair involves flat calls, and mod and tv cannot be separated on any shared measure. The pulse rate, defined only for mod and tv, does not differ either (Mann–Whitney⟦M0001⟧ PERMANOVA gives pseudo-⟦M0002⟧ ⟦M0003⟧, with flat–tv () and flat–mod (⟦M0004⟧) significant and mod–tv not (). The differences are real but small: call type explains less than 5% of the multivariate variance."
+  ],
+  [
+   "p0008-b0022",
+   "4 . 3 Two-layer classifier and main factors"
+  ],
+  [
+   "p0008-b0023",
+   "The first layer uses two structural indicators only: a call with a second fundamental is tv;"
+  ],
+  [
+   "p0008-b0024",
+   "otherwise a call with pulses is mod; the rest are flat. The second layer uses the continuous measures shared by all types and compares multinomial logistic regression, LDA and a random forest under repeated stratified 5-fold cross-validation (Table 4)."
+  ],
+  [
+   "p0008-b0025",
+   "Performance of the two-layer classifier (repeated stratified 5-fold cross-validation for the second"
+  ],
+  [
+   "p0008-b0026",
+   "Table 4"
+  ],
+  [
+   "p0008-b0027",
+   "layer)"
+  ],
+  [
+   "p0008-b0028",
+   "Model Input"
+  ],
+  [
+   "p0008-b0029",
+   "Structure rule presence of F02 / pulses"
+  ],
+  [
+   "p0008-b0030",
+   "Multinomial logit 6 measures"
+  ],
+  [
+   "p0008-b0031",
+   "Multinomial logit 6 measures + ratio + bandwidth"
+  ],
+  [
+   "p0008-b0032",
+   "LDA 6 measures"
+  ],
+  [
+   "p0008-b0033",
+   "LDA 6 measures + ratio + bandwidth"
+  ],
+  [
+   "p0008-b0034",
+   "Random forest 6 measures"
+  ],
+  [
+   "p0008-b0035",
+   "Random forest 6 measures + ratio + bandwidth"
+  ],
+  [
+   "p0008-b0036",
+   "Accuracy (SD) Macro-F1 Balanced acc."
+  ],
+  [
+   "p0008-b0044",
+   "Majority-class baseline: 0.407."
+  ],
+  [
+   "p0008-b0045",
+   "The structural rule classifies 102 of 108 calls correctly; the six errors are mod calls without"
+  ],
+  [
+   "p0008-b0046",
+   "a pulse-rate record. The continuous measures do far worse. Logistic regression and LDA are no better than always guessing “flat”, and the random forest reaches 0.55 only after the harmonic ratio and the bandwidth are added; its recall for tv is 0.25. The three call types are therefore three ways"
+  ],
+  [
+   "p0009-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0009-b0002",
+   "Page 6 of 25"
+  ],
+  [
+   "p0009-b0003",
+   "of structuring a call (plain tone, pulsed, two voices) that occupy the same band and have the same duration. Three rankings of the continuous measures (effect size⟦M0001⟧, largest standardised logistic coeffi-cient, permutation importance of the random forest on test folds) agree that the peak frequency and F01 come first. The decisive factors, however, are the two structural features."
+  ],
+  [
+   "p0009-b0004",
+   "4 . 4 Function, robustness and key indicators"
+  ],
+  [
+   "p0009-b0005",
+   "A first look at the other two data sets already separates the types. At 128 m the spectrogram"
+  ],
+  [
+   "p0009-b0006",
+   "correlation is 0.41 for flat, 0.62 for mod and 0.74 for tv. In the playbacks, flat calls mostly elicit head-up plus vocal reply (31%) and rarely approach (8%); tv calls elicit the largest share of vocal-only replies (31%); mod calls the largest share of responses with approach (24%). The type of the first reply is unrelated to the type played (⟦M0001⟧ ⟦M0002⟧). Two working hypotheses follow: the pulsed and two-voice structures transmit better, and the types differ in the form of the response they elicit. Problem 2 confirms the first; Problems 3 and 4 show that the second is largely a consequence of transmission. The key indicators carried forward are the presence of F02 (two-voice structure, reflected in the spectrogram correlation), the presence of pulses or beats (envelope correlation), the harmonic position of the peak frequency (amplitude-spectrum correlation) and F01. They enter Problem 3 through the call-type factor and through the predicted fidelity of each playback."
+  ],
+  [
+   "p0009-b0007",
+   "V. Problem 2: Signal Degradation and Effective Communication"
+  ],
+  [
+   "p0009-b0008",
+   "Distance"
+  ],
+  [
+   "p0009-b0009",
+   "5 . 1 Fidelity index"
+  ],
+  [
+   "p0009-b0010",
+   "For call type⟦M0001⟧, distance⟦M0002⟧ and row⟦M0003⟧ the fidelity is the weighted mean of the three correlations,"
+  ],
+  [
+   "p0009-b0011",
+   "⟦M0001⟧ "
+  ],
+  [
+   "p0009-b0012",
+   "⟦M0001⟧   ⟦M0002⟧"
+  ],
+  [
+   "p0009-b0013",
+   "⟦M0001⟧ (2)"
+  ],
+  [
+   "p0009-b0014",
+   "where⟦M0001⟧ and⟦M0002⟧ are the weights of the spectrogram, amplitude-spectrum and envelope corre-lations. The first principal component of the three correlations explains 92.3% of their variance with nearly equal loadings (0.586, 0.588, 0.558), so they measure the same quantity and equal weights are adopted. CRITIC and entropy weights put 45–49% on the envelope because the other two cor-relations are almost collinear (⟦M0003⟧); as the envelope correlation is low even at 4 m (0.63–0.68), these weights are kept for the sensitivity analysis only."
+  ],
+  [
+   "p0009-b0015",
+   "5 . 2 Degradation model"
+  ],
+  [
+   "p0009-b0016",
+   "Three curves are compared for the mean fidelity⟦M0001⟧: exponential decay⟦M0002⟧ (M1), a log-logistic curve⟦M0003⟧ (M2), and a curve derived from the signal-to-noise ratio (M3),"
+  ],
+  [
+   "p0009-b0017",
+   "⟦M0001⟧  ⟦M0002⟧ "
+  ],
+  [
+   "p0010-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0010-b0002",
+   "Page 7 of 25"
+  ],
+  [
+   "p0010-b0003",
+   "where⟦M0001⟧ is the near-field level,⟦M0002⟧ the distance at which signal and noise power are equal, and⟦M0003⟧ the decay exponent (⟦M0004⟧ for spherical spreading). M3 follows from two assumptions: the signal-to-noise ratio falls as a power law, SNR⟦M0005⟧ [7], and the correlation between a clean signal and the same signal plus uncorrelated noise equals squares on all rows.  SNR/(1 + SNR). All curves are fitted by least"
+  ],
+  [
+   "p0010-b0004",
+   "Fitted parameters of the degradation model M3 and AIC of the three candidate curves"
+  ],
+  [
+   "p0010-b0005",
+   "Table 5"
+  ],
+  [
+   "p0010-b0006",
+   "⟦M0001⟧ ⟦M0002⟧ AIC (M1) ⟦M0003⟧ ⟦M0004⟧ (m)"
+  ],
+  [
+   "p0010-b0007",
+   "Type"
+  ],
+  [
+   "p0010-b0008",
+   "flat 0.815 65.8 1.09 0.089"
+  ],
+  [
+   "p0010-b0009",
+   "AIC (M2) AIC (M3)"
+  ],
+  [
+   "p0010-b0011",
+   "mod 0.804 123.8 1.53 0.074 ⟦M0001⟧"
+  ],
+  [
+   "p0010-b0012",
+   "tv 0.745 169.0 2.22 0.068"
+  ],
+  [
+   "p0010-b0015",
+   "M2 and M3 fit far better than the exponential curve, which cannot follow the plateau-then-"
+  ],
+  [
+   "p0010-b0016",
+   "drop shape (Table 5); they are equivalent to each other (AIC differences below 10). We keep M3 because its parameters have a physical meaning and because threshold distances and noise scenarios have closed forms. The characteristic distance is 66, 124 and 169 m for flat, mod and tv; the decay exponent is 1.09, 1.53 and 2.22. Flat calls start to degrade first but decay slowly; tv calls hold their plateau longest and then drop steeply; tv also has the lowest near-field level (0.745). A common⟦M0001⟧ for the three types is rejected (AIC higher by 432). Figure 4 shows the fit."
+  ],
+  [
+   "p0010-b0017",
+   "Figure 4 Equal-weight fidelity (mean⟦M0001⟧ SD), fitted M3 curves and the distances at which they cross the three"
+  ],
+  [
+   "p0010-b0018",
+   "thresholds"
+  ],
+  [
+   "p0010-b0019",
+   "5 . 3 Tiered thresholds and effective distances"
+  ],
+  [
+   "p0010-b0020",
+   "Three thresholds on⟦M0001⟧ define four states: not recognisable (⟦M0002⟧), possibly recognised ⟦M0003⟧ ), recognised ( ⟦M0004⟧) and reliably recognised ( ⟦M0005⟧), with⟦M0006⟧  and. The values 0.5 and 0.7 are the baseline and the upper value given in Problem 4. The value 0.3 comes from the noise floor: flat calls at 256 m carry no usable signal,"
+  ]
+ ]
+}

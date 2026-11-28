@@ -1,0 +1,240 @@
+{
+  "protocol": 2,
+  "source": "36a571860eb965ef880ec5403c3158beaa69f296e7eb252e6f73789f52efccf1",
+  "snapshots": {
+    "p0001-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0001-b0002": "f3975a6b8e606a4add5d6aabcf0f3f94001b1464efce29ef5dfdc10047e0902d",
+    "p0001-b0003": "271393bb6d008feb832db4058c90a2d7b6f0b06eeef6f0c1676a1d63960adeb9",
+    "p0001-b0004": "11d6f9a03fc9e392251ac597bf530390c71d40a18c32b1284bb247dc85839f9d",
+    "p0001-b0005": "0c430251f00ff635b67c50d919adc365990313a8eccf77bb65259660aacfc5da",
+    "p0001-b0006": "e4e29052af8930dc9d7b2e0be13a3ca20c15d30460221f42649bb974da057483",
+    "p0001-b0007": "38cfb2a0bcd09391f21d4f9681d1a8baaa6201975a52db7845fe52c6e0fd5e56",
+    "p0001-b0008": "333b31bb868e232a45e13eaaf48caa9a62da2fe7be05cb56c0e487f4cde8cf43",
+    "p0001-b0009": "3eb2aa180718798eed2ab9b138846c9377cc2479b9d02c54aed5dfd4383e3468",
+    "p0001-b0010": "5926d28b9b95c6d8364273e7e661ecde8400f8951a31adb07b5cbd83a3510f09",
+    "p0001-b0011": "b97156f41f18c00ea437c1f842dc2406aea196a15c8fe3d3b65365a39167b8e5",
+    "p0002-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0002-b0002": "148b9589e92a0ebfc0d30f9a6669c36921d69b1f2757abfede79241167b7aedd",
+    "p0002-b0003": "5c817fe3dc70d76c1e31f128927210c8ccd808675aaf151bd378a0e38227ad99",
+    "p0002-b0005": "7a4d2f7e64792776417d892b583a8bd777655758dcc6451c0dab60ec06f64c11",
+    "p0002-b0007": "481a84232fcc8c8c959a51b4997b7a603f2b8ae2f26c9059f848ecd642aa43e4",
+    "p0002-b0009": "23a7899b5fa63757593539a4e2733d5780b92b3ea58596849bde132303fde0f9",
+    "p0002-b0011": "de284f0495371c2b36b83500c666ded55f2728964aad5044cd3823ed11fd47b9",
+    "p0002-b0013": "9fe58e0ebc18791059b47debc9bc712effcea95535135e2ff38081b79149b24a",
+    "p0002-b0015": "95bdc18eb8b804052642550def52c834cf68a4b3f94596905ebf0947a056a401",
+    "p0002-b0017": "c75959dbc63549db46c18adfe8228a2df5117074775629704c06a3256b740854",
+    "p0002-b0019": "d8ee2b84d8483c56c99fefb15f0647c0728a06bbcac58e83364fb20879d53075",
+    "p0002-b0021": "cc941f3ef36e31cc32cdf8e1b1e4e8e69f453db58cd288d43d22a7661f8d2f65",
+    "p0002-b0023": "61d9a3d29d6fa41cd75dd5b8d2c3270ff94bece25c57d7cfd7bc8c54b7257b99",
+    "p0002-b0025": "09c92513e934d774b75d5d8852f16c3c1e21309d8e165003e475b92743ce7d29",
+    "p0002-b0027": "e51a3991532cf4bc869f6a6687480d198a4759888c1b3a3da68c7dbc510ad454",
+    "p0002-b0029": "c95a97b5adbb1c207b65fa4efc063d039a6e46833fe12d592957c08fcf9dd73b",
+    "p0002-b0031": "c30b7ecd754b49ff1982b7879777245af1e4544bbe61c9f8d49efb4dfb525759",
+    "p0002-b0033": "cb899bbaa3d09b3b1a94a61f5376aff022938d0076d1705e719c95206b076fc6",
+    "p0002-b0035": "d566bb45d8ce995e39477b6bc6b2fb821e841c9bd8555a03167b546fe1234727",
+    "p0002-b0037": "1bfec9f8299380a1010343abb5d3590c8ef0683b626be04dfb4986332f34dc25",
+    "p0002-b0039": "c33def5bb3ba48d0b61761c0ec92469679b5d7623468e515a1ba1b11a103a985",
+    "p0002-b0041": "7908cb5f85a55c5bc434f4430d10313f7cf558651f32b06e3c5a5e07c2ac8746",
+    "p0002-b0043": "3bae2a270bf63504b405de8f1337148b4d166f4c7ffa10d35c636eb34c257a9c",
+    "p0002-b0045": "d25382bc36ee3acfa0f694de219654e6f3ab2a697e278d4cba8b7095b5d13f87",
+    "p0002-b0047": "2787de9885493f2b863e040cc2853299d78d680d68818336b8e823e9c27c244a",
+    "p0002-b0049": "9b1bda3e417fe58846d6a3a9b17a41441466658d3bdf92962e02e47ca34663a9",
+    "p0002-b0051": "2e0a9501bf978cc1754a20148df729776a8ffcf92222f3d56f557b1ae12ce059",
+    "p0002-b0053": "67bb24c4a8e729881d26cc665ebbebcfea17c2efa54183ed5a90488a298ea573",
+    "p0002-b0055": "2331af8a35844b2b7e614b51f5e4656cd617896c3fa5525fcdd2a369315b0db0",
+    "p0002-b0057": "256c45e77037dfe7a4e1078efc22430606c604b781cd8f5f296532972b572905",
+    "p0002-b0059": "9adaade5b32e4444bff7946d76d5aca8e89541a92592e38ebb087b055e6ba0f1",
+    "p0002-b0061": "d8f035998de82fe392cbd4a44dacfac7350cbccb6d64fe112efab4b7d19cc1e1",
+    "p0002-b0063": "f0e666b76209cb9e4a9f42d98bc6b6347320e782a848dcae44f54c6f527183fd"
+  },
+  "entries": [
+    [
+      "p0001-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0001-b0002",
+      "apmcm26XXXXXXX",
+      {
+        "role": "table_cell"
+      }
+    ],
+    [
+      "p0001-b0003",
+      "Team Number:",
+      {
+        "role": "table_cell"
+      }
+    ],
+    [
+      "p0001-b0004",
+      "Problem Chosen:",
+      {
+        "role": "table_cell"
+      }
+    ],
+    [
+      "p0001-b0005",
+      "C",
+      {
+        "role": "table_cell"
+      }
+    ],
+    [
+      "p0001-b0006",
+      "2026 APMCM summary sheet"
+    ],
+    [
+      "p0001-b0007",
+      "African penguins forage in groups at sea and rely on calls to stay in contact. Using the acoustic mea-sures of 108 sea-surface calls, propagation correlations at seven distances and 139 paired playback experiments, we study what separates the three call types (flat, modulated, two-voice), how far each type carries, how penguins respond, and how noise changes the effective range."
+    ],
+    [
+      "p0001-b0008",
+      "For<s0> Problem 1</s0>, Kruskal–Wallis tests with Dunn comparisons, Mann–Whitney tests and PER-MANOVA show that only the peak frequency differs after Holm correction (⟦M0001⟧), with small effect sizes. A two-layer classifier makes the point: a structural rule (presence of a second funda-mental and of pulses) reaches 94.4% accuracy, whereas the continuous measures alone reach only 0.41–0.55. The call types are three ways of structuring a call, not three frequency bands. For<s1> Problem 2</s1>, the three correlations are averaged into a fidelity index and fitted with a signal-⟦M0002⟧ . Under the thresholds 0.3, 0.5 and 0.7 the effective dis-to-noise curve tances of flat, modulated and two-voice calls are 155/225/245 m, 83/144/177 m and 41/85/107 m. Block bootstrap, between-sample ranges and alternative curves quantify the uncertainty. A gated response model fitted to the playbacks shows that a vocal reply requires a fidelity of at most 0.30, while approach requires about 0.49 (95% CI 0.32–0.58). For<s2> Problem 3</s2>, calls elicit a response in 64.7% of the experiments against 12.9% for the control sound (exact McNemar⟦M0003⟧). Whether penguins respond depends on context and group size, not on call type. A penalised multinomial model compares calls and control in one framework, and a mixture cure model shows that latency lengthens by a factor of 1.33 per 50 m while 35% of playbacks never elicit a visible response. For<s3> Problem 4</s3>, an effectiveness index combines tier-specific recognition probabilities with post-recognition behaviour. Contact radii are 155/225/245 m and recruitment radii 83/144/177 m. A 20% loss of correlation shortens the recruitment radius by 21–33%, and a 3 dB rise in noise removes 27–47% of the communication area. Recruitment is lost before contact, which leads to concrete recommendations on vessel noise in foraging areas."
+    ],
+    [
+      "p0001-b0009",
+      "acoustic communication"
+    ],
+    [
+      "p0001-b0010",
+      "<s0>Keywords:</s0> African penguin mixture cure model effectiveness index"
+    ],
+    [
+      "p0001-b0011",
+      "signal degradation playback experiment"
+    ],
+    [
+      "p0002-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0002-b0002",
+      "Contents"
+    ],
+    [
+      "p0002-b0003",
+      "1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0005",
+      "1 . 1 Background. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0007",
+      "1 . 2 Restatement of the problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0009",
+      "1 . 3 Our work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0011",
+      "2. Assumptions and Notations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0013",
+      "2 . 1 Assumptions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0015",
+      "2 . 2 Notations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0017",
+      "3. Data and Preprocessing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0019",
+      "4. Problem 1: Acoustic Features and Classification. . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0021",
+      "4 . 1 Descriptive statistics and visualisation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0023",
+      "4 . 2 Non-parametric tests. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0025",
+      "4 . 3 Two-layer classifier and main factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0027",
+      "4 . 4 Function, robustness and key indicators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0029",
+      "5. Problem 2: Signal Degradation and Effective Communication Distance. . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0031",
+      "5 . 1 Fidelity index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0033",
+      "5 . 2 Degradation model. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0035",
+      "5 . 3 Tiered thresholds and effective distances. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0037",
+      "5 . 4 Calibrating the thresholds with the playback data . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0039",
+      "5 . 5 Sensitivity analysis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0041",
+      "5 . 6 Conclusion on long-range robustness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0043",
+      "6. Problem 3: Behavioural Responses in the Playback Experiments. . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0045",
+      "6 . 1 Overall response to calls and to the control sound. . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0047",
+      "6 . 2 Context, call type, distance and group size . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0049",
+      "6 . 3 Distribution of response combinations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0051",
+      "6 . 4 Unified model and the role of call type . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0053",
+      "6 . 5 Response intensity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0055",
+      "6 . 6 Latency model. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0057",
+      "6 . 7 Predictions under representative conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0059",
+      "7. Problem 4: Communication Effectiveness and Conservation Scenarios . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0061",
+      "7 . 1 Effectiveness index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ],
+    [
+      "p0002-b0063",
+      "7 . 2 Effective radii and expected number of responders. . . . . . . . . . . . . . . . . . . . . . . . ."
+    ]
+  ]
+}

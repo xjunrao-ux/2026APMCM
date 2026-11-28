@@ -1,0 +1,414 @@
+{
+  "protocol": 2,
+  "source": "36a571860eb965ef880ec5403c3158beaa69f296e7eb252e6f73789f52efccf1",
+  "snapshots": {
+    "p0024-b0015": "c708b5965f1dd2678930ba8de3422ef6beb2bb4c294960fba12b5273f7b0bed5",
+    "p0024-b0016": "4fc08a067115e3d60a1c1314a9294f249adcc02be2cd9c1706ed8717d8abdb00",
+    "p0024-b0017": "9c47d7bbf21f933a7f0f08a8a42677f6f0d8c564af5dfd347f3e01ef7ee32957",
+    "p0024-b0018": "19ee9e0e0ba38809c933b66b9fd3070fd5b6df9b320fa7d4ab45c99ebdda566b",
+    "p0024-b0019": "33ad731545d01b5eae01d63ae4d42126d5c792c88a7e6beba3ceb8e2ba9a1bae",
+    "p0024-b0020": "a16f7558fe59b22764f422c6e4dab0b5406b7cb61bff88b140bad67dfbacd979",
+    "p0024-b0021": "5ebef7d86e363fa092a5119834cc13f5cb38243a756900aa8f3722d9a919813d",
+    "p0025-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0025-b0002": "690b06128d16a2a504c43acb3e28ed6c5ea19f70cf72df23eb7439aca71a2e46",
+    "p0025-b0003": "3d816952ac3283f8b249120649ff2c478aa3db378204ec81bf83227b8a1cf533",
+    "p0025-b0004": "65c1842a7cfe5b87bee9b885ceaa79bef17447fd45672fca26190616ee2ba9f4",
+    "p0025-b0005": "b64f232405ada67fbda9d040ce2ef7cbc02d67181a9bbc25bcdce4b833f0b556",
+    "p0025-b0006": "d22b364ddc7c0ce905c79df771c31bb7a34bbba3ee88fb552b59c6d6e138220f",
+    "p0025-b0007": "6d4f2396ab2e64994e7fd82bf4968fc2dc17da4c551113e0ee6bbcd624ff11f8",
+    "p0025-b0008": "5a77c5499b0756fdf80086784d5030d3aa2766ac18acaa517aeb0ecd9bba2a2f",
+    "p0025-b0009": "346f4480407b0c0bd4a73c9345b40031528f2da2d165cb4be6b2cb703045ebca",
+    "p0025-b0010": "455e78ab43784115857ac34048ed3a9c7281dabe15fe10da4343451e02892456",
+    "p0025-b0011": "946bb732a7c9bb22ff90cffe8ab0ff202a0734e33482b94b7ca1f67d2be3259b",
+    "p0025-b0012": "a80a173d04150f7e902305ab0099c72a7b759e18bf2edbb7c5daca4a2c0e3aa9",
+    "p0025-b0013": "fd0dbf8953b9191bf70dc8571b4b86f8ba4a6e97a794484dedd044307611821a",
+    "p0025-b0014": "c3c4345fa9bfb2819d7583811e4773bfc01699ff19c3c6483a0749ef2a5b01b3",
+    "p0025-b0015": "c5969d10078b45868020c8bc8718bab34ca0a2a4cb94d38a865ba2d16402a001",
+    "p0025-b0016": "814c40c9d7f9ac3bfc77822f526195847440c3286c25df69a0c15c2e500a576d",
+    "p0025-b0017": "3e70307b0ed4363bf1606a385973d5876fe728bde1de018a606919bc14b8c626",
+    "p0025-b0018": "ce650567fecba967dacc04e3ed7ff8e1cb99d53c40af61bdd156070154bd81e7",
+    "p0025-b0019": "c53400689c6c07446f01c55558a9fae43f90816a87d6308a1b515d53a113e514",
+    "p0025-b0020": "b056f87ec723360ca953e3d57fce8d8e3ec19c470e3dbaa3749fc32796cd6c90",
+    "p0025-b0021": "171749da15e9bbe36621ede8d6d6a087f14ecfd077294913a700ee6ca8539b35",
+    "p0025-b0022": "089a1b48fbad99fb150815274324efce1b4972594a2c7d4083ae44415caab204",
+    "p0025-b0023": "d54a19fe50e9192856c16f84daf15ee5b5c077aa289dc68c0f683be1454eeaa3",
+    "p0026-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0026-b0002": "ba24426844a6629d3671a4d0a09e5c1bb7f4c78c7a52714cebcac523d082c860",
+    "p0026-b0003": "99705338f70e2e77e0a9a883e99ba058ce9e1a2e227dfba91521de8303ec88a0",
+    "p0026-b0004": "8d43c370fb0e683b38c2b6502fa930735b6d832ff12d10a6648952f24b0bb9bf",
+    "p0026-b0005": "059a2f1aae1666ec73d16b774b5acbc411e9340f611e735d1ce0ebd399f22790",
+    "p0026-b0006": "f24dbe4c4b4b35cf753ac926ee3f5540230d984c69d2449b3d80146682d9a751",
+    "p0026-b0008": "3b9d22e0e36a62d6e587669b227d097b59d930ae838aa40184d7081b43136c5a",
+    "p0026-b0009": "a97d06dfcbaa975e61f3db16d99595a580e9cdd5a83fcc41a8414b384864724e",
+    "p0026-b0010": "32f617c20e782de9494489ffb0ea65af4f30e2c3c4f54cb9b1db8c7494f07101",
+    "p0026-b0011": "9a06920c5e6fd2aa54ebed091ef8377588c75e6f2f76551a5bf86d78130fef1b",
+    "p0026-b0012": "9a1ee8b5f22b50d33b6d8074d3df68b6e81dcb2215a74006189a78cf2b0f1bfe",
+    "p0026-b0013": "13e1082ffe801929d8785ac1157a2f3fb559b5128be75b064584e2f55cca180e",
+    "p0026-b0014": "7b9c7567bb4b86df636869bfc2c3b4a4801e8912abd967543054210c2d3f18f8",
+    "p0026-b0015": "8d81baf76181ed812f1fd894fe8db337683187e9f342f52a71d503ec7cc1843b",
+    "p0026-b0016": "c334034fb201d1f276deb52a8d0bcf0fd81704ec571b44424b5412bcab50cadc",
+    "p0026-b0017": "9476338b8489a91fba9938cd3872b536e8d75ef509dea8d44fa2b7bcb35e29f3",
+    "p0026-b0019": "34d9db559a10430c0bfb72f5b701ea30d942ba4deebc00784f0491cebd3800ad",
+    "p0026-b0020": "8e7cb775ae76cc85999df32fd6d7b300da939d29af048de98df479b652eb341f",
+    "p0026-b0021": "844ab3a7eee1be7b69d6bc2201a6fbdd2681ca47b524771c171a6277af245b58",
+    "p0026-b0022": "c6f684dabf9b0890d820cff72bb9112944c26dc5fb183f4c423ac2e039de0cb7",
+    "p0026-b0023": "fa763add3e3bbf302c404bccfbd03311e103cbd6a48bf2ff4669e29268ce2a9b",
+    "p0026-b0024": "106adbb0995702dd2fc8e818417debfcc8380e61412a001c14ac8b91601ff5e2",
+    "p0026-b0025": "64852da139f96eb30769b7f11c86d8bc092fc3fef527f3802795eba5129c8080",
+    "p0026-b0026": "686b128f87a389d563d736f139e9a25f8dd97933288fe27d574f96a80d915170",
+    "p0026-b0027": "d56f6b06f262b56bff371b7cca06157cead5abe5a3baf4ef20712b33c581fcd0",
+    "p0026-b0028": "0c1db8527b19ee4d586d1cb5e740251a33720a3e8138729bc24471eb661b4f92",
+    "p0026-b0029": "edf6680680171e97477c3f8391cda774e7b2a9665e8cad985c67ec2652eb9cb6",
+    "p0026-b0030": "bbd933c43b332fbea41e6d2d49e894cf8f135c19f8bef997d69b0dbcab5d3d09",
+    "p0026-b0031": "c1a68e4c8504529669b82e78301a33798325a12614090c693ea284c272e53e4a",
+    "p0026-b0032": "670084a2a8bda5a2eaae376b4c6d76c41eda80214890e72115a0a1f7cb078db9",
+    "p0026-b0033": "6897d619f7379c7fa544f6885c359312a6dc2de1bf18431aa44767736e6f63f8",
+    "p0026-b0034": "7ad168d64a54cc1d2ee4baa666de31357360d98d2bbda0c80a80b462c5d98571",
+    "p0027-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0027-b0002": "9ad32392f5414b2f7af7652c7fc1b075fc1972654cca3f4ff8d28b0aead967d9",
+    "p0027-b0003": "d257c9abc8d3fb23c78f945dfd4a31b8ba48e8eea38aa9c16a759fca9be824cb",
+    "p0027-b0004": "6555b4d55c02818c0d537335edf3698357ef4263aa94f2c00b4e3b04e0ce70d5",
+    "p0027-b0005": "8f610bfc35fbcdbd365b8b3e101761ed52b52897e27f108ff55b05f7e52fd064",
+    "p0027-b0006": "f21da9f4b87746aeda51dc4e66dd69fec8f0614718a44e4a4888a1cc80ae9bdc",
+    "p0027-b0007": "a8ad1da16061fe8c5103b4dd4811468f6dd6fc67a21995d2bf07a095c1cdd1f0",
+    "p0027-b0012": "025789843c686ef1cb4db042ff0071fb9828df359ffe4b994004a1ed4af1fcc8",
+    "p0027-b0021": "c97f9c4c2ff2f71cec79a94d187a11f54cea1d0bd3ee29e1f27b356452c26b5b",
+    "p0028-b0001": "3dd94428e0dd2bc019d07dd82733de6b291d7081e6783df0aaa9678f62189317",
+    "p0028-b0002": "36f8d1c903f5ea15ae8c33e8ead9d3e8d72cba3603a378617d3693e79ed5a7b0",
+    "p0028-b0003": "e462feba4444f761465b02258995a5e84f9987897067c917652c54e68d9a5ede",
+    "p0028-b0004": "a1389ae9b48499d992bc4e04cc53558e955535322b869c9f870b7387bd94e5e3"
+  },
+  "entries": [
+    [
+      "p0024-b0015",
+      "2.<s0> Slow vessels down and set avoidance zones in foraging areas near colonies,</s0> with priority for the places and times where penguins search for prey: in the searching context the response rate is 94.7% and the share of approach is highest (26%). Condition: the main foraging areas and seasons are known. Limitation: searching groups are also the smallest, and the two effects are not fully separated.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0024-b0016",
+      "3.<s0> Assess impacts with the recruitment radius (83–177 m), not the contact radius.</s0> Noise removes approach first while vocal replies persist, so asking only whether penguins still call back underestimates the impact. Limitation: the approach threshold (0.32–0.58) rests on 23 events.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0024-b0017",
+      "4.<s0> Move intense or persistent sources</s0> (anchorages, bunkering, seismic surveys) out of foraging areas [19]. Limitation: our data cannot quantify these sources directly.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0024-b0018",
+      "5.<s0> Deploy passive acoustic monitoring</s0> and convert measured noise levels into losses of com-munication radius with the relation above; the degradation curves should first be re-measured under local sea states.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0024-b0019",
+      "VIII. Strengths and Weaknesses"
+    ],
+    [
+      "p0024-b0020",
+      "<s0>Strengths.</s0> (1) The models of the four problems are linked by data: the fidelity curve of Prob-"
+    ],
+    [
+      "p0024-b0021",
+      "lem 2 enters the behavioural models, and the index of Problem 4 is validated against the playbacks."
+    ],
+    [
+      "p0025-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0025-b0002",
+      "Page 22 of 25"
+    ],
+    [
+      "p0025-b0003",
+      "(2) The degradation curve has a physical basis and gives closed forms for threshold distances, elas-ticities and noise scenarios. (3) Structural missingness, pairing, pseudo-replication, separation and the “no response” outcome are each handled by a method suited to them. (4) Uncertainty is reported in layers rather than by a single narrow interval."
+    ],
+    [
+      "p0025-b0004",
+      "<s0>Weaknesses.</s0> (1) The thresholds 0.5 and 0.7 are assumptions of the problem, and the be-"
+    ],
+    [
+      "p0025-b0005",
+      "havioural thresholds are calibrated indirectly; the approach threshold rests on 23 events. (2) The propagation data contain few independent exemplars and no point between 128 and 256 m, which makes the tv curve sensitive. (3) Playbacks beyond 150 m are few, so long-range results rely on the model. (4) The behaviour weights are subjective and are defended only by sensitivity analysis. (5)"
+    ],
+    [
+      "p0025-b0006",
+      "All data come from one bay and one month, and propagation was measured above the water surface."
+    ],
+    [
+      "p0025-b0007",
+      "IX. Conclusions"
+    ],
+    [
+      "p0025-b0008",
+      "• The three call types differ in structure. A rule based on the second fundamental and on pulses classifies 94.4% of the calls, while the continuous measures barely beat the baseline; only the peak frequency differs significantly after correction.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0025-b0009",
+      "• Two-voice calls carry farthest. The effective distances of flat, mod and tv calls are 155, 225 and 245 m for possible recognition, 83, 144 and 177 m for recognition and 41, 85 and 107 m for reliable recognition.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0025-b0010",
+      "• Calls elicit a response in 64.7% of the experiments against 12.9% for the control. Responding depends on context and group size; latency grows by a factor of 1.33 per 50 m; about one bird responds per playback.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0025-b0011",
+      "• A vocal reply requires a fidelity of at most 0.30 and approach about 0.49. The resulting contact radii are 155–245 m and the recruitment radii 83–177 m. Once recognised, the three call types elicit behaviour of similar value.",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0025-b0012",
+      "• Noise removes recruitment first. A 20% loss of correlation shortens the recruitment radius by",
+      {
+        "role": "list_item"
+      }
+    ],
+    [
+      "p0025-b0013",
+      "21–33%, and a 3 dB rise in noise removes 27–47% of the communication area. Noise limits and avoidance zones in foraging areas are the direct management response."
+    ],
+    [
+      "p0025-b0014",
+      "X. References"
+    ],
+    [
+      "p0025-b0015",
+      "[1] Thiebault A., Huetz C., Aubin T., Pichegru L., Carpenter-Kling T., McInnes A., Charrier I.,"
+    ],
+    [
+      "p0025-b0016",
+      "Contact and recruit – the importance of acoustic communication in the foraging strategy of a flightless seabird, Open Research Europe, 6: 343, 2026 (awaiting peer review)."
+    ],
+    [
+      "p0025-b0017",
+      "[2] Thiebault A., African penguins sea-surface vocalisations and playback experiment at sea [Data"
+    ],
+    [
+      "p0025-b0018",
+      "<s0>set], Zenodo,</s0> https://doi.org/10.5281/zenodo.21376649<s1>, 2026.</s1>"
+    ],
+    [
+      "p0025-b0019",
+      "[3] Sherley R. B., Makhado A. B., Crawford R. J. M., et al., The African Penguin<s0> Spheniscus</s0>"
+    ],
+    [
+      "p0025-b0020",
+      "<s0>demersus</s0> should be considered Critically Endangered, Ostrich, 95(3): 181–187, 2024."
+    ],
+    [
+      "p0025-b0021",
+      "[4] McInnes A. M., McGeorge C., Ginsberg S., Pichegru L., Pistorius P. A., Group foraging in-"
+    ],
+    [
+      "p0025-b0022",
+      "creases foraging efficiency in a piscivorous diver, the African penguin, Royal Society Open"
+    ],
+    [
+      "p0025-b0023",
+      "Science, 4(9): 170918, 2017."
+    ],
+    [
+      "p0026-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0026-b0002",
+      "Page 23 of 25"
+    ],
+    [
+      "p0026-b0003",
+      "[5] Aubin T., Jouventin P., Hildebrand C., Penguins use the two-voice system to recognize each"
+    ],
+    [
+      "p0026-b0004",
+      "other, Proceedings of the Royal Society B, 267(1448): 1081–1087, 2000."
+    ],
+    [
+      "p0026-b0005",
+      "[6] Favaro L., Gamba M., Alfieri C., Pessani D., McElligott A. G., Vocal individuality cues in the"
+    ],
+    [
+      "p0026-b0006",
+      "African penguin (<s0>Spheniscus demersus</s0>): a source-filter theory approach, Scientific Reports,"
+    ],
+    [
+      "p0026-b0008",
+      "[7] Wiley R. H., Richards D. G., Physical constraints on acoustic communication in the atmo-"
+    ],
+    [
+      "p0026-b0009",
+      "sphere: implications for the evolution of animal vocalizations, Behavioral Ecology and Socio-biology, 3(1): 69–94, 1978."
+    ],
+    [
+      "p0026-b0010",
+      "[8] Kruskal W. H., Wallis W. A., Use of ranks in one-criterion variance analysis, Journal of the"
+    ],
+    [
+      "p0026-b0011",
+      "American Statistical Association, 47(260): 583–621, 1952."
+    ],
+    [
+      "p0026-b0012",
+      "[9] Dunn O. J., Multiple comparisons using rank sums, Technometrics, 6(3): 241–252, 1964."
+    ],
+    [
+      "p0026-b0013",
+      "[10] Holm S., A simple sequentially rejective multiple test procedure, Scandinavian Journal of"
+    ],
+    [
+      "p0026-b0014",
+      "Statistics, 6(2): 65–70, 1979."
+    ],
+    [
+      "p0026-b0015",
+      "[11] Anderson M. J., A new method for non-parametric multivariate analysis of variance, Austral"
+    ],
+    [
+      "p0026-b0016",
+      "Ecology, 26(1): 32–46, 2001."
+    ],
+    [
+      "p0026-b0017",
+      "[12] Efron B., Tibshirani R. J., An Introduction to the Bootstrap, New York: Chapman & Hall,"
+    ],
+    [
+      "p0026-b0019",
+      "[13] Kroodsma D. E., Byers B. E., Goodale E., Johnson S., Liu W.-C., Pseudoreplication in play-"
+    ],
+    [
+      "p0026-b0020",
+      "back experiments, revisited a decade later, Animal Behaviour, 61(5): 1029–1033, 2001."
+    ],
+    [
+      "p0026-b0021",
+      "[14] McNemar Q., Note on the sampling error of the difference between correlated proportions or"
+    ],
+    [
+      "p0026-b0022",
+      "percentages, Psychometrika, 12(2): 153–157, 1947."
+    ],
+    [
+      "p0026-b0023",
+      "[15] Firth D., Bias reduction of maximum likelihood estimates, Biometrika, 80(1): 27–38, 1993."
+    ],
+    [
+      "p0026-b0024",
+      "[16] Farewell V. T., The use of mixture models for the analysis of survival data with long-term"
+    ],
+    [
+      "p0026-b0025",
+      "survivors, Biometrics, 38(4): 1041–1046, 1982."
+    ],
+    [
+      "p0026-b0026",
+      "[17] Buckland S. T., Anderson D. R., Burnham K. P., Laake J. L., Borchers D. L., Thomas L.,"
+    ],
+    [
+      "p0026-b0027",
+      "Introduction to Distance Sampling, Oxford: Oxford University Press, 2001."
+    ],
+    [
+      "p0026-b0028",
+      "[18] Barron F. H., Barrett B. E., Decision quality using ranked attribute weights, Management Sci-"
+    ],
+    [
+      "p0026-b0029",
+      "ence, 42(11): 1515–1523, 1996."
+    ],
+    [
+      "p0026-b0030",
+      "[19] Pichegru L., Vibert L., Thiebault A., et al., Maritime traffic trends around the southern tip of"
+    ],
+    [
+      "p0026-b0031",
+      "Africa – Did marine noise pollution contribute to the local penguins’ collapse? Science of the"
+    ],
+    [
+      "p0026-b0032",
+      "Total Environment, 849: 157878, 2022."
+    ],
+    [
+      "p0026-b0033",
+      "[20] Clark C. W., Ellison W. T., Southall B. L., et al., Acoustic masking in marine ecosystems:"
+    ],
+    [
+      "p0026-b0034",
+      "intuitions, analysis, and implication, Marine Ecology Progress Series, 395: 201–222, 2009."
+    ],
+    [
+      "p0027-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0027-b0002",
+      "Page 24 of 25"
+    ],
+    [
+      "p0027-b0003",
+      "XI. Appendix"
+    ],
+    [
+      "p0027-b0004",
+      "11 . 1 Core code"
+    ],
+    [
+      "p0027-b0005",
+      "All computations were done in Python (numpy, pandas, scipy, scikit-learn, matplotlib). The"
+    ],
+    [
+      "p0027-b0006",
+      "two model-specific routines are listed below; the complete notebook is submitted with the paper."
+    ],
+    [
+      "p0027-b0007",
+      "Listing 1: Degradation curve M3: fit, threshold distance and recognition probability"
+    ],
+    [
+      "p0027-b0012",
+      "n, mu = (~np.isnan(M)).sum(0), np.nanmean(M, 0) ss_within = float(np.nansum((M - mu) ** 2)) p, _ = optimize.curve_fit(m3, DIST, mu, p0=[0.85, 120.0, 1.5],",
+      {
+        "role": "code_annotation",
+        "instruction": "逐行解释自然语言说明与注释；原标识不改，中文写入审阅附件"
+      }
+    ],
+    [
+      "p0027-b0021",
+      "Listing 2: Gated logistic regression and the profile likelihood of the behavioural threshold"
+    ],
+    [
+      "p0028-b0001",
+      "Team # apmcm26XXXXXXX"
+    ],
+    [
+      "p0028-b0002",
+      "11 . 2 Report on the use of AI tools"
+    ],
+    [
+      "p0028-b0003",
+      "Page 25 of 25"
+    ],
+    [
+      "p0028-b0004",
+      "[To be completed by the team in accordance with this year’s APMCM rules on AI tools.]"
+    ]
+  ]
+}

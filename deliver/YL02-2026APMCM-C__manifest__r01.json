@@ -1,0 +1,30 @@
+{
+  "source_name": "YL02-2026APMCM-C.pdf",
+  "source_sha256": "36a571860eb965ef880ec5403c3158beaa69f296e7eb252e6f73789f52efccf1",
+  "status": "complete",
+  "revision": 1,
+  "task_revision": "06e180ac2d8ef1f58dbb11e7c7b64fee295fe0a96d1d9dda24f01d9c92c78d6a",
+  "alignment": "paired",
+  "files": [
+    {
+      "file": "YL02-2026APMCM-C__zh-CN__r01.pdf",
+      "sha256": "dd6e2e4267f87bc32fa234148a0a6e98c3894718c6ad08b131c003d036b42fef",
+      "bytes": 16751978
+    },
+    {
+      "file": "YL02-2026APMCM-C__en-zh-CN__r01.pdf",
+      "sha256": "d49eaafe79f3ed78430b4fdd93beb6838f65806a09bd35d27ec4accf08fc4994",
+      "bytes": 16811137
+    },
+    {
+      "file": "YL02-2026APMCM-C__review__r01.md",
+      "sha256": "2fadb8e8005dad259590baa4afb52ef9d00f798fbf4fc08f3b4af704b18fda86",
+      "bytes": 2775
+    },
+    {
+      "file": "YL02-2026APMCM-C__qa__r01.json",
+      "sha256": "7256fbdf047872dd5e4a140d63deca2f5e1c4963fdc33e566db085165bbcf3b8",
+      "bytes": 1841901
+    }
+  ]
+}

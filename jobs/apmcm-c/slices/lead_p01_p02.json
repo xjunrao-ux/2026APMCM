@@ -1,0 +1,233 @@
+{
+ "packet": "d79a7e171f16855efb27975e44aeb149999931f1ce308cd747d70be01fe687bb",
+ "pages": [
+  "p0001",
+  "p0002"
+ ],
+ "items": [
+  [
+   "p0001-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0001-b0002",
+   "apmcm26XXXXXXX",
+   {
+    "role": "table_cell"
+   }
+  ],
+  [
+   "p0001-b0003",
+   "Team Number:",
+   {
+    "role": "table_cell"
+   }
+  ],
+  [
+   "p0001-b0004",
+   "Problem Chosen:",
+   {
+    "role": "table_cell"
+   }
+  ],
+  [
+   "p0001-b0005",
+   "C",
+   {
+    "role": "table_cell"
+   }
+  ],
+  [
+   "p0001-b0006",
+   "2026 APMCM summary sheet"
+  ],
+  [
+   "p0001-b0007",
+   "African penguins forage in groups at sea and rely on calls to stay in contact. Using the acoustic mea-sures of 108 sea-surface calls, propagation correlations at seven distances and 139 paired playback experiments, we study what separates the three call types (flat, modulated, two-voice), how far each type carries, how penguins respond, and how noise changes the effective range."
+  ],
+  [
+   "p0001-b0008",
+   "For<s0> Problem 1</s0>, Kruskal–Wallis tests with Dunn comparisons, Mann–Whitney tests and PER-MANOVA show that only the peak frequency differs after Holm correction (⟦M0001⟧), with small effect sizes. A two-layer classifier makes the point: a structural rule (presence of a second funda-mental and of pulses) reaches 94.4% accuracy, whereas the continuous measures alone reach only 0.41–0.55. The call types are three ways of structuring a call, not three frequency bands. For<s1> Problem 2</s1>, the three correlations are averaged into a fidelity index and fitted with a signal-⟦M0002⟧ . Under the thresholds 0.3, 0.5 and 0.7 the effective dis-to-noise curve tances of flat, modulated and two-voice calls are 155/225/245 m, 83/144/177 m and 41/85/107 m. Block bootstrap, between-sample ranges and alternative curves quantify the uncertainty. A gated response model fitted to the playbacks shows that a vocal reply requires a fidelity of at most 0.30, while approach requires about 0.49 (95% CI 0.32–0.58). For<s2> Problem 3</s2>, calls elicit a response in 64.7% of the experiments against 12.9% for the control sound (exact McNemar⟦M0003⟧). Whether penguins respond depends on context and group size, not on call type. A penalised multinomial model compares calls and control in one framework, and a mixture cure model shows that latency lengthens by a factor of 1.33 per 50 m while 35% of playbacks never elicit a visible response. For<s3> Problem 4</s3>, an effectiveness index combines tier-specific recognition probabilities with post-recognition behaviour. Contact radii are 155/225/245 m and recruitment radii 83/144/177 m. A 20% loss of correlation shortens the recruitment radius by 21–33%, and a 3 dB rise in noise removes 27–47% of the communication area. Recruitment is lost before contact, which leads to concrete recommendations on vessel noise in foraging areas."
+  ],
+  [
+   "p0001-b0009",
+   "acoustic communication"
+  ],
+  [
+   "p0001-b0010",
+   "<s0>Keywords:</s0> African penguin mixture cure model effectiveness index"
+  ],
+  [
+   "p0001-b0011",
+   "signal degradation playback experiment"
+  ],
+  [
+   "p0002-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0002-b0002",
+   "Contents"
+  ],
+  [
+   "p0002-b0003",
+   "1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0005",
+   "1 . 1 Background. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0007",
+   "1 . 2 Restatement of the problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0009",
+   "1 . 3 Our work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0011",
+   "2. Assumptions and Notations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0013",
+   "2 . 1 Assumptions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0015",
+   "2 . 2 Notations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0017",
+   "3. Data and Preprocessing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0019",
+   "4. Problem 1: Acoustic Features and Classification. . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0021",
+   "4 . 1 Descriptive statistics and visualisation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0023",
+   "4 . 2 Non-parametric tests. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0025",
+   "4 . 3 Two-layer classifier and main factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0027",
+   "4 . 4 Function, robustness and key indicators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0029",
+   "5. Problem 2: Signal Degradation and Effective Communication Distance. . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0031",
+   "5 . 1 Fidelity index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0033",
+   "5 . 2 Degradation model. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0035",
+   "5 . 3 Tiered thresholds and effective distances. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0037",
+   "5 . 4 Calibrating the thresholds with the playback data . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0039",
+   "5 . 5 Sensitivity analysis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0041",
+   "5 . 6 Conclusion on long-range robustness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0043",
+   "6. Problem 3: Behavioural Responses in the Playback Experiments. . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0045",
+   "6 . 1 Overall response to calls and to the control sound. . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0047",
+   "6 . 2 Context, call type, distance and group size . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0049",
+   "6 . 3 Distribution of response combinations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0051",
+   "6 . 4 Unified model and the role of call type . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0053",
+   "6 . 5 Response intensity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0055",
+   "6 . 6 Latency model. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0057",
+   "6 . 7 Predictions under representative conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0059",
+   "7. Problem 4: Communication Effectiveness and Conservation Scenarios . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0061",
+   "7 . 1 Effectiveness index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0063",
+   "7 . 2 Effective radii and expected number of responders. . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0065",
+   "7 . 3 Sensitivity analysis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0067",
+   "7 . 4 Noise and rough-sea scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0069",
+   "7 . 5 Recommendations for future playback experiments . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0071",
+   "7 . 6 Conservation recommendations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0073",
+   "8. Strengths and Weaknesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0075",
+   "9. Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0077",
+   "10. References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0079",
+   "11. Appendix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0002-b0081",
+   "11 . 1 Core code . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ]
+ ]
+}

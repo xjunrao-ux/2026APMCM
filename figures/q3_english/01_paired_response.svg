@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="244.8pt" viewBox="0 0 518.4 244.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-28T12:17:21.219773</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 244.8 
+L 518.4 244.8 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 130.842086 47.05056 
+C 259.2 47.05056 259.2 47.05056 387.557914 47.05056 
+L 387.557914 62.846254 
+C 259.2 62.846254 259.2 62.846254 130.842086 62.846254 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #6b948e; opacity: 0.42"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 130.842086 74.622507 
+C 259.2 74.622507 259.2 62.846254 387.557914 62.846254 
+L 387.557914 135.901336 
+C 259.2 135.901336 259.2 147.67759 130.842086 147.67759 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #2b665d; opacity: 0.42"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 130.842086 147.67759 
+C 259.2 147.67759 259.2 145.703128 387.557914 145.703128 
+L 387.557914 192.102978 
+C 259.2 192.102978 259.2 194.07744 130.842086 194.07744 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #a8b0b3; opacity: 0.42"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 130.842086 62.846254 
+C 259.2 62.846254 259.2 192.102978 387.557914 192.102978 
+L 387.557914 194.07744 
+C 259.2 194.07744 259.2 64.820715 130.842086 64.820715 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #4f667f; opacity: 0.42"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 121.921459 64.820715 
+L 130.842086 64.820715 
+L 130.842086 47.05056 
+L 121.921459 47.05056 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #2b665d; opacity: 0.92"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(71.754711 53.216501)">Response</text>
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(47.183071 62.949931)">18/139 (12.95%)</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 121.921459 194.07744 
+L 130.842086 194.07744 
+L 130.842086 74.622507 
+L 121.921459 74.622507 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #a8b0b3; opacity: 0.92"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(61.836274 131.630837)">No response</text>
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(42.456274 141.364267)">121/139 (87.05%)</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 387.557914 135.901336 
+L 396.478541 135.901336 
+L 396.478541 47.05056 
+L 387.557914 47.05056 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #2b665d; opacity: 0.92"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(408.37271 88.756811)">Response</text>
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(408.37271 98.490241)">90/139 (64.75%)</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 387.557914 194.07744 
+L 396.478541 194.07744 
+L 396.478541 145.703128 
+L 387.557914 145.703128 
+z
+" clip-path="url(#p432c9d3676)" style="fill: #a8b0b3; opacity: 0.92"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(408.37271 167.171147)">No response</text>
+    <text style="font-size: 8.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; fill: #263238" transform="translate(408.37271 176.904577)">49/139 (35.25%)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: middle; fill: #263238" x="126.381773" y="33.601371" transform="rotate(-0 126.381773 33.601371)">Control sound</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: middle; fill: #263238" x="392.018227" y="33.601371" transform="rotate(-0 392.018227 33.601371)">Natural calls</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.6px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: middle; fill: #263238" x="259.2" y="57.184407" transform="rotate(-0 259.2 57.184407)">16 responded to both</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: middle; fill: #263238" x="311.236992" y="107.447531" transform="rotate(-0 311.236992 107.447531)">74 responded only to calls</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.6px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: middle; fill: #263238" x="224.508672" y="172.113519" transform="rotate(-0 224.508672 172.113519)">47 responded to neither</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 264.08854 198.445244 
+Q 288.030971 186.823232 311.973402 175.201221 
+" style="fill: none; stroke: #4f667f; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.2px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: middle; fill: #4f667f" x="249.288192" y="207.713505" transform="rotate(-0 249.288192 207.713505)">2 responded only to the control</text>
+   </g>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 7.9px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: start; fill: #596971" x="33.696" y="231.0912" transform="rotate(-0 33.696 231.0912)">139 paired experiments</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 7.9px; font-family: 'Arial', 'Noto Sans SC', 'Microsoft YaHei', 'SimHei', 'DejaVu Sans', 'Segoe UI Symbol'; text-anchor: start; fill: #596971" x="191.2896" y="231.0912" transform="rotate(-0 191.2896 231.0912)">Adjusted difference +50.28 pp (95% simultaneous CI 40.86 to 59.71)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p432c9d3676">
+   <rect x="11.4048" y="33.048" width="495.5904" height="175.032"/>
+  </clipPath>
+ </defs>
+</svg>

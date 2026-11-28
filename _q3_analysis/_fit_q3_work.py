@@ -130,11 +130,11 @@ def fit_occ(w, xc=X, oc_sd=OCC_SD, co_sd=COMBO_SD, codes=YCODE, start=None):
     return a, c
 
 
-def fit_time(x, time, w, midpoint, zero_upper=.5, start=None):
+def fit_time(x, time, w, midpoint, zero_upper=.5, start=None, coefficient_sd=TIME_SD):
     zero = time == 0
     center = np.zeros(x.shape[1] + 1)
     center[[0, -1]] = np.log([midpoint, .8])
-    sd = np.r_[TIME_SD, .6]
+    sd = np.r_[coefficient_sd, .6]
     lt = np.log(np.where(zero, zero_upper, time))
     def objective(coef):
         mu, sigma = x @ coef[:-1], np.exp(coef[-1])

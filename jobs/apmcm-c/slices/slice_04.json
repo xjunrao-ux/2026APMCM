@@ -1,0 +1,374 @@
+{
+ "packet": "d79a7e171f16855efb27975e44aeb149999931f1ce308cd747d70be01fe687bb",
+ "pages": [
+  "p0014",
+  "p0015",
+  "p0016",
+  "p0017"
+ ],
+ "items": [
+  [
+   "p0014-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0014-b0002",
+   "Page 11 of 25"
+  ],
+  [
+   "p0014-b0003",
+   "response to the control only; under the null hypothesis⟦M0001⟧ Bin⟦M0002⟧ [14]. Because⟦M0003⟧ is small we use the exact binomial test."
+  ],
+  [
+   "p0014-b0004",
+   "Responses to natural calls and to the control sound in the 139 paired experiments"
+  ],
+  [
+   "p0014-b0005",
+   "Table 8"
+  ],
+  [
+   "p0014-b0006",
+   "Call,⟦M0001⟧ (%) Control,⟦M0002⟧ (%)"
+  ],
+  [
+   "p0014-b0007",
+   "Behaviour"
+  ],
+  [
+   "p0014-b0008",
+   "⟦M0001⟧ ⟦M0002⟧ McNemar⟦M0003⟧"
+  ],
+  [
+   "p0014-b0009",
+   "Paired difference, pp (95% CI)"
+  ],
+  [
+   "p0014-b0011",
+   "Any response"
+  ],
+  [
+   "p0014-b0016",
+   "Head-up"
+  ],
+  [
+   "p0014-b0021",
+   "Vocal reply"
+  ],
+  [
+   "p0014-b0026",
+   "Approach"
+  ],
+  [
+   "p0014-b0030",
+   "⟦M0001⟧: experiments responding to the call only;⟦M0002⟧: to the control only."
+  ],
+  [
+   "p0014-b0031",
+   "Calls elicit a response in 64.7% of the experiments (Wilson 95% CI 56.5–72.2%) and the con-"
+  ],
+  [
+   "p0014-b0032",
+   "trol sound in 12.9% (8.4–19.5%). Seventy-four experiments respond to the call only and two to the control only (Table 8). The three behaviours taken separately give the same conclusion, and approach never follows the control sound."
+  ],
+  [
+   "p0014-b0033",
+   "6 . 2 Context, call type, distance and group size"
+  ],
+  [
+   "p0014-b0034",
+   "Among the 139 call playbacks the response rate is 94.7% in the searching context against 53.8%"
+  ],
+  [
+   "p0014-b0035",
+   "(commuting) and 52.8% (after foraging). Context and group size are confounded (median group size 2 when searching, 15 when commuting), so the four factors are entered together in a logistic regression, ⟦M0001⟧  ln ⟦M0002⟧   ⟦M0003⟧<s0>type</s0> 50  ln ⟦M0004⟧   (8) where⟦M0005⟧ is the probability of the behaviour,⟦M0006⟧type and⟦M0007⟧ are the effects of call type and context (references: flat, commuting),⟦M0008⟧ is the playback distance and⟦M0009⟧ the number of penguins. The same track is played several times, so standard errors are clustered by track (28 tracks)."
+  ],
+  [
+   "p0014-b0036",
+   "Logistic regressions for the 139 call playbacks: odds ratios (95% CI, standard errors clustered by"
+  ],
+  [
+   "p0014-b0037",
+   "Table 9"
+  ],
+  [
+   "p0014-b0038",
+   "playback track) and likelihood-ratio tests"
+  ],
+  [
+   "p0014-b0039",
+   "Variable"
+  ],
+  [
+   "p0014-b0040",
+   "Any response"
+  ],
+  [
+   "p0014-b0041",
+   "Head-up"
+  ],
+  [
+   "p0014-b0042",
+   "Vocal reply"
+  ],
+  [
+   "p0014-b0043",
+   "Approach"
+  ],
+  [
+   "p0014-b0046",
+   "mod vs flat"
+  ],
+  [
+   "p0014-b0050",
+   "tv vs flat"
+  ],
+  [
+   "p0014-b0056",
+   "searching vs commuting"
+  ],
+  [
+   "p0014-b0060",
+   "after vs commuting"
+  ],
+  [
+   "p0014-b0065",
+   "distance, per +50 m"
+  ],
+  [
+   "p0014-b0070",
+   "ln⟦M0001⟧, per +1"
+  ],
+  [
+   "p0014-b0072",
+   "LR test: call type"
+  ],
+  [
+   "p0014-b0074",
+   "LR test: context"
+  ],
+  [
+   "p0014-b0076",
+   "LR test: distance"
+  ],
+  [
+   "p0014-b0078",
+   "LR test: group size"
+  ],
+  [
+   "p0014-b0092",
+   "⟦M0001⟧ (Wald). Events: 90, 55, 76 and 23."
+  ],
+  [
+   "p0015-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0015-b0002",
+   "Page 12 of 25"
+  ],
+  [
+   "p0015-b0003",
+   "Whether penguins respond depends on context and group size (Table 9): the odds are 4.75 times higher when searching, and fall to 0.47 for each unit of ln⟦M0001⟧. Call type has no effect on responding. Distance does not affect whether penguins respond but changes how they respond: per 50 m the odds of head-up fall to 0.51 and those of approach to 0.55, while vocal replies do not decline. For approach, mod calls have 3.28 times the odds of flat calls. Variance inflation factors are at most 2.1. The group-size effect has a further implication (Figure 7, right). If each bird responded indepen-dently with a fixed probability, larger groups would respond more often; the opposite is observed. Inverting the independence formula gives 0.3–1.5 expected responders in every size class: about one bird responds per playback, whatever the group size."
+  ],
+  [
+   "p0015-b0004",
+   "Figure 7 Left: response rates to calls and to the control sound (Wilson 95% intervals). Right: probability of"
+  ],
+  [
+   "p0015-b0005",
+   "any response against group size (lines: model; circles: binned observations)"
+  ],
+  [
+   "p0015-b0006",
+   "6 . 3 Distribution of response combinations"
+  ],
+  [
+   "p0015-b0007",
+   "The three behaviours give eight combinations (Table 10, Figure 8). They are not independent (likelihood-ratio⟦M0001⟧ ⟦M0002⟧, 4 d.f.,⟦M0003⟧): the full combination HVA occurs 14 times against 5.0 expected under independence, and approach alone once against 6.3. Approach almost always accompanies another behaviour and comes later: head-up precedes approach in 15 cases and never follows it; vocal reply precedes approach in 18 cases and follows it once. Combination probabilities therefore cannot be replaced by products of marginal probabilities."
+  ],
+  [
+   "p0015-b0008",
+   "Figure 8 Composition of the response combinations for the four stimuli"
+  ],
+  [
+   "p0015-b0009",
+   "To test whether calls change the distribution we use a paired permutation test: within each experiment the labels “call” and “control” are swapped at random and the⟦M0001⟧ statistic of the⟦M0002⟧ table is recomputed. This avoids the asymptotic distribution (most cells have expected counts below"
+  ],
+  [
+   "p0016-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0016-b0002",
+   "Page 13 of 25"
+  ],
+  [
+   "p0016-b0003",
+   "Counts (and proportions) of the eight response combinations; H = head-up, V = vocal reply, A ="
+  ],
+  [
+   "p0016-b0004",
+   "Table 10"
+  ],
+  [
+   "p0016-b0005",
+   "approach"
+  ],
+  [
+   "p0016-b0006",
+   "Combination Control"
+  ],
+  [
+   "p0016-b0007",
+   "No response 121 (87%)"
+  ],
+  [
+   "p0016-b0008",
+   "H only 13 (9%)"
+  ],
+  [
+   "p0016-b0009",
+   "V only 5 (4%)"
+  ],
+  [
+   "p0016-b0010",
+   "A only 0 (0%)"
+  ],
+  [
+   "p0016-b0011",
+   "HV 0 (0%)"
+  ],
+  [
+   "p0016-b0012",
+   "HA 0 (0%)"
+  ],
+  [
+   "p0016-b0013",
+   "VA 0 (0%)"
+  ],
+  [
+   "p0016-b0014",
+   "HVA 0 (0%)"
+  ],
+  [
+   "p0016-b0015",
+   "Total 139"
+  ],
+  [
+   "p0016-b0016",
+   "flat mod tv"
+  ],
+  [
+   "p0016-b0026",
+   "5) and keeps the pairing. The observed statistic is 98.8 and is never reached in 10 000 permutations ⟦M0001⟧); the total variation distance between the two distributions is 0.54.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0016-b0027",
+   "6 . 4 Unified model and the role of call type"
+  ],
+  [
+   "p0016-b0028",
+   "All 278 playbacks enter one penalised multinomial logistic regression. The response is one of five classes⟦M0001⟧ (none, H only, V only, HV, with approach) and the stimulus is a four-level factor (control, flat, mod, tv): ln ⟦M0002⟧  none <s0>s</s0>⟦M0003⟧ <s1>z</s1>⟦M0004⟧ (9) where<s2> s</s2> contains the stimulus dummies and<s3> z</s3> context, distance and ln⟦M0005⟧. The control sound has zero counts in the last two classes, so an⟦M0006⟧ penalty is needed; its strength is chosen by 5-fold cross-validation grouped by experiment, and intervals come from a bootstrap over experiments."
+  ],
+  [
+   "p0016-b0029",
+   "Predicted probabilities of the five response classes from the penalised multinomial model (commut-"
+  ],
+  [
+   "p0016-b0030",
+   "Table 11"
+  ],
+  [
+   "p0016-b0031",
+   "ing, 80 m,⟦M0001⟧"
+  ],
+  [
+   "p0016-b0032",
+   "Stimulus None H only"
+  ],
+  [
+   "p0016-b0033",
+   "control 0.894 0.074"
+  ],
+  [
+   "p0016-b0034",
+   "flat 0.457 0.054"
+  ],
+  [
+   "p0016-b0035",
+   "mod 0.438 0.131"
+  ],
+  [
+   "p0016-b0036",
+   "tv 0.391 0.083"
+  ],
+  [
+   "p0016-b0037",
+   "V only HV With approach"
+  ],
+  [
+   "p0016-b0042",
+   "Relative to the control, every call type lowers the probability of no response by 0.44–0.50 and"
+  ],
+  [
+   "p0016-b0043",
+   "raises the probabilities of HV and of responses with approach (Table 11); all these differences have bootstrap intervals excluding zero. Between call types two differences exclude zero: tv elicits more vocal-only replies than mod (difference 0.17, 95% CI 0.04–0.36), and flat elicits more HV than tv"
+  ],
+  [
+   "p0017-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0017-b0002",
+   "Page 14 of 25"
+  ],
+  [
+   "p0017-b0003",
+   "(0.18, 0.01–0.35). Responses with approach are more likely for mod and tv than for flat (differences"
+  ],
+  [
+   "p0017-b0004",
+   "0.11 and 0.09), with intervals that just include zero. A separate logistic regression for approach suffers complete separation (0/139 for the control) and is fitted by Firth’s penalised likelihood [15]; the odds ratios of the three call types against the control are about 28, 85 and 67 with very wide intervals."
+  ],
+  [
+   "p0017-b0005",
+   "Stratifying approach by distance clarifies the role of call type. Below 80 m (the median dis-tance) the approach rates are 4/19, 6/19 and 6/27 for flat, mod and tv (Monte Carlo⟦M0001⟧ test,⟦M0002⟧ From 80 m on they are 0/29 for flat against 7/45 for the other two (Fisher’s exact test, Mod and tv calls thus raise the probability of combinations with approach only at larger distances, and flat calls fall below the recognition threshold 0.5 at about 83 m (Problem 2). Section 7.1 tests this explanation formally."
+  ],
+  [
+   "p0017-b0006",
+   "6 . 5 Response intensity"
+  ],
+  [
+   "p0017-b0007",
+   "Intensity is analysed among the playbacks that elicited the behaviour. The number of reply calls"
+  ],
+  [
+   "p0017-b0008",
+   "follows a zero-truncated negative binomial regression; head-up and approach durations, capped at"
+  ],
+  [
+   "p0017-b0009",
+   "60 s, follow right-censored log-normal regressions. Simple comparisons between call types are not significant (Kruskal–Wallis⟦M0001⟧  for all three measures). After adjustment there are borderline signals (mod calls elicit 1.9 times as many reply calls as flat calls,⟦M0002⟧; tv calls 2.1 times the approach duration,⟦M0003⟧), which we report as tentative because they are not corrected for multiplicity. The firm result concerns group size: head-up duration is multiplied by 0.69 for each unit of ln⟦M0004⟧). Thirty per cent of approach durations hit the 60 s cap."
+  ],
+  [
+   "p0017-b0010",
+   "6 . 6 Latency model"
+  ],
+  [
+   "p0017-b0011",
+   "Figure 9 shows the Kaplan–Meier curves of the first response. They flatten within 10 s: 98.9%"
+  ],
+  [
+   "p0017-b0012",
+   "of the responses occur in the first 10 s, the slowest at 17.6 s, and 35.3% of the call playbacks never elicit a response. This is what “no response does not mean the stimulus was not perceived” looks like in the data: no response is a separate outcome, not a response that has not yet happened. An ordinary survival model treats it as censoring and so assumes that every group would respond if observed long enough, which is wrong here. We therefore use a mixture cure model [16]: a group responds with probability⟦M0001⟧, and if it does, the logarithm of the latency⟦M0002⟧ is normal, ⟦M0003⟧  ln ⟦M0004⟧   ⟦M0005⟧<s0> x</s0>⟦M0006⟧ ⟦M0007⟧  Φ ⟦M0008⟧ln⟦M0009⟧ <s1>x</s1>   (10) "
+  ],
+  [
+   "p0017-b0013",
+   "where⟦M0001⟧ and⟦M0002⟧ are the coefficients of the “whether” and “how fast” parts and⟦M0003⟧ is the standard deviation of the log-latency. The cure model has an AIC of 526.6 against 641.9 for the log-normal accelerated failure time model (Weibull versions: 532.1 and 661.6). Since all responses occur within 18 s, the likelihood factorises and the cure model coincides with a two-part model: a logistic regression for responding and a linear regression of ln⟦M0004⟧ among responders. The same two-part form is fitted to each behaviour, with Firth’s penalty in the first part. Latency depends clearly on distance only (Table 12): it is multiplied by 1.33 per 50 m (95% CI 1.10–1.61). Call type, context and group size have no significant effect on latency, and log-rank"
+  ]
+ ]
+}

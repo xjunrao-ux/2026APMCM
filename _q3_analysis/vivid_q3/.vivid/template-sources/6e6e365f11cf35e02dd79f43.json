@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "candidate": "plot_latency_curves.py",
+  "baseline": ".vivid/template-sources/6e6e365f11cf35e02dd79f43.py",
+  "source": {
+    "id": "competition.convergence",
+    "variant": "main",
+    "codeSha256": "5ab7cfcf50890445524ec5d5ab7dc3d8a3d1b59e77fbf0ab6565b5f0010b469d",
+    "contentSha256": "174dabfc89935a8e3b09853c6c7219f575f59a75349d7a5234fcca1e447a1721",
+    "file": "figure_recipes_competition.md",
+    "blocks": [
+      0
+    ],
+    "requiredInputs": []
+  }
+}

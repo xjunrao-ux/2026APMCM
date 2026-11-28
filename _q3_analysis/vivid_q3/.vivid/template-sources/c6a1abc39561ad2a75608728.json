@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "candidate": "plot_combinations.py",
+  "baseline": ".vivid/template-sources/c6a1abc39561ad2a75608728.py",
+  "source": {
+    "id": "empirical.forest",
+    "variant": "main",
+    "codeSha256": "a42b5971381e796679e7ad06c20981235bc962d05e438a22b17c6d4864383d92",
+    "contentSha256": "841f29a172ed3e9f451b4d1c0ddf19f8bf2f57a311efab0864e853f9f5766fdb",
+    "file": "figure_recipes_empirical.md",
+    "blocks": [
+      0
+    ],
+    "requiredInputs": []
+  }
+}

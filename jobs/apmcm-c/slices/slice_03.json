@@ -1,0 +1,282 @@
+{
+ "packet": "d79a7e171f16855efb27975e44aeb149999931f1ce308cd747d70be01fe687bb",
+ "pages": [
+  "p0011",
+  "p0012",
+  "p0013"
+ ],
+ "items": [
+  [
+   "p0011-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0011-b0002",
+   "Page 8 of 25"
+  ],
+  [
+   "p0011-b0003",
+   "and the mean plus two standard deviations of their fidelity is 0.28. By SNR⟦M0001⟧  the three thresholds correspond to about⟦M0002⟧ and 0 dB. The reliable threshold must stay below the near-field level, which holds narrowly for tv. The effective distance is where the mean curve meets the threshold, ⟦M0003⟧          ⟦M0004⟧ ⟦M0005⟧ (4)"
+  ],
+  [
+   "p0011-b0004",
+   "Uncertainty is reported in three layers (Table 6): a block bootstrap that resamples blocks of 10 rows"
+  ],
+  [
+   "p0011-b0005",
+   "(500 replicates) [12]; separate fits to the three blocks of 100 rows; and two alternative curves (M2 and isotonic regression with interpolation)."
+  ],
+  [
+   "p0011-b0006",
+   "Effective communication distances (m) under the three thresholds, with three layers of uncertainty"
+  ],
+  [
+   "p0011-b0007",
+   "Table 6"
+  ],
+  [
+   "p0011-b0008",
+   "Type ⟦M0001⟧ (M3) Block-bootstrap 95% CI"
+  ],
+  [
+   "p0011-b0009",
+   "Threshold"
+  ],
+  [
+   "p0011-b0010",
+   "possible (0.3)"
+  ],
+  [
+   "p0011-b0011",
+   "flat"
+  ],
+  [
+   "p0011-b0014",
+   "mod"
+  ],
+  [
+   "p0011-b0017",
+   "tv"
+  ],
+  [
+   "p0011-b0020",
+   "recognition (0.5)"
+  ],
+  [
+   "p0011-b0021",
+   "flat"
+  ],
+  [
+   "p0011-b0024",
+   "mod"
+  ],
+  [
+   "p0011-b0027",
+   "tv"
+  ],
+  [
+   "p0011-b0030",
+   "reliable (0.7)"
+  ],
+  [
+   "p0011-b0031",
+   "flat"
+  ],
+  [
+   "p0011-b0034",
+   "mod"
+  ],
+  [
+   "p0011-b0037",
+   "tv"
+  ],
+  [
+   "p0011-b0040",
+   "Range of 3 super-blocks"
+  ],
+  [
+   "p0011-b0041",
+   "M2 Isotonic"
+  ],
+  [
+   "p0011-b0061",
+   "Under the possible-recognition threshold the distances are 155, 225 and 245 m for flat, mod"
+  ],
+  [
+   "p0011-b0062",
+   "and tv; under the reliable threshold 41, 85 and 107 m. The bootstrap intervals are narrow, while the range across the three blocks is clearly wider (for mod at⟦M0001⟧, 129–180 m); the latter reflects differences between call exemplars and is the range we recommend quoting. The curve form matters little at 0.3 and 0.5. At 0.7 it matters for tv (isotonic regression gives 79 m), because the tv plateau is only slightly above 0.7. The ordering tv⟦M0002⟧ mod⟦M0003⟧ flat holds in at least 99.8% of the bootstrap replicates at every threshold. The distance⟦M0004⟧ is where a call reaches the threshold on average. For a single call we use the exceedance probability"
+  ],
+  [
+   "p0011-b0063",
+   "⟦M0001⟧   <s0>;</s0>"
+  ],
+  [
+   "p0011-b0067",
+   "where⟦M0001⟧ is the residual standard deviation of type⟦M0002⟧ and Φ the standard normal distribution function. At it reproduces the observed share of rows above the threshold (flat at 64 m: 0.83 against 0.88 observed). Requiring⟦M0003⟧ shortens the distances to 58, 116 and 151 m."
+  ],
+  [
+   "p0011-b0068",
+   "5 . 4 Calibrating the thresholds with the playback data"
+  ],
+  [
+   "p0011-b0069",
+   "The problem asks to use the playback data as well. We insert the type and distance of each"
+  ],
+  [
+   "p0011-b0070",
+   "call playback into the fitted curves and write the problem’s assumption (“recognition requires the"
+  ],
+  [
+   "p0012-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0012-b0002",
+   "Page 9 of 25"
+  ],
+  [
+   "p0012-b0003",
+   "correlation to reach a threshold”) as a model: the probability that a playback elicits behaviour⟦M0001⟧ is the recognition probability times the probability of responding once the call is recognised,"
+  ],
+  [
+   "p0012-b0004",
+   "⟦M0001⟧;<s0> ·</s0> 1 1 + exp⟦M0002⟧<s1>x</s1>⟦M0003⟧"
+  ],
+  [
+   "p0012-b0006",
+   "where⟦M0001⟧ indicates behaviour⟦M0002⟧ is the threshold required by that behaviour,<s0> x</s0> contains context and ln, and⟦M0003⟧ are regression coefficients. For each⟦M0004⟧ on a grid from 0.05 to 0.75 the model is fitted by maximum likelihood; the deviance profile gives the estimate and a 95% interval (deviance within 3.84 of the minimum)."
+  ],
+  [
+   "p0012-b0007",
+   "Behavioural thresholds estimated by profile likelihood; the last four columns give the deviance above"
+  ],
+  [
+   "p0012-b0008",
+   "Table 7"
+  ],
+  [
+   "p0012-b0009",
+   "the minimum (values above 3.84 are rejected at the 5% level)"
+  ],
+  [
+   "p0012-b0010",
+   "ˆ⟦M0001⟧ 95% CI"
+  ],
+  [
+   "p0012-b0011",
+   "Behaviour Events"
+  ],
+  [
+   "p0012-b0012",
+   "Head-up 55 0.41 0.27–0.47"
+  ],
+  [
+   "p0012-b0014",
+   "Vocal reply"
+  ],
+  [
+   "p0012-b0015",
+   "Approach 23 0.49 0.32–0.58"
+  ],
+  [
+   "p0012-b0017",
+   "Any response"
+  ],
+  [
+   "p0012-b0018",
+   "⟦M0001⟧ ⟦M0002⟧ ⟦M0003⟧ No gate"
+  ],
+  [
+   "p0012-b0023",
+   "Figure 5 Left: profile deviance of the behavioural threshold (vertical lines at 0.3, 0.5, 0.7). Right: share of"
+  ],
+  [
+   "p0012-b0024",
+   "playbacks with each behaviour by predicted fidelity (Wilson 95% intervals)"
+  ],
+  [
+   "p0012-b0025",
+   "The result is clear-cut (Table 7, Figure 5). The threshold of a vocal reply is at most 0.30,"
+  ],
+  [
+   "p0012-b0026",
+   "and fixing it at 0.5 raises the deviance by 68: penguins call back to signals that are only “possibly recognised”. Of the 25 playbacks with predicted fidelity below 0.5, 18 elicited a vocal reply but only"
+  ],
+  [
+   "p0012-b0027",
+   "2 an approach. The threshold of approach is estimated at 0.49 (95% CI 0.32–0.58), which matches the recognition threshold 0.5 given in the problem; both “no gate” and 0.7 are rejected. Head-up lies in between (0.41), but head-ups are hard to see at long range, so this estimate may be biased upwards. The tiers thus acquire a behavioural meaning: 0.3 corresponds to contact (vocal reply),"
+  ],
+  [
+   "p0012-b0028",
+   "0.5 to recruitment (approach), and 0.7 has no counterpart among the recorded behaviours."
+  ],
+  [
+   "p0013-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0013-b0002",
+   "5 . 5 Sensitivity analysis"
+  ],
+  [
+   "p0013-b0003",
+   "Page 10 of 25"
+  ],
+  [
+   "p0013-b0004",
+   "<s0>Threshold.</s0> For M3 the elasticity of the distance with respect to the threshold is"
+  ],
+  [
+   "p0013-b0005",
+   "⟦M0001⟧ <s0>ln</s0>⟦M0002⟧  <s1>ln</s1> ⟦M0003⟧    "
+  ],
+  [
+   "p0013-b0007",
+   "which equals⟦M0001⟧ and⟦M0002⟧ for flat, mod and tv at⟦M0003⟧, and⟦M0004⟧ and⟦M0005⟧ at⟦M0006⟧. The reliable-recognition distance is two to five times more sensitive to the threshold than the recognition distance."
+  ],
+  [
+   "p0013-b0008",
+   "<s0>Weights.</s0> With weights emphasising the spectral measures (0.4, 0.4, 0.2) the distances at⟦M0001⟧ ⟦M0002⟧ become 93, 153 and 189 m; with CRITIC weights 74, 134 and 166 m. Over a grid of 66 weight vectors on the simplex (Figure 6) the ordering tv⟦M0003⟧ mod⟦M0004⟧ flat never changes; more weight on the envelope shortens all distances."
+  ],
+  [
+   "p0013-b0009",
+   "Figure 6 Distance at⟦M0001⟧ over the weight simplex (vertices S, A, E: all weight on the spectrogram,"
+  ],
+  [
+   "p0013-b0010",
+   "amplitude-spectrum or envelope correlation)"
+  ],
+  [
+   "p0013-b0011",
+   "<s0>Measurement points.</s0> Dropping the 64, 128 or 256 m point in turn changes the flat and mod distances at⟦M0001⟧ by at most 4 m. The tv distance moves from 177 m to 225 m or 137 m when the 128 m or the 256 m point is dropped: tv is still on its plateau at 128 m and near the noise floor at 256 m, with no measurement on the steep part."
+  ],
+  [
+   "p0013-b0012",
+   "5 . 6 Conclusion on long-range robustness"
+  ],
+  [
+   "p0013-b0013",
+   "At every threshold the ordering is tv, mod, flat, and the tv distance is about twice the flat"
+  ],
+  [
+   "p0013-b0014",
+   "distance. At 128 m the fidelity is 0.36, 0.55 and 0.65; a Kruskal–Wallis test on block means (so that rows are not treated as independent) is highly significant (⟦M0001⟧). The two-voice call is the best suited to long-range transmission at sea, where “long range” means 150–250 m; by 256 m all three types are close to the noise floor."
+  ],
+  [
+   "p0013-b0015",
+   "VI. Problem 3: Behavioural Responses in the Playback"
+  ],
+  [
+   "p0013-b0016",
+   "Experiments"
+  ],
+  [
+   "p0013-b0017",
+   "6 . 1 Overall response to calls and to the control sound"
+  ],
+  [
+   "p0013-b0018",
+   "Each experiment presents a call and the control sound to the same group, so the comparison is paired. Let⟦M0001⟧ be the number of experiments with a response to the call only and⟦M0002⟧ the number with a"
+  ]
+ ]
+}

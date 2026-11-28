@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "state": "confirmed",
+  "fonts": {
+    "serif": "C:\\Windows\\Fonts\\simsun.ttc",
+    "sans": "C:\\Windows\\Fonts\\simhei.ttf"
+  },
+  "roles": {
+    "body": {
+      "font_family": "serif",
+      "font_size": 10.5,
+      "bold": false,
+      "line_height": 14.18,
+      "paragraph_gap": 6.3,
+      "first_line_indent": 2
+    },
+    "title": {
+      "font_family": "sans",
+      "font_size": 19.0,
+      "bold": true,
+      "line_height": 22.8,
+      "paragraph_gap": 8.4
+    },
+    "heading": {
+      "font_family": "sans",
+      "font_size": 12.5,
+      "bold": true,
+      "line_height": 15.62,
+      "paragraph_gap": 5.78
+    },
+    "subheading": {
+      "font_family": "sans",
+      "font_size": 11.5,
+      "bold": true,
+      "line_height": 14.38,
+      "paragraph_gap": 5.25
+    },
+    "caption": {
+      "font_family": "serif",
+      "font_size": 9.5,
+      "bold": false,
+      "line_height": 12.35,
+      "paragraph_gap": 4.73
+    },
+    "table": {
+      "font_family": "serif",
+      "font_size": 8.5,
+      "bold": false,
+      "line_height": 9.77,
+      "paragraph_gap": 2.62
+    },
+    "table_compact": {
+      "font_family": "serif",
+      "font_size": 5,
+      "bold": false,
+      "line_height": 5.5,
+      "paragraph_gap": 2.1
+    },
+    "label_compact": {
+      "font_family": "sans",
+      "font_size": 6.0,
+      "bold": false,
+      "line_height": 6.6,
+      "paragraph_gap": 2.1
+    },
+    "running": {
+      "font_family": "serif",
+      "font_size": 8.0,
+      "bold": false,
+      "line_height": 9.6,
+      "paragraph_gap": 2.62
+    },
+    "footnote": {
+      "font_family": "serif",
+      "font_size": 8.0,
+      "bold": false,
+      "line_height": 9.6,
+      "paragraph_gap": 2.1
+    },
+    "footer": {
+      "font_family": "sans",
+      "font_size": 8.0,
+      "bold": false,
+      "line_height": 9.6,
+      "paragraph_gap": 2.1
+    },
+    "author": {
+      "font_family": "serif",
+      "font_size": 9.5,
+      "bold": false,
+      "line_height": 11.88,
+      "paragraph_gap": 3.15
+    },
+    "affiliation": {
+      "font_family": "serif",
+      "font_size": 9.5,
+      "bold": false,
+      "line_height": 11.88,
+      "paragraph_gap": 2.1
+    }
+  },
+  "content_width": 415.04,
+  "wide_width": 416.7,
+  "note": "正文采用宋体类，标题采用黑体类；保留语义强调。正文 1.35 倍行距、0.6em 段后距，可统一调整。",
+  "font_hashes": {
+    "serif": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+    "sans": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e"
+  },
+  "confirmation": {
+    "actor": "user",
+    "note": "用户确认：正文宋体10.5pt/1.35倍行距，标题黑体，图注9.5pt，表格8.5pt；交付中英对照与纯中文PDF",
+    "time": "2026-11-28T07:24:15+00:00"
+  }
+}

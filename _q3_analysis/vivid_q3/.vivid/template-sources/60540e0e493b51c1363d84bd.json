@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "candidate": "plot_paired_response.py",
+  "baseline": ".vivid/template-sources/60540e0e493b51c1363d84bd.py",
+  "source": {
+    "id": "advanced.sankey",
+    "variant": "main",
+    "codeSha256": "53720821b325c1a77c8c0f9af6a9fc560c6d3b5140e6dbf1a5ac1c782fa86062",
+    "contentSha256": "2a394c5ff5bc4fd7631134af4a1263aee3346ac36a38f8e2a63b6fcb7714ae87",
+    "file": "figure_recipes_advanced.md",
+    "blocks": [
+      0
+    ],
+    "requiredInputs": []
+  }
+}

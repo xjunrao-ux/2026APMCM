@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "profile": "modeling-competition",
+  "capability": "paper-figure",
+  "workspace": "X:\\2026APMCM\\_q3_analysis\\vivid_q3",
+  "runtime_skill": "C:\\Users\\Xenop\\.codex\\skills\\vivid-illustration-skill\\original\\resources",
+  "paths": {
+    "python": "D:\\Users\\Xenop\\miniconda3\\envs\\MCM\\python.exe",
+    "configured_python": "D:\\Users\\Xenop\\miniconda3\\envs\\MCM\\python.exe",
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "drawio": null,
+    "mmdc": null,
+    "node": "D:\\Program Files\\nodejs\\node.exe",
+    "xelatex": "D:\\texlive\\2026\\bin\\windows\\xelatex.exe",
+    "bash": "C:\\Windows\\System32\\bash.exe",
+    "shared_scripts": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\_utils",
+    "utils": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\_utils",
+    "templates": "X:\\2026APMCM\\_q3_analysis\\vivid_q3\\_templates"
+  },
+  "injection": {
+    "utils": {
+      "copied": 56,
+      "preserved": 0
+    },
+    "templates": {
+      "copied": 0,
+      "preserved": 0
+    }
+  },
+  "prompt_policy": "drawing semantics and recipe layers are preserved"
+}

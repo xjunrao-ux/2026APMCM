@@ -1,0 +1,3562 @@
+{
+ "regions": [
+  {
+   "id": "p0005-table01",
+   "kind": "table",
+   "page": 5,
+   "bbox": [
+    89.5,
+    448.61,
+    506.0,
+    662.86
+   ],
+   "source_ids": [
+    "p0005-b0013",
+    "p0005-b0009",
+    "p0005-b0010",
+    "p0005-b0011",
+    "p0005-b0012",
+    "p0005-b0014",
+    "p0005-b0015",
+    "p0005-b0016",
+    "p0005-b0018",
+    "p0005-b0017",
+    "p0005-b0019",
+    "p0005-b0021",
+    "p0005-b0020",
+    "p0005-b0023",
+    "p0005-b0022",
+    "p0005-b0025",
+    "p0005-b0024",
+    "p0005-b0027",
+    "p0005-b0026",
+    "p0005-b0028",
+    "p0005-b0029",
+    "p0005-b0030",
+    "p0005-b0031"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 1 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Main symbols",
+     "text": "主要符号",
+     "bbox": [
+      288.8219848632813,
+      448.06,
+      343.3790344238281,
+      460.96
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 1",
+     "text": "表 1",
+     "bbox": [
+      251.8949981689453,
+      448.06,
+      280.6219848632812,
+      460.96
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Symbol",
+     "text": "符号",
+     "bbox": [
+      124.20400390625,
+      478.51,
+      148.3440155029297,
+      489.46
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Meaning",
+     "text": "含义",
+     "bbox": [
+      189.797998046875,
+      478.51,
+      217.26050415039063,
+      489.46
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "call type (flat, mod, tv); distance (m); number of penguins; context",
+     "text": "鸣叫类型（平直型、调制型、双声型）；距离（m）；企鹅数量；情境",
+     "bbox": [
+      189.797998046875,
+      500.38,
+      390.9905151367187,
+      510.03
+     ],
+     "font_size": 6.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "spectrogram, amplitude-spectrum and envelope correlations with the 1 m reference",
+     "text": "与 1 m 参考信号的谱图相关性、幅度谱相关性和包络相关性",
+     "bbox": [
+      189.797998046875,
+      514.94,
+      439.7028869628906,
+      525.89
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Fk,i(d), µk(d) ak, ds,k, γk, σk near-field level, characteristic distance, decay exponent, residual SD τP , τR, τS thresholds of possible, plain and reliable recognition (0.3, 0.5, 0.7)",
+     "text": "⟦M0001⟧ ⟦M0002⟧ 近场水平、特征距离、衰减指数、残差标准差 ⟦M0003⟧ 可能识别、普通识别与可靠识别的阈值 (0.3, 0.5, 0.7)",
+     "bbox": [
+      124.20399627685546,
+      531.13,
+      395.8055480957031,
+      571.33
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "fidelity of row i of type k at distance d, and its mean curve",
+     "text": "第⟦M0001⟧行（类型⟦M0002⟧、距离⟦M0003⟧）的保真度及其均值曲线",
+     "bbox": [
+      189.79898986816406,
+      531.06,
+      368.61395874023435,
+      540.06
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "effective communication distance under threshold τ",
+     "text": "阈值⟦M0001⟧下的有效通信距离",
+     "bbox": [
+      189.79802856445312,
+      575.71,
+      346.2280334472656,
+      586.66
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "recognition probability; δ is the overall loss of correlation due to noise",
+     "text": "识别概率；⟦M0001⟧ 为噪声引起的相关性总体损失",
+     "bbox": [
+      189.79801330566406,
+      590.92,
+      402.4409240722656,
+      601.87
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "probability of behaviour b (H head-up, V vocal reply, A approach) once the call is recognised",
+     "text": "鸣叫被识别后行为⟦M0001⟧的概率（H 抬头，V 声音回应，A 接近）",
+     "bbox": [
+      189.797998046875,
+      606.13,
+      471.0912841796875,
+      617.08
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "functional weight of behaviour b; weight of context c",
+     "text": "行为⟦M0001⟧的功能权重；情境⟦M0002⟧的权重",
+     "bbox": [
+      189.79801330566406,
+      621.5,
+      351.066015625,
+      632.13
+     ],
+     "font_size": 7.25,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "effectiveness index of acoustic communication",
+     "text": "声学交流的有效性指数",
+     "bbox": [
+      189.797998046875,
+      636.62,
+      331.2680725097656,
+      647.57
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "share of individuals that respond when the group responds",
+     "text": "群体响应时作出响应的个体比例",
+     "bbox": [
+      189.797998046875,
+      651.83,
+      365.57306518554685,
+      662.78
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0006-table02",
+   "kind": "table",
+   "page": 6,
+   "bbox": [
+    89.5,
+    522.47,
+    506.0,
+    728.22
+   ],
+   "source_ids": [
+    "p0006-b0012",
+    "p0006-b0013",
+    "p0006-b0014",
+    "p0006-b0041",
+    "p0006-b0015",
+    "p0006-b0016",
+    "p0006-b0017",
+    "p0006-b0042",
+    "p0006-b0043",
+    "p0006-b0044",
+    "p0006-b0018",
+    "p0006-b0045",
+    "p0006-b0019",
+    "p0006-b0020",
+    "p0006-b0021",
+    "p0006-b0046",
+    "p0006-b0022",
+    "p0006-b0047",
+    "p0006-b0048",
+    "p0006-b0023",
+    "p0006-b0024",
+    "p0006-b0025",
+    "p0006-b0049",
+    "p0006-b0026",
+    "p0006-b0027",
+    "p0006-b0050",
+    "p0006-b0028",
+    "p0006-b0051",
+    "p0006-b0029",
+    "p0006-b0030",
+    "p0006-b0052",
+    "p0006-b0031",
+    "p0006-b0053",
+    "p0006-b0032",
+    "p0006-b0033",
+    "p0006-b0054",
+    "p0006-b0034",
+    "p0006-b0055",
+    "p0006-b0035",
+    "p0006-b0036",
+    "p0006-b0056",
+    "p0006-b0037",
+    "p0006-b0057",
+    "p0006-b0038",
+    "p0006-b0058",
+    "p0006-b0039",
+    "p0006-b0040",
+    "p0006-b0059",
+    "p0006-b0060"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 2 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Descriptive statistics of the acoustic measures by call type (mean ± SD and median)",
+     "text": "按鸣叫类型给出的声学度量描述性统计（均值⟦M0001⟧标准差与中位数）",
+     "bbox": [
+      155.57799682617187,
+      522.11,
+      476.618994140625,
+      535.01
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 2",
+     "text": "表 2",
+     "bbox": [
+      118.65099487304687,
+      522.29,
+      147.37799682617188,
+      535.19
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Mean ± SD",
+     "text": "均值⟦M0001⟧标准差",
+     "bbox": [
+      264.22100219726565,
+      553.59,
+      302.1290344238281,
+      562.59
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Median",
+     "text": "中位数",
+     "bbox": [
+      398.6540161132813,
+      552.75,
+      422.3664916992187,
+      563.7
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Measure",
+     "text": "度量",
+     "bbox": [
+      147.0980010986328,
+      573.73,
+      173.72051086425782,
+      584.68
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat",
+     "text": "平直型",
+     "bbox": [
+      221.7669921875,
+      574.71,
+      232.56450500488282,
+      583.71
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod",
+     "text": "调制型",
+     "bbox": [
+      276.2480102539063,
+      574.71,
+      290.38300170898435,
+      583.71
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      336.0110107421875,
+      574.71,
+      342.6460021972656,
+      583.71
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat mod",
+     "text": "平直型 调制型",
+     "bbox": [
+      376.2820068359375,
+      574.54,
+      417.5744689941406,
+      583.87
+     ],
+     "font_size": 6.25,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      436.0269714355469,
+      574.71,
+      442.661962890625,
+      583.71
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Duration (s)",
+     "text": "时长（s）",
+     "bbox": [
+      147.0980010986328,
+      594.95,
+      184.347998046875,
+      605.9
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "PulseRate (Hz)",
+     "text": "脉冲率（Hz）",
+     "bbox": [
+      147.09803161621093,
+      701.42,
+      193.513037109375,
+      712.37
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "n = 44 (flat), 40 (mod), 24 (tv). F02 exists only for tv; PulseRate is missing for all flat calls, 6 mod calls and 4 tv calls.",
+     "text": "⟦M0001⟧（平直型）、40（调制型）、24（双声型）。F02 仅存在于双声型；脉冲率在所有平直型鸣叫、6 个调制型鸣叫和 4 个双声型鸣叫中缺失。",
+     "bbox": [
+      116.49199829101562,
+      718.1,
+      478.81732788085935,
+      727.1
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0008-table03",
+   "kind": "table",
+   "page": 8,
+   "bbox": [
+    89.5,
+    76.44,
+    506.0,
+    235.38
+   ],
+   "source_ids": [
+    "p0008-b0003",
+    "p0008-b0004",
+    "p0008-b0007",
+    "p0008-b0005",
+    "p0008-b0006",
+    "p0008-b0009",
+    "p0008-b0008",
+    "p0008-b0011",
+    "p0008-b0010",
+    "p0008-b0013",
+    "p0008-b0012",
+    "p0008-b0015",
+    "p0008-b0014",
+    "p0008-b0017",
+    "p0008-b0016",
+    "p0008-b0019",
+    "p0008-b0018"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 3 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Kruskal–Wallis tests of the six shared measures (Holm-adjusted) and significant Dunn pairs",
+     "text": "六项共有度量的 Kruskal–Wallis 检验（Holm 校正）及显著的 Dunn 两两比较组合",
+     "bbox": [
+      139.47400817871093,
+      75.89,
+      492.7141479492187,
+      88.79
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 3",
+     "text": "表 3",
+     "bbox": [
+      102.5469985961914,
+      75.89,
+      131.27400817871094,
+      88.79
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "ε2 Dunn pairs with Holm p < 0.05",
+     "text": "⟦M0001⟧ 经 Holm 校正的 Dunn 两两比较⟦M0002⟧",
+     "bbox": [
+      302.1440063476563,
+      106.82,
+      445.6560119628906,
+      118.66
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Measure",
+     "text": "度量",
+     "bbox": [
+      148.54500732421874,
+      107.11,
+      180.3320068359375,
+      120.01
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Duration",
+     "text": "时长",
+     "bbox": [
+      148.54500732421874,
+      131.37,
+      181.34000244140626,
+      144.27
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "9.14 0.010 0.052 0.085 flat–tv (0.008)",
+     "text": "9.14 0.010 0.052 0.085 平直型–双声型 (0.008)",
+     "bbox": [
+      194.74199829101562,
+      150.27,
+      381.2480529785156,
+      161.87
+     ],
+     "font_size": 8.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "12.28 0.002 0.013 0.115 flat–mod (0.004), flat–tv (0.017)",
+     "text": "12.28 0.002 0.013 0.115 平直型–调制型 (0.004)、平直型–双声型 (0.017)",
+     "bbox": [
+      192.49199829101562,
+      169.17,
+      446.7411254882812,
+      179.47
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0008-table04",
+   "kind": "table",
+   "page": 8,
+   "bbox": [
+    89.5,
+    478.11,
+    506.0,
+    691.68
+   ],
+   "source_ids": [
+    "p0008-b0025",
+    "p0008-b0026",
+    "p0008-b0027",
+    "p0008-b0028",
+    "p0008-b0036",
+    "p0008-b0029",
+    "p0008-b0037",
+    "p0008-b0030",
+    "p0008-b0038",
+    "p0008-b0031",
+    "p0008-b0039",
+    "p0008-b0032",
+    "p0008-b0040",
+    "p0008-b0033",
+    "p0008-b0041",
+    "p0008-b0034",
+    "p0008-b0042",
+    "p0008-b0035",
+    "p0008-b0043",
+    "p0008-b0044"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 4 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Performance of the two-layer classifier (repeated stratified 5-fold cross-validation for the second",
+     "text": "两层分类器的性能（第二层采用重复分层 5 折交叉验证",
+     "bbox": [
+      126.66900024414062,
+      477.56,
+      505.5502075195312,
+      490.46
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 4",
+     "text": "表 4",
+     "bbox": [
+      89.74199829101562,
+      477.56,
+      118.46900024414063,
+      490.46
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Model Input",
+     "text": "模型 输入",
+     "bbox": [
+      114.42400512695312,
+      522.81,
+      209.92900695800782,
+      535.71
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Accuracy (SD) Macro-F1 Balanced acc.",
+     "text": "准确率 (SD) 宏平均 F1 平衡准确率",
+     "bbox": [
+      315.96099243164065,
+      522.81,
+      480.8580383300781,
+      535.71
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Structure rule presence of F02 / pulses",
+     "text": "结构规则：是否存在 F02 / 脉冲",
+     "bbox": [
+      114.42400512695312,
+      547.07,
+      277.9170288085937,
+      559.97
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Multinomial logit 6 measures",
+     "text": "多项 logit 6 项度量",
+     "bbox": [
+      114.42400512695312,
+      571.33,
+      231.17999877929688,
+      584.23
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Multinomial logit 6 measures + ratio + bandwidth",
+     "text": "多项 logit 6 项度量 + 比值 + 带宽",
+     "bbox": [
+      114.42400512695312,
+      589.59,
+      304.827001953125,
+      602.49
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "LDA 6 measures",
+     "text": "LDA 6 项度量",
+     "bbox": [
+      114.42400512695312,
+      607.84,
+      231.16902770996094,
+      620.74
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "LDA 6 measures + ratio + bandwidth",
+     "text": "LDA 6 项度量 + 比值 + 带宽",
+     "bbox": [
+      114.42400512695312,
+      626.09,
+      304.816015625,
+      638.99
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Random forest 6 measures",
+     "text": "随机森林 6 项度量",
+     "bbox": [
+      114.42400512695312,
+      644.34,
+      231.17102661132813,
+      657.24
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Random forest 6 measures + ratio + bandwidth",
+     "text": "随机森林 6 项度量 + 比值 + 带宽",
+     "bbox": [
+      114.42400512695312,
+      662.59,
+      304.8180297851562,
+      675.49
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Majority-class baseline: 0.407.",
+     "text": "多数类基线：0.407。",
+     "bbox": [
+      250.68599853515624,
+      680.66,
+      344.5985473632812,
+      691.61
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0010-table05",
+   "kind": "table",
+   "page": 10,
+   "bbox": [
+    89.5,
+    169.62,
+    506.0,
+    273.81
+   ],
+   "source_ids": [
+    "p0010-b0004",
+    "p0010-b0005",
+    "p0010-b0006",
+    "p0010-b0007",
+    "p0010-b0009",
+    "p0010-b0010",
+    "p0010-b0008",
+    "p0010-b0011",
+    "p0010-b0013",
+    "p0010-b0014",
+    "p0010-b0012"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 5 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Fitted parameters of the degradation model M3 and AIC of the three candidate curves",
+     "text": "退化模型 M3 的拟合参数及三条候选曲线的 AIC",
+     "bbox": [
+      149.93299255371093,
+      169.07,
+      482.275,
+      181.97
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 5",
+     "text": "表 5",
+     "bbox": [
+      113.00599822998046,
+      169.07,
+      141.73299255371094,
+      181.97
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Type",
+     "text": "类型",
+     "bbox": [
+      151.95400390625,
+      200.29,
+      170.62799682617188,
+      213.19
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat 0.815 65.8 1.09 0.089",
+     "text": "平直型 0.815 65.8 1.09 0.089",
+     "bbox": [
+      151.95400390625,
+      224.55,
+      298.7159790039062,
+      237.45
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod 0.804 123.8 1.53 0.074 −10018",
+     "text": "调制型 0.804 123.8 1.53 0.074 ⟦M0001⟧",
+     "bbox": [
+      151.95400390625,
+      242.64,
+      343.64301147460935,
+      255.54
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv 0.745 169.0 2.22 0.068",
+     "text": "双声型 0.745 169.0 2.22 0.068",
+     "bbox": [
+      151.95400390625,
+      261.06,
+      298.7159790039062,
+      273.96
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0011-table06",
+   "kind": "table",
+   "page": 11,
+   "bbox": [
+    89.5,
+    246.09,
+    506.0,
+    433.91
+   ],
+   "source_ids": [
+    "p0011-b0006",
+    "p0011-b0007",
+    "p0011-b0008",
+    "p0011-b0009",
+    "p0011-b0040",
+    "p0011-b0041",
+    "p0011-b0010",
+    "p0011-b0011",
+    "p0011-b0012",
+    "p0011-b0013",
+    "p0011-b0042",
+    "p0011-b0043",
+    "p0011-b0014",
+    "p0011-b0015",
+    "p0011-b0016",
+    "p0011-b0044",
+    "p0011-b0045",
+    "p0011-b0017",
+    "p0011-b0018",
+    "p0011-b0019",
+    "p0011-b0046",
+    "p0011-b0047",
+    "p0011-b0020",
+    "p0011-b0021",
+    "p0011-b0022",
+    "p0011-b0023",
+    "p0011-b0048",
+    "p0011-b0049",
+    "p0011-b0024",
+    "p0011-b0025",
+    "p0011-b0026",
+    "p0011-b0050",
+    "p0011-b0051",
+    "p0011-b0027",
+    "p0011-b0028",
+    "p0011-b0029",
+    "p0011-b0052",
+    "p0011-b0053",
+    "p0011-b0030",
+    "p0011-b0031",
+    "p0011-b0032",
+    "p0011-b0033",
+    "p0011-b0054",
+    "p0011-b0055",
+    "p0011-b0034",
+    "p0011-b0035",
+    "p0011-b0036",
+    "p0011-b0056",
+    "p0011-b0057",
+    "p0011-b0037",
+    "p0011-b0038",
+    "p0011-b0039",
+    "p0011-b0058",
+    "p0011-b0059",
+    "p0011-b0060"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 6 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Effective communication distances (m) under the three thresholds, with three layers of uncertainty",
+     "text": "三种阈值下的有效交流距离（m），并含三层不确定性",
+     "bbox": [
+      126.85100708007812,
+      245.54,
+      505.3630432128906,
+      258.44
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 6",
+     "text": "表 6",
+     "bbox": [
+      89.92399749755859,
+      245.54,
+      118.65100708007813,
+      258.44
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Type d∗ (M3) Block-bootstrap 95% CI",
+     "text": "类型 ⟦M0001⟧（M3） 分块自举 95% 置信区间",
+     "bbox": [
+      187.2820068359375,
+      275.62,
+      326.118994140625,
+      285.82
+     ],
+     "font_size": 6.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Threshold",
+     "text": "阈值",
+     "bbox": [
+      124.92499694824218,
+      276.0,
+      156.13750305175782,
+      286.95
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Range of 3 super-blocks",
+     "text": "3 个超级块的极差",
+     "bbox": [
+      337.2740112304688,
+      276.0,
+      411.0414794921875,
+      286.95
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "M2 Isotonic",
+     "text": "M2 保序回归",
+     "bbox": [
+      422.60146484375,
+      276.0,
+      470.3514465332031,
+      286.95
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "possible (0.3)",
+     "text": "可能（0.3）",
+     "bbox": [
+      124.92499694824218,
+      297.22,
+      166.55499877929688,
+      308.17
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat",
+     "text": "平直型",
+     "bbox": [
+      187.27999267578124,
+      298.19,
+      198.07750549316407,
+      307.19
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod",
+     "text": "调制型",
+     "bbox": [
+      187.28197631835937,
+      313.4,
+      201.4169677734375,
+      322.4
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      187.28197631835937,
+      328.61,
+      193.9169677734375,
+      337.61
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "recognition (0.5)",
+     "text": "识别（0.5）",
+     "bbox": [
+      124.92498168945312,
+      344.84,
+      176.13248291015626,
+      355.79
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat",
+     "text": "平直型",
+     "bbox": [
+      187.28746948242187,
+      345.81,
+      198.0849822998047,
+      354.81
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod",
+     "text": "调制型",
+     "bbox": [
+      187.28197631835937,
+      361.02,
+      201.4169677734375,
+      370.02
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      187.28197631835937,
+      376.23,
+      193.9169677734375,
+      385.23
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "reliable (0.7)",
+     "text": "可靠（0.7）",
+     "bbox": [
+      124.92498168945312,
+      392.79,
+      164.46246948242188,
+      403.09
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat",
+     "text": "平直型",
+     "bbox": [
+      187.28197631835937,
+      393.44,
+      198.0794891357422,
+      402.44
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod",
+     "text": "调制型",
+     "bbox": [
+      187.28197631835937,
+      408.65,
+      201.4169677734375,
+      417.65
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      187.28197631835937,
+      423.86,
+      193.9169677734375,
+      432.86
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0012-table07",
+   "kind": "table",
+   "page": 12,
+   "bbox": [
+    89.5,
+    224.53,
+    506.0,
+    361.0
+   ],
+   "source_ids": [
+    "p0012-b0007",
+    "p0012-b0008",
+    "p0012-b0009",
+    "p0012-b0010",
+    "p0012-b0018",
+    "p0012-b0011",
+    "p0012-b0012",
+    "p0012-b0019",
+    "p0012-b0013",
+    "p0012-b0014",
+    "p0012-b0020",
+    "p0012-b0015",
+    "p0012-b0021",
+    "p0012-b0016",
+    "p0012-b0017",
+    "p0012-b0022"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 7 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Behavioural thresholds estimated by profile likelihood; the last four columns give the deviance above",
+     "text": "由剖面似然估计的行为阈值；最后四列给出超出",
+     "bbox": [
+      126.66900024414062,
+      223.98,
+      505.54108276367185,
+      236.88
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 7",
+     "text": "表 7",
+     "bbox": [
+      89.74199829101562,
+      223.98,
+      118.46900024414063,
+      236.88
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "the minimum (values above 3.84 are rejected at the 5% level)",
+     "text": "最小值的偏差（大于 3.84 的取值在 5% 水平上被拒绝）",
+     "bbox": [
+      126.66900024414062,
+      238.02,
+      361.3430541992187,
+      250.92
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "ˆτ 95% CI",
+     "text": "ˆ⟦M0001⟧ 95% 置信区间",
+     "bbox": [
+      237.61799011230468,
+      270.42,
+      292.6650146484375,
+      280.79
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "τ = 0.3 τ = 0.5 τ = 0.7 No gate",
+     "text": "⟦M0001⟧ ⟦M0002⟧ ⟦M0003⟧ 无门控",
+     "bbox": [
+      307.9479919433594,
+      269.64,
+      460.618994140625,
+      281.56
+     ],
+     "font_size": 8.25,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Behaviour Events",
+     "text": "行为 事件",
+     "bbox": [
+      134.64899597167968,
+      269.24,
+      221.14700927734376,
+      282.14
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Head-up 55 0.41 0.27–0.47",
+     "text": "抬头 55 0.41 0.27–0.47",
+     "bbox": [
+      134.64899597167968,
+      293.5,
+      296.79501953125,
+      306.4
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Vocal reply",
+     "text": "声音回应",
+     "bbox": [
+      134.64901123046874,
+      311.75,
+      176.52501525878907,
+      324.65
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Approach 23 0.49 0.32–0.58",
+     "text": "接近 23 0.49 0.32–0.58",
+     "bbox": [
+      134.64901123046874,
+      330.0,
+      296.79501953125,
+      342.9
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Any response",
+     "text": "任何反应",
+     "bbox": [
+      134.64901123046874,
+      348.25,
+      184.67902221679688,
+      361.15
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0014-table08",
+   "kind": "table",
+   "page": 14,
+   "bbox": [
+    89.5,
+    118.87,
+    506.0,
+    242.42
+   ],
+   "source_ids": [
+    "p0014-b0004",
+    "p0014-b0005",
+    "p0014-b0006",
+    "p0014-b0008",
+    "p0014-b0007",
+    "p0014-b0009",
+    "p0014-b0010",
+    "p0014-b0011",
+    "p0014-b0012",
+    "p0014-b0013",
+    "p0014-b0014",
+    "p0014-b0015",
+    "p0014-b0016",
+    "p0014-b0017",
+    "p0014-b0018",
+    "p0014-b0019",
+    "p0014-b0020",
+    "p0014-b0021",
+    "p0014-b0022",
+    "p0014-b0023",
+    "p0014-b0024",
+    "p0014-b0025",
+    "p0014-b0026",
+    "p0014-b0027",
+    "p0014-b0028",
+    "p0014-b0029",
+    "p0014-b0030"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 8 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Responses to natural calls and to the control sound in the 139 paired experiments",
+     "text": "139 组配对实验中对自然鸣叫与对照声音的响应",
+     "bbox": [
+      160.23400268554687,
+      118.32,
+      471.9660400390625,
+      131.22
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 8",
+     "text": "表 8",
+     "bbox": [
+      123.30700073242187,
+      118.32,
+      152.03400268554688,
+      131.22
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Call, k (%) Control, k (%)",
+     "text": "鸣叫，⟦M0001⟧（%） 对照，⟦M0002⟧（%）",
+     "bbox": [
+      181.14849243164062,
+      149.68,
+      272.52850952148435,
+      158.68
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Behaviour",
+     "text": "行为",
+     "bbox": [
+      128.16100463867187,
+      148.77,
+      160.20599975585938,
+      159.72
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Paired difference, pp (95% CI)",
+     "text": "配对差值，百分点（95% CI）",
+     "bbox": [
+      373.7800231933594,
+      149.1,
+      467.1149047851562,
+      159.4
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Any response",
+     "text": "任一响应",
+     "bbox": [
+      128.16100463867187,
+      169.99,
+      169.993505859375,
+      180.94
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Head-up",
+     "text": "抬头",
+     "bbox": [
+      128.16100463867187,
+      185.2,
+      154.78351440429688,
+      196.15
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Vocal reply",
+     "text": "声音回应",
+     "bbox": [
+      128.16097412109374,
+      200.41,
+      163.19098510742188,
+      211.36
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Approach",
+     "text": "接近",
+     "bbox": [
+      128.16094360351562,
+      215.62,
+      158.53345336914063,
+      226.57
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "b: experiments responding to the call only; c: to the control only.",
+     "text": "⟦M0001⟧：仅对鸣叫有响应的实验；⟦M0002⟧：仅对对照声音有响应。",
+     "bbox": [
+      199.32599792480468,
+      232.3,
+      395.9639038085937,
+      241.3
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0014-table09",
+   "kind": "table",
+   "page": 14,
+   "bbox": [
+    89.5,
+    518.12,
+    506.0,
+    753.33
+   ],
+   "source_ids": [
+    "p0014-b0036",
+    "p0014-b0037",
+    "p0014-b0038",
+    "p0014-b0039",
+    "p0014-b0040",
+    "p0014-b0041",
+    "p0014-b0042",
+    "p0014-b0043",
+    "p0014-b0044",
+    "p0014-b0046",
+    "p0014-b0047",
+    "p0014-b0045",
+    "p0014-b0048",
+    "p0014-b0050",
+    "p0014-b0051",
+    "p0014-b0049",
+    "p0014-b0053",
+    "p0014-b0054",
+    "p0014-b0052",
+    "p0014-b0056",
+    "p0014-b0055",
+    "p0014-b0057",
+    "p0014-b0058",
+    "p0014-b0060",
+    "p0014-b0061",
+    "p0014-b0059",
+    "p0014-b0062",
+    "p0014-b0063",
+    "p0014-b0064",
+    "p0014-b0065",
+    "p0014-b0066",
+    "p0014-b0067",
+    "p0014-b0068",
+    "p0014-b0069",
+    "p0014-b0079",
+    "p0014-b0070",
+    "p0014-b0071",
+    "p0014-b0080",
+    "p0014-b0081",
+    "p0014-b0082",
+    "p0014-b0072",
+    "p0014-b0073",
+    "p0014-b0083",
+    "p0014-b0084",
+    "p0014-b0085",
+    "p0014-b0074",
+    "p0014-b0075",
+    "p0014-b0086",
+    "p0014-b0087",
+    "p0014-b0088",
+    "p0014-b0076",
+    "p0014-b0077",
+    "p0014-b0089",
+    "p0014-b0090",
+    "p0014-b0091",
+    "p0014-b0078",
+    "p0014-b0092"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 9 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Logistic regressions for the 139 call playbacks: odds ratios (95% CI, standard errors clustered by",
+     "text": "139 次鸣叫回放的逻辑回归：优势比（95% CI，标准误按",
+     "bbox": [
+      126.66900024414062,
+      517.57,
+      505.532080078125,
+      530.47
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 9",
+     "text": "表 9",
+     "bbox": [
+      89.74199829101562,
+      517.57,
+      118.46900024414063,
+      530.47
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "playback track) and likelihood-ratio tests",
+     "text": "回放音轨聚类）与似然比检验",
+     "bbox": [
+      126.66900024414062,
+      531.61,
+      285.97699584960935,
+      544.51
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Variable",
+     "text": "变量",
+     "bbox": [
+      120.9730010986328,
+      562.07,
+      146.77049865722657,
+      573.02
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Any response",
+     "text": "任一响应",
+     "bbox": [
+      216.51799926757812,
+      562.07,
+      258.3504699707031,
+      573.02
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Head-up",
+     "text": "抬头",
+     "bbox": [
+      295.7820068359375,
+      562.07,
+      322.4045166015625,
+      573.02
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Vocal reply",
+     "text": "声音回应",
+     "bbox": [
+      361.36101684570315,
+      562.07,
+      396.390966796875,
+      573.02
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Approach",
+     "text": "接近",
+     "bbox": [
+      431.63701782226565,
+      562.07,
+      462.0094970703125,
+      573.02
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod vs flat",
+     "text": "调制型 vs 平直型",
+     "bbox": [
+      120.9730010986328,
+      584.27,
+      155.51550903320313,
+      593.27
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv vs flat",
+     "text": "双声型 vs 平直型",
+     "bbox": [
+      120.97298583984374,
+      599.48,
+      148.01549377441407,
+      608.48
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "searching vs commuting",
+     "text": "搜寻 vs 通勤",
+     "bbox": [
+      120.97298583984374,
+      613.71,
+      195.0929931640625,
+      624.66
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "after vs commuting",
+     "text": "觅食后 vs 通勤",
+     "bbox": [
+      120.97298583984374,
+      628.92,
+      180.0929931640625,
+      639.87
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "distance, per +50 m",
+     "text": "距离，每 +50 m",
+     "bbox": [
+      120.97298583984374,
+      644.13,
+      180.9854949951172,
+      655.08
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "ln N, per +1",
+     "text": "ln⟦M0001⟧，每 +1",
+     "bbox": [
+      120.97298583984374,
+      660.24,
+      159.84248962402344,
+      669.24
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "LR test: call type",
+     "text": "LR 检验：鸣叫类型",
+     "bbox": [
+      120.9730010986328,
+      681.53,
+      173.8530029296875,
+      690.53
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "LR test: context",
+     "text": "LR 检验：情境",
+     "bbox": [
+      120.97298583984374,
+      695.77,
+      170.31299438476563,
+      706.72
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "LR test: distance",
+     "text": "LR 检验：距离",
+     "bbox": [
+      120.97197875976562,
+      710.98,
+      172.80948486328126,
+      721.93
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "LR test: group size",
+     "text": "LR 检验：群体规模",
+     "bbox": [
+      120.97197875976562,
+      726.68,
+      179.2669891357422,
+      736.65
+     ],
+     "font_size": 6.75,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "∗p < 0.05, ∗∗p < 0.01 (Wald). Events: 90, 55, 76 and 23.",
+     "text": "⟦M0001⟧（Wald）。事件数：90、55、76 和 23。",
+     "bbox": [
+      205.0980010986328,
+      741.56,
+      390.18097534179685,
+      752.51
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0016-table10",
+   "kind": "table",
+   "page": 16,
+   "bbox": [
+    89.5,
+    76.44,
+    506.0,
+    310.18
+   ],
+   "source_ids": [
+    "p0016-b0003",
+    "p0016-b0004",
+    "p0016-b0005",
+    "p0016-b0006",
+    "p0016-b0016",
+    "p0016-b0007",
+    "p0016-b0017",
+    "p0016-b0008",
+    "p0016-b0018",
+    "p0016-b0009",
+    "p0016-b0019",
+    "p0016-b0010",
+    "p0016-b0020",
+    "p0016-b0011",
+    "p0016-b0021",
+    "p0016-b0012",
+    "p0016-b0022",
+    "p0016-b0013",
+    "p0016-b0023",
+    "p0016-b0014",
+    "p0016-b0024",
+    "p0016-b0015",
+    "p0016-b0025"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 10 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Counts (and proportions) of the eight response combinations; H = head-up, V = vocal reply, A =",
+     "text": "八种响应组合的计数（及比例）；H = 抬头，V = 声音回应，A =",
+     "bbox": [
+      131.16900024414062,
+      75.89,
+      505.5231079101562,
+      88.79
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 10",
+     "text": "表 10",
+     "bbox": [
+      89.74199829101562,
+      75.89,
+      122.96900024414063,
+      88.79
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "approach",
+     "text": "接近",
+     "bbox": [
+      131.16900024414062,
+      89.93,
+      168.31099548339844,
+      102.83
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Combination Control",
+     "text": "组合 对照",
+     "bbox": [
+      180.0949951171875,
+      121.15,
+      272.7309936523437,
+      134.05
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat mod tv",
+     "text": "平直型 调制型 双声型",
+     "bbox": [
+      300.12099609375,
+      121.15,
+      401.8110107421875,
+      134.05
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "No response 121 (87%)",
+     "text": "无响应 121（87%）",
+     "bbox": [
+      180.0949951171875,
+      145.41,
+      278.08603515625,
+      158.31
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "H only 13 (9%)",
+     "text": "仅 H 13（9%）",
+     "bbox": [
+      180.0949951171875,
+      163.66,
+      273.59100952148435,
+      176.56
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "V only 5 (4%)",
+     "text": "仅 V 5（4%）",
+     "bbox": [
+      180.09501037597656,
+      181.91,
+      271.34100952148435,
+      194.81
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "A only 0 (0%)",
+     "text": "仅 A 0（0%）",
+     "bbox": [
+      180.09501037597656,
+      200.16,
+      271.34100952148435,
+      213.06
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Total 139",
+     "text": "合计 139",
+     "bbox": [
+      180.0949951171875,
+      297.43,
+      265.7209838867187,
+      310.33
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0016-table11",
+   "kind": "table",
+   "page": 16,
+   "bbox": [
+    89.5,
+    546.1,
+    506.0,
+    682.58
+   ],
+   "source_ids": [
+    "p0016-b0029",
+    "p0016-b0030",
+    "p0016-b0031",
+    "p0016-b0032",
+    "p0016-b0037",
+    "p0016-b0033",
+    "p0016-b0038",
+    "p0016-b0034",
+    "p0016-b0039",
+    "p0016-b0035",
+    "p0016-b0040",
+    "p0016-b0036",
+    "p0016-b0041"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 11 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Predicted probabilities of the five response classes from the penalised multinomial model (commut-",
+     "text": "惩罚多项模型给出的五类响应预测概率（通勤",
+     "bbox": [
+      130.67400512695312,
+      545.55,
+      505.5501770019531,
+      558.45
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 11",
+     "text": "表 11",
+     "bbox": [
+      89.74199829101562,
+      545.55,
+      122.4830078125,
+      558.45
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Stimulus None H only",
+     "text": "刺激 无 仅 H",
+     "bbox": [
+      179.91199645996093,
+      590.81,
+      281.62900390625,
+      603.71
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "V only HV With approach",
+     "text": "仅 V HV 含接近",
+     "bbox": [
+      292.7900024414063,
+      590.81,
+      415.3690246582031,
+      603.71
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "control 0.894 0.074",
+     "text": "对照 0.894 0.074",
+     "bbox": [
+      179.91199645996093,
+      615.07,
+      279.37900390625,
+      627.97
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat 0.457 0.054",
+     "text": "平直型 0.457 0.054",
+     "bbox": [
+      179.91201171875,
+      633.32,
+      279.37900390625,
+      646.22
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod 0.438 0.131",
+     "text": "调制型 0.438 0.131",
+     "bbox": [
+      179.91201171875,
+      651.57,
+      279.37900390625,
+      664.47
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv 0.391 0.083",
+     "text": "双声型 0.391 0.083",
+     "bbox": [
+      179.91201171875,
+      669.83,
+      279.37900390625,
+      682.73
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0018-table12",
+   "kind": "table",
+   "page": 18,
+   "bbox": [
+    89.5,
+    260.42,
+    506.0,
+    443.65
+   ],
+   "source_ids": [
+    "p0018-b0004",
+    "p0018-b0005",
+    "p0018-b0006",
+    "p0018-b0007",
+    "p0018-b0008",
+    "p0018-b0010",
+    "p0018-b0009",
+    "p0018-b0011",
+    "p0018-b0012",
+    "p0018-b0025",
+    "p0018-b0026",
+    "p0018-b0027",
+    "p0018-b0013",
+    "p0018-b0014",
+    "p0018-b0028",
+    "p0018-b0029",
+    "p0018-b0030",
+    "p0018-b0015",
+    "p0018-b0016",
+    "p0018-b0031",
+    "p0018-b0032",
+    "p0018-b0033",
+    "p0018-b0017",
+    "p0018-b0018",
+    "p0018-b0034",
+    "p0018-b0035",
+    "p0018-b0036",
+    "p0018-b0019",
+    "p0018-b0020",
+    "p0018-b0037",
+    "p0018-b0038",
+    "p0018-b0039",
+    "p0018-b0021",
+    "p0018-b0022",
+    "p0018-b0040",
+    "p0018-b0041",
+    "p0018-b0042",
+    "p0018-b0023",
+    "p0018-b0024",
+    "p0018-b0043",
+    "p0018-b0044",
+    "p0018-b0045",
+    "p0018-b0046"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 12 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Two-part (mixture cure) model of the first response: odds ratios for responding and time ratios for",
+     "text": "首次响应的两部（混合治愈）模型：响应的优势比与时间比",
+     "bbox": [
+      131.16900024414062,
+      259.87,
+      505.532080078125,
+      272.77
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 12",
+     "text": "表 12",
+     "bbox": [
+      89.74199829101562,
+      259.87,
+      122.96900024414063,
+      272.77
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "the latency of responders",
+     "text": "响应者的潜伏期",
+     "bbox": [
+      131.16900024414062,
+      273.91,
+      228.04401245117188,
+      286.81
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "p Time ratio (95% CI)",
+     "text": "⟦M0001⟧ 时间比（95% CI）",
+     "bbox": [
+      334.5329833984375,
+      304.95,
+      419.11139526367185,
+      314.6
+     ],
+     "font_size": 6.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Variable",
+     "text": "变量",
+     "bbox": [
+      147.33599243164062,
+      304.37,
+      173.13350524902344,
+      315.32
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "OR of responding (95% CI)",
+     "text": "响应的 OR（95% CI）",
+     "bbox": [
+      232.61100158691406,
+      304.37,
+      317.140966796875,
+      315.32
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "intercept",
+     "text": "截距",
+     "bbox": [
+      147.33599243164062,
+      325.59,
+      174.37850036621094,
+      336.54
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod vs flat",
+     "text": "调制型 vs 平直型",
+     "bbox": [
+      147.33600769042968,
+      341.77,
+      181.8860076904297,
+      350.77
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv vs flat",
+     "text": "双声型 vs 平直型",
+     "bbox": [
+      147.33600769042968,
+      356.98,
+      174.3860076904297,
+      365.98
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "searching vs commuting",
+     "text": "搜寻 vs 通勤",
+     "bbox": [
+      147.33600769042968,
+      371.22,
+      221.46353759765626,
+      382.17
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "after vs commuting",
+     "text": "之后 vs 通勤",
+     "bbox": [
+      147.33600769042968,
+      386.43,
+      206.46350708007813,
+      397.38
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "distance, per +50 m",
+     "text": "距离，每 +50 m",
+     "bbox": [
+      147.33600769042968,
+      401.64,
+      207.35602416992188,
+      412.59
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "ln N, per +1",
+     "text": "ln⟦M0001⟧，每 +1",
+     "bbox": [
+      147.33600769042968,
+      417.75,
+      186.2065185546875,
+      426.75
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Reference: flat, commuting, 80 m, 8 penguins. The intercept row gives the baseline odds and the baseline median latency (s).",
+     "text": "参照：平直型、通勤、80 m、8 只企鹅。截距行给出基线优势比与基线潜伏期中位数（s）。",
+     "bbox": [
+      108.96299896240234,
+      432.63,
+      486.36029663085935,
+      443.58
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0019-table13",
+   "kind": "table",
+   "page": 19,
+   "bbox": [
+    89.5,
+    76.23,
+    506.0,
+    328.24
+   ],
+   "source_ids": [
+    "p0019-b0003",
+    "p0019-b0004",
+    "p0019-b0005",
+    "p0019-b0006",
+    "p0019-b0007",
+    "p0019-b0008",
+    "p0019-b0009",
+    "p0019-b0011",
+    "p0019-b0010",
+    "p0019-b0012",
+    "p0019-b0013",
+    "p0019-b0029",
+    "p0019-b0030",
+    "p0019-b0031",
+    "p0019-b0032",
+    "p0019-b0014",
+    "p0019-b0015",
+    "p0019-b0033",
+    "p0019-b0034",
+    "p0019-b0035",
+    "p0019-b0036",
+    "p0019-b0016",
+    "p0019-b0017",
+    "p0019-b0018",
+    "p0019-b0019",
+    "p0019-b0037",
+    "p0019-b0038",
+    "p0019-b0039",
+    "p0019-b0020",
+    "p0019-b0040",
+    "p0019-b0041",
+    "p0019-b0021",
+    "p0019-b0022",
+    "p0019-b0023",
+    "p0019-b0024",
+    "p0019-b0042",
+    "p0019-b0043",
+    "p0019-b0044",
+    "p0019-b0025",
+    "p0019-b0026",
+    "p0019-b0045",
+    "p0019-b0046",
+    "p0019-b0047",
+    "p0019-b0048",
+    "p0019-b0027",
+    "p0019-b0028",
+    "p0019-b0049",
+    "p0019-b0050",
+    "p0019-b0051"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 13 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Predictions under the representative conditions (N = 8, context-weighted): probability of the",
+     "text": "代表性条件下的预测（⟦M0001⟧，按情境加权）：行为的概率",
+     "bbox": [
+      131.16900024414062,
+      75.78,
+      505.5311340332031,
+      88.68
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 13",
+     "text": "表 13",
+     "bbox": [
+      89.74199829101562,
+      75.89,
+      122.96900024414063,
+      88.79
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "behaviour within 60 s and median latency of responders (s)",
+     "text": "60 s 内出现该行为，以及响应者的潜伏期中位数（s）",
+     "bbox": [
+      131.16901550292968,
+      89.93,
+      358.0580200195312,
+      102.83
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Any response",
+     "text": "任一响应",
+     "bbox": [
+      236.64899597167968,
+      120.39,
+      278.47394409179685,
+      131.34
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Head-up",
+     "text": "抬头",
+     "bbox": [
+      325.3279968261719,
+      120.39,
+      351.9504760742187,
+      131.34
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Vocal reply",
+     "text": "声音回应",
+     "bbox": [
+      363.2554870605469,
+      120.39,
+      398.2854370117187,
+      131.34
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Approach",
+     "text": "接近",
+     "bbox": [
+      408.62294921875,
+      120.39,
+      438.99542846679685,
+      131.34
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Type d (m) P (95% CI)",
+     "text": "类型 ⟦M0001⟧（m）⟦M0002⟧（95% CI）",
+     "bbox": [
+      153.11998901367187,
+      142.27,
+      245.20848693847657,
+      151.27
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "P / latency P / latency P / latency Latency (95% CI)",
+     "text": "⟦M0001⟧ / 潜伏期 ⟦M0002⟧ / 潜伏期 ⟦M0003⟧ / 潜伏期 潜伏期（95% CI）",
+     "bbox": [
+      259.0710083007813,
+      142.27,
+      441.2589477539062,
+      151.27
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat 50 0.63 (0.48–0.77)",
+     "text": "平直型 50 0.63（0.48–0.77）",
+     "bbox": [
+      153.11998901367187,
+      162.91,
+      251.9074920654297,
+      173.21
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod 50 0.67 (0.51–0.83)",
+     "text": "调制型 50 0.67（0.51–0.83）",
+     "bbox": [
+      153.12001953125,
+      210.53,
+      251.90001525878907,
+      220.83
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv 50 0.70 (0.56–0.84)",
+     "text": "双声型 50 0.70（0.56–0.84）",
+     "bbox": [
+      153.11994323730468,
+      258.15,
+      251.89993896484376,
+      268.45
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "† No response was observed in the raw data under this condition (“No Response”); the model values borrow information from other distances and the latency reads “if a response occurs”.",
+     "text": "⟦M0001⟧ 该条件下原始数据中未观察到响应（“No Response”）；模型值从其他距离借用信息，潜伏期读作“若发生响应”。",
+     "bbox": [
+      99.12899932861328,
+      303.4,
+      496.1778625488281,
+      327.04
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0020-table14",
+   "kind": "table",
+   "page": 20,
+   "bbox": [
+    89.5,
+    235.44,
+    506.0,
+    328.22
+   ],
+   "source_ids": [
+    "p0020-b0007",
+    "p0020-b0008",
+    "p0020-b0009",
+    "p0020-b0010",
+    "p0020-b0011",
+    "p0020-b0012",
+    "p0020-b0013",
+    "p0020-b0014",
+    "p0020-b0016",
+    "p0020-b0017",
+    "p0020-b0018",
+    "p0020-b0015",
+    "p0020-b0019",
+    "p0020-b0020",
+    "p0020-b0021",
+    "p0020-b0023",
+    "p0020-b0024",
+    "p0020-b0025",
+    "p0020-b0022",
+    "p0020-b0026",
+    "p0020-b0027",
+    "p0020-b0028",
+    "p0020-b0030",
+    "p0020-b0031",
+    "p0020-b0032",
+    "p0020-b0029",
+    "p0020-b0033",
+    "p0020-b0034",
+    "p0020-b0035"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 14 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Near-field value of the effectiveness index (N = 8) and effective communication radii (m)",
+     "text": "有效性指数（⟦M0001⟧）的近场取值与有效交流半径（m）",
+     "bbox": [
+      147.1189971923828,
+      234.99,
+      489.5921691894531,
+      247.89
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 14",
+     "text": "表 14",
+     "bbox": [
+      105.6919952392578,
+      235.1,
+      138.91899719238282,
+      248.0
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Rrec Reff (rec.)",
+     "text": "⟦M0001⟧ ⟦M0002⟧（招募）",
+     "bbox": [
+      359.96599731445315,
+      265.37,
+      416.2144836425781,
+      275.38
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Near-field E (95% CI)",
+     "text": "近场⟦M0001⟧（95% CI）",
+     "bbox": [
+      252.65703735351562,
+      266.46,
+      322.671484375,
+      275.46
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Type Contact part",
+     "text": "类型 接触部分",
+     "bbox": [
+      114.41700134277343,
+      265.56,
+      178.92951049804688,
+      276.51
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Recruitment part",
+     "text": "招募部分",
+     "bbox": [
+      190.0844970703125,
+      265.56,
+      241.50203552246094,
+      276.51
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Half-index radius",
+     "text": "半指数半径",
+     "bbox": [
+      427.3694702148438,
+      265.56,
+      480.8644165039062,
+      276.51
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat",
+     "text": "平直型",
+     "bbox": [
+      114.41700134277343,
+      287.75,
+      125.21450653076172,
+      296.75
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod",
+     "text": "调制型",
+     "bbox": [
+      114.41704711914062,
+      302.96,
+      128.55203857421876,
+      311.96
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      114.41704711914062,
+      318.17,
+      121.05204620361329,
+      327.17
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0021-table15",
+   "kind": "table",
+   "page": 21,
+   "bbox": [
+    89.5,
+    340.45,
+    506.0,
+    574.11
+   ],
+   "source_ids": [
+    "p0021-b0005",
+    "p0021-b0006",
+    "p0021-b0007",
+    "p0021-b0008",
+    "p0021-b0009",
+    "p0021-b0010",
+    "p0021-b0011",
+    "p0021-b0012",
+    "p0021-b0013",
+    "p0021-b0014",
+    "p0021-b0015",
+    "p0021-b0016",
+    "p0021-b0017",
+    "p0021-b0018",
+    "p0021-b0019",
+    "p0021-b0020",
+    "p0021-b0021",
+    "p0021-b0022",
+    "p0021-b0023",
+    "p0021-b0024",
+    "p0021-b0025",
+    "p0021-b0026",
+    "p0021-b0027",
+    "p0021-b0028",
+    "p0021-b0029",
+    "p0021-b0030",
+    "p0021-b0031",
+    "p0021-b0032",
+    "p0021-b0033",
+    "p0021-b0034",
+    "p0021-b0035",
+    "p0021-b0036",
+    "p0021-b0037",
+    "p0021-b0038",
+    "p0021-b0039",
+    "p0021-b0040",
+    "p0021-b0041",
+    "p0021-b0042",
+    "p0021-b0043",
+    "p0021-b0044"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 15 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Response probabilities and expected number of responders for a group of N = 8",
+     "text": "规模为⟦M0001⟧ 的群体的响应概率与预期响应者数量",
+     "bbox": [
+      163.4070068359375,
+      340.01,
+      473.2800354003906,
+      352.91
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 15",
+     "text": "表 15",
+     "bbox": [
+      121.9800048828125,
+      340.11,
+      155.2070068359375,
+      353.01
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Type d (m) Pg PA",
+     "text": "类型 ⟦M0001⟧ (m) ⟦M0002⟧ ⟦M0003⟧",
+     "bbox": [
+      176.67901000976562,
+      371.55,
+      270.1416076660156,
+      380.77
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat 50 0.67 0.13 0.67 1.03",
+     "text": "平直型 50 0.67 0.13 0.67 1.03",
+     "bbox": [
+      176.67901000976562,
+      391.79,
+      321.80902709960935,
+      402.74
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod 50 0.68 0.23 0.68 1.07",
+     "text": "调制型 50 0.68 0.23 0.68 1.07",
+     "bbox": [
+      176.6789794921875,
+      454.62,
+      321.8014892578125,
+      465.57
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv 50 0.71 0.18 0.71 1.13",
+     "text": "双声型 50 0.71 0.18 0.71 1.13",
+     "bbox": [
+      176.6789794921875,
+      517.45,
+      321.8014892578125,
+      528.4
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0022-table16",
+   "kind": "table",
+   "page": 22,
+   "bbox": [
+    89.5,
+    118.87,
+    506.0,
+    368.14
+   ],
+   "source_ids": [
+    "p0022-b0005",
+    "p0022-b0006",
+    "p0022-b0007",
+    "p0022-b0008",
+    "p0022-b0009",
+    "p0022-b0010",
+    "p0022-b0012",
+    "p0022-b0011",
+    "p0022-b0014",
+    "p0022-b0013",
+    "p0022-b0016",
+    "p0022-b0015",
+    "p0022-b0018",
+    "p0022-b0017",
+    "p0022-b0020",
+    "p0022-b0019",
+    "p0022-b0021",
+    "p0022-b0022",
+    "p0022-b0023",
+    "p0022-b0024",
+    "p0022-b0026",
+    "p0022-b0025",
+    "p0022-b0028",
+    "p0022-b0027",
+    "p0022-b0030",
+    "p0022-b0029",
+    "p0022-b0032",
+    "p0022-b0031",
+    "p0022-b0034",
+    "p0022-b0033"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 16 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Sensitivity of the effectiveness index to weights, group size, threshold assignment and estimation",
+     "text": "有效性指数对权重、群体规模、阈值分配与估计",
+     "bbox": [
+      131.16900024414062,
+      118.32,
+      505.5321411132812,
+      131.22
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 16",
+     "text": "表 16",
+     "bbox": [
+      89.74199829101562,
+      118.32,
+      122.96900024414063,
+      131.22
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "choices",
+     "text": "选择的敏感性",
+     "bbox": [
+      131.16900024414062,
+      133.71,
+      159.4640106201172,
+      143.91
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Near field",
+     "text": "近场",
+     "bbox": [
+      256.0940185546875,
+      162.81,
+      287.0890258789062,
+      173.76
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Setting",
+     "text": "设置",
+     "bbox": [
+      140.64000854492187,
+      183.79,
+      162.69499816894532,
+      194.74
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat mod tv flat mod tv flat mod tv",
+     "text": "平直型 调制型 双声型 平直型 调制型 双声型 平直型 调制型 双声型",
+     "bbox": [
+      241.00798950195312,
+      184.44,
+      451.00546875,
+      194.09
+     ],
+     "font_size": 6.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "baseline",
+     "text": "基线",
+     "bbox": [
+      140.64000854492187,
+      205.01,
+      166.01750793457032,
+      215.96
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "weights 4:2:1",
+     "text": "权重 4:2:1",
+     "bbox": [
+      140.64000854492187,
+      220.22,
+      182.06751098632813,
+      231.17
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "equal behaviour weights",
+     "text": "行为权重相等",
+     "bbox": [
+      140.64000854492187,
+      235.43,
+      214.76001586914063,
+      246.38
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "searching context only",
+     "text": "仅搜索情境",
+     "bbox": [
+      140.64000854492187,
+      250.64,
+      209.34502258300782,
+      261.59
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "head-up gated at 0.4",
+     "text": "抬头行为门控于 0.4",
+     "bbox": [
+      140.64000854492187,
+      296.76,
+      202.25751342773438,
+      306.73
+     ],
+     "font_size": 6.75,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "approach gated at 0.4",
+     "text": "接近行为门控于 0.4",
+     "bbox": [
+      140.64000854492187,
+      311.81,
+      205.5875,
+      322.11
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "approach gated at 0.6",
+     "text": "接近行为门控于 0.6",
+     "bbox": [
+      140.64000854492187,
+      327.02,
+      205.5875,
+      337.32
+     ],
+     "font_size": 7.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tendencies pooled over types",
+     "text": "倾向按类型合并",
+     "bbox": [
+      140.64000854492187,
+      341.9,
+      228.29752197265626,
+      352.85
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "single threshold 0.5",
+     "text": "单阈值 0.5",
+     "bbox": [
+      140.64000854492187,
+      357.11,
+      200.39749755859376,
+      368.06
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0022-table17",
+   "kind": "table",
+   "page": 22,
+   "bbox": [
+    89.5,
+    563.4,
+    506.0,
+    768.67
+   ],
+   "source_ids": [
+    "p0022-b0042",
+    "p0022-b0043",
+    "p0022-b0044",
+    "p0022-b0045",
+    "p0022-b0052",
+    "p0022-b0046",
+    "p0022-b0047",
+    "p0022-b0048",
+    "p0022-b0053",
+    "p0022-b0054",
+    "p0022-b0055",
+    "p0022-b0056",
+    "p0022-b0049",
+    "p0022-b0050",
+    "p0022-b0051",
+    "p0022-b0057",
+    "p0022-b0058",
+    "p0022-b0059",
+    "p0022-b0060",
+    "p0022-b0062",
+    "p0022-b0063",
+    "p0022-b0061",
+    "p0022-b0065",
+    "p0022-b0066",
+    "p0022-b0067",
+    "p0022-b0064",
+    "p0022-b0069",
+    "p0022-b0068",
+    "p0022-b0070",
+    "p0022-b0071",
+    "p0022-b0073",
+    "p0022-b0072",
+    "p0022-b0074",
+    "p0022-b0076",
+    "p0022-b0075",
+    "p0022-b0077",
+    "p0022-b0079",
+    "p0022-b0078",
+    "p0022-b0080",
+    "p0022-b0081",
+    "p0022-b0082",
+    "p0022-b0084",
+    "p0022-b0083",
+    "p0022-b0085",
+    "p0022-b0086",
+    "p0022-b0087",
+    "p0022-b0088"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 17 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Recruitment and contact radii (m) under the noise scenarios; changes relative to the baseline in",
+     "text": "噪声情景下的招募半径与接触半径（m）；相对于基线的变化见",
+     "bbox": [
+      131.16900024414062,
+      562.85,
+      505.54108276367185,
+      575.75
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 17",
+     "text": "表 17",
+     "bbox": [
+      89.74199829101562,
+      562.85,
+      122.96900024414063,
+      575.75
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "parentheses",
+     "text": "括号内",
+     "bbox": [
+      131.16900024414062,
+      576.89,
+      177.30200805664063,
+      589.79
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Recruitment radius (τR)",
+     "text": "招募半径（⟦M0001⟧",
+     "bbox": [
+      206.63399658203124,
+      607.46,
+      281.1684936523437,
+      618.41
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Contact radius (τP = 0.3)",
+     "text": "接触半径（⟦M0001⟧",
+     "bbox": [
+      351.8749633789063,
+      607.73,
+      435.29242553710935,
+      618.68
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Scenario",
+     "text": "情景",
+     "bbox": [
+      131.48999938964843,
+      628.32,
+      158.53250732421876,
+      639.27
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat",
+     "text": "平直型",
+     "bbox": [
+      187.98499450683593,
+      629.3,
+      198.7824920654297,
+      638.3
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod",
+     "text": "调制型",
+     "bbox": [
+      234.95899353027343,
+      629.3,
+      249.09400024414063,
+      638.3
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      289.2289978027344,
+      629.3,
+      295.8639892578125,
+      638.3
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat",
+     "text": "平直型",
+     "bbox": [
+      337.6679931640625,
+      629.3,
+      348.4654602050781,
+      638.3
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "mod",
+     "text": "调制型",
+     "bbox": [
+      386.5169921875,
+      629.3,
+      400.6519836425781,
+      638.3
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "tv",
+     "text": "双声型",
+     "bbox": [
+      440.7869812011719,
+      629.3,
+      447.42197265625,
+      638.3
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "baseline",
+     "text": "基线",
+     "bbox": [
+      131.48999938964843,
+      649.54,
+      156.86751403808594,
+      660.49
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Raising τR affects the recruitment tier only, so the contact radius is unchanged (–).",
+     "text": "提高⟦M0001⟧ 只影响招募层级，因此接触半径不变（–）。",
+     "bbox": [
+      172.6889892578125,
+      757.04,
+      422.6174377441406,
+      767.99
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "p0023-table18",
+   "kind": "table",
+   "page": 23,
+   "bbox": [
+    89.5,
+    279.43,
+    506.0,
+    424.54
+   ],
+   "source_ids": [
+    "p0023-b0004",
+    "p0023-b0005",
+    "p0023-b0006",
+    "p0023-b0007",
+    "p0023-b0008",
+    "p0023-b0010",
+    "p0023-b0009",
+    "p0023-b0012",
+    "p0023-b0011",
+    "p0023-b0013",
+    "p0023-b0014",
+    "p0023-b0015"
+   ],
+   "reviewed": true,
+   "reason": "源 Table 18 单元格被抽取成独立块，段落重排会破坏行列；整表原生裁取，中文标签覆盖文字单元格，数字与公式保持原样。",
+   "labels": [
+    {
+     "source": "Response probabilities and index values under the noise scenarios (N = 8)",
+     "text": "噪声情景下的响应概率与指数值（⟦M0001⟧",
+     "bbox": [
+      175.23299560546874,
+      278.99,
+      461.4700073242187,
+      291.89
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Table 18",
+     "text": "表 18",
+     "bbox": [
+      133.80599365234374,
+      279.09,
+      167.03299560546876,
+      291.99
+     ],
+     "font_size": 9.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "PA at 100 m",
+     "text": "100 m 处的⟦M0001⟧",
+     "bbox": [
+      224.21300659179687,
+      310.53,
+      264.25202026367185,
+      320.45
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Pg at 150 m",
+     "text": "150 m 处的⟦M0001⟧",
+     "bbox": [
+      300.4090209960938,
+      310.53,
+      338.95502319335935,
+      320.45
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "E at 100 m",
+     "text": "100 m 处的⟦M0001⟧",
+     "bbox": [
+      377.318017578125,
+      310.45,
+      412.9449829101562,
+      319.45
+     ],
+     "font_size": 6.0,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "Scenario",
+     "text": "情景",
+     "bbox": [
+      167.9990020751953,
+      330.53,
+      195.04151000976563,
+      341.48
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "flat mod tv flat mod tv flat mod tv",
+     "text": "平直型 调制型 双声型 平直型 调制型 双声型 平直型 调制型 双声型",
+     "bbox": [
+      213.65149841308593,
+      331.18,
+      423.64899291992185,
+      340.83
+     ],
+     "font_size": 6.5,
+     "rotation": 0,
+     "align": "left"
+    },
+    {
+     "source": "baseline",
+     "text": "基线",
+     "bbox": [
+      167.9990020751953,
+      351.75,
+      193.37651672363282,
+      362.7
+     ],
+     "font_size": 7.5,
+     "rotation": 0,
+     "align": "left"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "packet": "d79a7e171f16855efb27975e44aeb149999931f1ce308cd747d70be01fe687bb",
+ "pages": [
+  "p0003",
+  "p0004",
+  "p0005",
+  "p0006"
+ ],
+ "items": [
+  [
+   "p0003-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0003-b0002",
+   "11 . 2 Report on the use of AI tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  [
+   "p0004-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0004-b0002",
+   "Page 1 of 25"
+  ],
+  [
+   "p0004-b0003",
+   "I. Introduction"
+  ],
+  [
+   "p0004-b0004",
+   "1 . 1 Background"
+  ],
+  [
+   "p0004-b0005",
+   "The African penguin (<s0>Spheniscus demersus</s0>) breeds on the coasts of southern Africa and feeds"
+  ],
+  [
+   "p0004-b0006",
+   "on pelagic fish in nearby waters. Its population has been falling by about 8% per year and the species is now assessed as Critically Endangered [3]. At sea the birds often forage in groups, and group foraging raises their catch rate [4]. Waves, glare and low visibility limit visual signals, so calls are the likely means by which penguins at the surface stay in contact and gather into groups."
+  ],
+  [
+   "p0004-b0007",
+   "Thiebault et al. [1, 2] recorded sea-surface calls, played calls and a control sound back to penguins at sea, and measured how the calls degrade with distance. The problem is built on these data."
+  ],
+  [
+   "p0004-b0008",
+   "1 . 2 Restatement of the problems"
+  ],
+  [
+   "p0004-b0009",
+   "•<s0> Problem 1.</s0> Describe and visualise the acoustic measures of the three call types (flat, modulated",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0004-b0010",
+   "“mod”, two-voice “tv”), test their differences with at least two non-parametric tests, find the main factors, build a classifier, and discuss function and transmission robustness."
+  ],
+  [
+   "p0004-b0011",
+   "•<s0> Problem 2.</s0> Combine the spectrogram, amplitude-spectrum and envelope correlations into a fidelity index, model its degradation with distance for each call type, design tiered recognition thresholds, and estimate effective communication distances with uncertainty and sensitivity analysis.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0004-b0012",
+   "•<s0> Problem 3.</s0> Compare responses to calls and to the control sound; relate responses to context, call type, distance and group size; analyse the distribution of response combinations in a unified framework; model response intensity and latency; and give predictions at 50, 100 and 150 m.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0004-b0013",
+   "•<s0> Problem 4.</s0> Build an index of communication effectiveness, estimate effective radii or ex-pected numbers of responders, analyse noise scenarios, and give recommendations for future experiments and for conservation.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0004-b0014",
+   "1 . 3 Our work"
+  ],
+  [
+   "p0004-b0015",
+   "Figure 1 shows how the three data sets feed the four problems. One thread runs through the"
+  ],
+  [
+   "p0004-b0016",
+   "paper. The call types differ in structure rather than in frequency band; structure decides how far a call carries; a vocal reply still occurs where the signal is heavily degraded, whereas approach occurs only where the call is still recognisable; hence added noise removes recruitment before it removes contact. Each step of this thread is tested on the data."
+  ],
+  [
+   "p0004-b0017",
+   "II. Assumptions and Notations"
+  ],
+  [
+   "p0004-b0018",
+   "2 . 1 Assumptions"
+  ],
+  [
+   "p0004-b0019",
+   "1. The correlation between a propagated recording and the 1 m reference represents the similarity perceived by a penguin (stated in the problem).",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0004-b0020",
+   "2. The acoustic conditions of the propagation experiment are representative of those of the play-back experiments.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0005-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0005-b0002",
+   "Page 2 of 25"
+  ],
+  [
+   "p0005-b0003",
+   "Figure 1 Data sets, problems and the flow of results between them"
+  ],
+  [
+   "p0005-b0004",
+   "3. The two playbacks of one experiment address the same group of penguins.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0005-b0005",
+   "4. The observation window is 60 s (durations are capped at 60 s); no visible behaviour within the window is recorded as no response.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0005-b0006",
+   "5. Responses are recorded at group level; the number of responding individuals needs an extra assumption (Section 7.2).",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0005-b0007",
+   "6. Where playback order is used, the row order within an experiment is taken as the order of presentation.",
+   {
+    "role": "list_item"
+   }
+  ],
+  [
+   "p0005-b0008",
+   "2 . 2 Notations"
+  ],
+  [
+   "p0005-b0009",
+   "Table 1"
+  ],
+  [
+   "p0005-b0010",
+   "Symbol"
+  ],
+  [
+   "p0005-b0011",
+   "Meaning"
+  ],
+  [
+   "p0005-b0013",
+   "Main symbols"
+  ],
+  [
+   "p0005-b0014",
+   "call type (flat, mod, tv); distance (m); number of penguins; context"
+  ],
+  [
+   "p0005-b0015",
+   "⟦M0001⟧"
+  ],
+  [
+   "p0005-b0016",
+   "spectrogram, amplitude-spectrum and envelope correlations with the 1 m reference"
+  ],
+  [
+   "p0005-b0017",
+   "fidelity of row⟦M0001⟧ of type⟦M0002⟧ at distance⟦M0003⟧, and its mean curve"
+  ],
+  [
+   "p0005-b0018",
+   "⟦M0001⟧ ⟦M0002⟧ near-field level, characteristic distance, decay exponent, residual SD ⟦M0003⟧ thresholds of possible, plain and reliable recognition (0.3, 0.5, 0.7)"
+  ],
+  [
+   "p0005-b0020",
+   "effective communication distance under threshold⟦M0001⟧"
+  ],
+  [
+   "p0005-b0022",
+   "recognition probability;⟦M0001⟧ is the overall loss of correlation due to noise"
+  ],
+  [
+   "p0005-b0024",
+   "probability of behaviour⟦M0001⟧ (H head-up, V vocal reply, A approach) once the call is recognised"
+  ],
+  [
+   "p0005-b0026",
+   "functional weight of behaviour⟦M0001⟧; weight of context⟦M0002⟧"
+  ],
+  [
+   "p0005-b0027",
+   "⟦M0001⟧"
+  ],
+  [
+   "p0005-b0028",
+   "⟦M0001⟧"
+  ],
+  [
+   "p0005-b0029",
+   "effectiveness index of acoustic communication"
+  ],
+  [
+   "p0005-b0031",
+   "share of individuals that respond when the group responds"
+  ],
+  [
+   "p0005-b0032",
+   "III. Data and Preprocessing"
+  ],
+  [
+   "p0005-b0033",
+   "The acoustic file (Data01) holds 108 calls: 44 flat, 40 mod and 24 tv. The second fundamental"
+  ],
+  [
+   "p0005-b0034",
+   "F02 exists only for tv calls, and the pulse rate is missing for all flat calls. These gaps are structural"
+  ],
+  [
+   "p0006-b0001",
+   "Team # apmcm26XXXXXXX"
+  ],
+  [
+   "p0006-b0002",
+   "Page 3 of 25"
+  ],
+  [
+   "p0006-b0003",
+   "(a call without two voices has no second fundamental), so we do not impute them; the two columns are compared only where they exist and enter the classifier as presence indicators."
+  ],
+  [
+   "p0006-b0004",
+   "The playback file (Data02) holds 278 rows, i.e. 139 experiments with one call playback and"
+  ],
+  [
+   "p0006-b0005",
+   "one control playback each. This is a paired design, and all comparisons between call and control respect the pairing. Nine latencies were recorded although the corresponding response flag was 0; we follow the flag and set them to missing. We verified that the overall flag equals “at least one of the three behaviours” and that the relative number of calls equals max(calls after⟦M0001⟧ calls before⟦M0002⟧ Head-up and approach durations are capped at 60 s (4 and 7 records), which gives the length of the observation window. The propagation files (Data03–11) give, for each call type and each of the three measures, 300 rows of correlations at 4–256 m. Missing values come in runs of 10 rows at identical positions in the three files of a call type, so one row is one pair of recordings and the three correlations can be combined row by row. The three blocks of 100 rows differ visibly (for mod at 128 m the block means are 0.51, 0.51 and 0.68); the rows are therefore not independent, and interval estimates use block resampling [13]."
+  ],
+  [
+   "p0006-b0006",
+   "IV. Problem 1: Acoustic Features and Classification"
+  ],
+  [
+   "p0006-b0007",
+   "4 . 1 Descriptive statistics and visualisation"
+  ],
+  [
+   "p0006-b0008",
+   "Table 2 and Figure 2 summarise the measures. Duration is similar across types (0.37, 0.40 and"
+  ],
+  [
+   "p0006-b0009",
+   "0.42 s). The fundamental F01 decreases slightly from flat to tv (289, 284, 271 Hz). The median peak frequency is close across types, but its interquartile range is 139 Hz for flat against more than 600 Hz for mod and tv, which means that the peak frequency is bimodal. The ratio⟦M0001⟧peak⟦M0002⟧ in"
+  ],
+  [
+   "p0006-b0010",
+   "Figure 3(a) explains why: the spectral peak sits either on the fundamental (about 280 Hz) or on the"
+  ],
+  [
+   "p0006-b0011",
+   "third harmonic (about 900 Hz). Only 6.8% of flat calls peak on the fundamental, against 37.5% of mod and 33.3% of tv calls (⟦M0001⟧ "
+  ],
+  [
+   "p0006-b0012",
+   "Descriptive statistics of the acoustic measures by call type (mean⟦M0001⟧ SD and median)"
+  ],
+  [
+   "p0006-b0013",
+   "Table 2"
+  ],
+  [
+   "p0006-b0014",
+   "Mean⟦M0001⟧ SD"
+  ],
+  [
+   "p0006-b0015",
+   "Measure"
+  ],
+  [
+   "p0006-b0016",
+   "flat"
+  ],
+  [
+   "p0006-b0017",
+   "mod"
+  ],
+  [
+   "p0006-b0019",
+   "Duration (s)"
+  ],
+  [
+   "p0006-b0022",
+   "F01 (Hz)"
+  ],
+  [
+   "p0006-b0023",
+   "F02 (Hz)"
+  ],
+  [
+   "p0006-b0028",
+   "Fpeak (Hz)"
+  ],
+  [
+   "p0006-b0031",
+   "Q25 (Hz)"
+  ],
+  [
+   "p0006-b0034",
+   "Q50 (Hz)"
+  ],
+  [
+   "p0006-b0037",
+   "Q75 (Hz)"
+  ],
+  [
+   "p0006-b0039",
+   "PulseRate (Hz)"
+  ],
+  [
+   "p0006-b0041",
+   "Median"
+  ],
+  [
+   "p0006-b0042",
+   "tv"
+  ],
+  [
+   "p0006-b0043",
+   "flat mod"
+  ],
+  [
+   "p0006-b0044",
+   "tv"
+  ],
+  [
+   "p0006-b0060",
+   "⟦M0001⟧ (flat), 40 (mod), 24 (tv). F02 exists only for tv; PulseRate is missing for all flat calls, 6 mod calls and 4 tv calls."
+  ],
+  [
+   "p0006-b0061",
+   "For tv calls the beat frequency⟦M0001⟧  (median 29.5 Hz) is close to the measured pulse rate (median 31.1 Hz; within 5 Hz in 12 of 20 calls; Spearman⟦M0002⟧; Figure 3(b))."
+  ]
+ ]
+}

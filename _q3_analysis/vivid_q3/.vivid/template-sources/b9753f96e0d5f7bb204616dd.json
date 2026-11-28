@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "candidate": "plot_combination_boxes_en.py",
+  "baseline": ".vivid/template-sources/b9753f96e0d5f7bb204616dd.py",
+  "source": {
+    "id": "basic.raincloud_violin",
+    "variant": "main",
+    "codeSha256": "a83432679bd1b77b997931fbfd84e6382201280c97b00221d5278bc18e3eb697",
+    "contentSha256": "a21c296fdddba5d1ec610e0d3e37fafd6e4c6644a928b5323882eb9e0ac02bc8",
+    "file": "figure_recipes_basic.md",
+    "blocks": [
+      0
+    ],
+    "requiredInputs": []
+  }
+}

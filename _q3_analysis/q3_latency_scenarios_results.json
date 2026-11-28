@@ -1,0 +1,859 @@
+{
+  "group_size": 8.0,
+  "observation_window_seconds": 60.0,
+  "context_weights": {
+    "commuting": 0.4676258992805755,
+    "searching": 0.2733812949640288,
+    "after": 0.2589928057553957
+  },
+  "repeats": 3000,
+  "interval": "95% pointwise track bootstrap percentile",
+  "rows": [
+    {
+      "sound": "control",
+      "distance_m": 50,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 19,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.11336719875775828,
+            0.06684820552714457,
+            0.1649736900412122
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Vocal": {
+          "distance_sample": 19,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.06261473081040408,
+            0.04166977851052247,
+            0.08749522775578968
+          ],
+          "reported_conditional_median_seconds": [
+            3.376181870698929,
+            2.725274719297886,
+            4.149937212467194
+          ]
+        },
+        "Approach": {
+          "distance_sample": 19,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.029377282379861386,
+            0.021921048280905138,
+            0.037328017982620386
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Any": {
+          "distance_sample": 19,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.15645967193713656,
+            0.10382742841069997,
+            0.21349476573163337
+          ],
+          "reported_conditional_median_seconds": [
+            1.9962845742702484,
+            1.6278515830636024,
+            2.471856638789177
+          ]
+        }
+      }
+    },
+    {
+      "sound": "control",
+      "distance_m": 100,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 22,
+          "distance_events": 3,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.07970699965664686,
+            0.042801422983544286,
+            0.12664174553467833
+          ],
+          "reported_conditional_median_seconds": [
+            1.6289202868938446,
+            1.378783755004406,
+            1.9196634292602541
+          ]
+        },
+        "Vocal": {
+          "distance_sample": 22,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.05727078842503415,
+            0.03554179411121879,
+            0.08316648430960474
+          ],
+          "reported_conditional_median_seconds": [
+            3.6330579221248627,
+            2.935212157666683,
+            4.444278180599213
+          ]
+        },
+        "Approach": {
+          "distance_sample": 22,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.022583201693493052,
+            0.01647397321782737,
+            0.029229127241233537
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Any": {
+          "distance_sample": 22,
+          "distance_events": 4,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.12105591416138117,
+            0.07304218591255397,
+            0.17930430287571802
+          ],
+          "reported_conditional_median_seconds": [
+            2.215423732995987,
+            1.7449349239468575,
+            2.7884263023734093
+          ]
+        }
+      }
+    },
+    {
+      "sound": "control",
+      "distance_m": 150,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 8,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.06390266684459697,
+            0.02981081860282495,
+            0.11140286495347569
+          ],
+          "reported_conditional_median_seconds": [
+            1.6289202868938446,
+            1.378783755004406,
+            1.9196634292602541
+          ]
+        },
+        "Vocal": {
+          "distance_sample": 8,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.05369644228519943,
+            0.029924086134229734,
+            0.08691867836668425
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Approach": {
+          "distance_sample": 8,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.019071215970043673,
+            0.012428373563324218,
+            0.026796704919414008
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Any": {
+          "distance_sample": 8,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.10371122033816077,
+            0.05586100592634133,
+            0.1696819569946358
+          ],
+          "reported_conditional_median_seconds": [
+            2.3545928299427032,
+            1.8128149285912514,
+            3.0079477652907376
+          ]
+        }
+      }
+    },
+    {
+      "sound": "flat",
+      "distance_m": 50,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 4,
+          "distance_events": 3,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.4272193443106618,
+            0.2919401230668856,
+            0.5467558260809747
+          ],
+          "reported_conditional_median_seconds": [
+            1.6289202868938446,
+            1.378783755004406,
+            1.9196634292602541
+          ]
+        },
+        "Vocal": {
+          "distance_sample": 4,
+          "distance_events": 3,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.5035096605968175,
+            0.3807899315675942,
+            0.6096026538086076
+          ],
+          "reported_conditional_median_seconds": [
+            3.172956258058548,
+            2.590830937027931,
+            3.8528111055493355
+          ]
+        },
+        "Approach": {
+          "distance_sample": 4,
+          "distance_events": 3,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.13223553149173278,
+            0.09320442737912045,
+            0.17950930488159006
+          ],
+          "reported_conditional_median_seconds": [
+            8.122940808534622,
+            6.321204252541065,
+            10.336699806153774
+          ]
+        },
+        "Any": {
+          "distance_sample": 4,
+          "distance_events": 3,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.6198716875188973,
+            0.48422938010169425,
+            0.7333302533860578
+          ],
+          "reported_conditional_median_seconds": [
+            1.9766508042812347,
+            1.6182140484452248,
+            2.4679634124040604
+          ]
+        }
+      }
+    },
+    {
+      "sound": "flat",
+      "distance_m": 100,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 14,
+          "distance_events": 5,
+          "exact_sample": 1,
+          "exact_events": 0,
+          "status": "no_response_exact",
+          "probability_by_60": [
+            0.35095330940533437,
+            0.21657166672669406,
+            0.4662688460897551
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Vocal": {
+          "distance_sample": 14,
+          "distance_events": 9,
+          "exact_sample": 1,
+          "exact_events": 1,
+          "status": "exact_observed",
+          "probability_by_60": [
+            0.46459648539754256,
+            0.31903640419623625,
+            0.5981506286137008
+          ],
+          "reported_conditional_median_seconds": [
+            3.4140850603580475,
+            2.7972880750894547,
+            4.0996615290641785
+          ]
+        },
+        "Approach": {
+          "distance_sample": 14,
+          "distance_events": 0,
+          "exact_sample": 1,
+          "exact_events": 0,
+          "status": "no_response_exact",
+          "probability_by_60": [
+            0.10663470795926017,
+            0.07682366450332925,
+            0.1401538654378727
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Any": {
+          "distance_sample": 14,
+          "distance_events": 9,
+          "exact_sample": 1,
+          "exact_events": 1,
+          "status": "exact_observed",
+          "probability_by_60": [
+            0.5478316668023064,
+            0.38405768866642653,
+            0.6919362411962336
+          ],
+          "reported_conditional_median_seconds": [
+            2.1934814751148224,
+            1.7368950694799423,
+            2.8011034280061726
+          ]
+        }
+      }
+    },
+    {
+      "sound": "flat",
+      "distance_m": 150,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 3,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.30817957403125396,
+            0.17633054769277,
+            0.4291716950074557
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Vocal": {
+          "distance_sample": 3,
+          "distance_events": 2,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.43728611940224116,
+            0.2711749992309295,
+            0.5978890575950246
+          ],
+          "reported_conditional_median_seconds": [
+            3.5634975135326385,
+            2.882446803152561,
+            4.3163707852363595
+          ]
+        },
+        "Approach": {
+          "distance_sample": 3,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.09251873459806148,
+            0.06111805479396983,
+            0.12847478887309738
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Any": {
+          "distance_sample": 3,
+          "distance_events": 2,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.5045396290707086,
+            0.3141280797766954,
+            0.6789026739644374
+          ],
+          "reported_conditional_median_seconds": [
+            2.3311521112918854,
+            1.7981196865439415,
+            3.043226771056652
+          ]
+        }
+      }
+    },
+    {
+      "sound": "mod",
+      "distance_m": 50,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 8,
+          "distance_events": 6,
+          "exact_sample": 1,
+          "exact_events": 1,
+          "status": "exact_observed",
+          "probability_by_60": [
+            0.43472125455949334,
+            0.3517576343970112,
+            0.5114986834777665
+          ],
+          "reported_conditional_median_seconds": [
+            1.6289202868938446,
+            1.378783755004406,
+            1.9196634292602541
+          ]
+        },
+        "Vocal": {
+          "distance_sample": 8,
+          "distance_events": 5,
+          "exact_sample": 1,
+          "exact_events": 0,
+          "status": "no_response_exact",
+          "probability_by_60": [
+            0.46549227632273976,
+            0.34806196579917076,
+            0.5847666602876186
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Approach": {
+          "distance_sample": 8,
+          "distance_events": 3,
+          "exact_sample": 1,
+          "exact_events": 1,
+          "status": "exact_observed",
+          "probability_by_60": [
+            0.19066675839080835,
+            0.14465301879095133,
+            0.2471826038715049
+          ],
+          "reported_conditional_median_seconds": [
+            8.122940808534622,
+            6.321204252541065,
+            10.336699806153774
+          ]
+        },
+        "Any": {
+          "distance_sample": 8,
+          "distance_events": 6,
+          "exact_sample": 1,
+          "exact_events": 1,
+          "status": "exact_observed",
+          "probability_by_60": [
+            0.6354001007012368,
+            0.535192365165756,
+            0.72908795564818
+          ],
+          "reported_conditional_median_seconds": [
+            1.9623751938343048,
+            1.7032629624009132,
+            2.2948911041021347
+          ]
+        }
+      }
+    },
+    {
+      "sound": "mod",
+      "distance_m": 100,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 5,
+          "distance_events": 0,
+          "exact_sample": 1,
+          "exact_events": 0,
+          "status": "no_response_exact",
+          "probability_by_60": [
+            0.357783049643246,
+            0.27689940231345256,
+            0.4322528408316438
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Vocal": {
+          "distance_sample": 5,
+          "distance_events": 0,
+          "exact_sample": 1,
+          "exact_events": 0,
+          "status": "no_response_exact",
+          "probability_by_60": [
+            0.4393463661404393,
+            0.3188767784633017,
+            0.5720820220671756
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Approach": {
+          "distance_sample": 5,
+          "distance_events": 0,
+          "exact_sample": 1,
+          "exact_events": 0,
+          "status": "no_response_exact",
+          "probability_by_60": [
+            0.1595141051538122,
+            0.1269172313427805,
+            0.2063878441058282
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Any": {
+          "distance_sample": 5,
+          "distance_events": 0,
+          "exact_sample": 1,
+          "exact_events": 0,
+          "status": "no_response_exact",
+          "probability_by_60": [
+            0.5642290553880237,
+            0.4549649123129209,
+            0.6832056227421953
+          ],
+          "reported_conditional_median_seconds": null
+        }
+      }
+    },
+    {
+      "sound": "mod",
+      "distance_m": 150,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 3,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.3144011009374433,
+            0.22174001784790606,
+            0.40242854582753584
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Vocal": {
+          "distance_sample": 3,
+          "distance_events": 2,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.418731423139871,
+            0.2870570640108111,
+            0.5708641818773516
+          ],
+          "reported_conditional_median_seconds": [
+            3.505062013864517,
+            2.8961026445031166,
+            4.208890937268734
+          ]
+        },
+        "Approach": {
+          "distance_sample": 3,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.14125248339300486,
+            0.10784084846530205,
+            0.1907437512657455
+          ],
+          "reported_conditional_median_seconds": [
+            8.122940808534622,
+            6.321204252541065,
+            10.336699806153774
+          ]
+        },
+        "Any": {
+          "distance_sample": 3,
+          "distance_events": 2,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.5211329430056797,
+            0.38479115898495503,
+            0.6674534493822253
+          ],
+          "reported_conditional_median_seconds": [
+            2.3143284022808075,
+            1.8955548852682114,
+            2.806501306593418
+          ]
+        }
+      }
+    },
+    {
+      "sound": "tv",
+      "distance_m": 50,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 9,
+          "distance_events": 3,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.3746244971910386,
+            0.2820695741966083,
+            0.48513868646088115
+          ],
+          "reported_conditional_median_seconds": [
+            1.6289202868938446,
+            1.378783755004406,
+            1.9196634292602541
+          ]
+        },
+        "Vocal": {
+          "distance_sample": 9,
+          "distance_events": 4,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.530156114920955,
+            0.42254359225878296,
+            0.6265482487628243
+          ],
+          "reported_conditional_median_seconds": [
+            3.2848848402500153,
+            2.772657349705696,
+            3.8471107184886937
+          ]
+        },
+        "Approach": {
+          "distance_sample": 9,
+          "distance_events": 2,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.1824821507837147,
+            0.12600232037743433,
+            0.2634988723925684
+          ],
+          "reported_conditional_median_seconds": [
+            8.122940808534622,
+            6.321204252541065,
+            10.336699806153774
+          ]
+        },
+        "Any": {
+          "distance_sample": 9,
+          "distance_events": 6,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.674295820612822,
+            0.5807569788360801,
+            0.7763994686606767
+          ],
+          "reported_conditional_median_seconds": [
+            2.1929048001766205,
+            1.8591774255037308,
+            2.5897110924124718
+          ]
+        }
+      }
+    },
+    {
+      "sound": "tv",
+      "distance_m": 100,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 11,
+          "distance_events": 4,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.29888039348045004,
+            0.21263849436055857,
+            0.41353615650364184
+          ],
+          "reported_conditional_median_seconds": [
+            1.6289202868938446,
+            1.378783755004406,
+            1.9196634292602541
+          ]
+        },
+        "Vocal": {
+          "distance_sample": 11,
+          "distance_events": 7,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.5028845627285421,
+            0.4000963807397722,
+            0.6106166315900634
+          ],
+          "reported_conditional_median_seconds": [
+            3.5345546901226044,
+            2.9578475430607796,
+            4.176972270011903
+          ]
+        },
+        "Approach": {
+          "distance_sample": 11,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.1477023491057139,
+            0.1007083213441516,
+            0.21891143824297796
+          ],
+          "reported_conditional_median_seconds": [
+            8.122940808534622,
+            6.321204252541065,
+            10.336699806153774
+          ]
+        },
+        "Any": {
+          "distance_sample": 11,
+          "distance_events": 7,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.6059943522107079,
+            0.5068129706107269,
+            0.7142030610403266
+          ],
+          "reported_conditional_median_seconds": [
+            2.433421164751053,
+            2.0072444155812263,
+            2.944777138531208
+          ]
+        }
+      }
+    },
+    {
+      "sound": "tv",
+      "distance_m": 150,
+      "outcomes": {
+        "HeadsUp": {
+          "distance_sample": 2,
+          "distance_events": 1,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.25764770434203144,
+            0.16637468947523817,
+            0.37774630973213186
+          ],
+          "reported_conditional_median_seconds": [
+            1.6289202868938446,
+            1.378783755004406,
+            1.9196634292602541
+          ]
+        },
+        "Vocal": {
+          "distance_sample": 2,
+          "distance_events": 2,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.48065789223919475,
+            0.36262467847415525,
+            0.6075940549247799
+          ],
+          "reported_conditional_median_seconds": [
+            3.689243048429489,
+            3.038394145667553,
+            4.440117917954922
+          ]
+        },
+        "Approach": {
+          "distance_sample": 2,
+          "distance_events": 0,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "no_response_at_distance",
+          "probability_by_60": [
+            0.12816331485446011,
+            0.08164079281066029,
+            0.19905327208457788
+          ],
+          "reported_conditional_median_seconds": null
+        },
+        "Any": {
+          "distance_sample": 2,
+          "distance_events": 2,
+          "exact_sample": 0,
+          "exact_events": 0,
+          "status": "prediction_only",
+          "probability_by_60": [
+            0.5638295936645517,
+            0.43560333960966013,
+            0.6914663849101886
+          ],
+          "reported_conditional_median_seconds": [
+            2.5861094892024994,
+            2.081349156796932,
+            3.206193298101425
+          ]
+        }
+      }
+    }
+  ],
+  "any_latency_change_50_to_150_seconds": {
+    "control": [
+      0.35830825567245483,
+      0.10798700898885728,
+      0.6567290425300598
+    ],
+    "flat": [
+      0.35450130701065063,
+      0.1089935749769211,
+      0.668726809322834
+    ],
+    "mod": [
+      0.3519532084465027,
+      0.11075502634048463,
+      0.6417708098888398
+    ],
+    "tv": [
+      0.3932046890258789,
+      0.12263765931129456,
+      0.730899564921856
+    ]
+  }
+}

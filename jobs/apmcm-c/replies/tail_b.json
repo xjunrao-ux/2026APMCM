@@ -1,0 +1,101 @@
+{
+ "packet": "ad2772451c18d74c6bb5da8f6ac02203ee7f0cd3c37f590b2dcda2e3896c22ba",
+ "items": [
+  [
+   "p0026-b0024",
+   "[16] Farewell V. T., The use of mixture models for the analysis of survival data with long-term"
+  ],
+  [
+   "p0026-b0025",
+   "survivors, Biometrics, 38(4): 1041–1046, 1982."
+  ],
+  [
+   "p0026-b0026",
+   "[17] Buckland S. T., Anderson D. R., Burnham K. P., Laake J. L., Borchers D. L., Thomas L.,"
+  ],
+  [
+   "p0026-b0027",
+   "Introduction to Distance Sampling, Oxford: Oxford University Press, 2001."
+  ],
+  [
+   "p0026-b0028",
+   "[18] Barron F. H., Barrett B. E., Decision quality using ranked attribute weights, Management Sci-"
+  ],
+  [
+   "p0026-b0029",
+   "ence, 42(11): 1515–1523, 1996."
+  ],
+  [
+   "p0026-b0030",
+   "[19] Pichegru L., Vibert L., Thiebault A., et al., Maritime traffic trends around the southern tip of"
+  ],
+  [
+   "p0026-b0031",
+   "Africa – Did marine noise pollution contribute to the local penguins’ collapse? Science of the"
+  ],
+  [
+   "p0026-b0032",
+   "Total Environment, 849: 157878, 2022."
+  ],
+  [
+   "p0026-b0033",
+   "[20] Clark C. W., Ellison W. T., Southall B. L., et al., Acoustic masking in marine ecosystems:"
+  ],
+  [
+   "p0026-b0034",
+   "intuitions, analysis, and implication, Marine Ecology Progress Series, 395: 201–222, 2009."
+  ],
+  [
+   "p0027-b0001",
+   "队伍 # apmcm26XXXXXXX"
+  ],
+  [
+   "p0027-b0002",
+   "第 24 页 / 共 25 页"
+  ],
+  [
+   "p0027-b0003",
+   "XI. 附录"
+  ],
+  [
+   "p0027-b0004",
+   "11 . 1 核心代码"
+  ],
+  [
+   "p0027-b0005",
+   "所有计算均用 Python 完成（numpy、pandas、scipy、scikit-learn、matplotlib）。"
+  ],
+  [
+   "p0027-b0006",
+   "下面列出两个与模型相关的例程；完整的 notebook 随论文一同提交。"
+  ],
+  [
+   "p0027-b0007",
+   "代码清单 1：退化曲线 M3：拟合、阈值距离与识别概率"
+  ],
+  [
+   "p0027-b0012",
+   "（代码保留原文，不加改动）本段先按列统计非缺失样本数 n 与各距离上的平均保真度 mu；再计算组内平方和 ss_within；最后用退化模型 m3 对距离 DIST 与均值 mu 做非线性最小二乘拟合，初值取 a=0.85、d0=120.0 m、指数 1.5。"
+  ],
+  [
+   "p0027-b0021",
+   "代码清单 2：门控 logistic 回归与行为阈值的剖面似然"
+  ],
+  [
+   "p0028-b0001",
+   "队伍 # apmcm26XXXXXXX"
+  ],
+  [
+   "p0028-b0002",
+   "11 . 2 关于 AI 工具使用情况的报告"
+  ],
+  [
+   "p0028-b0003",
+   "第 25 页 / 共 25 页"
+  ],
+  [
+   "p0028-b0004",
+   "[由团队依照今年 APMCM 关于 AI 工具的规则填写。]"
+  ]
+ ]
+}

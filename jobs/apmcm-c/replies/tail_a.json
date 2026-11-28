@@ -1,0 +1,209 @@
+{
+ "packet": "2cb48ca702c2218c76235d6e43ee6cb9c446c198db7eb3de79c9990961715889",
+ "items": [
+  [
+   "p0024-b0015",
+   "2.<s0> 在巢区附近的觅食区让船舶减速并设立避让区，</s0>优先覆盖企鹅搜寻猎物的地点与时段：在搜寻情境下响应率为 94.7%，接近行为的比例最高（26%）。条件：已知主要觅食区域与季节。局限：搜寻群体规模也最小，两种效应未能完全分离。"
+  ],
+  [
+   "p0024-b0016",
+   "3.<s0> 用招募半径（83–177 m）而非接触半径来评估影响。</s0>噪声先使接近行为消失，而声学回应仍能持续，因此仅询问企鹅是否还会回叫会低估影响。局限：接近阈值（0.32–0.58）仅依据 23 次事件。"
+  ],
+  [
+   "p0024-b0017",
+   "4.<s0> 将高强度或持续性的声源</s0>（锚地、加注作业、地震勘探）迁出觅食区 [19]。局限：我们的数据无法直接量化这些声源。"
+  ],
+  [
+   "p0024-b0018",
+   "5.<s0> 部署被动声学监测，</s0>并利用上述关系把实测噪声水平换算为通信半径的损失；退化曲线应先在当地海况下重新测量。"
+  ],
+  [
+   "p0024-b0019",
+   "VIII. 优势与不足"
+  ],
+  [
+   "p0024-b0020",
+   "<s0>优势。</s0>（1）四个问题的模型通过数据彼此关联："
+  ],
+  [
+   "p0024-b0021",
+   "问题 2 的保真度曲线进入行为模型，而问题 4 的指数又用回放实验加以验证。"
+  ],
+  [
+   "p0025-b0001",
+   "队伍 # apmcm26XXXXXXX"
+  ],
+  [
+   "p0025-b0002",
+   "第 22 页 / 共 25 页"
+  ],
+  [
+   "p0025-b0003",
+   "（2）退化曲线具有物理基础，并给出阈值距离、弹性与噪声情景的闭式表达。（3）结构性缺失、配对、伪重复、分离以及“无响应”结果，均各自用适合它们的方法处理。（4）不确定度分层报告，而非给出单一狭窄的区间。"
+  ],
+  [
+   "p0025-b0004",
+   "<s0>不足。</s0>（1）阈值 0.5 和 0.7 是题目的假设，而行为学"
+  ],
+  [
+   "p0025-b0005",
+   "阈值是间接标定的；接近阈值仅基于 23 次事件。（2）传播数据中独立样本很少，且在 128 与 256 m 之间没有数据点，这使双声型曲线较为敏感。（3）150 m 以外的回放很少，因此远程结果依赖模型。（4）行为权重是主观的，仅有敏感性分析为其提供辩护。（5）"
+  ],
+  [
+   "p0025-b0006",
+   "所有数据均来自同一海湾、同一个月，且传播测量是在水面以上进行的。"
+  ],
+  [
+   "p0025-b0007",
+   "IX. 结论"
+  ],
+  [
+   "p0025-b0008",
+   "• 三种鸣叫类型在结构上存在差异。基于第二基频与脉冲的规则可对 94.4% 的鸣叫正确分类，而连续特征几乎不优于基线；经校正后只有峰值频率存在显著差异。"
+  ],
+  [
+   "p0025-b0009",
+   "• 双声型鸣叫传播最远。平直型、调制型与双声型鸣叫在可能识别、可识别和可靠识别三个水平下的有效距离分别为 155、225 和 245 m，83、144 和 177 m，41、85 和 107 m。"
+  ],
+  [
+   "p0025-b0010",
+   "• 64.7% 的实验中对鸣叫产生了响应，而对照声音仅为 12.9%。响应取决于情境与群体规模；距离每增加 50 m，潜伏期增长为 1.33 倍；每次回放约有一只鸟响应。"
+  ],
+  [
+   "p0025-b0011",
+   "• 声学回应要求保真度至多 0.30，接近行为约需 0.49。由此得到的接触半径为 155–245 m，招募半径为 83–177 m。一旦被识别，三种鸣叫类型引发行为的价值相近。"
+  ],
+  [
+   "p0025-b0012",
+   "• 噪声最先消除招募行为。相关性损失 20% 会使招募半径缩短"
+  ],
+  [
+   "p0025-b0013",
+   "21–33%，噪声升高 3 dB 会消除 27–47% 的通信面积。在觅食区设置噪声限值与避让区是直接的管理对策。"
+  ],
+  [
+   "p0025-b0014",
+   "X. 参考文献"
+  ],
+  [
+   "p0025-b0015",
+   "[1] Thiebault A., Huetz C., Aubin T., Pichegru L., Carpenter-Kling T., McInnes A., Charrier I.,"
+  ],
+  [
+   "p0025-b0016",
+   "Contact and recruit – the importance of acoustic communication in the foraging strategy of a flightless seabird, Open Research Europe, 6: 343, 2026 (awaiting peer review)."
+  ],
+  [
+   "p0025-b0017",
+   "[2] Thiebault A., African penguins sea-surface vocalisations and playback experiment at sea [Data"
+  ],
+  [
+   "p0025-b0018",
+   "<s0>set], Zenodo,</s0> https://doi.org/10.5281/zenodo.21376649<s1>, 2026.</s1>"
+  ],
+  [
+   "p0025-b0019",
+   "[3] Sherley R. B., Makhado A. B., Crawford R. J. M., et al., The African Penguin<s0> Spheniscus</s0>"
+  ],
+  [
+   "p0025-b0020",
+   "<s0>demersus</s0> should be considered Critically Endangered, Ostrich, 95(3): 181–187, 2024."
+  ],
+  [
+   "p0025-b0021",
+   "[4] McInnes A. M., McGeorge C., Ginsberg S., Pichegru L., Pistorius P. A., Group foraging in-"
+  ],
+  [
+   "p0025-b0022",
+   "creases foraging efficiency in a piscivorous diver, the African penguin, Royal Society Open"
+  ],
+  [
+   "p0025-b0023",
+   "Science, 4(9): 170918, 2017."
+  ],
+  [
+   "p0026-b0001",
+   "队伍 # apmcm26XXXXXXX"
+  ],
+  [
+   "p0026-b0002",
+   "第 23 页 / 共 25 页"
+  ],
+  [
+   "p0026-b0003",
+   "[5] Aubin T., Jouventin P., Hildebrand C., Penguins use the two-voice system to recognize each"
+  ],
+  [
+   "p0026-b0004",
+   "other, Proceedings of the Royal Society B, 267(1448): 1081–1087, 2000."
+  ],
+  [
+   "p0026-b0005",
+   "[6] Favaro L., Gamba M., Alfieri C., Pessani D., McElligott A. G., Vocal individuality cues in the"
+  ],
+  [
+   "p0026-b0006",
+   "African penguin (<s0>Spheniscus demersus</s0>): a source-filter theory approach, Scientific Reports,"
+  ],
+  [
+   "p0026-b0008",
+   "[7] Wiley R. H., Richards D. G., Physical constraints on acoustic communication in the atmo-"
+  ],
+  [
+   "p0026-b0009",
+   "sphere: implications for the evolution of animal vocalizations, Behavioral Ecology and Socio-biology, 3(1): 69–94, 1978."
+  ],
+  [
+   "p0026-b0010",
+   "[8] Kruskal W. H., Wallis W. A., Use of ranks in one-criterion variance analysis, Journal of the"
+  ],
+  [
+   "p0026-b0011",
+   "American Statistical Association, 47(260): 583–621, 1952."
+  ],
+  [
+   "p0026-b0012",
+   "[9] Dunn O. J., Multiple comparisons using rank sums, Technometrics, 6(3): 241–252, 1964."
+  ],
+  [
+   "p0026-b0013",
+   "[10] Holm S., A simple sequentially rejective multiple test procedure, Scandinavian Journal of"
+  ],
+  [
+   "p0026-b0014",
+   "Statistics, 6(2): 65–70, 1979."
+  ],
+  [
+   "p0026-b0015",
+   "[11] Anderson M. J., A new method for non-parametric multivariate analysis of variance, Austral"
+  ],
+  [
+   "p0026-b0016",
+   "Ecology, 26(1): 32–46, 2001."
+  ],
+  [
+   "p0026-b0017",
+   "[12] Efron B., Tibshirani R. J., An Introduction to the Bootstrap, New York: Chapman & Hall,"
+  ],
+  [
+   "p0026-b0019",
+   "[13] Kroodsma D. E., Byers B. E., Goodale E., Johnson S., Liu W.-C., Pseudoreplication in play-"
+  ],
+  [
+   "p0026-b0020",
+   "back experiments, revisited a decade later, Animal Behaviour, 61(5): 1029–1033, 2001."
+  ],
+  [
+   "p0026-b0021",
+   "[14] McNemar Q., Note on the sampling error of the difference between correlated proportions or"
+  ],
+  [
+   "p0026-b0022",
+   "percentages, Psychometrika, 12(2): 153–157, 1947."
+  ],
+  [
+   "p0026-b0023",
+   "[15] Firth D., Bias reduction of maximum likelihood estimates, Biometrika, 80(1): 27–38, 1993."
+  ]
+ ]
+}

@@ -1,0 +1,150 @@
+@@@ p0024-b0015 | {"role": "list_item"}
+2.<s0> Slow vessels down and set avoidance zones in foraging areas near colonies,</s0> with priority for the places and times where penguins search for prey: in the searching context the response rate is 94.7% and the share of approach is highest (26%). Condition: the main foraging areas and seasons are known. Limitation: searching groups are also the smallest, and the two effects are not fully separated.
+@@@ p0024-b0016 | {"role": "list_item"}
+3.<s0> Assess impacts with the recruitment radius (83–177 m), not the contact radius.</s0> Noise removes approach first while vocal replies persist, so asking only whether penguins still call back underestimates the impact. Limitation: the approach threshold (0.32–0.58) rests on 23 events.
+@@@ p0024-b0017 | {"role": "list_item"}
+4.<s0> Move intense or persistent sources</s0> (anchorages, bunkering, seismic surveys) out of foraging areas [19]. Limitation: our data cannot quantify these sources directly.
+@@@ p0024-b0018 | {"role": "list_item"}
+5.<s0> Deploy passive acoustic monitoring</s0> and convert measured noise levels into losses of com-munication radius with the relation above; the degradation curves should first be re-measured under local sea states.
+@@@ p0024-b0019 | ""
+VIII. Strengths and Weaknesses
+@@@ p0024-b0020 | ""
+<s0>Strengths.</s0> (1) The models of the four problems are linked by data: the fidelity curve of Prob-
+@@@ p0024-b0021 | ""
+lem 2 enters the behavioural models, and the index of Problem 4 is validated against the playbacks.
+@@@ p0025-b0001 | ""
+Team # apmcm26XXXXXXX
+@@@ p0025-b0002 | ""
+Page 22 of 25
+@@@ p0025-b0003 | ""
+(2) The degradation curve has a physical basis and gives closed forms for threshold distances, elas-ticities and noise scenarios. (3) Structural missingness, pairing, pseudo-replication, separation and the “no response” outcome are each handled by a method suited to them. (4) Uncertainty is reported in layers rather than by a single narrow interval.
+@@@ p0025-b0004 | ""
+<s0>Weaknesses.</s0> (1) The thresholds 0.5 and 0.7 are assumptions of the problem, and the be-
+@@@ p0025-b0005 | ""
+havioural thresholds are calibrated indirectly; the approach threshold rests on 23 events. (2) The propagation data contain few independent exemplars and no point between 128 and 256 m, which makes the tv curve sensitive. (3) Playbacks beyond 150 m are few, so long-range results rely on the model. (4) The behaviour weights are subjective and are defended only by sensitivity analysis. (5)
+@@@ p0025-b0006 | ""
+All data come from one bay and one month, and propagation was measured above the water surface.
+@@@ p0025-b0007 | ""
+IX. Conclusions
+@@@ p0025-b0008 | {"role": "list_item"}
+• The three call types differ in structure. A rule based on the second fundamental and on pulses classifies 94.4% of the calls, while the continuous measures barely beat the baseline; only the peak frequency differs significantly after correction.
+@@@ p0025-b0009 | {"role": "list_item"}
+• Two-voice calls carry farthest. The effective distances of flat, mod and tv calls are 155, 225 and 245 m for possible recognition, 83, 144 and 177 m for recognition and 41, 85 and 107 m for reliable recognition.
+@@@ p0025-b0010 | {"role": "list_item"}
+• Calls elicit a response in 64.7% of the experiments against 12.9% for the control. Responding depends on context and group size; latency grows by a factor of 1.33 per 50 m; about one bird responds per playback.
+@@@ p0025-b0011 | {"role": "list_item"}
+• A vocal reply requires a fidelity of at most 0.30 and approach about 0.49. The resulting contact radii are 155–245 m and the recruitment radii 83–177 m. Once recognised, the three call types elicit behaviour of similar value.
+@@@ p0025-b0012 | {"role": "list_item"}
+• Noise removes recruitment first. A 20% loss of correlation shortens the recruitment radius by
+@@@ p0025-b0013 | ""
+21–33%, and a 3 dB rise in noise removes 27–47% of the communication area. Noise limits and avoidance zones in foraging areas are the direct management response.
+@@@ p0025-b0014 | ""
+X. References
+@@@ p0025-b0015 | ""
+[1] Thiebault A., Huetz C., Aubin T., Pichegru L., Carpenter-Kling T., McInnes A., Charrier I.,
+@@@ p0025-b0016 | ""
+Contact and recruit – the importance of acoustic communication in the foraging strategy of a flightless seabird, Open Research Europe, 6: 343, 2026 (awaiting peer review).
+@@@ p0025-b0017 | ""
+[2] Thiebault A., African penguins sea-surface vocalisations and playback experiment at sea [Data
+@@@ p0025-b0018 | ""
+<s0>set], Zenodo,</s0> https://doi.org/10.5281/zenodo.21376649<s1>, 2026.</s1>
+@@@ p0025-b0019 | ""
+[3] Sherley R. B., Makhado A. B., Crawford R. J. M., et al., The African Penguin<s0> Spheniscus</s0>
+@@@ p0025-b0020 | ""
+<s0>demersus</s0> should be considered Critically Endangered, Ostrich, 95(3): 181–187, 2024.
+@@@ p0025-b0021 | ""
+[4] McInnes A. M., McGeorge C., Ginsberg S., Pichegru L., Pistorius P. A., Group foraging in-
+@@@ p0025-b0022 | ""
+creases foraging efficiency in a piscivorous diver, the African penguin, Royal Society Open
+@@@ p0025-b0023 | ""
+Science, 4(9): 170918, 2017.
+@@@ p0026-b0001 | ""
+Team # apmcm26XXXXXXX
+@@@ p0026-b0002 | ""
+Page 23 of 25
+@@@ p0026-b0003 | ""
+[5] Aubin T., Jouventin P., Hildebrand C., Penguins use the two-voice system to recognize each
+@@@ p0026-b0004 | ""
+other, Proceedings of the Royal Society B, 267(1448): 1081–1087, 2000.
+@@@ p0026-b0005 | ""
+[6] Favaro L., Gamba M., Alfieri C., Pessani D., McElligott A. G., Vocal individuality cues in the
+@@@ p0026-b0006 | ""
+African penguin (<s0>Spheniscus demersus</s0>): a source-filter theory approach, Scientific Reports,
+@@@ p0026-b0008 | ""
+[7] Wiley R. H., Richards D. G., Physical constraints on acoustic communication in the atmo-
+@@@ p0026-b0009 | ""
+sphere: implications for the evolution of animal vocalizations, Behavioral Ecology and Socio-biology, 3(1): 69–94, 1978.
+@@@ p0026-b0010 | ""
+[8] Kruskal W. H., Wallis W. A., Use of ranks in one-criterion variance analysis, Journal of the
+@@@ p0026-b0011 | ""
+American Statistical Association, 47(260): 583–621, 1952.
+@@@ p0026-b0012 | ""
+[9] Dunn O. J., Multiple comparisons using rank sums, Technometrics, 6(3): 241–252, 1964.
+@@@ p0026-b0013 | ""
+[10] Holm S., A simple sequentially rejective multiple test procedure, Scandinavian Journal of
+@@@ p0026-b0014 | ""
+Statistics, 6(2): 65–70, 1979.
+@@@ p0026-b0015 | ""
+[11] Anderson M. J., A new method for non-parametric multivariate analysis of variance, Austral
+@@@ p0026-b0016 | ""
+Ecology, 26(1): 32–46, 2001.
+@@@ p0026-b0017 | ""
+[12] Efron B., Tibshirani R. J., An Introduction to the Bootstrap, New York: Chapman & Hall,
+@@@ p0026-b0019 | ""
+[13] Kroodsma D. E., Byers B. E., Goodale E., Johnson S., Liu W.-C., Pseudoreplication in play-
+@@@ p0026-b0020 | ""
+back experiments, revisited a decade later, Animal Behaviour, 61(5): 1029–1033, 2001.
+@@@ p0026-b0021 | ""
+[14] McNemar Q., Note on the sampling error of the difference between correlated proportions or
+@@@ p0026-b0022 | ""
+percentages, Psychometrika, 12(2): 153–157, 1947.
+@@@ p0026-b0023 | ""
+[15] Firth D., Bias reduction of maximum likelihood estimates, Biometrika, 80(1): 27–38, 1993.
+@@@ p0026-b0024 | ""
+[16] Farewell V. T., The use of mixture models for the analysis of survival data with long-term
+@@@ p0026-b0025 | ""
+survivors, Biometrics, 38(4): 1041–1046, 1982.
+@@@ p0026-b0026 | ""
+[17] Buckland S. T., Anderson D. R., Burnham K. P., Laake J. L., Borchers D. L., Thomas L.,
+@@@ p0026-b0027 | ""
+Introduction to Distance Sampling, Oxford: Oxford University Press, 2001.
+@@@ p0026-b0028 | ""
+[18] Barron F. H., Barrett B. E., Decision quality using ranked attribute weights, Management Sci-
+@@@ p0026-b0029 | ""
+ence, 42(11): 1515–1523, 1996.
+@@@ p0026-b0030 | ""
+[19] Pichegru L., Vibert L., Thiebault A., et al., Maritime traffic trends around the southern tip of
+@@@ p0026-b0031 | ""
+Africa – Did marine noise pollution contribute to the local penguins’ collapse? Science of the
+@@@ p0026-b0032 | ""
+Total Environment, 849: 157878, 2022.
+@@@ p0026-b0033 | ""
+[20] Clark C. W., Ellison W. T., Southall B. L., et al., Acoustic masking in marine ecosystems:
+@@@ p0026-b0034 | ""
+intuitions, analysis, and implication, Marine Ecology Progress Series, 395: 201–222, 2009.
+@@@ p0027-b0001 | ""
+Team # apmcm26XXXXXXX
+@@@ p0027-b0002 | ""
+Page 24 of 25
+@@@ p0027-b0003 | ""
+XI. Appendix
+@@@ p0027-b0004 | ""
+11 . 1 Core code
+@@@ p0027-b0005 | ""
+All computations were done in Python (numpy, pandas, scipy, scikit-learn, matplotlib). The
+@@@ p0027-b0006 | ""
+two model-specific routines are listed below; the complete notebook is submitted with the paper.
+@@@ p0027-b0007 | ""
+Listing 1: Degradation curve M3: fit, threshold distance and recognition probability
+@@@ p0027-b0012 | {"role": "code_annotation", "instruction": "逐行解释自然语言说明与注释；原标识不改，中文写入审阅附件"}
+n, mu = (~np.isnan(M)).sum(0), np.nanmean(M, 0) ss_within = float(np.nansum((M - mu) ** 2)) p, _ = optimize.curve_fit(m3, DIST, mu, p0=[0.85, 120.0, 1.5],
+@@@ p0027-b0021 | ""
+Listing 2: Gated logistic regression and the profile likelihood of the behavioural threshold
+@@@ p0028-b0001 | ""
+Team # apmcm26XXXXXXX
+@@@ p0028-b0002 | ""
+11 . 2 Report on the use of AI tools
+@@@ p0028-b0003 | ""
+Page 25 of 25
+@@@ p0028-b0004 | ""
+[To be completed by the team in accordance with this year’s APMCM rules on AI tools.]
