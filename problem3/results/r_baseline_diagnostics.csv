@@ -1,0 +1,4 @@
+"behavior","selected","chains","iterations","warmup","rhat_max","bulk_ess_min","tail_ess_min","divergences","treedepth_hits","brms_version","rstan_version"
+"HeadsUp","H_brm_hurdle_student11",4,20000,5000,1.00097940809567,3261.29155684968,5092.92441669125,0,0,"2.23.0","2.32.7"
+"Vocal","V_brm_hurdle_normal2",4,20000,5000,1.00048392741658,10640.1594591663,22147.2813050014,0,0,"2.23.0","2.32.7"
+"Approach","A_brm_binom_student11",4,20000,5000,1.00085162994668,4788.51028600031,8304.44117466561,0,0,"2.23.0","2.32.7"

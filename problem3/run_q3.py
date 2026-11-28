@@ -1,8 +1,9 @@
-"""Run Problem 3 from any working directory with Python 3.11+, numpy, pandas, scipy."""
+"""Run the Code1 baseline, paired playback models, and supplementary comparisons."""
 import os
 for var in ["OPENBLAS_NUM_THREADS","MKL_NUM_THREADS","OMP_NUM_THREADS"]:
     os.environ[var] = "1"
 import argparse
+import tempfile
 from itertools import product
 from pathlib import Path
 
@@ -13,6 +14,7 @@ from scipy.special import expit, softmax
 from models import (BEHAVIORS, BITS, CALLS, COMBOS, CONTEXTS, WINDOW, combo_design,
                     design, fit, predict, window_time_cdf)
 from validation import comparisons, cross_validate, folds, overall_checks, paired_tests, select
+from supplements import acoustic_comparison, analysis_data, model_comparisons, run_code1
 
 HERE = Path(__file__).resolve().parent
 DATA = HERE.parent / "题目与要求/date/Data02_AfricanPenguins_playbacks_data.csv"
@@ -68,7 +70,7 @@ def audit(d):
     empty_issues=raw.iloc[:0].reindex(columns=[*raw,"csv_line","field","flag_used_for_time",
                                                "analysis_time_s","decision"])
     save(pd.concat([empty_issues,*issues],ignore_index=True),"audit_discrepancies")
-    d["code"]=d[[h+"YesNo" for h in BEHAVIORS]].to_numpy() @ BITS
+    assert np.array_equal(d.code, d[[h+"YesNo" for h in BEHAVIORS]].to_numpy() @ BITS)
     counts = pd.crosstab(d.Type,d.code).reindex(columns=range(8),fill_value=0)
     counts.columns=COMBOS
     save(counts.reset_index(),"combo_counts")
@@ -78,12 +80,15 @@ def audit(d):
     tracks=d.groupby(["CallType","PlaybackTrack"]).size().rename("n").reset_index()
     save(tracks,"track_audit")
     base_match=(d.VocalRelNCalls==np.maximum(0,d.VocalNcalls-d.VocalNcallsBefore)).sum()
+    size_by_arm=d.groupby("Type").Npenguins.median()
     mismatch=(d.ResponseYesNo.ne(d.code>0)).sum()
-    if mismatch or (OUT/"overall_flag_discrepancies.csv").exists():
+    if mismatch or (HERE/"results/overall_flag_discrepancies.csv").exists():
         save(raw.loc[d.ResponseYesNo.ne(d.code>0)],"overall_flag_discrepancies")
     text=f"""# Data02 数据审计
 
 原始表 {len(d)} 行、{len(raw.columns)} 列；{len(pairs)} 个实验均为一次自然声和一次控制声。组内有 {pairs.Distance.nunique().gt(1).sum()} 对距离改变，{pairs.Npenguins.nunique().gt(1).sum()} 对企鹅数改变。距离范围 {d.Distance.min()}–{d.Distance.max()} m，中位数 {d.Distance.median():g} m；群体范围 {d.Npenguins.min()}–{d.Npenguins.max()} 只，中位数 {d.Npenguins.median():g} 只。全部 {d.PlaybackTrack.nunique()} 个音轨标识均有记录，跨类型重名 {tracks.groupby('PlaybackTrack').size().gt(1).sum()} 个；控制声仅一条，跨音轨推广受限。
+
+补充一给出了 {len(pairs)} 个被试群体的规模分布。为让每个实验只计一次，分别在自然声和控制声记录中取中位数，结果为 {size_by_arm['call']:g} 只和 {size_by_arm['control']:g} 只。主模型使用各次回放的实测值，代表条件使用全表中位数 {d.Npenguins.median():g} 只。[群体规模分布图](../../题目与要求/date/Supplementary1_Distribution_of_African_penguin_group_sizes.pdf)
 
 总体标记与任一目标行为不一致共 {mismatch} 行。八类频数见 combo_counts.csv，完整原始冲突记录见 audit_discrepancies.csv（同一行可能涉及两个字段）。抬头有 {((d.HeadsUpLatency==0)&(d.HeadsUpYesNo==1)).sum()} 条即时事件。接近标记为零却有潜伏期的记录有 {((d.ApproachYesNo==0)&d.ApproachLatency.notna()).sum()} 条，其潜伏期主分析记为 60 秒右删失。鸣叫标记为零却有时间的记录有 {((d.VocalYesNo==0)&d.VocalLatency.notna()).sum()} 条。替代编码结果见 sensitivity.csv。
 
@@ -197,9 +202,9 @@ def support(d,meta):
     return pd.concat([out.reset_index(drop=True),pd.DataFrame(records,columns=cols)],axis=1)
 
 
-def main(n_boot):
-    OUT.mkdir(exist_ok=True)
-    d=pd.read_csv(DATA)
+def run_analysis(n_boot, rscript, stan_profile, q2_results):
+    run_code1(DATA,OUT,"prepare",rscript)
+    d=analysis_data(DATA,OUT)
     audit(d)
     splits=folds(d,SEED)
     scores,structure,family=select(d,splits)
@@ -295,18 +300,45 @@ def main(n_boot):
             ss.loc[~ss.CallType.isin(d.loc[event_flag,"CallType"]),h+"_median_if_event_s"]=np.nan
         sensitivity.append(ss)
     save(pd.concat(sensitivity),"sensitivity")
+    acoustic=acoustic_comparison(HERE.parent,latency,q2_results)
+    save(acoustic,"q3_supplementary4")
+    run_code1(DATA,OUT,"fit",rscript,stan_profile)
+    parameters,baseline=model_comparisons(DATA,OUT,intensity,latency)
+    save(parameters,"q3_supplementary3_parameters")
+    save(baseline,"q3_code1_comparison")
     score_p,glmm_sd,glmm=overall_checks(d,structure)
     plus,minus,paired_p,combo_p=paired_tests(d,SEED)
     from report import report
     report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,minus,
-           paired_p,combo_p,score_p,glmm_sd,glmm,intensity,context_effects,curves)
+           paired_p,combo_p,score_p,glmm_sd,glmm,intensity,context_effects,curves,OUT)
     print("All prediction identities and grouped-fold checks passed.",flush=True)
+
+
+def main(n_boot, rscript=None, stan_profile="published", q2_results=None):
+    # Keep the last verified exports available while a new Stan run is in progress.
+    from verify_exports import main as verify
+    global OUT
+    destination=OUT
+    destination.mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=".q3-run-",dir=destination.parent) as work:
+        OUT=Path(work)
+        try:
+            run_analysis(n_boot,rscript,stan_profile,q2_results)
+            verify(q2_results,OUT)
+            for result in OUT.iterdir():
+                result.replace(destination/result.name)
+        finally:
+            OUT=destination
 
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("--bootstrap",type=int,default=499)
+    parser.add_argument("--rscript",help="Rscript executable, also configurable with RSCRIPT")
+    parser.add_argument("--stan-profile",choices=["short","published"],default="published",
+                        help="4 chains: 2000/1000 or the published 20000/5000 iterations/warmup")
+    parser.add_argument("--q2-results",type=Path,help="Directory with the Code2 GAM and Supplementary 4 check CSVs")
     options=parser.parse_args()
     if options.bootstrap<2:
         parser.error("At least two resamples required")
-    main(options.bootstrap)
+    main(options.bootstrap,options.rscript,options.stan_profile,options.q2_results)

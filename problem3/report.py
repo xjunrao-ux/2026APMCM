@@ -14,7 +14,7 @@ def table(headers, rows):
 
 
 def report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,minus,
-           paired_p,combo_p,score_p,glmm_sd,glmm,intensity,context_effects,curves):
+           paired_p,combo_p,score_p,glmm_sd,glmm,intensity,context_effects,curves,output=OUT):
     def interval(r,key,k=1):
         return f"{k*r[key]:.2f} [{k*r[key+'_lo']:.2f}, {k*r[key+'_hi']:.2f}]"
     natural=cont[cont["first"]=="natural_equal"].iloc[0]
@@ -27,9 +27,25 @@ def report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,m
     against_control=cont[(cont["second"]=="control") & cont["first"].isin(CALLS)]
     example=avg.query("CallType=='flat' and Distance==100 and behavior=='HeadsUp'").iloc[0]
     example_curve=curves.query("CallType=='flat' and Distance==100 and Context=='standardized' and behavior=='HeadsUp'")
+    diagnostics=pd.read_csv(output/"r_baseline_diagnostics.csv")
+    coefficients=pd.read_csv(output/"q3_supplementary3_parameters.csv")
+    baseline=pd.read_csv(output/"q3_code1_comparison.csv")
+    acoustic=pd.read_csv(output/"q3_supplementary4.csv")
+    selected_terms=[("HeadsUp","hu_CallTypeflat"),("HeadsUp","scaleNpenguins"),
+                    ("Vocal","VocalNcallsBefore"),("Approach","CallTypetv")]
+    selected_coef=coefficients.set_index(["behavior","term"]).loc[selected_terms].reset_index()
+    def interval_direction(low, high):
+        return np.select([low>0,high<0], [1,-1], default=0)
+    published_direction=interval_direction(coefficients.published_lo95,coefficients.published_hi95)
+    refit_direction=interval_direction(coefficients.lo95,coefficients.hi95)
+    different=coefficients.loc[published_direction!=refit_direction]
+    agreement=f"按 95% 区间完全高于零、完全低于零或包含零核对，{len(coefficients)-len(different)}/{len(coefficients)} 项分类一致。"
+    if not different.empty:
+        agreement+="分类有差异的参数为 "+ "、".join(f"{r.behavior} 的 {r.term}" for r in different.itertuples())+"。"
+    agreement+="原表保留两位小数，接近零的区间端点对舍入和采样波动较敏感。"
     res=["# 第三问运行结果",
          f"{pairs} 个配对实验中，自然叫声后有 {rates.loc['call','sum']}/{pairs} 组出现响应（{100*rates.loc['call','mean']:.1f}%），控制声后有 {rates.loc['control','sum']}/{pairs} 组（{100*rates.loc['control','mean']:.1f}%）。只对自然声响应的有 {plus} 对，只对控制声响应的有 {minus} 对。双侧精确 McNemar 检验 p = {paired_p:.3g}。",
-         f"在相同的情境、距离和群体规模分布上，将三种自然声等权平均，相对控制声的调整概率差为 {interval(natural,'risk_difference',100)} 个百分点，边际优势比为 {interval(natural,'marginal_OR')}。下文区间均为按实验配对重抽样所得的点态 95% 区间。",
+         f"在相同的情境、距离和群体规模分布上，将三种自然声等权平均，相对控制声的调整概率差为 {interval(natural,'risk_difference',100)} 个百分点，边际优势比为 {interval(natural,'marginal_OR')}。第三问主模型使用按实验配对重抽样所得的点态 95% 区间。",
          "## 哪些条件与响应有关",
          table(["声型","实测响应数／实验数","共同协变量分布下的调整概率，%"],
                [[r.CallType,f"{d.loc[d.CallType==r.CallType,'ResponseYesNo'].sum()}/{sum(d.CallType==r.CallType)}",
@@ -79,9 +95,26 @@ def report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,m
                                                  (intensity.Context=="searching")].iterrows()]] for c in CALLS]),
                 f"接近正持续时间有 {d.ApproachDuration.gt(0).sum()} 条，表中正值时长使用合并均值。原始鸣叫次数包含播放前已有鸣叫活动的群体，故其正值概率与鸣叫响应概率可不同。",
                 "## 复现与第四问接口",
-                "本机在第三问文件夹使用 `D:\\Python\\python.exe run_q3.py` 实跑。其他环境使用 `python run_q3.py`，依赖 NumPy、pandas 和 SciPy。默认按 expID 重抽样 499 次，随机种子 20261127。输出目录为 results。",
+                f"运行 `python run_q3.py` 会调用 R 执行 Code1，然后生成第三问预测和两份附件对照。本次按 expID 重抽样 {n_boot} 次，Python 随机种子 20261127。环境依赖和命令见[程序运行思路](../第三题的程序运行思路.md)。",
                 "第四问读取 q3_behavior_combo_predictions.csv 的 p_all 即可取得一次群体回放的八类概率。q3_latency_predictions.csv 的 Context=standardized 为情境综合行，其余为分情境行。q3_overall_response_predictions.csv 与 q3_intensity_predictions.csv 给出总体响应概率和三项强度。列名后缀 _lo、_hi 对应点态 95% 区间。频数、置信区间和群体规模均以群体回放为解释单位。"])
-    (OUT/"q3_results_summary.md").write_text("\n\n".join(res)+"\n",encoding="utf-8")
+    ref=diagnostics.iloc[0]
+    subset=baseline.query("Context=='searching' and Distance==100 and CallType=='flat'")
+    flat=acoustic.loc[acoustic.CallType.eq("flat")].sort_values("Distance")
+    res.extend(["## 附件基准在第三问中回答什么",
+        f"Code1 直接读取 Data02，生成行为组合和自然声／控制声频数。脚本沿用作者选定的三个 brms 模型、先验及随机效应。本次各模型运行 {int(ref.chains)} 条链，每链 {int(ref.iterations)} 次迭代，含 {int(ref.warmup)} 次预热。补充三使用同一批实验。下表逐项核对参数的后验均值和 95% 可信区间。[完整系数与 PDF 页码](q3_supplementary3_parameters.csv)",
+        table(["行为","参数","补充三","本次 R 拟合"],[[r.behavior,r.term,
+            f"{r.published_mean:.2f} [{r.published_lo95:.2f}, {r.published_hi95:.2f}]",
+            f"{r['mean']:.2f} [{r.lo95:.2f}, {r.hi95:.2f}]"] for _,r in selected_coef.iterrows()]),
+        agreement+"hu 表示零值的对数优势。抬头的 hu_CallTypeflat 为负，意味着 flat 比控制声更容易产生正的抬头时长。scaleNpenguins 描述抬头正值模型中群体规模增加一个样本标准差时的变化。接近模型中的声型主效应对应参考情境 after。",
+        f"在搜寻、flat、100 m、{size:g} 只和播放前鸣叫数中位数条件下，两套模型对同一事件的预测如下。R 一栏是后验均值与 95% 可信区间，第三问一栏给出点估计与配对重抽样 95% 区间。[全部条件](q3_code1_comparison.csv)",
+        table(["事件","R 基准，%","第三问主模型，%"],[[r.endpoint,
+            f"{100*r.r_probability:.1f} [{100*r.r_lo95:.1f}, {100*r.r_hi95:.1f}]",
+            f"{100*r.q3_probability:.1f} [{100*r.q3_lo95:.1f}, {100*r.q3_hi95:.1f}]"] for r in subset.itertuples()]),
+        "Code1 的抬头和鸣叫 hurdle 部分仅含声型，同一声型的正值概率在各距离和情境相同。接近概率已对新实验的随机截距积分。两套模型的差值反映模型结构与估计方法的共同影响。",
+        f"补充四描述传播距离与录音相似度。以 flat 为例，50、100、150 m 的声谱图相关系数依次为 "+
+        "、".join(f"{v:.3f}" for v in flat.spectrogram_estimate)+"，相同条件下按实测情境占比综合的 60 秒抬头概率依次为 "+
+        "、".join(f"{100*v:.1f}%" for v in flat.HeadsUp_p_event_60)+"。三种声学指标来自问题二复核过的 Code2 GAM，行为来自 Data02。它们按声型和距离并排展示，两项实验没有逐次回放的共同记录。[九种条件的声学与行为对照](q3_supplementary4.csv)"])
+    (output/"q3_results_summary.md").write_text("\n\n".join(res)+"\n",encoding="utf-8")
 
     y=val.ResponseYesNo.to_numpy()
     p=val.overall_probability.to_numpy()
@@ -111,10 +144,18 @@ def report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,m
           table(["行为","时间模型","折外负对数似然 ↓"],weighted_rows(surv,["behavior","model"])),
           "三种时间模型使用相同观测窗、即时响应区间与折。单分布 Weibull 和对数正态 AFT 把全体未发生记录纳入右删失似然。主模型在窗内的生存函数为 S(t)=1−p·F(t)/F(60)，p 为该行为的 60 秒发生概率，F 为对数正态分布。未响应似然为 1−p；已响应使用 p·f(t)/F(60)，零秒使用 p·F(0.5)/F(60)。接近的已响应时间合并估计。两部分建模容许大量未响应与少数早期事件并存。RMST 为 60(1−p)+p·E[T | T≤60]。仅在 0–60 秒内解释。",
           table(["行为","5 秒 Brier","15 秒 Brier","60 秒 Brier","强度正值率 实测／预测","强度均值 实测／预测","强度 MAE"],rows),
-          f"数据和原 Code1 的分组频数、抬头／接近与鸣叫描述量进行了对照。强度部分对正鸣叫次数比较零截断 Poisson 与零截断负二项，主模型为 {family}。播放前次数以 log(1+x) 进入正值概率和次数两部分。抬头秒数以分数 Logistic 估计 60 秒以内的条件均值；接近正时长取合并均值。与 Supplementary 3 的贝叶斯 hurdle NB、hurdle Poisson 和 Bernoulli 属于不同的拟合方法，本次未重跑原研究的 Stan 链。",
+          f"Code1 的三个选定模型已用 R 重新拟合。下表的 Rhat 和 ESS 汇总固定效应、随机截距标准差及负二项形状参数，发散与树深计数覆盖全部预热后迭代。主模型的正鸣叫次数分布为 {family}。播放前次数以 log(1+x) 进入主模型的正值概率和次数两部分。",
+          table(["R 基准","最大 Rhat","最小 bulk ESS","最小 tail ESS","发散","达到树深上限"],
+                [[r.behavior,f"{r.rhat_max:.3f}",int(r.bulk_ess_min),int(r.tail_ess_min),
+                  r.divergences,r.treedepth_hits] for r in diagnostics.itertuples()]),
           f"所有主拟合、五折验证和 {n_boot} 次配对重抽样均要求优化器成功返回；输出还校验八类概率总和、条件构成总和、事件与无事件互补、强度期望乘积以及时间边界。结果以群体为单位。"]
     head=val[val.HeadsUpDuration_observed>0]
     head_mae=[(head[c]-head.HeadsUpDuration_observed).abs().mean() for c in
               ["heads_positive_mean_nb","heads_positive_mean_bounded"]]
     diag.insert(-1,f"另以原研究采用的计数分布拟合正抬头时长。在 {len(head)} 个正观测上，零截断负二项的折外 MAE 为 {head_mae[0]:.2f} 秒，有界均值模型为 {head_mae[1]:.2f} 秒。主表采用有界均值模型，以符合观测窗口的上限。")
-    (OUT/"q3_model_diagnostics.md").write_text("\n\n".join(diag)+"\n",encoding="utf-8")
+    flagged=diagnostics.loc[(diagnostics.rhat_max>=1.01)|(diagnostics.bulk_ess_min<400)|
+                            (diagnostics.tail_ess_min<400)|(diagnostics.divergences>0)|
+                            (diagnostics.treedepth_hits>0),"behavior"]
+    if len(flagged):
+        diag.append("本次采样中，"+"、".join(flagged)+" 有诊断项需留意。核查条件为最大 Rhat ≥ 1.01、最小 ESS < 400、出现发散或达到树深上限。上述模型的数值应结合诊断表解读。")
+    (output/"q3_model_diagnostics.md").write_text("\n\n".join(diag)+"\n",encoding="utf-8")

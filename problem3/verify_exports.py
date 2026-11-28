@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 
 from models import BEHAVIORS, CALLS, CONTEXTS, WINDOW
+from supplements import acoustic_comparison, analysis_data, published_parameters
 
 
 def verify_curves(curves, times, data, keys):
@@ -59,10 +60,52 @@ def verify_trials(trials, data):
     assert trials.filter(regex="^fitted_p_").apply(lambda s:s.between(0,1).all()).all()
 
 
-def main():
+def verify_supplements(data_path, output, intensity, times, q2_results=None):
+    d=analysis_data(data_path,output)
+    flags=d[[h+"YesNo" for h in BEHAVIORS]].to_numpy() @ [4,2,1]
+    np.testing.assert_array_equal(d.code,flags)
+    terms=pd.read_csv(output/"q3_supplementary3_parameters.csv")
+    publication=published_parameters(next(data_path.parent.glob("Supplementary3*.pdf")))
+    coef_keys=["behavior","term"]
+    pd.testing.assert_frame_equal(terms[publication.columns].sort_values(coef_keys).reset_index(drop=True),
+                                  publication.sort_values(coef_keys).reset_index(drop=True))
+    assert terms.groupby("behavior").size().to_dict()=={"Approach":14,"HeadsUp":18,"Vocal":19}
+    rparams=pd.read_csv(output/"r_baseline_parameters.csv").set_index(coef_keys)
+    coef=terms.set_index(coef_keys)
+    np.testing.assert_allclose(coef[["mean","lo95","hi95"]],rparams.loc[coef.index,["mean","lo95","hi95"]])
+    assert np.allclose(terms.refit_minus_published,terms["mean"]-terms.published_mean,atol=1e-8)
+    diag=pd.read_csv(output/"r_baseline_diagnostics.csv").set_index("behavior")
+    assert set(diag.index)==set(BEHAVIORS) and diag.chains.eq(4).all()
+    assert (diag.iterations>diag.warmup).all() and (diag[["bulk_ess_min","tail_ess_min"]]>0).all().all()
+    compared=pd.read_csv(output/"q3_code1_comparison.csv")
+    keys=["CallType","Distance","Context","Npenguins","behavior"]
+    assert len(compared)==108 and not compared.duplicated(keys).any()
+    probs=["r_probability","r_lo95","r_hi95","q3_probability","q3_lo95","q3_hi95"]
+    assert compared[probs].apply(lambda col: col.between(0,1)).all().all()
+    assert np.allclose(compared.q3_minus_r_pp,100*(compared.q3_probability-compared.r_probability),atol=1e-7)
+    rgrid=pd.read_csv(output/"r_baseline_predictions.csv").set_index(keys)
+    indexed=compared.set_index(keys)
+    np.testing.assert_allclose(indexed[probs[:3]],rgrid.loc[indexed.index,probs[:3]])
+    for h, measure in zip(BEHAVIORS,["HeadsUpDuration","VocalNcalls","ApproachYesNo"]):
+        rows=compared[compared.behavior.eq(h)].set_index(keys[:-1])
+        if h=="Approach":
+            source=times[(times.behavior==h)&(times.Context!="standardized")].set_index(keys[:-1])
+            target="p_event_60"
+        else:
+            source=intensity[intensity.measure==measure].set_index(keys[:-1])
+            target="p_positive"
+            assert rows.groupby("CallType").r_probability.nunique().eq(1).all()
+        np.testing.assert_allclose(rows[probs[3:]],source.loc[rows.index,[target,target+"_lo",target+"_hi"]])
+    joined=pd.read_csv(output/"q3_supplementary4.csv")
+    fresh=acoustic_comparison(data_path.parents[2],times,q2_results)
+    pd.testing.assert_frame_equal(joined,fresh,check_dtype=False,atol=1e-8,rtol=1e-8)
+
+
+def main(q2_results=None,output=None):
     here = Path(__file__).resolve().parent
-    output = here / "results"
-    data = pd.read_csv(here.parent / "题目与要求/date/Data02_AfricanPenguins_playbacks_data.csv")
+    output = here / "results" if output is None else Path(output)
+    data_path=here.parent / "题目与要求/date/Data02_AfricanPenguins_playbacks_data.csv"
+    data = pd.read_csv(data_path)
     overall, combos, times, intensity = [
         pd.read_csv(output / f"q3_{name}_predictions.csv")
         for name in ["overall_response", "behavior_combo", "latency", "intensity"]
@@ -130,9 +173,13 @@ def main():
             high = low[:-3] + "_hi"
             assert frame[low].isna().equals(frame[high].isna())
             assert (frame[low].dropna() <= frame[high].dropna()).all()
+    verify_supplements(data_path,output,intensity,times,q2_results)
     print(f"Verified {len(trials)} trials, {len(curves)} curve rows, {len(context)} context contrasts, "
-          "grouped folds, and all four prediction interfaces against Data02.")
+          "grouped folds, 51 published coefficients, 108 Code1 comparisons, and 9 acoustic conditions.")
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--q2-results",type=Path)
+    main(parser.parse_args().q2_results)
