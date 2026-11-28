@@ -16,7 +16,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 OUT = HERE / "results"
 DATA = ROOT / "题目与要求/date"
-Q2 = ROOT / "11.27 问题二"
+Q2 = ROOT / "problem2"
+if not Q2.is_dir():
+    Q2 = ROOT / "11.27 问题二"
 Q3 = ROOT / "problem3"
 sys.path.insert(0, str(Q3))
 from models import CALLS, COMBOS, CONTEXTS, design, combo_design, logistic, multinomial
@@ -75,6 +77,86 @@ def acoustic():
     return np.array(curves), np.array(errors)
 
 
+def unified_scenarios(environment, curves, radius, control_draws, delta_draws):
+    """Representative distances; each column of bootstrap draws refers to the same expID sample."""
+    keys = ["call", "context", "N", "distance"]
+    model = curves.rename(columns=dict(zip(KEYS, keys)))
+    env = environment.merge(model[keys + ["F", "control", "sim_lower95"]],
+                            on=keys, validate="many_to_one")
+    # Fixed recognition threshold for all evaluation standards. Also evaluate
+    # harder recognition with tau=T, omitting the duplicate at T=0.5.
+    harder_cases = env.loc[env["T"] > .5].copy()
+    harder_cases["tau"] = harder_cases["T"]
+    df = pd.concat([env.assign(tau=.5), harder_cases], ignore_index=True)
+    harder = df.tau > .5
+    degraded = df.loss > 0
+    df["scenario"] = np.select(
+        [harder & degraded, harder, degraded & (df["T"] > .5), degraded, df["T"] > .5],
+        ["combined_stress", "harder_recognition", "loss_stricter_evaluation", "signal_loss",
+         "stricter_evaluation"], default="baseline")
+    a = (expit(20*(df.F_scenario-df.tau)) / expit(20*(df.F-.5))).to_numpy()
+    assert np.all((a > 0) & (a <= 1))
+    ci = df.call.map(CALLS[1:].index).to_numpy()
+    cj = df.context.map(CONDITIONS.index).to_numpy()
+    nk = df.N.map(SIZES.index).to_numpy()
+    h = df.distance.to_numpy() - DIST[0]
+    net_draws = a * delta_draws[:, ci, cj, nk, h]
+    event_draws = control_draws[:, cj, nk, h] + net_draws
+    df["recognition_retained"] = a
+    df["delta_EI"] = a * df.delta_distance_model
+    df["EI"] = df.control + df.delta_EI
+    df["EI_lo95"], df["EI_hi95"] = np.quantile(event_draws, [.025, .975], axis=0)
+    df["delta_lo95"], df["delta_hi95"] = np.quantile(net_draws, [.025, .975], axis=0)
+    df["delta_sim_lower95"] = a * df.sim_lower95
+    # At each distance a>0 is common to all replicates. The studentized
+    # band scales by a, so its sign and the precomputed radius rule coincide.
+    assert np.array_equal(df.delta_sim_lower95 > 0, df.sim_lower95 > 0)
+    unchanged = ~harder
+    np.testing.assert_allclose(df.EI[unchanged], df.EI_recognition_scenario[unchanged])
+    np.testing.assert_allclose(df.EI[~harder & ~degraded], df.EI_distance_model[~harder & ~degraded])
+    df = df.drop(columns=[
+        "EI_recognition_scenario","delta_recognition_scenario","sim_lower95"])
+    join = ["call","context","N","T","loss"]
+    point_radius = radius[radius.F_shift_SE == 0]
+    for scope in ("pooled_distance", "joint_hull"):
+        subset = point_radius[point_radius.scope == scope]
+        fields = ["start_m","limit_m","radius_m","first_limit"]
+        df = df.merge(subset[join + fields].rename(columns={f:scope+"_"+f for f in fields}),
+                      on=join, validate="many_to_one")
+    estimates = []
+    for label, rho in [("one_participant", 1/df.N), ("half_on_average", .5), ("all", 1.)]:
+        size = df.N*rho
+        estimates.append(df.assign(participation=label, rho_union=rho,
+            expected_union=size*df.EI, count_lo95=size*df.EI_lo95, count_hi95=size*df.EI_hi95))
+    result = pd.concat(estimates, ignore_index=True)
+    for field in ["expected_union","count_lo95","count_hi95"]:
+        assert result[field].between(0,result.N).all()
+    assert len(result)==len(CALLS[1:])*len(CONDITIONS)*len(SIZES)*3*25*3
+    assert not result.duplicated(keys+["T","tau","loss","participation"]).any()
+    typical = result.query("N==8 and context=='standardized' and distance==100 and participation=='half_on_average'")
+    baseline = typical[typical.scenario == "baseline"].set_index("call")
+    np.testing.assert_array_equal(baseline.loc[CALLS[1:],"pooled_distance_radius_m"], [76,148,175])
+    np.testing.assert_array_equal(baseline.loc["tv",["joint_hull_start_m","joint_hull_limit_m"]], [44,110])
+    example = typical.query("call=='tv' and T==.5 and loss in [0,.2]").sort_values("loss")
+    np.testing.assert_allclose(example.expected_union, [2.58,1.74], atol=.005)
+    save(result, "unified_scenarios")
+
+
+def design_evidence(d):
+    """Count matches and changes once per trial pair in each natural-call stratum."""
+    pairs = d[d.Type=="call"].merge(d[d.Type=="control"], on="expID",
+        suffixes=("", "_control"), validate="one_to_one")
+    pairs["distance_changed"] = pairs.Distance != pairs.Distance_control
+    pairs["size_changed"] = pairs.Npenguins != pairs.Npenguins_control
+    stats = dict(pairs=("expID","size"), natural_tracks=("PlaybackTrack","nunique"),
+        control_tracks=("PlaybackTrack_control","nunique"), distance_min=("Distance","min"),
+        distance_max=("Distance","max"), N_min=("Npenguins","min"), N_max=("Npenguins","max"),
+        pairs_distance_changed=("distance_changed","sum"), pairs_size_changed=("size_changed","sum"))
+    groups = pairs.groupby(["CallType","Context"]).agg(**stats).reset_index()
+    total = pairs.assign(CallType="all",Context="all").groupby(["CallType","Context"]).agg(**stats)
+    save(pd.concat([total.reset_index(), groups]), "design_evidence")
+
+
 def run():
     OUT.mkdir(exist_ok=True)
     d = pd.read_csv(next(DATA.glob("Data02*.csv")))
@@ -118,12 +200,14 @@ def run():
     save(full,"behavior")
     delta = ei[1:] - ei[0]
     samples = np.empty((BOOT,*delta.shape))
+    control_samples = np.empty((BOOT,*ei[0].shape))
     ids,inv = np.unique(d.expID,return_inverse=True)
     rng = np.random.default_rng(SEED)
     for b in range(BOOT):
         w = np.bincount(rng.integers(len(ids),size=len(ids)),minlength=len(ids))[inv]
         pred = predict(w)[...,union].sum(-1)
         samples[b] = pred[1:]-pred[0]
+        control_samples[b] = pred[0]
     lo,hi = np.quantile(samples,[.025,.975],axis=0)
     sd = samples.std(0,ddof=1)
     critical = np.quantile(np.max(np.abs((samples-delta)/sd),axis=-1),.95,axis=0)
@@ -187,13 +271,17 @@ def run():
     save(radius,"radius")
     save(pd.DataFrame(stability,columns=["call","context","N","T","loss","scope","fraction_nonempty",
         "positive_radius_q025","positive_radius_q50","positive_radius_q975"]),"bootstrap_radius")
-    save(pd.DataFrame(scenarios,columns=["call","context","N","distance","T","loss","F_scenario","passes_T","EI_distance_model",
-        "delta_distance_model","EI_recognition_scenario","delta_recognition_scenario","within_cell_ranges","within_joint_hull"]),"environment")
+    environment = pd.DataFrame(scenarios,columns=["call","context","N","distance","T","loss","F_scenario","passes_T","EI_distance_model",
+        "delta_distance_model","EI_recognition_scenario","delta_recognition_scenario","within_cell_ranges","within_joint_hull"])
+    save(environment,"environment")
+    unified_scenarios(environment, curves, radius, control_samples, samples)
+    design_evidence(d)
     counts = full[full.Distance.isin([50,100,150])].copy()
     estimates=[]
     for label,rho in [("one_participant",1/counts.Npenguins),("half_on_average",.5),("all",1.)]:
         estimates.append(counts[KEYS].assign(scenario=label,rho=rho,
-            expected_vocal=counts.Npenguins*rho*counts.P_V,expected_approach=counts.Npenguins*rho*counts.P_A))
+            expected_vocal=counts.Npenguins*rho*counts.P_V,expected_approach=counts.Npenguins*rho*counts.P_A,
+            expected_union=counts.Npenguins*rho*counts.EI))
     save(pd.concat(estimates),"participant_scenarios")
     # Recover the target event in held-out trials using Q3's nested-CV folds and structures.
     oof = pd.read_csv(Q3/"results/grouped_oof.csv")

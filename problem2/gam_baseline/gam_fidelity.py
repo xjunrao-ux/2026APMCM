@@ -23,9 +23,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
-DATA_DIR = Path(r"C:\Users\34232\Documents\GitHub\2026APMCM\题目与要求\date")
-GAM_CSV = Path(r"G:\亚太数模\2026APMCM\problem2\results\gam_predictions.csv")
 HERE = Path(__file__).resolve().parent
+DATA_DIR = HERE.parents[1] / "题目与要求" / "date"
+GAM_CSV = HERE.parent / "results" / "gam_predictions.csv"
 OUT = HERE / "results"
 OUT.mkdir(exist_ok=True)
 
@@ -110,6 +110,13 @@ def crossing(d, y, tau):
     return l * (r / l) ** f
 
 
+def distance_bounds(grid, fidelity, se, threshold):
+    """较低的保真度曲线先跌破阈值，给出距离下界。"""
+    lower = crossing(grid, fidelity - se, threshold)
+    upper = crossing(grid, fidelity + se, threshold)
+    return lower, upper
+
+
 def main():
     setup_font()
     grid, gam = load_gam()
@@ -144,11 +151,11 @@ def main():
         print(f"{'call':<6}{'D(0.5)':>10}{'D(0.6)':>10}{'D(0.7)':>10}{'D(0.5)范围':>16}{'D(0.7)范围':>16}")
         for ci, c in enumerate(CALLS):
             d5, d7 = crossing(grid, F[ci], 0.5), crossing(grid, F[ci], 0.7)
-            d5_lo = crossing(grid, F[ci] + SE_F[ci], 0.5)
-            d5_hi = crossing(grid, F[ci] - SE_F[ci], 0.5)
-            d7_lo = crossing(grid, F[ci] + SE_F[ci], 0.7)
-            d7_hi = crossing(grid, F[ci] - SE_F[ci], 0.7)
+            d5_lo, d5_hi = distance_bounds(grid, F[ci], SE_F[ci], 0.5)
+            d7_lo, d7_hi = distance_bounds(grid, F[ci], SE_F[ci], 0.7)
             def f(x):
+                if np.isneginf(x):
+                    return "<4"
                 return "≥256" if np.isinf(x) else f"{x:.1f}"
             print(f"{c:<6}{d5:>8.1f}{crossing(grid, F[ci], 0.6):>8.1f}{d7:>8.1f}"
                   f"{f'({f(d5_lo)}–{f(d5_hi)})':>16}{f'({f(d7_lo)}–{f(d7_hi)})':>16}")
@@ -161,8 +168,7 @@ def main():
         for ci, c in enumerate(CALLS):
             for t in TAUS:
                 d = crossing(grid, F[ci], t)
-                d_lo = crossing(grid, F[ci] + SE_F[ci], t)
-                d_hi = crossing(grid, F[ci] - SE_F[ci], t)
+                d_lo, d_hi = distance_bounds(grid, F[ci], SE_F[ci], t)
                 rows.append(dict(weight=wname, call=c, threshold=t, D=d, D_lo=d_lo, D_hi=d_hi))
     pd.DataFrame(rows).to_csv(OUT / "gam_effective_range.csv", index=False, encoding="utf-8-sig")
 
