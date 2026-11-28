@@ -168,6 +168,14 @@ def main(q2_results=None,output=None):
     assert len(oof)==len(oof.merge(data[["expID","Type"]],validate="one_to_one"))==len(data)
     assert oof.groupby("expID").fold.nunique().eq(1).all() and oof.fold.nunique()==5
     assert oof.groupby("fold")[["overall_structure","positive_count_family"]].nunique().eq(1).all().all()
+    aligned=data.set_index(["expID","Type"]).loc[oof.set_index(["expID","Type"]).index]
+    for h in BEHAVIORS:
+        flags=aligned[h+"YesNo"].eq(1)
+        recorded=aligned[h+"Latency"].where(flags)
+        np.testing.assert_allclose(oof[h+"_observed_latency_s"],recorded,equal_nan=True)
+        assert oof[h+"_predicted_median_if_event_s"].between(0,WINDOW).all()
+        for t in [5,15,60]:
+            np.testing.assert_array_equal(oof[h+f"_observed_{t}"],flags & recorded.le(t))
     for frame in [overall, times, combos, intensity, curves, context]:
         for low in frame.filter(regex="_lo$"):
             high = low[:-3] + "_hi"

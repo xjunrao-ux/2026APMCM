@@ -3,7 +3,8 @@ import os
 for var in ["OPENBLAS_NUM_THREADS","MKL_NUM_THREADS","OMP_NUM_THREADS"]:
     os.environ[var] = "1"
 import argparse
-import tempfile
+import shutil
+from uuid import uuid4
 from itertools import product
 from pathlib import Path
 
@@ -314,21 +315,46 @@ def run_analysis(n_boot, rscript, stan_profile, q2_results):
     print("All prediction identities and grouped-fold checks passed.",flush=True)
 
 
+def publish_results(work,destination):
+    files=list(work.iterdir())
+    previous=work/"previous"
+    previous.mkdir()
+    for source in files:
+        target=destination/source.name
+        if target.exists():
+            shutil.copy2(target,previous/source.name)
+    updated=[]
+    try:
+        for source in files:
+            target=source.replace(destination/source.name)
+            updated.append(target)
+    except OSError:
+        for target in reversed(updated):
+            backup=previous/target.name
+            if backup.exists():
+                backup.replace(target)
+            else:
+                target.unlink()
+        raise
+
+
 def main(n_boot, rscript=None, stan_profile="published", q2_results=None):
     # Keep the last verified exports available while a new Stan run is in progress.
     from verify_exports import main as verify
     global OUT
     destination=OUT
     destination.mkdir(exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix=".q3-run-",dir=destination.parent) as work:
-        OUT=Path(work)
-        try:
-            run_analysis(n_boot,rscript,stan_profile,q2_results)
-            verify(q2_results,OUT)
-            for result in OUT.iterdir():
-                result.replace(destination/result.name)
-        finally:
-            OUT=destination
+    work=destination / (".q3-run-"+uuid4().hex)
+    # A normal child directory inherits the results folder's Windows ACL.
+    work.mkdir()
+    OUT=work
+    try:
+        run_analysis(n_boot,rscript,stan_profile,q2_results)
+        verify(q2_results,OUT)
+        publish_results(work,destination)
+    finally:
+        OUT=destination
+        shutil.rmtree(work)
 
 
 if __name__=="__main__":

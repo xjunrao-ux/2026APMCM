@@ -79,7 +79,11 @@ def report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,m
         g=grp.set_index("behavior")
         n=int(g.n_exact.iloc[0])
         status=(f"{n} 次；"+"/".join(str(int(g.loc[h,"events_exact"])) for h in BEHAVIORS)) if n else "无该条件观测"
-        rows.append([c,dist,*[f"{100*g.loc[h,'p_event_60']:.1f}／{g.loc[h,'median_if_event_s']:.1f}" for h in BEHAVIORS],status])
+        cells=[]
+        for h in BEHAVIORS:
+            estimate=f"{100*g.loc[h,'p_event_60']:.1f}／{g.loc[h,'median_if_event_s']:.1f}"
+            cells.append("实测无响应（模型 "+estimate+"）" if n and not g.loc[h,"events_exact"] else estimate)
+        rows.append([c,dist,*cells,status])
     res.extend([table(["叫声","距离 m","抬头 %／秒","鸣叫 %／秒","接近 %／秒","实测回放；H/V/A 事件数"],rows),
                 "在有观测的条件下，事件数为 0 表示该行为未响应。完整[潜伏期表](q3_latency_predictions.csv)另标出距离超出对应声型和情境实测范围的预测。对某声型从未观察到的行为，发生者中位时间留空。未观察到行为不能判断企鹅是否听到了声音。",
                 f"以 flat、100 m、{size:g} 只的抬头为例，60 秒发生概率为 {100*example.p_event_60:.2f}%。发生者的一半对应全部回放的 {50*example.p_event_60:.2f}%，累计概率到此水平的时间约为 {example.median_if_event_s:.2f} 秒。该条件实测 {example.n_exact} 次，抬头 {example.events_exact} 次。",
@@ -150,9 +154,18 @@ def report(d,avg,val,times,scores,cont,st,effects,structure,family,n_boot,plus,m
                   r.divergences,r.treedepth_hits] for r in diagnostics.itertuples()]),
           f"所有主拟合、五折验证和 {n_boot} 次配对重抽样均要求优化器成功返回；输出还校验八类概率总和、条件构成总和、事件与无事件互补、强度期望乘积以及时间边界。结果以群体为单位。"]
     head=val[val.HeadsUpDuration_observed>0]
+    timing_errors=[]
+    for h in BEHAVIORS:
+        responders=val[val[h+"_observed_latency_s"].notna()]
+        observed=responders[h+"_observed_latency_s"]
+        prediction=responders[h+"_predicted_median_if_event_s"]
+        errors=np.where(observed.eq(0),np.maximum(prediction-.5,0),abs(prediction-observed))
+        timing_errors.append([h,len(errors),f"{np.mean(errors):.2f}",f"{np.median(errors):.2f}"])
     head_mae=[(head[c]-head.HeadsUpDuration_observed).abs().mean() for c in
               ["heads_positive_mean_nb","heads_positive_mean_bounded"]]
     diag.insert(-1,f"另以原研究采用的计数分布拟合正抬头时长。在 {len(head)} 个正观测上，零截断负二项的折外 MAE 为 {head_mae[0]:.2f} 秒，有界均值模型为 {head_mae[1]:.2f} 秒。主表采用有界均值模型，以符合观测窗口的上限。")
+    diag.extend(["在留出的实际响应回放中，把预测的条件中位时间与观测秒数对照。0 秒记录按首个半秒处理，误差取预测值到该时间区间的距离。60 秒内是否发生响应的成绩见上面的 Brier 分数。",
+                 table(["行为","折外实测响应数","平均绝对时间误差（秒）","绝对时间误差中位数（秒）"],timing_errors)])
     flagged=diagnostics.loc[(diagnostics.rhat_max>=1.01)|(diagnostics.bulk_ess_min<400)|
                             (diagnostics.tail_ess_min<400)|(diagnostics.divergences>0)|
                             (diagnostics.treedepth_hits>0),"behavior"]

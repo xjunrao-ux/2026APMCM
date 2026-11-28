@@ -35,7 +35,7 @@ def estimate(objective, initial, jac=True, bounds=None):
 def logistic(x, y, w, penalty=.25):
     # Fractional outcomes also give a bounded conditional mean.
     reg = np.full(x.shape[1], float(penalty))
-    reg[0] = .0001
+    reg[0] = .0001 if penalty else 0.
     def objective(b):
         eta = x @ b
         return (w @ (np.logaddexp(0, eta) - y * eta) + .5 * (reg * b) @ b,
@@ -149,9 +149,10 @@ def fit(d, w, structure, count_family, combo_penalty=2., flag_from_time=False):
     x = design(d)
     z = design(d, structure)
     flags = np.column_stack([d[h+"YesNo"] for h in BEHAVIORS])
+    codes = d.code.to_numpy() if "code" in d else flags @ BITS
     if flag_from_time:
         flags = np.column_stack([d[h+"Latency"].notna() for h in BEHAVIORS])
-    codes = flags @ BITS
+        codes = flags @ BITS
     pos = codes > 0
     overall = logistic(z, d.ResponseYesNo.to_numpy(), w)
     gate = overall if np.array_equal(pos, d.ResponseYesNo) else logistic(z,pos,w)

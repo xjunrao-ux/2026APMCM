@@ -70,8 +70,10 @@ def cross_validate(d,splits,seed):
         result["heads_positive_mean_nb"] = count_nll(design(val),1,hb,"nb")[1]
         result["heads_positive_mean_bounded"] = intensity[:,0,1]
         for j,(h,col) in enumerate(zip(BEHAVIORS,["HeadsUpDuration","VocalNcalls","ApproachDuration"])):
-            pr, _, _, _, mu, sigma = time[:,j].T
+            pr, _, median, _, mu, sigma = time[:,j].T
             e, t = val[h+"YesNo"].to_numpy(bool),val[h+"Latency"].to_numpy()
+            result[h+"_observed_latency_s"] = np.where(e,t,np.nan)
+            result[h+"_predicted_median_if_event_s"] = median
             for horizon in [5,15,60]:
                 pred = pr*window_time_cdf(horizon,mu,sigma)
                 result[h+f"_observed_{horizon}"] = (e & (t<=horizon)).astype(int)
